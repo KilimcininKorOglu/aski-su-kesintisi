@@ -10,7 +10,7 @@ export function initTwitterClient(): TwitterApi | null {
   const accessTokenSecret = process.env.TWITTER_ACCESS_TOKEN_SECRET;
 
   if (!apiKey || !apiSecret || !accessToken || !accessTokenSecret) {
-    console.warn('Twitter API anahtarlari eksik. Tweet atilmayacak.');
+    console.warn('Twitter API anahtarları eksik. Tweet atılmayacak.');
     return null;
   }
 
@@ -49,7 +49,7 @@ export function formatMainTweet(kesinti: Kesinti): string {
 }
 
 export function formatReplyTweet(kesinti: Kesinti): string {
-  return `📋 Kesinti Aciklamasi:
+  return `📋 Kesinti Açıklaması:
 
 ${kesinti.detay}`;
 }
@@ -65,7 +65,7 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   if (!twitterClient) {
     console.log('[DRY RUN] Ana tweet:');
     console.log(mainTweet);
-    console.log('\n[DRY RUN] Yanit tweet:');
+    console.log('\n[DRY RUN] Yanıt tweet:');
     console.log(replyTweet);
     console.log('---');
     return false;
@@ -75,15 +75,15 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
     // Ana tweet'i at
     const mainResult = await twitterClient.v2.tweet(mainTweet);
     const tweetId = mainResult.data.id;
-    console.log(`Ana tweet atildi: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
+    console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
     
-    // Yanit olarak detay tweet'i at
+    // Yanıt olarak detay tweet'i at
     await twitterClient.v2.reply(replyTweet, tweetId);
-    console.log(`Yanit tweet atildi: ${kesinti.ilce}`);
+    console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
     
     return true;
   } catch (error) {
-    console.error('Tweet atilamadi:', error);
+    console.error('Tweet atılamadı:', error);
     return false;
   }
 }

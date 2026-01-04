@@ -15,9 +15,9 @@ async function checkAndTweet(): Promise<void> {
     const currentKesintiler = await fetchKesintiler();
     console.log(`${currentKesintiler.length} kesinti bulundu.`);
     
-    // Kayitli kesintileri yükle
+    // Kayıtlı kesintileri yükle
     const storedKesintiler = loadKesintiler();
-    console.log(`${storedKesintiler.length} kayitli kesinti var.`);
+    console.log(`${storedKesintiler.length} kayıtlı kesinti var.`);
     
     // Yeni kesintileri bul
     const newKesintiler = findNewKesintiler(currentKesintiler, storedKesintiler);
@@ -27,7 +27,7 @@ async function checkAndTweet(): Promise<void> {
       
       // Tweet at
       const tweetCount = await postMultipleTweets(newKesintiler);
-      console.log(`${tweetCount} tweet atildi.`);
+      console.log(`${tweetCount} tweet atıldı.`);
       
       // Kaydet
       const merged = mergeKesintiler(currentKesintiler, storedKesintiler);
@@ -35,15 +35,15 @@ async function checkAndTweet(): Promise<void> {
       console.log('Kesintiler kaydedildi.');
     } else {
       console.log('Yeni kesinti yok.');
-      // Yeni kesinti yoksa dosyayi degistirme (gereksiz commit onlenir)
+      // Yeni kesinti yoksa dosyayı değiştirme (gereksiz commit önlenir)
     }
   } catch (error) {
-    console.error('Hata olustu:', error);
+    console.error('Hata oluştu:', error);
   }
 }
 
 async function main(): Promise<void> {
-  console.log('ASKİ Su Kesintisi Twitter Botu baslatiliyor...');
+  console.log('ASKİ Su Kesintisi Twitter Botu başlatılıyor...');
   
   // Twitter client'i başlat
   initTwitterClient();
@@ -61,7 +61,7 @@ if (process.argv.includes('--once')) {
   console.log('Tek seferlik mod...');
   initTwitterClient();
   checkAndTweet().then(() => {
-    console.log('Tamamlandi.');
+    console.log('Tamamlandı.');
     process.exit(0);
   });
 } else {

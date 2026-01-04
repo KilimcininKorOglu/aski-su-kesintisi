@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { Kesinti } from './types';
 
-// Proje kokunden data klasorunu bul (src veya dist'ten bagimsiz)
+// Proje kökünden data klasörünü bul (src veya dist'ten bağımsız)
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(PROJECT_ROOT, 'data');
 const KESINTILER_FILE = path.join(DATA_DIR, 'kesintiler.json');
@@ -41,12 +41,12 @@ export function findNewKesintiler(current: Kesinti[], stored: Kesinti[]): Kesint
 export function mergeKesintiler(current: Kesinti[], stored: Kesinti[]): Kesinti[] {
   const merged = new Map<string, Kesinti>();
   
-  // Onceki kesintileri ekle
+  // Önceki kesintileri ekle
   for (const k of stored) {
     merged.set(k.id, k);
   }
   
-  // Yeni kesintileri ekle veya guncelle
+  // Yeni kesintileri ekle veya güncelle
   for (const k of current) {
     merged.set(k.id, k);
   }
