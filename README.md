@@ -76,14 +76,28 @@ Actions > ASKİ Su Kesintisi Kontrolu > Run workflow
 
 ## Tweet Formati
 
+Her kesinti icin 2 tweet atilir:
+
+### Ana Tweet
 ```
 ⚠️ YENİMAHALLE - Plansız Kesinti
 
-📅 04.01.2026 11:10 - 23:55
-📍 Demetevler, Demetlale, Demetgul...
+📅 4.01.2026 11:10:00 - 4.01.2026 23:55:00
+📍 Demetevler Mahallesi, Demetlale Mahallesi, Demetgul Mahallesi...
 
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 ```
+
+### Yanit Tweet (Detay)
+```
+📋 Kesinti Aciklamasi:
+
+Devam eden kuraklık ve artan nüfus nedeniyle su kaynaklarımız 
+üzerindeki yük artmıştır. Bu nedenle bazı bölgelerde zaman zaman 
+basınç düşüklüğü ve su kesintileri yaşanabilmektedir...
+```
+
+Not: Twitter Premium hesap kullanildigi icin karakter limiti yoktur, metinler kisaltilmaz.
 
 ## Teknik Detaylar
 
@@ -111,7 +125,7 @@ src/
 └── types.ts      # TypeScript tanimlamalari
 
 data/
-└── kesintiler.json  # Bilinen kesintilerin listesi (gitignore)
+└── kesintiler.json  # Bilinen kesintilerin listesi
 ```
 
 ## Lisans
