@@ -24,22 +24,8 @@ export function initTwitterClient(): TwitterApi | null {
   return twitterClient;
 }
 
-export function formatTweet(kesinti: Kesinti): string {
-  const emoji = kesinti.kesintiTuru === 'Planlı Kesinti' ? '🔧' : '⚠️';
-  
-  // Tarihleri düzenle
-  const arizaSaat = kesinti.arizaTarihi.split(' ')[1]?.substring(0, 5) || '';
-  const tamirSaat = kesinti.tamirTarihi.split(' ')[1]?.substring(0, 5) || '';
-  const tarih = kesinti.arizaTarihi.split(' ')[0] || '';
-  
-  // Etkilenen yerleri kısalt (Twitter karakter limiti)
-  let yerler = kesinti.etkilenenYerler;
-  if (yerler.length > 150) {
-    yerler = yerler.substring(0, 147) + '...';
-  }
-  
-  // Hashtag için ilçe adını düzenle
-  const ilceHashtag = kesinti.ilce
+function formatIlceHashtag(ilce: string): string {
+  return ilce
     .replace(/İ/g, 'i')
     .replace(/Ğ/g, 'g')
     .replace(/Ü/g, 'u')
@@ -48,41 +34,75 @@ export function formatTweet(kesinti: Kesinti): string {
     .replace(/Ç/g, 'c')
     .toLowerCase()
     .replace(/^./, c => c.toUpperCase());
+}
 
-  const tweet = `${emoji} ${kesinti.ilce} - ${kesinti.kesintiTuru}
+function truncateText(text: string, maxLength: number): string {
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength - 3) + '...';
+}
 
-📅 ${tarih} ${arizaSaat} - ${tamirSaat}
-📍 ${yerler}
+export function formatMainTweet(kesinti: Kesinti): string {
+  const emoji = kesinti.kesintiTuru === 'Planlı Kesinti' ? '🔧' : '⚠️';
+  const ilceHashtag = formatIlceHashtag(kesinti.ilce);
+  
+  // Tarihleri duzenle
+  const baslangic = kesinti.arizaTarihi;
+  const bitis = kesinti.tamirTarihi;
+  
+  // Hashtag'ler
+  const hashtagler = `#AnkaraSuKesintisi #ASKİ #${ilceHashtag}`;
+  
+  // Sabit kisimlar
+  const sabitKisim = `${emoji} ${kesinti.ilce} - ${kesinti.kesintiTuru}
 
-#AnkaraSuKesintisi #ASKİ #${ilceHashtag}`;
+📅 ${baslangic} - ${bitis}
+📍 `;
+  
+  const satirSonu = `\n\n${hashtagler}`;
+  
+  // Etkilenen yerler icin kalan karakter
+  const kalanKarakter = 280 - sabitKisim.length - satirSonu.length;
+  const yerler = truncateText(kesinti.etkilenenYerler, kalanKarakter);
+  
+  return `${sabitKisim}${yerler}${satirSonu}`;
+}
 
-  // Twitter 280 karakter limiti
-  if (tweet.length > 280) {
-    const fazla = tweet.length - 280;
-    const kisaYerler = yerler.substring(0, yerler.length - fazla - 3) + '...';
-    return `${emoji} ${kesinti.ilce} - ${kesinti.kesintiTuru}
+export function formatReplyTweet(kesinti: Kesinti): string {
+  const baslik = '📋 Kesinti Aciklamasi:\n\n';
+  const kalanKarakter = 280 - baslik.length;
+  const detay = truncateText(kesinti.detay, kalanKarakter);
+  
+  return `${baslik}${detay}`;
+}
 
-📅 ${tarih} ${arizaSaat} - ${tamirSaat}
-📍 ${kisaYerler}
-
-#AnkaraSuKesintisi #ASKİ #${ilceHashtag}`;
-  }
-
-  return tweet;
+// Eski fonksiyon uyumluluk icin
+export function formatTweet(kesinti: Kesinti): string {
+  return formatMainTweet(kesinti);
 }
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
+  const mainTweet = formatMainTweet(kesinti);
+  const replyTweet = formatReplyTweet(kesinti);
+  
   if (!twitterClient) {
-    console.log('[DRY RUN] Tweet atilacakti:');
-    console.log(formatTweet(kesinti));
+    console.log('[DRY RUN] Ana tweet:');
+    console.log(mainTweet);
+    console.log('\n[DRY RUN] Yanit tweet:');
+    console.log(replyTweet);
     console.log('---');
     return false;
   }
 
   try {
-    const tweet = formatTweet(kesinti);
-    await twitterClient.v2.tweet(tweet);
-    console.log(`Tweet atildi: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
+    // Ana tweet'i at
+    const mainResult = await twitterClient.v2.tweet(mainTweet);
+    const tweetId = mainResult.data.id;
+    console.log(`Ana tweet atildi: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
+    
+    // Yanit olarak detay tweet'i at
+    await twitterClient.v2.reply(replyTweet, tweetId);
+    console.log(`Yanit tweet atildi: ${kesinti.ilce}`);
+    
     return true;
   } catch (error) {
     console.error('Tweet atilamadi:', error);
