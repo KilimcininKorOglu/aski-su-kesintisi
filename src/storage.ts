@@ -23,7 +23,8 @@ export function loadKesintiler(): Kesinti[] {
   try {
     const data = fs.readFileSync(KESINTILER_FILE, 'utf-8');
     return JSON.parse(data);
-  } catch {
+  } catch (error) {
+    console.error('kesintiler.json okunamadı:', error);
     return [];
   }
 }
