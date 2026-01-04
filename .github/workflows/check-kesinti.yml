@@ -23,14 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Load previous state
-        uses: actions/cache@v4
-        with:
-          path: data/kesintiler.json
-          key: kesintiler-${{ github.run_id }}
-          restore-keys: |
-            kesintiler-
-
       - name: Check for new kesintiler and tweet
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
@@ -39,9 +31,10 @@ jobs:
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
         run: npm run dev -- --once
 
-      - name: Save state
-        if: always()
-        uses: actions/cache/save@v4
-        with:
-          path: data/kesintiler.json
-          key: kesintiler-${{ github.run_id }}
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/kesintiler.json
+          git diff --staged --quiet || git commit -m "chore: kesintiler.json güncellendi [skip ci]"
+          git push
