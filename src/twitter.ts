@@ -36,46 +36,24 @@ function formatIlceHashtag(ilce: string): string {
     .replace(/^./, c => c.toUpperCase());
 }
 
-function truncateText(text: string, maxLength: number): string {
-  if (text.length <= maxLength) return text;
-  return text.substring(0, maxLength - 3) + '...';
-}
-
 export function formatMainTweet(kesinti: Kesinti): string {
   const emoji = kesinti.kesintiTuru === 'Planlı Kesinti' ? '🔧' : '⚠️';
   const ilceHashtag = formatIlceHashtag(kesinti.ilce);
-  
-  // Tarihleri duzenle
-  const baslangic = kesinti.arizaTarihi;
-  const bitis = kesinti.tamirTarihi;
-  
-  // Hashtag'ler
-  const hashtagler = `#AnkaraSuKesintisi #ASKİ #${ilceHashtag}`;
-  
-  // Sabit kisimlar
-  const sabitKisim = `${emoji} ${kesinti.ilce} - ${kesinti.kesintiTuru}
 
-📅 ${baslangic} - ${bitis}
-📍 `;
-  
-  const satirSonu = `\n\n${hashtagler}`;
-  
-  // Etkilenen yerler icin kalan karakter
-  const kalanKarakter = 280 - sabitKisim.length - satirSonu.length;
-  const yerler = truncateText(kesinti.etkilenenYerler, kalanKarakter);
-  
-  return `${sabitKisim}${yerler}${satirSonu}`;
+  return `${emoji} ${kesinti.ilce} - ${kesinti.kesintiTuru}
+
+📅 ${kesinti.arizaTarihi} - ${kesinti.tamirTarihi}
+📍 ${kesinti.etkilenenYerler}
+
+#AnkaraSuKesintisi #ASKİ #${ilceHashtag}`;
 }
 
 export function formatReplyTweet(kesinti: Kesinti): string {
-  const baslik = '📋 Kesinti Aciklamasi:\n\n';
-  const kalanKarakter = 280 - baslik.length;
-  const detay = truncateText(kesinti.detay, kalanKarakter);
-  
-  return `${baslik}${detay}`;
+  return `📋 Kesinti Aciklamasi:
+
+${kesinti.detay}`;
 }
 
-// Eski fonksiyon uyumluluk icin
 export function formatTweet(kesinti: Kesinti): string {
   return formatMainTweet(kesinti);
 }
