@@ -2,55 +2,55 @@
 
 Ankara Su ve Kanalizasyon İdaresi (ASKİ) su kesintilerini otomatik olarak takip edip Twitter'da paylaşan bot.
 
-## Ozellikler
+## Özellikler
 
-- ASKİ web sitesinden su kesintilerini otomatik olarak ceker
-- Yeni kesinti tespit edildiginde Twitter'da paylasir
-- Duplicate tweetleri onler (ayni kesinti icin tekrar tweet atmaz)
-- GitHub Actions ile 5 dakikada bir otomatik calisir
+- ASKİ web sitesinden su kesintilerini otomatik olarak çeker
+- Yeni kesinti tespit edildiğinde Twitter'da paylaşır
+- Duplicate tweetleri önler (aynı kesinti için tekrar tweet atmaz)
+- GitHub Actions ile 5 dakikada bir otomatik çalışır
 
 ## Kurulum
 
 ### Gereksinimler
 
 - Node.js 20+
-- Twitter Developer hesabi ve API anahtarlari
+- Twitter Developer hesabı ve API anahtarları
 
 ### Yerel Kurulum
 
 ```bash
-# Bagimliliklari yukle
+# Bağımlılıkları yükle
 npm install
 
-# .env dosyasi olustur
+# .env dosyası oluştur
 cp .env.example .env
 
-# .env dosyasini duzenle ve Twitter API anahtarlarini ekle
+# .env dosyasını düzenle ve Twitter API anahtarlarını ekle
 ```
 
-### Ortam Degiskenleri
+### Ortam Değişkenleri
 
-| Degisken                       | Aciklama                  |
-|--------------------------------|---------------------------|
-| `TWITTER_API_KEY`              | Twitter API Key           |
-| `TWITTER_API_SECRET`           | Twitter API Secret        |
-| `TWITTER_ACCESS_TOKEN`         | Twitter Access Token      |
-| `TWITTER_ACCESS_TOKEN_SECRET`  | Twitter Access Token Secret |
-| `CHECK_INTERVAL_MS`            | Kontrol araligi (ms, varsayilan: 300000) |
+| Değişken                       | Açıklama                                   |
+|--------------------------------|--------------------------------------------|
+| `TWITTER_API_KEY`              | Twitter API Key                            |
+| `TWITTER_API_SECRET`           | Twitter API Secret                         |
+| `TWITTER_ACCESS_TOKEN`         | Twitter Access Token                       |
+| `TWITTER_ACCESS_TOKEN_SECRET`  | Twitter Access Token Secret                |
+| `CHECK_INTERVAL_MS`            | Kontrol aralığı (ms, varsayılan: 300000)   |
 
-## Kullanim
+## Kullanım
 
 ```bash
-# Tek seferlik calistir (test icin)
+# Tek seferlik çalıştır (test için)
 npm run dev -- --once
 
-# Surekli calistir (belirtilen aralikta kontrol eder)
+# Sürekli çalıştır (belirtilen aralıkta kontrol eder)
 npm start
 
-# Sadece scraper'i test et
+# Sadece scraper'ı test et
 npm run scrape
 
-# Debug modu (kac kesinti oldugunu goster)
+# Debug modu (kaç kesinti olduğunu göster)
 npm run scrape -- --debug
 
 # Build
@@ -59,9 +59,9 @@ npm run build
 
 ## GitHub Actions
 
-Repository'yi GitHub'a push ettiginde otomatik olarak calisir.
+Repository'yi GitHub'a push ettiğinde otomatik olarak çalışır.
 
-### Secrets Ayarlari
+### Secrets Ayarları
 
 Repository > Settings > Secrets and variables > Actions > New repository secret
 
@@ -72,57 +72,57 @@ Repository > Settings > Secrets and variables > Actions > New repository secret
 
 ### Manuel Tetikleme
 
-Actions > ASKİ Su Kesintisi Kontrolu > Run workflow
+Actions > ASKİ Su Kesintisi Kontrolü > Run workflow
 
-## Tweet Formati
+## Tweet Formatı
 
-Her kesinti icin 2 tweet atilir:
+Her kesinti için 2 tweet atılır:
 
 ### Ana Tweet
 ```
 ⚠️ YENİMAHALLE - Plansız Kesinti
 
 📅 4.01.2026 11:10:00 - 4.01.2026 23:55:00
-📍 Demetevler Mahallesi, Demetlale Mahallesi, Demetgul Mahallesi...
+📍 Demetevler Mahallesi, Demetlale Mahallesi, Demetgül Mahallesi...
 
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 ```
 
-### Yanit Tweet (Detay)
+### Yanıt Tweet (Detay)
 ```
-📋 Kesinti Aciklamasi:
+📋 Kesinti Açıklaması:
 
 Devam eden kuraklık ve artan nüfus nedeniyle su kaynaklarımız 
 üzerindeki yük artmıştır. Bu nedenle bazı bölgelerde zaman zaman 
 basınç düşüklüğü ve su kesintileri yaşanabilmektedir...
 ```
 
-Not: Twitter Premium hesap kullanildigi icin karakter limiti yoktur, metinler kisaltilmaz.
+Not: Twitter Premium hesap kullanıldığı için karakter limiti yoktur, metinler kısaltılmaz.
 
 ## Teknik Detaylar
 
-### Duplicate Onleme
+### Duplicate Önleme
 
-Her kesinti icin benzersiz bir ID olusturulur:
+Her kesinti için benzersiz bir ID oluşturulur:
 
 ```
 id = sha256(ilce + arizaTarihi + kesintiTuru + etkilenenYerler)
 ```
 
 Bu sayede:
-- Ayni ilcede farkli zamanlarda kesinti olabilir
-- Ayni ilcede farkli mahallelerde kesinti olabilir
-- Planli ve plansiz kesintiler ayri sayilir
+- Aynı ilçede farklı zamanlarda kesinti olabilir
+- Aynı ilçede farklı mahallelerde kesinti olabilir
+- Planlı ve plansız kesintiler ayrı sayılır
 
-### Dosya Yapisi
+### Dosya Yapısı
 
 ```
 src/
-├── index.ts      # Ana calisma dongusu
-├── scraper.ts    # ASKİ sayfasini ceker ve parse eder
-├── storage.ts    # JSON dosya yonetimi
+├── index.ts      # Ana çalışma döngüsü
+├── scraper.ts    # ASKİ sayfasını çeker ve parse eder
+├── storage.ts    # JSON dosya yönetimi
 ├── twitter.ts    # Twitter API entegrasyonu
-└── types.ts      # TypeScript tanimlamalari
+└── types.ts      # TypeScript tanımlamaları
 
 data/
 └── kesintiler.json  # Bilinen kesintilerin listesi
