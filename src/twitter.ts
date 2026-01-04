@@ -33,6 +33,7 @@ function formatIlceHashtag(ilce: string): string {
     .replace(/Ö/g, 'o')
     .replace(/Ç/g, 'c')
     .toLowerCase()
+    .replace(/ı/g, 'i')
     .replace(/^./, c => c.toUpperCase());
 }
 
