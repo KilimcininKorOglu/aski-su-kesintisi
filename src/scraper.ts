@@ -44,7 +44,7 @@ function parseKesintiler($: cheerio.CheerioAPI): Kesinti[] {
         kesintiTuru = 'Planlı Kesinti';
       } else if (h4Text.includes('Plansız Kesinti')) {
         kesintiTuru = 'Plansız Kesinti';
-      } else if (/^[A-ZİĞÜŞÖÇIĞ\s]+$/.test(h4Text) && h4Text.length > 2) {
+      } else if (/^[A-ZİĞÜŞÖÇI\s]+$/.test(h4Text) && h4Text.length > 2) {
         ilce = h4Text.trim();
       }
     }
