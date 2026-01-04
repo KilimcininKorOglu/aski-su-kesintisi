@@ -1,0 +1,47 @@
+name: ASKİ Su Kesintisi Kontrolü
+
+on:
+  schedule:
+    # Her 5 dakikada bir çalış
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Manuel tetikleme
+
+jobs:
+  check-and-tweet:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Load previous state
+        uses: actions/cache@v4
+        with:
+          path: data/kesintiler.json
+          key: kesintiler-${{ github.run_id }}
+          restore-keys: |
+            kesintiler-
+
+      - name: Check for new kesintiler and tweet
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        run: npm run dev -- --once
+
+      - name: Save state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/kesintiler.json
+          key: kesintiler-${{ github.run_id }}
