@@ -78,7 +78,9 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
     console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
     
     // Yanıt olarak detay tweet'i at
-    await twitterClient.v2.reply(replyTweet, tweetId);
+    await twitterClient.v2.tweet(replyTweet, {
+      reply: { in_reply_to_tweet_id: tweetId }
+    });
     console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
     
     return true;
