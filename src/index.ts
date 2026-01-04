@@ -35,9 +35,7 @@ async function checkAndTweet(): Promise<void> {
       console.log('Kesintiler kaydedildi.');
     } else {
       console.log('Yeni kesinti yok.');
-      
-      // Yine de güncel listeyi kaydet (süresi dolan kesintileri temizlemek için)
-      saveKesintiler(currentKesintiler);
+      // Yeni kesinti yoksa dosyayi degistirme (gereksiz commit onlenir)
     }
   } catch (error) {
     console.error('Hata olustu:', error);

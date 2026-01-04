@@ -2,7 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import { Kesinti } from './types';
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
+// Proje kokunden data klasorunu bul (src veya dist'ten bagimsiz)
+const PROJECT_ROOT = path.resolve(__dirname, '..');
+const DATA_DIR = path.join(PROJECT_ROOT, 'data');
 const KESINTILER_FILE = path.join(DATA_DIR, 'kesintiler.json');
 
 function ensureDataDir(): void {
