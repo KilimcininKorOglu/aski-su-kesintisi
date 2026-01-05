@@ -240,19 +240,14 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   let mainTweet = formatMainTweet(kesinti);
-  // let replyTweet = formatReplyTweet(kesinti);
   
-  // Gerekirse tweet'leri kısalt
+  // Gerekirse tweet'i kısalt
   mainTweet = await shortenTweet(mainTweet, 'main');
-  // replyTweet = await shortenTweet(replyTweet, 'reply');
   
   if (!twitterConfig) {
     console.log('[DRY RUN] Ana tweet:');
     console.log(mainTweet);
     console.log(`(${mainTweet.length} karakter)`);
-    // console.log('\n[DRY RUN] Yanıt tweet:');
-    // console.log(replyTweet);
-    // console.log(`(${replyTweet.length} karakter)`);
     console.log('---');
     return false;
   }
