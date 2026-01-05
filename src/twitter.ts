@@ -147,7 +147,16 @@ async function createTweet(text: string): Promise<string | null> {
 
       if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
         const tweetId = response.data.data?.data?.create_tweet?.tweet_results?.result?.rest_id;
-        return tweetId || null;
+        if (tweetId) {
+          return tweetId;
+        } else {
+          console.error(`Tweet ID alınamadı (deneme ${attempt}/${MAX_RETRIES})`);
+          console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
+          if (attempt < MAX_RETRIES) {
+            console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+            await delay(RETRY_DELAY_MS);
+          }
+        }
       } else {
         console.error(`Tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
         console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
