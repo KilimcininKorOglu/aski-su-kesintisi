@@ -46,7 +46,7 @@ async function main(): Promise<void> {
   console.log('ASKİ Su Kesintisi Twitter Botu başlatılıyor...');
   
   // Twitter client'i başlat
-  initTwitterClient();
+  await initTwitterClient();
   
   // İlk kontrol
   await checkAndTweet();
@@ -59,10 +59,11 @@ async function main(): Promise<void> {
 // Tek seferlik çalıştırma modu
 if (process.argv.includes('--once')) {
   console.log('Tek seferlik mod...');
-  initTwitterClient();
-  checkAndTweet().then(() => {
-    console.log('Tamamlandı.');
-    process.exit(0);
+  initTwitterClient().then(() => {
+    checkAndTweet().then(() => {
+      console.log('Tamamlandı.');
+      process.exit(0);
+    });
   });
 } else {
   main();

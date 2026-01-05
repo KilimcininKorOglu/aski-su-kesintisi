@@ -5,20 +5,54 @@ interface TwitterConfig {
   rapidApiKey: string;
   rapidApiHost: string;
   authToken: string;
-  ct0: string;
   apiKey: string;
+  ct0: string | null;
 }
 
 let twitterConfig: TwitterConfig | null = null;
 
-export function initTwitterClient(): boolean {
+async function getCt0Token(): Promise<string | null> {
+  if (!twitterConfig) return null;
+
+  const params = new URLSearchParams({
+    auth_token: twitterConfig.authToken,
+    apiKey: twitterConfig.apiKey,
+    resFormat: 'json'
+  });
+
+  try {
+    const response = await axios.post(
+      `https://${twitterConfig.rapidApiHost}/base/apitools/getCt0?${params.toString()}`,
+      {},
+      {
+        headers: {
+          'x-rapidapi-key': twitterConfig.rapidApiKey,
+          'x-rapidapi-host': twitterConfig.rapidApiHost,
+          'Content-Type': 'application/json'
+        },
+        timeout: 30000
+      }
+    );
+
+    if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
+      return response.data.data;
+    } else {
+      console.error('ct0 token alınamadı:', response.data.msg);
+      return null;
+    }
+  } catch (error) {
+    console.error('getCt0 API hatası:', error);
+    return null;
+  }
+}
+
+export async function initTwitterClient(): Promise<boolean> {
   const rapidApiKey = process.env.RAPIDAPI_KEY;
   const rapidApiHost = process.env.RAPIDAPI_HOST || 'twitter-api-v1-1-enterprise.p.rapidapi.com';
   const authToken = process.env.TWITTER_AUTH_TOKEN;
-  const ct0 = process.env.TWITTER_CT0;
   const apiKey = process.env.TWITTER_API_KEY;
 
-  if (!rapidApiKey || !authToken || !ct0 || !apiKey) {
+  if (!rapidApiKey || !authToken || !apiKey) {
     console.warn('Twitter API anahtarları eksik. Tweet atılmayacak.');
     return false;
   }
@@ -27,10 +61,20 @@ export function initTwitterClient(): boolean {
     rapidApiKey,
     rapidApiHost,
     authToken,
-    ct0,
-    apiKey
+    apiKey,
+    ct0: null
   };
 
+  // ct0 token'ı dinamik olarak al
+  const ct0 = await getCt0Token();
+  if (!ct0) {
+    console.error('ct0 token alınamadı. Tweet atılmayacak.');
+    twitterConfig = null;
+    return false;
+  }
+
+  twitterConfig.ct0 = ct0;
+  console.log('Twitter API başarıyla yapılandırıldı.');
   return true;
 }
 
@@ -70,7 +114,7 @@ export function formatTweet(kesinti: Kesinti): string {
 }
 
 async function createTweet(text: string): Promise<string | null> {
-  if (!twitterConfig) return null;
+  if (!twitterConfig || !twitterConfig.ct0) return null;
 
   const params = new URLSearchParams({
     auth_token: twitterConfig.authToken,
@@ -107,7 +151,7 @@ async function createTweet(text: string): Promise<string | null> {
 }
 
 async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
-  if (!twitterConfig) return false;
+  if (!twitterConfig || !twitterConfig.ct0) return false;
 
   const params = new URLSearchParams({
     auth_token: twitterConfig.authToken,
