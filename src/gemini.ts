@@ -24,7 +24,55 @@ export function initGeminiClient(): boolean {
   return true;
 }
 
-export async function shortenTweet(text: string, type: 'main' | 'reply'): Promise<string> {
+export interface TweetData {
+  emoji: string;
+  ilce: string;
+  kesintiTuru: string;
+  tarih: string;
+  etkilenenYerler: string;
+  hashtags: string;
+}
+
+function formatTweetFromData(data: TweetData): string {
+  return `${data.emoji} ${data.ilce} - ${data.kesintiTuru}
+
+📅 ${data.tarih}
+📍 ${data.etkilenenYerler}
+
+${data.hashtags}`;
+}
+
+export async function shortenPlaces(etkilenenYerler: string, maxLength: number): Promise<string> {
+  if (!model) {
+    return etkilenenYerler.substring(0, maxLength);
+  }
+
+  const prompt = `Bu mahalle/bölge listesini ${maxLength} karakter veya daha az olacak şekilde kısalt.
+Kurallar:
+- Sadece 2-3 önemli mahalle yaz
+- Sonuna "vb." ekle
+- Yanıt olarak SADECE kısaltılmış listeyi ver, başka açıklama ekleme
+
+Liste:
+${etkilenenYerler}`;
+
+  try {
+    const result = await model.generateContent(prompt);
+    const response = await result.response;
+    const shortened = response.text().trim();
+    await delay(GEMINI_RATE_LIMIT_DELAY);
+    return shortened || etkilenenYerler.substring(0, maxLength);
+  } catch (error: any) {
+    if (error?.status === 429 || error?.status === 503) {
+      console.warn(`Gemini ${error?.status === 429 ? 'rate limit' : 'overload'}. Manuel kısaltma yapılıyor...`);
+    } else {
+      console.error('Gemini API hatası:', error);
+    }
+    return etkilenenYerler.substring(0, maxLength) + '...';
+  }
+}
+
+export async function shortenTweet(text: string, type: 'main' | 'reply', tweetData?: TweetData): Promise<string> {
   if (text.length <= TWEET_MAX_LENGTH) {
     return text;
   }
@@ -34,31 +82,50 @@ export async function shortenTweet(text: string, type: 'main' | 'reply'): Promis
     return text;
   }
 
+  // Ana tweet için: şablonu koruyarak sadece etkilenen yerleri kısalt
+  if (type === 'main' && tweetData) {
+    const baseLength = `${tweetData.emoji} ${tweetData.ilce} - ${tweetData.kesintiTuru}\n\n📅 ${tweetData.tarih}\n📍 \n\n${tweetData.hashtags}`.length;
+    const maxPlacesLength = TWEET_MAX_LENGTH - baseLength - 5; // 5 karakter buffer
+    
+    if (maxPlacesLength > 20) {
+      const shortenedPlaces = await shortenPlaces(tweetData.etkilenenYerler, maxPlacesLength);
+      const newTweet = formatTweetFromData({
+        ...tweetData,
+        etkilenenYerler: shortenedPlaces
+      });
+      
+      if (newTweet.length <= TWEET_MAX_LENGTH) {
+        console.log(`Tweet kısaltıldı: ${text.length} -> ${newTweet.length} karakter`);
+        return newTweet;
+      }
+    }
+  }
+
+  // Reply veya main başarısız olduysa eski yöntem
   const maxRetries = 3;
 
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     const prompt = type === 'main'
       ? `Bu su kesintisi duyurusunu MUTLAKA ${TWEET_MAX_LENGTH} karakter veya daha az olacak şekilde kısalt.
 Kurallar:
+- Formatı AYNEN koru (satır sonları dahil)
 - Emoji'leri koru (⚠️, 🔧, 📅, 📍)
-- Hashtag'leri koru (#AnkaraSuKesintisi, #ASKİ, #İlçeAdı)
+- Hashtag'leri koru
 - Tarih bilgisini koru
 - İlçe adını koru
-- Mahalle listesini agresif şekilde kısalt, sadece 2-3 mahalle yaz ve "vb." ekle
-- Yanıt olarak SADECE kısaltılmış tweet metnini ver, başka açıklama ekleme
-- KARAKTER LİMİTİ: ${TWEET_MAX_LENGTH}
+- Sadece mahalle listesini kısalt, 2-3 mahalle yaz ve "vb." ekle
+- Yanıt olarak SADECE kısaltılmış tweet metnini ver
 
-Tweet (${text.length} karakter):
+Tweet:
 ${text}`
       : `Bu kesinti açıklamasını MUTLAKA ${TWEET_MAX_LENGTH} karakter veya daha az olacak şekilde kısalt.
 Kurallar:
 - "📋 Kesinti Açıklaması:" başlığını koru
 - Ana mesajı özetle
 - Gereksiz cümleleri çıkar
-- Yanıt olarak SADECE kısaltılmış metni ver, başka açıklama ekleme
-- KARAKTER LİMİTİ: ${TWEET_MAX_LENGTH}
+- Yanıt olarak SADECE kısaltılmış metni ver
 
-Metin (${text.length} karakter):
+Metin:
 ${text}`;
 
     try {
@@ -68,15 +135,12 @@ ${text}`;
 
       if (shortened.length > 0 && shortened.length <= TWEET_MAX_LENGTH) {
         console.log(`Tweet kısaltıldı: ${text.length} -> ${shortened.length} karakter`);
-        // Rate limit için bekle
         await delay(GEMINI_RATE_LIMIT_DELAY);
         return shortened;
       } else if (shortened.length > TWEET_MAX_LENGTH) {
         console.warn(`Gemini kısaltması hala uzun (deneme ${attempt}/${maxRetries}): ${shortened.length} karakter`);
-        // Rate limit için bekle
         await delay(GEMINI_RATE_LIMIT_DELAY);
         if (attempt === maxRetries) {
-          // Son deneme de başarısız, manuel kısalt
           const truncated = shortened.substring(0, TWEET_MAX_LENGTH - 3) + '...';
           console.log(`Manuel kısaltma yapıldı: ${truncated.length} karakter`);
           return truncated;
@@ -86,7 +150,6 @@ ${text}`;
         return text;
       }
     } catch (error: any) {
-      // Rate limit veya overload hatası mı kontrol et
       if (error?.status === 429 || error?.status === 503) {
         const retryAfter = error?.errorDetails?.find((d: any) => d['@type']?.includes('RetryInfo'))?.retryDelay;
         const waitTime = retryAfter ? parseInt(retryAfter) * 1000 : GEMINI_RATE_LIMIT_DELAY * 2;

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Kesinti } from './types';
-import { shortenTweet } from './gemini';
+import { shortenTweet, TweetData } from './gemini';
 
 interface TwitterConfig {
   rapidApiKey: string;
@@ -102,6 +102,20 @@ export function formatMainTweet(kesinti: Kesinti): string {
 📍 ${kesinti.etkilenenYerler}
 
 #AnkaraSuKesintisi #ASKİ #${ilceHashtag}`;
+}
+
+export function getTweetData(kesinti: Kesinti): TweetData {
+  const emoji = kesinti.kesintiTuru === 'Planlı Kesinti' ? '🔧' : '⚠️';
+  const ilceHashtag = formatIlceHashtag(kesinti.ilce);
+
+  return {
+    emoji,
+    ilce: kesinti.ilce,
+    kesintiTuru: kesinti.kesintiTuru,
+    tarih: `${kesinti.arizaTarihi} - ${kesinti.tamirTarihi}`,
+    etkilenenYerler: kesinti.etkilenenYerler,
+    hashtags: `#AnkaraSuKesintisi #ASKİ #${ilceHashtag}`
+  };
 }
 
 export function formatReplyTweet(kesinti: Kesinti): string {
@@ -240,10 +254,11 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   let mainTweet = formatMainTweet(kesinti);
+  const tweetData = getTweetData(kesinti);
   // let replyTweet = formatReplyTweet(kesinti);
   
-  // Gerekirse tweet'leri kısalt
-  mainTweet = await shortenTweet(mainTweet, 'main');
+  // Gerekirse tweet'leri kısalt (tweetData ile format korunur)
+  mainTweet = await shortenTweet(mainTweet, 'main', tweetData);
   // replyTweet = await shortenTweet(replyTweet, 'reply');
   
   if (!twitterConfig) {
