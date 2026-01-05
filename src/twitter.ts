@@ -231,7 +231,8 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
     // Ana tweet'i at
     const tweetId = await createTweet(mainTweet);
     if (!tweetId) {
-      console.error('Ana tweet atılamadı');
+      console.error(`Ana tweet atılamadı: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
+      console.error(`Tweet içeriği (${mainTweet.length} karakter):\n${mainTweet}`);
       return false;
     }
     console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru} (ID: ${tweetId})`);
@@ -242,6 +243,7 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
       console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
     } else {
       console.warn(`Yanıt tweet atılamadı: ${kesinti.ilce}`);
+      console.warn(`Reply içeriği (${replyTweet.length} karakter):\n${replyTweet}`);
     }
     
     return true;
