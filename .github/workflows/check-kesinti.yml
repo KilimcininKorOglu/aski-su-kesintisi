@@ -29,6 +29,8 @@ jobs:
           RAPIDAPI_HOST: twitter-api-v1-1-enterprise.p.rapidapi.com
           TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TWEET_MAX_LENGTH: ${{ secrets.TWEET_MAX_LENGTH || '280' }}
           MAX_TWEET_RETRIES: ${{ secrets.MAX_TWEET_RETRIES || '100' }}
           TWEET_RETRY_DELAY_MS: ${{ secrets.TWEET_RETRY_DELAY_MS || '5000' }}
         run: npm run dev -- --once
