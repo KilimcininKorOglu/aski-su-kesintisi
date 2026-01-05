@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { Kesinti } from './types';
+import { shortenTweet } from './gemini';
 
 interface TwitterConfig {
   rapidApiKey: string;
@@ -238,8 +239,8 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
 }
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
-  const mainTweet = formatMainTweet(kesinti);
-  const replyTweet = formatReplyTweet(kesinti);
+  let mainTweet = formatMainTweet(kesinti);
+  let replyTweet = formatReplyTweet(kesinti);
   
   if (!twitterConfig) {
     console.log('[DRY RUN] Ana tweet:');
@@ -251,6 +252,10 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   }
 
   try {
+    // Gerekirse tweet'leri kısalt
+    mainTweet = await shortenTweet(mainTweet, 'main');
+    replyTweet = await shortenTweet(replyTweet, 'reply');
+
     // Ana tweet'i at
     const tweetId = await createTweet(mainTweet);
     if (!tweetId) {
