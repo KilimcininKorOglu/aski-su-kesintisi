@@ -29,47 +29,60 @@ export async function shortenTweet(text: string, type: 'main' | 'reply'): Promis
     return text;
   }
 
-  const prompt = type === 'main'
-    ? `Bu su kesintisi duyurusunu maksimum ${TWEET_MAX_LENGTH} karaktere kısalt. 
+  const maxRetries = 3;
+  
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    const prompt = type === 'main'
+      ? `Bu su kesintisi duyurusunu MUTLAKA ${TWEET_MAX_LENGTH} karakter veya daha az olacak şekilde kısalt.
 Kurallar:
 - Emoji'leri koru (⚠️, 🔧, 📅, 📍)
 - Hashtag'leri koru (#AnkaraSuKesintisi, #ASKİ, #İlçeAdı)
 - Tarih bilgisini koru
 - İlçe adını koru
-- Sadece mahalle listesini kısalt, "ve diğer mahalleler" gibi ifadeler kullan
+- Mahalle listesini agresif şekilde kısalt, sadece 2-3 mahalle yaz ve "vb." ekle
 - Yanıt olarak SADECE kısaltılmış tweet metnini ver, başka açıklama ekleme
+- KARAKTER LİMİTİ: ${TWEET_MAX_LENGTH}
 
-Tweet:
+Tweet (${text.length} karakter):
 ${text}`
-    : `Bu kesinti açıklamasını maksimum ${TWEET_MAX_LENGTH} karaktere kısalt.
+      : `Bu kesinti açıklamasını MUTLAKA ${TWEET_MAX_LENGTH} karakter veya daha az olacak şekilde kısalt.
 Kurallar:
 - "📋 Kesinti Açıklaması:" başlığını koru
-- Ana mesajı koru
+- Ana mesajı özetle
 - Gereksiz cümleleri çıkar
 - Yanıt olarak SADECE kısaltılmış metni ver, başka açıklama ekleme
+- KARAKTER LİMİTİ: ${TWEET_MAX_LENGTH}
 
-Metin:
+Metin (${text.length} karakter):
 ${text}`;
 
-  try {
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const shortened = response.text().trim();
+    try {
+      const result = await model.generateContent(prompt);
+      const response = await result.response;
+      const shortened = response.text().trim();
 
-    if (shortened.length > 0 && shortened.length <= TWEET_MAX_LENGTH) {
-      console.log(`Tweet kısaltıldı: ${text.length} -> ${shortened.length} karakter`);
-      return shortened;
-    } else if (shortened.length > TWEET_MAX_LENGTH) {
-      console.warn(`Gemini kısaltması hala uzun: ${shortened.length} karakter. Orijinal kullanılıyor.`);
-      return text;
-    } else {
-      console.warn('Gemini boş yanıt döndü. Orijinal kullanılıyor.');
+      if (shortened.length > 0 && shortened.length <= TWEET_MAX_LENGTH) {
+        console.log(`Tweet kısaltıldı: ${text.length} -> ${shortened.length} karakter`);
+        return shortened;
+      } else if (shortened.length > TWEET_MAX_LENGTH) {
+        console.warn(`Gemini kısaltması hala uzun (deneme ${attempt}/${maxRetries}): ${shortened.length} karakter`);
+        if (attempt === maxRetries) {
+          // Son deneme de başarısız, manuel kısalt
+          const truncated = shortened.substring(0, TWEET_MAX_LENGTH - 3) + '...';
+          console.log(`Manuel kısaltma yapıldı: ${truncated.length} karakter`);
+          return truncated;
+        }
+      } else {
+        console.warn('Gemini boş yanıt döndü. Orijinal kullanılıyor.');
+        return text;
+      }
+    } catch (error) {
+      console.error('Gemini API hatası:', error);
       return text;
     }
-  } catch (error) {
-    console.error('Gemini API hatası:', error);
-    return text;
   }
+
+  return text;
 }
 
 export function getTweetMaxLength(): number {

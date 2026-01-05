@@ -60,16 +60,27 @@ async function main(): Promise<void> {
   setInterval(checkAndTweet, CHECK_INTERVAL);
 }
 
+// Dry run modu (tweet atmadan test)
+const isDryRun = process.argv.includes('--dry');
+
 // Tek seferlik çalıştırma modu
 if (process.argv.includes('--once')) {
-  console.log('Tek seferlik mod...');
+  console.log(isDryRun ? 'Dry run modu...' : 'Tek seferlik mod...');
   initGeminiClient();
-  initTwitterClient().then(() => {
+  if (!isDryRun) {
+    initTwitterClient().then(() => {
+      checkAndTweet().then(() => {
+        console.log('Tamamlandı.');
+        process.exit(0);
+      });
+    });
+  } else {
+    // Dry run: Twitter client başlatılmaz
     checkAndTweet().then(() => {
-      console.log('Tamamlandı.');
+      console.log('Dry run tamamlandı.');
       process.exit(0);
     });
-  });
+  }
 } else {
   main();
 }
