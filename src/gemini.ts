@@ -4,6 +4,11 @@ let genAI: GoogleGenerativeAI | null = null;
 let model: any = null;
 
 const TWEET_MAX_LENGTH = parseInt(process.env.TWEET_MAX_LENGTH || '280', 10);
+const GEMINI_RATE_LIMIT_DELAY = parseInt(process.env.GEMINI_RATE_LIMIT_DELAY || '12000', 10);
+
+async function delay(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 export function initGeminiClient(): boolean {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -63,9 +68,13 @@ ${text}`;
 
       if (shortened.length > 0 && shortened.length <= TWEET_MAX_LENGTH) {
         console.log(`Tweet kısaltıldı: ${text.length} -> ${shortened.length} karakter`);
+        // Rate limit için bekle
+        await delay(GEMINI_RATE_LIMIT_DELAY);
         return shortened;
       } else if (shortened.length > TWEET_MAX_LENGTH) {
         console.warn(`Gemini kısaltması hala uzun (deneme ${attempt}/${maxRetries}): ${shortened.length} karakter`);
+        // Rate limit için bekle
+        await delay(GEMINI_RATE_LIMIT_DELAY);
         if (attempt === maxRetries) {
           // Son deneme de başarısız, manuel kısalt
           const truncated = shortened.substring(0, TWEET_MAX_LENGTH - 3) + '...';
