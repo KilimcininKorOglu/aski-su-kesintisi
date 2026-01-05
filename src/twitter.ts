@@ -1,27 +1,37 @@
-import { TwitterApi } from 'twitter-api-v2';
+import axios from 'axios';
 import { Kesinti } from './types';
 
-let twitterClient: TwitterApi | null = null;
+interface TwitterConfig {
+  rapidApiKey: string;
+  rapidApiHost: string;
+  authToken: string;
+  ct0: string;
+  apiKey: string;
+}
 
-export function initTwitterClient(): TwitterApi | null {
+let twitterConfig: TwitterConfig | null = null;
+
+export function initTwitterClient(): boolean {
+  const rapidApiKey = process.env.RAPIDAPI_KEY;
+  const rapidApiHost = process.env.RAPIDAPI_HOST || 'twitter-api-v1-1-enterprise.p.rapidapi.com';
+  const authToken = process.env.TWITTER_AUTH_TOKEN;
+  const ct0 = process.env.TWITTER_CT0;
   const apiKey = process.env.TWITTER_API_KEY;
-  const apiSecret = process.env.TWITTER_API_SECRET;
-  const accessToken = process.env.TWITTER_ACCESS_TOKEN;
-  const accessTokenSecret = process.env.TWITTER_ACCESS_TOKEN_SECRET;
 
-  if (!apiKey || !apiSecret || !accessToken || !accessTokenSecret) {
+  if (!rapidApiKey || !authToken || !ct0 || !apiKey) {
     console.warn('Twitter API anahtarları eksik. Tweet atılmayacak.');
-    return null;
+    return false;
   }
 
-  twitterClient = new TwitterApi({
-    appKey: apiKey,
-    appSecret: apiSecret,
-    accessToken: accessToken,
-    accessSecret: accessTokenSecret,
-  });
+  twitterConfig = {
+    rapidApiKey,
+    rapidApiHost,
+    authToken,
+    ct0,
+    apiKey
+  };
 
-  return twitterClient;
+  return true;
 }
 
 function formatIlceHashtag(ilce: string): string {
@@ -59,11 +69,85 @@ export function formatTweet(kesinti: Kesinti): string {
   return formatMainTweet(kesinti);
 }
 
+async function createTweet(text: string): Promise<string | null> {
+  if (!twitterConfig) return null;
+
+  const params = new URLSearchParams({
+    auth_token: twitterConfig.authToken,
+    ct0: twitterConfig.ct0,
+    apiKey: twitterConfig.apiKey,
+    resFormat: 'json',
+    medias: '[]',
+    text: text
+  });
+
+  try {
+    const response = await axios.get(
+      `https://${twitterConfig.rapidApiHost}/base/apitools/createTweet?${params.toString()}`,
+      {
+        headers: {
+          'x-rapidapi-key': twitterConfig.rapidApiKey,
+          'x-rapidapi-host': twitterConfig.rapidApiHost
+        },
+        timeout: 30000
+      }
+    );
+
+    if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
+      const tweetId = response.data.data?.data?.create_tweet?.tweet_results?.result?.rest_id;
+      return tweetId || null;
+    } else {
+      console.error('Tweet oluşturulamadı:', response.data.msg);
+      return null;
+    }
+  } catch (error) {
+    console.error('Tweet API hatası:', error);
+    return null;
+  }
+}
+
+async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
+  if (!twitterConfig) return false;
+
+  const params = new URLSearchParams({
+    auth_token: twitterConfig.authToken,
+    ct0: twitterConfig.ct0,
+    apiKey: twitterConfig.apiKey,
+    resFormat: 'json',
+    medias: '[]',
+    text: text,
+    tweetId: tweetId
+  });
+
+  try {
+    const response = await axios.get(
+      `https://${twitterConfig.rapidApiHost}/base/apitools/tweetReply?${params.toString()}`,
+      {
+        headers: {
+          'x-rapidapi-key': twitterConfig.rapidApiKey,
+          'x-rapidapi-host': twitterConfig.rapidApiHost
+        },
+        timeout: 30000
+      }
+    );
+
+    if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
+      return true;
+    } else {
+      console.error('Yanıt tweet oluşturulamadı:', response.data.msg);
+      return false;
+    }
+  } catch (error) {
+    console.error('Reply API hatası:', error);
+    return false;
+  }
+}
+
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   const mainTweet = formatMainTweet(kesinti);
   const replyTweet = formatReplyTweet(kesinti);
   
-  if (!twitterClient) {
+  if (!twitterConfig) {
     console.log('[DRY RUN] Ana tweet:');
     console.log(mainTweet);
     console.log('\n[DRY RUN] Yanıt tweet:');
@@ -74,15 +158,20 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
 
   try {
     // Ana tweet'i at
-    const mainResult = await twitterClient.v2.tweet(mainTweet);
-    const tweetId = mainResult.data.id;
-    console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
+    const tweetId = await createTweet(mainTweet);
+    if (!tweetId) {
+      console.error('Ana tweet atılamadı');
+      return false;
+    }
+    console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru} (ID: ${tweetId})`);
     
     // Yanıt olarak detay tweet'i at
-    await twitterClient.v2.tweet(replyTweet, {
-      reply: { in_reply_to_tweet_id: tweetId }
-    });
-    console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
+    const replySuccess = await replyToTweet(replyTweet, tweetId);
+    if (replySuccess) {
+      console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
+    } else {
+      console.warn(`Yanıt tweet atılamadı: ${kesinti.ilce}`);
+    }
     
     return true;
   } catch (error) {
@@ -99,8 +188,8 @@ export async function postMultipleTweets(kesintiler: Kesinti[]): Promise<number>
     if (success) successCount++;
     
     // Rate limit için bekle
-    if (twitterClient) {
-      await new Promise(resolve => setTimeout(resolve, 2000));
+    if (twitterConfig) {
+      await new Promise(resolve => setTimeout(resolve, 3000));
     }
   }
   
