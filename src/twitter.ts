@@ -113,6 +113,13 @@ export function formatTweet(kesinti: Kesinti): string {
   return formatMainTweet(kesinti);
 }
 
+const MAX_RETRIES = 3;
+const RETRY_DELAY_MS = 5000;
+
+async function delay(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 async function createTweet(text: string): Promise<string | null> {
   if (!twitterConfig || !twitterConfig.ct0) return null;
 
@@ -125,29 +132,39 @@ async function createTweet(text: string): Promise<string | null> {
     text: text
   });
 
-  try {
-    const response = await axios.get(
-      `https://${twitterConfig.rapidApiHost}/base/apitools/createTweet?${params.toString()}`,
-      {
-        headers: {
-          'x-rapidapi-key': twitterConfig.rapidApiKey,
-          'x-rapidapi-host': twitterConfig.rapidApiHost
-        },
-        timeout: 30000
-      }
-    );
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await axios.get(
+        `https://${twitterConfig.rapidApiHost}/base/apitools/createTweet?${params.toString()}`,
+        {
+          headers: {
+            'x-rapidapi-key': twitterConfig.rapidApiKey,
+            'x-rapidapi-host': twitterConfig.rapidApiHost
+          },
+          timeout: 30000
+        }
+      );
 
-    if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
-      const tweetId = response.data.data?.data?.create_tweet?.tweet_results?.result?.rest_id;
-      return tweetId || null;
-    } else {
-      console.error('Tweet oluşturulamadı:', response.data.msg);
-      return null;
+      if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
+        const tweetId = response.data.data?.data?.create_tweet?.tweet_results?.result?.rest_id;
+        return tweetId || null;
+      } else {
+        console.error(`Tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES}):`, response.data.msg);
+        if (attempt < MAX_RETRIES) {
+          console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+          await delay(RETRY_DELAY_MS);
+        }
+      }
+    } catch (error) {
+      console.error(`Tweet API hatası (deneme ${attempt}/${MAX_RETRIES}):`, error);
+      if (attempt < MAX_RETRIES) {
+        console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+        await delay(RETRY_DELAY_MS);
+      }
     }
-  } catch (error) {
-    console.error('Tweet API hatası:', error);
-    return null;
   }
+
+  return null;
 }
 
 async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
@@ -163,28 +180,38 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
     tweetId: tweetId
   });
 
-  try {
-    const response = await axios.get(
-      `https://${twitterConfig.rapidApiHost}/base/apitools/tweetReply?${params.toString()}`,
-      {
-        headers: {
-          'x-rapidapi-key': twitterConfig.rapidApiKey,
-          'x-rapidapi-host': twitterConfig.rapidApiHost
-        },
-        timeout: 30000
-      }
-    );
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await axios.get(
+        `https://${twitterConfig.rapidApiHost}/base/apitools/tweetReply?${params.toString()}`,
+        {
+          headers: {
+            'x-rapidapi-key': twitterConfig.rapidApiKey,
+            'x-rapidapi-host': twitterConfig.rapidApiHost
+          },
+          timeout: 30000
+        }
+      );
 
-    if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
-      return true;
-    } else {
-      console.error('Yanıt tweet oluşturulamadı:', response.data.msg);
-      return false;
+      if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
+        return true;
+      } else {
+        console.error(`Yanıt tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES}):`, response.data.msg);
+        if (attempt < MAX_RETRIES) {
+          console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+          await delay(RETRY_DELAY_MS);
+        }
+      }
+    } catch (error) {
+      console.error(`Reply API hatası (deneme ${attempt}/${MAX_RETRIES}):`, error);
+      if (attempt < MAX_RETRIES) {
+        console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+        await delay(RETRY_DELAY_MS);
+      }
     }
-  } catch (error) {
-    console.error('Reply API hatası:', error);
-    return false;
   }
+
+  return false;
 }
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
