@@ -4,6 +4,7 @@ dotenv.config();
 import { fetchKesintiler } from './scraper';
 import { loadKesintiler, saveKesintiler, findNewKesintiler, mergeKesintiler } from './storage';
 import { initTwitterClient, postMultipleTweets } from './twitter';
+import { initGeminiClient } from './gemini';
 
 const CHECK_INTERVAL = parseInt(process.env.CHECK_INTERVAL_MS || '300000', 10); // 5 dakika
 
@@ -45,6 +46,9 @@ async function checkAndTweet(): Promise<void> {
 async function main(): Promise<void> {
   console.log('ASKİ Su Kesintisi Twitter Botu başlatılıyor...');
   
+  // Gemini client'i başlat (opsiyonel)
+  initGeminiClient();
+  
   // Twitter client'i başlat
   await initTwitterClient();
   
@@ -59,6 +63,7 @@ async function main(): Promise<void> {
 // Tek seferlik çalıştırma modu
 if (process.argv.includes('--once')) {
   console.log('Tek seferlik mod...');
+  initGeminiClient();
   initTwitterClient().then(() => {
     checkAndTweet().then(() => {
       console.log('Tamamlandı.');
