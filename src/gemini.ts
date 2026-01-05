@@ -4,7 +4,7 @@ let genAI: GoogleGenerativeAI | null = null;
 let model: any = null;
 
 const TWEET_MAX_LENGTH = parseInt(process.env.TWEET_MAX_LENGTH || '280', 10);
-const GEMINI_RATE_LIMIT_DELAY = parseInt(process.env.GEMINI_RATE_LIMIT_DELAY || '12000', 10);
+const GEMINI_RATE_LIMIT_DELAY = parseInt(process.env.GEMINI_RATE_LIMIT_DELAY || '6000', 10);
 
 async function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -85,7 +85,16 @@ ${text}`;
         console.warn('Gemini boş yanıt döndü. Orijinal kullanılıyor.');
         return text;
       }
-    } catch (error) {
+    } catch (error: any) {
+      // Rate limit hatası mı kontrol et
+      if (error?.status === 429) {
+        const retryAfter = error?.errorDetails?.find((d: any) => d['@type']?.includes('RetryInfo'))?.retryDelay;
+        const waitTime = retryAfter ? parseInt(retryAfter) * 1000 : GEMINI_RATE_LIMIT_DELAY * 2;
+        console.warn(`Gemini rate limit aşıldı. ${waitTime / 1000} saniye bekleniyor...`);
+        await delay(waitTime);
+        // Retry etmek için continue
+        continue;
+      }
       console.error('Gemini API hatası:', error);
       return text;
     }
