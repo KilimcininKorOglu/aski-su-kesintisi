@@ -4,7 +4,7 @@ let genAI: GoogleGenerativeAI | null = null;
 let model: any = null;
 
 const TWEET_MAX_LENGTH = parseInt(process.env.TWEET_MAX_LENGTH || '280', 10);
-const GEMINI_RATE_LIMIT_DELAY = parseInt(process.env.GEMINI_RATE_LIMIT_DELAY || '6000', 10);
+const GEMINI_RATE_LIMIT_DELAY = parseInt(process.env.GEMINI_RATE_LIMIT_DELAY || '4000', 10);
 
 async function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -19,7 +19,7 @@ export function initGeminiClient(): boolean {
   }
 
   genAI = new GoogleGenerativeAI(apiKey);
-  model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+  model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
   console.log('Gemini API başarıyla yapılandırıldı.');
   return true;
 }
