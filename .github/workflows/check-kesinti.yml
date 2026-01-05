@@ -6,6 +6,9 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch: # Manuel tetikleme
 
+permissions:
+  contents: write
+
 jobs:
   check-and-tweet:
     runs-on: ubuntu-latest
