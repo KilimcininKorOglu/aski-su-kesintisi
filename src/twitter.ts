@@ -240,19 +240,19 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   let mainTweet = formatMainTweet(kesinti);
-  let replyTweet = formatReplyTweet(kesinti);
+  // let replyTweet = formatReplyTweet(kesinti);
   
   // Gerekirse tweet'leri kısalt
   mainTweet = await shortenTweet(mainTweet, 'main');
-  replyTweet = await shortenTweet(replyTweet, 'reply');
+  // replyTweet = await shortenTweet(replyTweet, 'reply');
   
   if (!twitterConfig) {
     console.log('[DRY RUN] Ana tweet:');
     console.log(mainTweet);
     console.log(`(${mainTweet.length} karakter)`);
-    console.log('\n[DRY RUN] Yanıt tweet:');
-    console.log(replyTweet);
-    console.log(`(${replyTweet.length} karakter)`);
+    // console.log('\n[DRY RUN] Yanıt tweet:');
+    // console.log(replyTweet);
+    // console.log(`(${replyTweet.length} karakter)`);
     console.log('---');
     return false;
   }
@@ -267,14 +267,16 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
     }
     console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru} (ID: ${tweetId})`);
     
-    // Yanıt olarak detay tweet'i at
-    const replySuccess = await replyToTweet(replyTweet, tweetId);
-    if (replySuccess) {
-      console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
-    } else {
-      console.warn(`Yanıt tweet atılamadı: ${kesinti.ilce}`);
-      console.warn(`Reply içeriği (${replyTweet.length} karakter):\n${replyTweet}`);
-    }
+    // Yanıt tweet şimdilik devre dışı
+    // const replyTweet = formatReplyTweet(kesinti);
+    // const shortenedReply = await shortenTweet(replyTweet, 'reply');
+    // const replySuccess = await replyToTweet(shortenedReply, tweetId);
+    // if (replySuccess) {
+    //   console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
+    // } else {
+    //   console.warn(`Yanıt tweet atılamadı: ${kesinti.ilce}`);
+    //   console.warn(`Reply içeriği (${shortenedReply.length} karakter):\n${shortenedReply}`);
+    // }
     
     return true;
   } catch (error) {
