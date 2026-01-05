@@ -149,14 +149,21 @@ async function createTweet(text: string): Promise<string | null> {
         const tweetId = response.data.data?.data?.create_tweet?.tweet_results?.result?.rest_id;
         return tweetId || null;
       } else {
-        console.error(`Tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES}):`, response.data.msg);
+        console.error(`Tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
+        console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
         if (attempt < MAX_RETRIES) {
           console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
           await delay(RETRY_DELAY_MS);
         }
       }
-    } catch (error) {
-      console.error(`Tweet API hatası (deneme ${attempt}/${MAX_RETRIES}):`, error);
+    } catch (error: any) {
+      console.error(`Tweet API hatası (deneme ${attempt}/${MAX_RETRIES})`);
+      if (error.response) {
+        console.error('API hata yanıtı:', JSON.stringify(error.response.data, null, 2));
+        console.error('HTTP status:', error.response.status);
+      } else {
+        console.error('Hata:', error.message);
+      }
       if (attempt < MAX_RETRIES) {
         console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
         await delay(RETRY_DELAY_MS);
@@ -196,14 +203,21 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
       if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
         return true;
       } else {
-        console.error(`Yanıt tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES}):`, response.data.msg);
+        console.error(`Yanıt tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
+        console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
         if (attempt < MAX_RETRIES) {
           console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
           await delay(RETRY_DELAY_MS);
         }
       }
-    } catch (error) {
-      console.error(`Reply API hatası (deneme ${attempt}/${MAX_RETRIES}):`, error);
+    } catch (error: any) {
+      console.error(`Reply API hatası (deneme ${attempt}/${MAX_RETRIES})`);
+      if (error.response) {
+        console.error('API hata yanıtı:', JSON.stringify(error.response.data, null, 2));
+        console.error('HTTP status:', error.response.status);
+      } else {
+        console.error('Hata:', error.message);
+      }
       if (attempt < MAX_RETRIES) {
         console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
         await delay(RETRY_DELAY_MS);
