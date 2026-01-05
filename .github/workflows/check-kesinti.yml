@@ -2,7 +2,7 @@ name: ASKİ Su Kesintisi Kontrolü
 
 on:
   schedule:
-    # Her 5 dakikada bir çalış
+    # Her 10 dakikada bir çalış
     - cron: "*/10 * * * *"
   workflow_dispatch: # Manuel tetikleme
 
