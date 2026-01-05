@@ -19,7 +19,7 @@ export function initGeminiClient(): boolean {
   }
 
   genAI = new GoogleGenerativeAI(apiKey);
-  model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+  model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
   console.log('Gemini API başarıyla yapılandırıldı.');
   return true;
 }
@@ -35,7 +35,7 @@ export async function shortenTweet(text: string, type: 'main' | 'reply'): Promis
   }
 
   const maxRetries = 3;
-  
+
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     const prompt = type === 'main'
       ? `Bu su kesintisi duyurusunu MUTLAKA ${TWEET_MAX_LENGTH} karakter veya daha az olacak şekilde kısalt.
