@@ -19,7 +19,7 @@ export function initGeminiClient(): boolean {
   }
 
   genAI = new GoogleGenerativeAI(apiKey);
-  model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
+  model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
   console.log('Gemini API başarıyla yapılandırıldı.');
   return true;
 }
@@ -86,13 +86,12 @@ ${text}`;
         return text;
       }
     } catch (error: any) {
-      // Rate limit hatası mı kontrol et
-      if (error?.status === 429) {
+      // Rate limit veya overload hatası mı kontrol et
+      if (error?.status === 429 || error?.status === 503) {
         const retryAfter = error?.errorDetails?.find((d: any) => d['@type']?.includes('RetryInfo'))?.retryDelay;
         const waitTime = retryAfter ? parseInt(retryAfter) * 1000 : GEMINI_RATE_LIMIT_DELAY * 2;
-        console.warn(`Gemini rate limit aşıldı. ${waitTime / 1000} saniye bekleniyor...`);
+        console.warn(`Gemini ${error?.status === 429 ? 'rate limit' : 'overload'}. ${waitTime / 1000} saniye bekleniyor...`);
         await delay(waitTime);
-        // Retry etmek için continue
         continue;
       }
       console.error('Gemini API hatası:', error);
