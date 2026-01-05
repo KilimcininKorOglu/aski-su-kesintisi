@@ -285,7 +285,7 @@ export async function postMultipleTweets(kesintiler: Kesinti[]): Promise<number>
     
     // Rate limit için bekle
     if (twitterConfig) {
-      await new Promise(resolve => setTimeout(resolve, 3000));
+      await delay(RETRY_DELAY_MS);
     }
   }
   
