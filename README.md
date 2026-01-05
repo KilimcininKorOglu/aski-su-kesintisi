@@ -2,6 +2,8 @@
 
 Ankara Su ve Kanalizasyon İdaresi (ASKİ) su kesintilerini otomatik olarak takip edip Twitter'da paylaşan bot.
 
+Takip etmek isterseniz https://x.com/ANKSuKesintisi
+
 ## Ozellikler
 
 - ASKİ web sitesinden su kesintilerini otomatik olarak ceker
