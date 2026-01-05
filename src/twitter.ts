@@ -113,8 +113,8 @@ export function formatTweet(kesinti: Kesinti): string {
   return formatMainTweet(kesinti);
 }
 
-const MAX_RETRIES = 3;
-const RETRY_DELAY_MS = 5000;
+const MAX_RETRIES = parseInt(process.env.MAX_TWEET_RETRIES || '100', 10);
+const RETRY_DELAY_MS = parseInt(process.env.TWEET_RETRY_DELAY_MS || '5000', 10);
 
 async function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
