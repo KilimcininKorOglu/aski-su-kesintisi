@@ -1,0 +1,59 @@
+[2026-01-06T06:23:16.594Z] [INFO] Logger başlatıldı
+[2026-01-06T06:23:16.597Z] [INFO] Dry run modu...
+[2026-01-06T06:23:16.600Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-06T06:23:16.602Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-06T06:23:16.863Z] [INFO] 5 kesinti bulundu.
+[2026-01-06T06:23:16.867Z] [INFO] 0 kayıtlı kesinti var.
+[2026-01-06T06:23:16.869Z] [INFO] 5 yeni kesinti bulundu!
+[2026-01-06T06:23:21.419Z] [INFO] Tweet kısaltıldı: 493 -> 152 karakter
+[2026-01-06T06:23:21.421Z] [INFO] [DRY RUN] Ana tweet:
+[2026-01-06T06:23:21.424Z] [INFO] 🔧 ALTINDAĞ - Planlı Kesinti
+
+📅 6.01.2026 09:00:00 - 6.01.2026 23:00:00
+📍 Karapürçek, Beşikkaya, Feridun Çelik vb.
+
+#AnkaraSuKesintisi #ASKİ #Altindag
+[2026-01-06T06:23:21.426Z] [INFO] (152 karakter)
+[2026-01-06T06:23:21.427Z] [INFO] ---
+[2026-01-06T06:23:25.886Z] [INFO] Tweet kısaltıldı: 320 -> 133 karakter
+[2026-01-06T06:23:25.887Z] [INFO] [DRY RUN] Ana tweet:
+[2026-01-06T06:23:25.888Z] [INFO] 🔧 KAZAN - Planlı Kesinti
+
+📅 6.01.2026 08:15:00 - 6.01.2026 19:00:00
+📍 İmrendi, Saray, Dağyaka vb.
+
+#AnkaraSuKesintisi #ASKİ #Kazan
+[2026-01-06T06:23:25.889Z] [INFO] (133 karakter)
+[2026-01-06T06:23:25.889Z] [INFO] ---
+[2026-01-06T06:23:25.890Z] [INFO] [DRY RUN] Ana tweet:
+[2026-01-06T06:23:25.890Z] [INFO] ⚠️ POLATLI - Plansız Kesinti
+
+📅 6.01.2026 09:00:00 - 6.01.2026 15:00:00
+📍 Mehmet Akif Mahallesi Bir Bölümü
+
+#AnkaraSuKesintisi #ASKİ #Polatli
+[2026-01-06T06:23:25.890Z] [INFO] (143 karakter)
+[2026-01-06T06:23:25.891Z] [INFO] ---
+[2026-01-06T06:23:30.469Z] [INFO] Tweet kısaltıldı: 447 -> 142 karakter
+[2026-01-06T06:23:30.470Z] [INFO] [DRY RUN] Ana tweet:
+[2026-01-06T06:23:30.471Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
+
+📅 6.01.2026 09:15:00 - 6.01.2026 17:00:00
+📍 Çayyolu, Ümitköy, Yaşamkent vb.
+
+#AnkaraSuKesintisi #ASKİ #Cankaya
+[2026-01-06T06:23:30.472Z] [INFO] (142 karakter)
+[2026-01-06T06:23:30.472Z] [INFO] ---
+[2026-01-06T06:23:34.913Z] [INFO] Tweet kısaltıldı: 316 -> 141 karakter
+[2026-01-06T06:23:34.914Z] [INFO] [DRY RUN] Ana tweet:
+[2026-01-06T06:23:34.914Z] [INFO] ⚠️ AKYURT - Plansız Kesinti
+
+📅 6.01.2026 09:15:00 - 6.01.2026 23:55:00
+📍 Yıldırım, Yeşiltepe, Atatürk vb.
+
+#AnkaraSuKesintisi #ASKİ #Akyurt
+[2026-01-06T06:23:34.915Z] [INFO] (141 karakter)
+[2026-01-06T06:23:34.915Z] [INFO] ---
+[2026-01-06T06:23:34.916Z] [INFO] 0 tweet atıldı.
+[2026-01-06T06:23:34.917Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-01-06T06:23:34.917Z] [SUCCESS] Dry run tamamlandı.
