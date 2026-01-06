@@ -668,12 +668,24 @@
 [2026-01-06T08:36:39.747Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Plansız Kesinti
 [2026-01-06T08:36:39.747Z] [INFO] Tweet içeriği (152 karakter):
 ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Çarşı vb.
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-01-06T08:36:50.420Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Planlı Kesinti (ID: 2008457719246885076)
 [2026-01-06T08:37:00.425Z] [INFO] 2 tweet atıldı.
 [2026-01-06T08:37:00.425Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-01-06T08:37:00.426Z] [SUCCESS] Tamamlandı.
+[2026-01-06T08:59:30.236Z] [INFO] Logger başlatıldı
+[2026-01-06T08:59:30.238Z] [INFO] Tek seferlik mod...
+[2026-01-06T08:59:30.238Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-06T08:59:31.096Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-06T08:59:31.096Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-06T08:59:32.306Z] [INFO] 10 kesinti bulundu.
+[2026-01-06T08:59:32.307Z] [INFO] 12 kayıtlı kesinti var.
+[2026-01-06T08:59:32.307Z] [INFO] 2 yeni kesinti bulundu!
+[2026-01-06T08:59:36.706Z] [INFO] Tweet kısaltıldı: 600 -> 154 karakter
+[2026-01-06T08:59:37.670Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2008463453024117157)
+[2026-01-06T08:59:48.374Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Planlı Kesinti (ID: 2008463498758729954)
+[2026-01-06T08:59:58.379Z] [INFO] 2 tweet atıldı.
+[2026-01-06T08:59:58.380Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-01-06T08:59:58.380Z] [SUCCESS] Tamamlandı.
