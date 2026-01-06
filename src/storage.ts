@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { Kesinti } from './types';
+import { error as logError } from './logger';
 
 // Proje kökünden data klasörünü bul (src veya dist'ten bağımsız)
 const PROJECT_ROOT = path.resolve(__dirname, '..');
@@ -23,8 +24,8 @@ export function loadKesintiler(): Kesinti[] {
   try {
     const data = fs.readFileSync(KESINTILER_FILE, 'utf-8');
     return JSON.parse(data);
-  } catch (error) {
-    console.error('kesintiler.json okunamadı:', error);
+  } catch (err) {
+    logError('kesintiler.json okunamadı:', err);
     return [];
   }
 }

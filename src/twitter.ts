@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { Kesinti } from './types';
 import { shortenTweet, TweetData } from './gemini';
+import { log, warn, error as logError, success } from './logger';
 
 interface TwitterConfig {
   rapidApiKey: string;
@@ -38,11 +39,11 @@ async function getCt0Token(): Promise<string | null> {
     if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
       return response.data.data;
     } else {
-      console.error('ct0 token alınamadı:', response.data.msg);
+      logError('ct0 token alınamadı:', response.data.msg);
       return null;
     }
-  } catch (error) {
-    console.error('getCt0 API hatası:', error);
+  } catch (err) {
+    logError('getCt0 API hatası:', err);
     return null;
   }
 }
@@ -54,7 +55,7 @@ export async function initTwitterClient(): Promise<boolean> {
   const apiKey = process.env.TWITTER_API_KEY;
 
   if (!rapidApiKey || !authToken || !apiKey) {
-    console.warn('Twitter API anahtarları eksik. Tweet atılmayacak.');
+    warn('Twitter API anahtarları eksik. Tweet atılmayacak.');
     return false;
   }
 
@@ -69,13 +70,13 @@ export async function initTwitterClient(): Promise<boolean> {
   // ct0 token'ı dinamik olarak al
   const ct0 = await getCt0Token();
   if (!ct0) {
-    console.error('ct0 token alınamadı. Tweet atılmayacak.');
+    logError('ct0 token alınamadı. Tweet atılmayacak.');
     twitterConfig = null;
     return false;
   }
 
   twitterConfig.ct0 = ct0;
-  console.log('Twitter API başarıyla yapılandırıldı.');
+  log('Twitter API başarıyla yapılandırıldı.');
   return true;
 }
 
@@ -165,31 +166,31 @@ async function createTweet(text: string): Promise<string | null> {
         if (tweetId) {
           return tweetId;
         } else {
-          console.error(`Tweet ID alınamadı (deneme ${attempt}/${MAX_RETRIES})`);
-          console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
+          logError(`Tweet ID alınamadı (deneme ${attempt}/${MAX_RETRIES})`);
+          log('API yanıtı: ' + JSON.stringify(response.data, null, 2));
           if (attempt < MAX_RETRIES) {
-            console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+            log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
             await delay(RETRY_DELAY_MS);
           }
         }
       } else {
-        console.error(`Tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
-        console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
+        logError(`Tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
+        log('API yanıtı: ' + JSON.stringify(response.data, null, 2));
         if (attempt < MAX_RETRIES) {
-          console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+          log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
           await delay(RETRY_DELAY_MS);
         }
       }
-    } catch (error: any) {
-      console.error(`Tweet API hatası (deneme ${attempt}/${MAX_RETRIES})`);
-      if (error.response) {
-        console.error('API hata yanıtı:', JSON.stringify(error.response.data, null, 2));
-        console.error('HTTP status:', error.response.status);
+    } catch (err: any) {
+      logError(`Tweet API hatası (deneme ${attempt}/${MAX_RETRIES})`);
+      if (err.response) {
+        log('API hata yanıtı: ' + JSON.stringify(err.response.data, null, 2));
+        log('HTTP status: ' + err.response.status);
       } else {
-        console.error('Hata:', error.message);
+        logError('Hata:', err.message);
       }
       if (attempt < MAX_RETRIES) {
-        console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+        log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
         await delay(RETRY_DELAY_MS);
       }
     }
@@ -227,23 +228,23 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
       if (response.data.code === 1 && response.data.msg === 'SUCCESS') {
         return true;
       } else {
-        console.error(`Yanıt tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
-        console.error('API yanıtı:', JSON.stringify(response.data, null, 2));
+        logError(`Yanıt tweet oluşturulamadı (deneme ${attempt}/${MAX_RETRIES})`);
+        log('API yanıtı: ' + JSON.stringify(response.data, null, 2));
         if (attempt < MAX_RETRIES) {
-          console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+          log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
           await delay(RETRY_DELAY_MS);
         }
       }
-    } catch (error: any) {
-      console.error(`Reply API hatası (deneme ${attempt}/${MAX_RETRIES})`);
-      if (error.response) {
-        console.error('API hata yanıtı:', JSON.stringify(error.response.data, null, 2));
-        console.error('HTTP status:', error.response.status);
+    } catch (err: any) {
+      logError(`Reply API hatası (deneme ${attempt}/${MAX_RETRIES})`);
+      if (err.response) {
+        log('API hata yanıtı: ' + JSON.stringify(err.response.data, null, 2));
+        log('HTTP status: ' + err.response.status);
       } else {
-        console.error('Hata:', error.message);
+        logError('Hata:', err.message);
       }
       if (attempt < MAX_RETRIES) {
-        console.log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
+        log(`${RETRY_DELAY_MS / 1000} saniye sonra tekrar denenecek...`);
         await delay(RETRY_DELAY_MS);
       }
     }
@@ -262,13 +263,10 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   // replyTweet = await shortenTweet(replyTweet, 'reply');
   
   if (!twitterConfig) {
-    console.log('[DRY RUN] Ana tweet:');
-    console.log(mainTweet);
-    console.log(`(${mainTweet.length} karakter)`);
-    // console.log('\n[DRY RUN] Yanıt tweet:');
-    // console.log(replyTweet);
-    // console.log(`(${replyTweet.length} karakter)`);
-    console.log('---');
+    log('[DRY RUN] Ana tweet:');
+    log(mainTweet);
+    log(`(${mainTweet.length} karakter)`);
+    log('---');
     return false;
   }
 
@@ -276,26 +274,26 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
     // Ana tweet'i at
     const tweetId = await createTweet(mainTweet);
     if (!tweetId) {
-      console.error(`Ana tweet atılamadı: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
-      console.error(`Tweet içeriği (${mainTweet.length} karakter):\n${mainTweet}`);
+      logError(`Ana tweet atılamadı: ${kesinti.ilce} - ${kesinti.kesintiTuru}`);
+      log(`Tweet içeriği (${mainTweet.length} karakter):\n${mainTweet}`);
       return false;
     }
-    console.log(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru} (ID: ${tweetId})`);
+    success(`Ana tweet atıldı: ${kesinti.ilce} - ${kesinti.kesintiTuru} (ID: ${tweetId})`);
     
     // Yanıt tweet şimdilik devre dışı
     // const replyTweet = formatReplyTweet(kesinti);
     // const shortenedReply = await shortenTweet(replyTweet, 'reply');
     // const replySuccess = await replyToTweet(shortenedReply, tweetId);
     // if (replySuccess) {
-    //   console.log(`Yanıt tweet atıldı: ${kesinti.ilce}`);
+    //   success(`Yanıt tweet atıldı: ${kesinti.ilce}`);
     // } else {
-    //   console.warn(`Yanıt tweet atılamadı: ${kesinti.ilce}`);
-    //   console.warn(`Reply içeriği (${shortenedReply.length} karakter):\n${shortenedReply}`);
+    //   warn(`Yanıt tweet atılamadı: ${kesinti.ilce}`);
+    //   log(`Reply içeriği (${shortenedReply.length} karakter):\n${shortenedReply}`);
     // }
     
     return true;
-  } catch (error) {
-    console.error('Tweet atılamadı:', error);
+  } catch (err) {
+    logError('Tweet atılamadı:', err);
     return false;
   }
 }

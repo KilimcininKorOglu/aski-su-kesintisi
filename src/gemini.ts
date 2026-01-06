@@ -1,4 +1,5 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import { log, warn, error as logError } from './logger';
 
 let genAI: GoogleGenerativeAI | null = null;
 let model: any = null;
@@ -14,13 +15,13 @@ export function initGeminiClient(): boolean {
   const apiKey = process.env.GEMINI_API_KEY;
 
   if (!apiKey) {
-    console.warn('GEMINI_API_KEY eksik. Tweet kısaltma devre dışı.');
+    warn('GEMINI_API_KEY eksik. Tweet kısaltma devre dışı.');
     return false;
   }
 
   genAI = new GoogleGenerativeAI(apiKey);
   model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
-  console.log('Gemini API başarıyla yapılandırıldı.');
+  log('Gemini API başarıyla yapılandırıldı.');
   return true;
 }
 
@@ -62,11 +63,11 @@ ${etkilenenYerler}`;
     const shortened = response.text().trim();
     await delay(GEMINI_RATE_LIMIT_DELAY);
     return shortened || etkilenenYerler.substring(0, maxLength);
-  } catch (error: any) {
-    if (error?.status === 429 || error?.status === 503) {
-      console.warn(`Gemini ${error?.status === 429 ? 'rate limit' : 'overload'}. Manuel kısaltma yapılıyor...`);
+  } catch (err: any) {
+    if (err?.status === 429 || err?.status === 503) {
+      warn(`Gemini ${err?.status === 429 ? 'rate limit' : 'overload'}. Manuel kısaltma yapılıyor...`);
     } else {
-      console.error('Gemini API hatası:', error);
+      logError('Gemini API hatası:', err);
     }
     return etkilenenYerler.substring(0, maxLength) + '...';
   }
@@ -78,7 +79,7 @@ export async function shortenTweet(text: string, type: 'main' | 'reply', tweetDa
   }
 
   if (!model) {
-    console.warn(`Tweet ${text.length} karakter ama Gemini API yok. Kısaltılamadı.`);
+    warn(`Tweet ${text.length} karakter ama Gemini API yok. Kısaltılamadı.`);
     return text;
   }
 
@@ -95,7 +96,7 @@ export async function shortenTweet(text: string, type: 'main' | 'reply', tweetDa
       });
       
       if (newTweet.length <= TWEET_MAX_LENGTH) {
-        console.log(`Tweet kısaltıldı: ${text.length} -> ${newTweet.length} karakter`);
+        log(`Tweet kısaltıldı: ${text.length} -> ${newTweet.length} karakter`);
         return newTweet;
       }
     }
@@ -134,30 +135,30 @@ ${text}`;
       const shortened = response.text().trim();
 
       if (shortened.length > 0 && shortened.length <= TWEET_MAX_LENGTH) {
-        console.log(`Tweet kısaltıldı: ${text.length} -> ${shortened.length} karakter`);
+        log(`Tweet kısaltıldı: ${text.length} -> ${shortened.length} karakter`);
         await delay(GEMINI_RATE_LIMIT_DELAY);
         return shortened;
       } else if (shortened.length > TWEET_MAX_LENGTH) {
-        console.warn(`Gemini kısaltması hala uzun (deneme ${attempt}/${maxRetries}): ${shortened.length} karakter`);
+        warn(`Gemini kısaltması hala uzun (deneme ${attempt}/${maxRetries}): ${shortened.length} karakter`);
         await delay(GEMINI_RATE_LIMIT_DELAY);
         if (attempt === maxRetries) {
           const truncated = shortened.substring(0, TWEET_MAX_LENGTH - 3) + '...';
-          console.log(`Manuel kısaltma yapıldı: ${truncated.length} karakter`);
+          log(`Manuel kısaltma yapıldı: ${truncated.length} karakter`);
           return truncated;
         }
       } else {
-        console.warn('Gemini boş yanıt döndü. Orijinal kullanılıyor.');
+        warn('Gemini boş yanıt döndü. Orijinal kullanılıyor.');
         return text;
       }
-    } catch (error: any) {
-      if (error?.status === 429 || error?.status === 503) {
-        const retryAfter = error?.errorDetails?.find((d: any) => d['@type']?.includes('RetryInfo'))?.retryDelay;
+    } catch (err: any) {
+      if (err?.status === 429 || err?.status === 503) {
+        const retryAfter = err?.errorDetails?.find((d: any) => d['@type']?.includes('RetryInfo'))?.retryDelay;
         const waitTime = retryAfter ? parseInt(retryAfter) * 1000 : GEMINI_RATE_LIMIT_DELAY * 2;
-        console.warn(`Gemini ${error?.status === 429 ? 'rate limit' : 'overload'}. ${waitTime / 1000} saniye bekleniyor...`);
+        warn(`Gemini ${err?.status === 429 ? 'rate limit' : 'overload'}. ${waitTime / 1000} saniye bekleniyor...`);
         await delay(waitTime);
         continue;
       }
-      console.error('Gemini API hatası:', error);
+      logError('Gemini API hatası:', err);
       return text;
     }
   }

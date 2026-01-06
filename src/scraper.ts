@@ -1,19 +1,25 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { Kesinti, generateKesintiId } from './types';
+import { log, error as logError } from './logger';
 
 const ASKI_URL = 'https://www.aski.gov.tr/tr/Kesinti.aspx';
 
 export async function fetchKesintiler(): Promise<Kesinti[]> {
-  const response = await axios.get(ASKI_URL, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-    },
-    timeout: 30000
-  });
+  try {
+    const response = await axios.get(ASKI_URL, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      },
+      timeout: 30000
+    });
 
-  const $ = cheerio.load(response.data);
-  return parseKesintiler($);
+    const $ = cheerio.load(response.data);
+    return parseKesintiler($);
+  } catch (err) {
+    logError('ASKİ sayfası çekilemedi:', err);
+    throw err;
+  }
 }
 
 function parseKesintiler($: cheerio.CheerioAPI): Kesinti[] {
