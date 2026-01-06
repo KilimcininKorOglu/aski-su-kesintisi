@@ -300,12 +300,14 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   }
 }
 
-export async function postMultipleTweets(kesintiler: Kesinti[]): Promise<number> {
-  let successCount = 0;
+export async function postMultipleTweets(kesintiler: Kesinti[]): Promise<Kesinti[]> {
+  const successfulKesintiler: Kesinti[] = [];
   
   for (const kesinti of kesintiler) {
     const success = await postTweet(kesinti);
-    if (success) successCount++;
+    if (success) {
+      successfulKesintiler.push(kesinti);
+    }
     
     // Rate limit için bekle
     if (twitterConfig) {
@@ -313,5 +315,5 @@ export async function postMultipleTweets(kesintiler: Kesinti[]): Promise<number>
     }
   }
   
-  return successCount;
+  return successfulKesintiler;
 }

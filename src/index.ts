@@ -26,14 +26,18 @@ async function checkAndTweet(): Promise<void> {
     if (newKesintiler.length > 0) {
       console.log(`${newKesintiler.length} yeni kesinti bulundu!`);
       
-      // Tweet at
-      const tweetCount = await postMultipleTweets(newKesintiler);
-      console.log(`${tweetCount} tweet atıldı.`);
+      // Tweet at ve başarılı olanları al
+      const successfulKesintiler = await postMultipleTweets(newKesintiler);
+      console.log(`${successfulKesintiler.length} tweet atıldı.`);
       
-      // Kaydet
-      const merged = mergeKesintiler(currentKesintiler, storedKesintiler);
-      saveKesintiler(merged);
-      console.log('Kesintiler kaydedildi.');
+      // Sadece başarılı tweet atılan kesintileri kaydet
+      if (successfulKesintiler.length > 0) {
+        const merged = mergeKesintiler(successfulKesintiler, storedKesintiler);
+        saveKesintiler(merged);
+        console.log(`${successfulKesintiler.length} kesinti kaydedildi.`);
+      } else {
+        console.warn('Hiç tweet atılamadı, kesintiler kaydedilmedi.');
+      }
     } else {
       console.log('Yeni kesinti yok.');
       // Yeni kesinti yoksa dosyayı değiştirme (gereksiz commit önlenir)
