@@ -1704,3 +1704,15 @@
 [2026-01-07T14:01:42.790Z] [INFO] 45 kayıtlı kesinti var.
 [2026-01-07T14:01:42.790Z] [INFO] Yeni kesinti yok.
 [2026-01-07T14:01:42.790Z] [SUCCESS] Tamamlandı.
+[2026-01-07T14:38:22.462Z] [INFO] Logger başlatıldı
+[2026-01-07T14:38:22.464Z] [INFO] Tek seferlik mod...
+[2026-01-07T14:38:22.464Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-07T14:38:23.382Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-07T14:38:23.382Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-07T14:38:24.541Z] [INFO] 11 kesinti bulundu.
+[2026-01-07T14:38:24.541Z] [INFO] 45 kayıtlı kesinti var.
+[2026-01-07T14:38:24.542Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-07T14:38:25.204Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2008911101321162950)
+[2026-01-07T14:38:35.207Z] [INFO] 1 tweet atıldı.
+[2026-01-07T14:38:35.208Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-07T14:38:35.209Z] [SUCCESS] Tamamlandı.
