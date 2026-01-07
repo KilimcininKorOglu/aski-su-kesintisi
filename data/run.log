@@ -1483,3 +1483,16 @@
 [2026-01-07T03:46:04.496Z] [INFO] 30 kayıtlı kesinti var.
 [2026-01-07T03:46:04.496Z] [INFO] Yeni kesinti yok.
 [2026-01-07T03:46:04.496Z] [SUCCESS] Tamamlandı.
+[2026-01-07T04:29:30.718Z] [INFO] Logger başlatıldı
+[2026-01-07T04:29:30.720Z] [INFO] Tek seferlik mod...
+[2026-01-07T04:29:30.720Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-07T04:29:31.382Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-07T04:29:31.382Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-07T04:29:32.370Z] [INFO] 4 kesinti bulundu.
+[2026-01-07T04:29:32.370Z] [INFO] 30 kayıtlı kesinti var.
+[2026-01-07T04:29:32.370Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-07T04:29:36.785Z] [INFO] Tweet kısaltıldı: 677 -> 145 karakter
+[2026-01-07T04:29:37.608Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2008757893689184434)
+[2026-01-07T04:29:47.607Z] [INFO] 1 tweet atıldı.
+[2026-01-07T04:29:47.611Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-07T04:29:47.611Z] [SUCCESS] Tamamlandı.
