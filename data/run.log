@@ -5045,11 +5045,18 @@
 [2026-01-08T14:43:09.904Z] [ERROR] Ana tweet atılamadı: NALLIHAN - Plansız Kesinti
 [2026-01-08T14:43:09.904Z] [INFO] Tweet içeriği (180 karakter):
 ⚠️ NALLIHAN - Plansız Kesinti
-
 📅 8.01.2026 17:20:00 - 9.01.2026 08:00:00
 📍 Hacıbey mahallesi-Atatürk mahallesi-Aliağa mahallesi-Yazı mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Nallihan
 [2026-01-08T14:43:19.909Z] [INFO] 1 tweet atıldı.
 [2026-01-08T14:43:19.911Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-08T14:43:19.911Z] [SUCCESS] Tamamlandı.
+[2026-01-08T15:01:30.350Z] [INFO] Logger başlatıldı
+[2026-01-08T15:01:30.351Z] [INFO] Tek seferlik mod...
+[2026-01-08T15:01:30.352Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-08T15:01:32.398Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-08T15:01:32.399Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-08T15:01:33.474Z] [INFO] 14 kesinti bulundu.
+[2026-01-08T15:01:33.475Z] [INFO] 71 kayıtlı kesinti var.
+[2026-01-08T15:01:33.475Z] [INFO] Yeni kesinti yok.
+[2026-01-08T15:01:33.475Z] [SUCCESS] Tamamlandı.
