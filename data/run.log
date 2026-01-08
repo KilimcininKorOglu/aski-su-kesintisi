@@ -4593,11 +4593,22 @@
 [2026-01-08T11:58:08.329Z] [ERROR] Ana tweet atılamadı: ETİMESGUT - Planlı Kesinti
 [2026-01-08T11:58:08.329Z] [INFO] Tweet içeriği (153 karakter):
 🔧 ETİMESGUT - Planlı Kesinti
-
 📅 8.01.2026 09:00:00 - 8.01.2026 21:00:00
 📍 30 Ağustos, Kazım Karabekir, Süvari vb.
-
 #AnkaraSuKesintisi #ASKİ #Etimesgut
 [2026-01-08T11:58:18.334Z] [INFO] 0 tweet atıldı.
 [2026-01-08T11:58:18.334Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-01-08T11:58:18.334Z] [SUCCESS] Tamamlandı.
+[2026-01-08T12:57:23.406Z] [INFO] Logger başlatıldı
+[2026-01-08T12:57:23.407Z] [INFO] Tek seferlik mod...
+[2026-01-08T12:57:23.407Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-08T12:57:24.107Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-08T12:57:24.107Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-08T12:57:25.567Z] [INFO] 13 kesinti bulundu.
+[2026-01-08T12:57:25.567Z] [INFO] 68 kayıtlı kesinti var.
+[2026-01-08T12:57:25.568Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-08T12:57:30.207Z] [INFO] Tweet kısaltıldı: 597 -> 153 karakter
+[2026-01-08T12:57:30.790Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Planlı Kesinti (ID: 2009248095226200303)
+[2026-01-08T12:57:40.791Z] [INFO] 1 tweet atıldı.
+[2026-01-08T12:57:40.792Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-08T12:57:40.793Z] [SUCCESS] Tamamlandı.
