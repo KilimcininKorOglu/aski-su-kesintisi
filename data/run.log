@@ -5889,3 +5889,422 @@
 [2026-01-09T11:56:11.651Z] [INFO] 89 kayıtlı kesinti var.
 [2026-01-09T11:56:11.651Z] [INFO] Yeni kesinti yok.
 [2026-01-09T11:56:11.651Z] [SUCCESS] Tamamlandı.
+[2026-01-09T12:54:23.670Z] [INFO] Logger başlatıldı
+[2026-01-09T12:54:23.672Z] [INFO] Tek seferlik mod...
+[2026-01-09T12:54:23.672Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-09T12:54:24.450Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-09T12:54:24.450Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-09T12:54:25.548Z] [INFO] 10 kesinti bulundu.
+[2026-01-09T12:54:25.549Z] [INFO] 89 kayıtlı kesinti var.
+[2026-01-09T12:54:25.550Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-09T12:54:30.189Z] [INFO] Tweet kısaltıldı: 325 -> 138 karakter
+[2026-01-09T12:54:30.734Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
+[2026-01-09T12:54:30.734Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "83b262be8186964d"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "83b262be8186964d"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:54:30.735Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:54:41.329Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
+[2026-01-09T12:54:41.330Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "41a1c19ff56719ee"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "41a1c19ff56719ee"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:54:41.330Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:54:51.822Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
+[2026-01-09T12:54:51.822Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "a61e78bd817cf566"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "a61e78bd817cf566"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:54:51.822Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:55:02.368Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
+[2026-01-09T12:55:02.369Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "86a2daa796e094a7"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "86a2daa796e094a7"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:55:02.369Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:55:12.977Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
+[2026-01-09T12:55:12.977Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "0efc496d1d67ae99"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "0efc496d1d67ae99"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:55:12.977Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:55:23.487Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
+[2026-01-09T12:55:23.487Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "537d943a5fa07077"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "537d943a5fa07077"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:55:23.487Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:55:34.246Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
+[2026-01-09T12:55:34.246Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "9128d1889895b11a"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "9128d1889895b11a"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:55:34.246Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:55:44.797Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
+[2026-01-09T12:55:44.798Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "251e71d590bc2d2b"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "251e71d590bc2d2b"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:55:44.798Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:55:55.436Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
+[2026-01-09T12:55:55.436Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "1cf5ca2379732bdc"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "1cf5ca2379732bdc"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:55:55.436Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-09T12:56:06.118Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
+[2026-01-09T12:56:06.119Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "9829aa5fb9e71656"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "9829aa5fb9e71656"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-09T12:56:06.119Z] [ERROR] Ana tweet atılamadı: KEÇİÖREN - Planlı Kesinti
+[2026-01-09T12:56:06.119Z] [INFO] Tweet içeriği (138 karakter):
+🔧 KEÇİÖREN - Planlı Kesinti
+
+📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
+📍 Ayvalı, Etlik, İncirli vb.
+
+#AnkaraSuKesintisi #ASKİ #Kecioren
+[2026-01-09T12:56:16.123Z] [INFO] 0 tweet atıldı.
+[2026-01-09T12:56:16.124Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-01-09T12:56:16.124Z] [SUCCESS] Tamamlandı.
