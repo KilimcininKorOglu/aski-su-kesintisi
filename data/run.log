@@ -5796,10 +5796,8 @@
 [2026-01-09T08:35:43.242Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Planlı Kesinti
 [2026-01-09T08:35:43.242Z] [INFO] Tweet içeriği (148 karakter):
 🔧 YENİMAHALLE - Planlı Kesinti
-
 📅 9.01.2026 07:00:00 - 9.01.2026 23:00:00
 📍 Yunus Emre, Barış, Çamlıca vb.
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-01-09T08:35:57.714Z] [INFO] Tweet kısaltıldı: 434 -> 146 karakter
 [2026-01-09T08:35:58.452Z] [SUCCESS] Ana tweet atıldı: MAMAK - Planlı Kesinti (ID: 2009544664706412582)
@@ -5807,3 +5805,17 @@
 [2026-01-09T08:36:19.118Z] [INFO] 2 tweet atıldı.
 [2026-01-09T08:36:19.120Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-01-09T08:36:19.120Z] [SUCCESS] Tamamlandı.
+[2026-01-09T08:59:36.028Z] [INFO] Logger başlatıldı
+[2026-01-09T08:59:36.030Z] [INFO] Tek seferlik mod...
+[2026-01-09T08:59:36.030Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-09T08:59:36.711Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-09T08:59:36.711Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-09T08:59:38.891Z] [INFO] 11 kesinti bulundu.
+[2026-01-09T08:59:38.892Z] [INFO] 85 kayıtlı kesinti var.
+[2026-01-09T08:59:38.892Z] [INFO] 2 yeni kesinti bulundu!
+[2026-01-09T08:59:43.706Z] [INFO] Tweet kısaltıldı: 1051 -> 149 karakter
+[2026-01-09T08:59:44.298Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Planlı Kesinti (ID: 2009550645108539819)
+[2026-01-09T08:59:54.859Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2009550689488470379)
+[2026-01-09T09:00:04.865Z] [INFO] 2 tweet atıldı.
+[2026-01-09T09:00:04.866Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-01-09T09:00:04.866Z] [SUCCESS] Tamamlandı.
