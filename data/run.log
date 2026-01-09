@@ -5324,3 +5324,16 @@
 [2026-01-09T05:36:38.045Z] [INFO] 3 tweet atıldı.
 [2026-01-09T05:36:38.046Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-01-09T05:36:38.046Z] [SUCCESS] Tamamlandı.
+[2026-01-09T05:54:01.745Z] [INFO] Logger başlatıldı
+[2026-01-09T05:54:01.746Z] [INFO] Tek seferlik mod...
+[2026-01-09T05:54:01.746Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-09T05:54:02.781Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-09T05:54:02.781Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-09T05:54:04.013Z] [INFO] 10 kesinti bulundu.
+[2026-01-09T05:54:04.014Z] [INFO] 78 kayıtlı kesinti var.
+[2026-01-09T05:54:04.015Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-09T05:54:08.593Z] [INFO] Tweet kısaltıldı: 519 -> 139 karakter
+[2026-01-09T05:54:09.183Z] [SUCCESS] Ana tweet atıldı: MAMAK - Planlı Kesinti (ID: 2009503941105713566)
+[2026-01-09T05:54:19.184Z] [INFO] 1 tweet atıldı.
+[2026-01-09T05:54:19.186Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-09T05:54:19.186Z] [SUCCESS] Tamamlandı.
