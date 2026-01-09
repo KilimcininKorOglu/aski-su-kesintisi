@@ -8387,11 +8387,22 @@
 [2026-01-09T15:28:31.215Z] [ERROR] Ana tweet atılamadı: KEÇİÖREN - Planlı Kesinti
 [2026-01-09T15:28:31.215Z] [INFO] Tweet içeriği (138 karakter):
 🔧 KEÇİÖREN - Planlı Kesinti
-
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
-
 #AnkaraSuKesintisi #ASKİ #Kecioren
 [2026-01-09T15:28:41.220Z] [INFO] 0 tweet atıldı.
 [2026-01-09T15:28:41.221Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-01-09T15:28:41.221Z] [SUCCESS] Tamamlandı.
+[2026-01-09T15:48:56.405Z] [INFO] Logger başlatıldı
+[2026-01-09T15:48:56.406Z] [INFO] Tek seferlik mod...
+[2026-01-09T15:48:56.407Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-09T15:48:57.189Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-09T15:48:57.190Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-09T15:48:58.490Z] [INFO] 8 kesinti bulundu.
+[2026-01-09T15:48:58.491Z] [INFO] 91 kayıtlı kesinti var.
+[2026-01-09T15:48:58.491Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-09T15:49:03.026Z] [INFO] Tweet kısaltıldı: 345 -> 135 karakter
+[2026-01-09T15:49:03.630Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Planlı Kesinti (ID: 2009653654467551285)
+[2026-01-09T15:49:13.631Z] [INFO] 1 tweet atıldı.
+[2026-01-09T15:49:13.632Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-09T15:49:13.632Z] [SUCCESS] Tamamlandı.
