@@ -5351,3 +5351,16 @@
 [2026-01-09T06:37:56.790Z] [INFO] 2 tweet atıldı.
 [2026-01-09T06:37:56.791Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-01-09T06:37:56.791Z] [SUCCESS] Tamamlandı.
+[2026-01-09T07:02:03.015Z] [INFO] Logger başlatıldı
+[2026-01-09T07:02:03.016Z] [INFO] Tek seferlik mod...
+[2026-01-09T07:02:03.016Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-09T07:02:04.150Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-09T07:02:04.150Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-09T07:02:05.144Z] [INFO] 11 kesinti bulundu.
+[2026-01-09T07:02:05.145Z] [INFO] 81 kayıtlı kesinti var.
+[2026-01-09T07:02:05.145Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-09T07:02:09.518Z] [INFO] Tweet kısaltıldı: 311 -> 138 karakter
+[2026-01-09T07:02:10.239Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Planlı Kesinti (ID: 2009521058286850129)
+[2026-01-09T07:02:20.240Z] [INFO] 1 tweet atıldı.
+[2026-01-09T07:02:20.241Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-09T07:02:20.242Z] [SUCCESS] Tamamlandı.
