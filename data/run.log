@@ -9866,3 +9866,15 @@
 [2026-01-12T13:51:15.203Z] [INFO] 115 kayıtlı kesinti var.
 [2026-01-12T13:51:15.203Z] [INFO] Yeni kesinti yok.
 [2026-01-12T13:51:15.203Z] [SUCCESS] Tamamlandı.
+[2026-01-12T14:27:59.661Z] [INFO] Logger başlatıldı
+[2026-01-12T14:27:59.663Z] [INFO] Tek seferlik mod...
+[2026-01-12T14:27:59.663Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-12T14:28:00.601Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-12T14:28:00.601Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-12T14:28:01.815Z] [INFO] 7 kesinti bulundu.
+[2026-01-12T14:28:01.816Z] [INFO] 115 kayıtlı kesinti var.
+[2026-01-12T14:28:01.816Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-12T14:28:02.336Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2010720428340416891)
+[2026-01-12T14:28:12.341Z] [INFO] 1 tweet atıldı.
+[2026-01-12T14:28:12.342Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-12T14:28:12.342Z] [SUCCESS] Tamamlandı.
