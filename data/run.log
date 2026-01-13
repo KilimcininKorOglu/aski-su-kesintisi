@@ -411,15 +411,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Çarşı vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-06T18:44:04.245Z] [INFO] Logger başlatıldı
-[2026-01-06T18:44:04.247Z] [INFO] Tek seferlik mod...
-[2026-01-06T18:44:04.247Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-06T18:44:04.886Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-06T18:44:04.886Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-06T18:44:06.332Z] [INFO] 14 kesinti bulundu.
-[2026-01-06T18:44:06.332Z] [INFO] 22 kayıtlı kesinti var.
-[2026-01-06T18:44:06.333Z] [INFO] 4 yeni kesinti bulundu!
-[2026-01-06T18:44:06.524Z] [ERROR] Gemini API hatası. 12 saniye bekleniyor...
   Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent: [500 Internal Server Error] An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
     at handleResponseNotOk (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/@google/generative-ai/dist/index.js:434:11)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
@@ -430,9 +421,6 @@
     at async postTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:262:15)
     at async postMultipleTweets (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:305:21)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:31:36)
-[2026-01-06T18:44:22.988Z] [INFO] Tweet kısaltıldı: 745 -> 154 karakter
-[2026-01-06T18:44:23.444Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-01-06T18:44:23.445Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -470,9 +458,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T18:44:23.445Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T18:44:33.855Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-01-06T18:44:33.855Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -510,9 +495,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T18:44:33.855Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T18:44:44.305Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-01-06T18:44:44.306Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -550,9 +532,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T18:44:44.306Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T18:44:54.670Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-01-06T18:44:54.670Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -590,9 +569,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T18:44:54.670Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T18:45:05.107Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-01-06T18:45:05.107Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -630,7 +606,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T18:45:05.107Z] [INFO] 10 saniye sonra tekrar denenecek...
 [2026-01-06T18:45:15.510Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
 [2026-01-06T18:45:15.510Z] [INFO] API yanıtı: {
   "code": 1,
@@ -9927,3 +9902,12 @@
 [2026-01-13T17:59:57.360Z] [INFO] 130 kayıtlı kesinti var.
 [2026-01-13T17:59:57.361Z] [INFO] Yeni kesinti yok.
 [2026-01-13T17:59:57.361Z] [SUCCESS] Tamamlandı.
+[2026-01-13T18:45:14.290Z] [INFO] Logger başlatıldı
+[2026-01-13T18:45:14.291Z] [INFO] Tek seferlik mod...
+[2026-01-13T18:45:14.291Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-13T18:45:15.370Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-13T18:45:15.371Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-13T18:45:16.532Z] [INFO] 0 kesinti bulundu.
+[2026-01-13T18:45:16.533Z] [INFO] 130 kayıtlı kesinti var.
+[2026-01-13T18:45:16.533Z] [INFO] Yeni kesinti yok.
+[2026-01-13T18:45:16.533Z] [SUCCESS] Tamamlandı.
