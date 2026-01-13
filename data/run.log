@@ -37,19 +37,6 @@
 📅 6.01.2026 09:25:00 - 6.01.2026 23:55:00
 📍 Pursaklar İlçesi geneli
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-06T08:34:42.635Z] [INFO] Logger başlatıldı
-[2026-01-06T08:34:42.636Z] [INFO] Tek seferlik mod...
-[2026-01-06T08:34:42.637Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-06T08:34:43.774Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-06T08:34:43.775Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-06T08:34:44.776Z] [INFO] 10 kesinti bulundu.
-[2026-01-06T08:34:44.776Z] [INFO] 10 kayıtlı kesinti var.
-[2026-01-06T08:34:44.776Z] [INFO] 3 yeni kesinti bulundu!
-[2026-01-06T08:34:49.347Z] [INFO] Tweet kısaltıldı: 914 -> 136 karakter
-[2026-01-06T08:34:49.970Z] [SUCCESS] Ana tweet atıldı: MAMAK - Planlı Kesinti (ID: 2008457213975949660)
-[2026-01-06T08:35:04.362Z] [INFO] Tweet kısaltıldı: 600 -> 152 karakter
-[2026-01-06T08:35:04.850Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-01-06T08:35:04.850Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -87,9 +74,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:35:04.850Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:35:15.546Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-01-06T08:35:15.546Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -127,9 +111,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:35:15.546Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:35:26.096Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-01-06T08:35:26.096Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -167,9 +148,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:35:26.097Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:35:36.832Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-01-06T08:35:36.832Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -207,9 +185,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:35:36.832Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:35:47.291Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-01-06T08:35:47.291Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -247,9 +222,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:35:47.291Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:35:57.751Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-01-06T08:35:57.752Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -287,9 +259,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:35:57.752Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:36:08.202Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-01-06T08:36:08.203Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -327,9 +296,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:36:08.203Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:36:18.803Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-01-06T08:36:18.804Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -367,9 +333,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:36:18.804Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:36:29.286Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-01-06T08:36:29.287Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -407,9 +370,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:36:29.287Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-06T08:36:39.747Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-01-06T08:36:39.747Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -447,30 +407,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-06T08:36:39.747Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Plansız Kesinti
-[2026-01-06T08:36:39.747Z] [INFO] Tweet içeriği (152 karakter):
 ⚠️ YENİMAHALLE - Plansız Kesinti
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Çarşı vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-06T08:36:50.420Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Planlı Kesinti (ID: 2008457719246885076)
-[2026-01-06T08:37:00.425Z] [INFO] 2 tweet atıldı.
-[2026-01-06T08:37:00.425Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-06T08:37:00.426Z] [SUCCESS] Tamamlandı.
-[2026-01-06T08:59:30.236Z] [INFO] Logger başlatıldı
-[2026-01-06T08:59:30.238Z] [INFO] Tek seferlik mod...
-[2026-01-06T08:59:30.238Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-06T08:59:31.096Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-06T08:59:31.096Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-06T08:59:32.306Z] [INFO] 10 kesinti bulundu.
-[2026-01-06T08:59:32.307Z] [INFO] 12 kayıtlı kesinti var.
-[2026-01-06T08:59:32.307Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-06T08:59:36.706Z] [INFO] Tweet kısaltıldı: 600 -> 154 karakter
-[2026-01-06T08:59:37.670Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2008463453024117157)
-[2026-01-06T08:59:48.374Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Planlı Kesinti (ID: 2008463498758729954)
-[2026-01-06T08:59:58.379Z] [INFO] 2 tweet atıldı.
-[2026-01-06T08:59:58.380Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-06T08:59:58.380Z] [SUCCESS] Tamamlandı.
 [2026-01-06T09:36:07.673Z] [INFO] Logger başlatıldı
 [2026-01-06T09:36:07.675Z] [INFO] Tek seferlik mod...
 [2026-01-06T09:36:07.675Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9995,3 +9935,12 @@
 [2026-01-13T08:33:58.885Z] [INFO] 125 kayıtlı kesinti var.
 [2026-01-13T08:33:58.885Z] [INFO] Yeni kesinti yok.
 [2026-01-13T08:33:58.885Z] [SUCCESS] Tamamlandı.
+[2026-01-13T09:00:01.567Z] [INFO] Logger başlatıldı
+[2026-01-13T09:00:01.568Z] [INFO] Tek seferlik mod...
+[2026-01-13T09:00:01.568Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-13T09:00:02.419Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-13T09:00:02.419Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-13T09:00:03.348Z] [INFO] 3 kesinti bulundu.
+[2026-01-13T09:00:03.349Z] [INFO] 125 kayıtlı kesinti var.
+[2026-01-13T09:00:03.349Z] [INFO] Yeni kesinti yok.
+[2026-01-13T09:00:03.349Z] [SUCCESS] Tamamlandı.
