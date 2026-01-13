@@ -411,19 +411,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Çarşı vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-06T14:55:21.989Z] [INFO] Logger başlatıldı
-[2026-01-06T14:55:21.990Z] [INFO] Tek seferlik mod...
-[2026-01-06T14:55:21.990Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-06T14:55:22.687Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-06T14:55:22.687Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-06T14:55:24.062Z] [INFO] 14 kesinti bulundu.
-[2026-01-06T14:55:24.062Z] [INFO] 21 kayıtlı kesinti var.
-[2026-01-06T14:55:24.062Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-06T14:55:28.769Z] [INFO] Tweet kısaltıldı: 715 -> 157 karakter
-[2026-01-06T14:55:29.436Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2008553009568248232)
-[2026-01-06T14:55:39.438Z] [INFO] 1 tweet atıldı.
-[2026-01-06T14:55:39.439Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-06T14:55:39.439Z] [SUCCESS] Tamamlandı.
 [2026-01-06T15:26:20.814Z] [INFO] Logger başlatıldı
 [2026-01-06T15:26:20.815Z] [INFO] Tek seferlik mod...
 [2026-01-06T15:26:20.816Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9937,3 +9924,15 @@
 [2026-01-13T14:41:42.231Z] [INFO] 129 kayıtlı kesinti var.
 [2026-01-13T14:41:42.231Z] [INFO] Yeni kesinti yok.
 [2026-01-13T14:41:42.231Z] [SUCCESS] Tamamlandı.
+[2026-01-13T15:01:54.789Z] [INFO] Logger başlatıldı
+[2026-01-13T15:01:54.790Z] [INFO] Tek seferlik mod...
+[2026-01-13T15:01:54.790Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-13T15:01:55.650Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-13T15:01:55.651Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-13T15:01:56.576Z] [INFO] 3 kesinti bulundu.
+[2026-01-13T15:01:56.577Z] [INFO] 129 kayıtlı kesinti var.
+[2026-01-13T15:01:56.577Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-13T15:01:57.276Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2011091350826205491)
+[2026-01-13T15:02:07.280Z] [INFO] 1 tweet atıldı.
+[2026-01-13T15:02:07.282Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-13T15:02:07.282Z] [SUCCESS] Tamamlandı.
