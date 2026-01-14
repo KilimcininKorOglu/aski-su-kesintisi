@@ -795,18 +795,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-07T08:34:18.275Z] [INFO] Logger başlatıldı
-[2026-01-07T08:34:18.277Z] [INFO] Tek seferlik mod...
-[2026-01-07T08:34:18.277Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-07T08:34:19.058Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-07T08:34:19.058Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-07T08:34:20.588Z] [INFO] 10 kesinti bulundu.
-[2026-01-07T08:34:20.588Z] [INFO] 38 kayıtlı kesinti var.
-[2026-01-07T08:34:20.589Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-07T08:34:20.987Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2008819480361906564)
-[2026-01-07T08:34:30.992Z] [INFO] 1 tweet atıldı.
-[2026-01-07T08:34:30.993Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-07T08:34:30.993Z] [SUCCESS] Tamamlandı.
 [2026-01-07T09:00:20.753Z] [INFO] Logger başlatıldı
 [2026-01-07T09:00:20.754Z] [INFO] Tek seferlik mod...
 [2026-01-07T09:00:20.754Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9859,3 +9847,16 @@
 [2026-01-14T07:56:36.727Z] [INFO] 134 kayıtlı kesinti var.
 [2026-01-14T07:56:36.727Z] [INFO] Yeni kesinti yok.
 [2026-01-14T07:56:36.727Z] [SUCCESS] Tamamlandı.
+[2026-01-14T08:38:04.314Z] [INFO] Logger başlatıldı
+[2026-01-14T08:38:04.316Z] [INFO] Tek seferlik mod...
+[2026-01-14T08:38:04.316Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-14T08:38:05.029Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-14T08:38:05.030Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-14T08:38:06.153Z] [INFO] 5 kesinti bulundu.
+[2026-01-14T08:38:06.154Z] [INFO] 134 kayıtlı kesinti var.
+[2026-01-14T08:38:06.154Z] [INFO] 2 yeni kesinti bulundu!
+[2026-01-14T08:38:06.879Z] [SUCCESS] Ana tweet atıldı: SEREFLIKOÇHISAR - Plansız Kesinti (ID: 2011357142729834642)
+[2026-01-14T08:38:17.438Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2011357186883203423)
+[2026-01-14T08:38:27.444Z] [INFO] 2 tweet atıldı.
+[2026-01-14T08:38:27.445Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-01-14T08:38:27.445Z] [SUCCESS] Tamamlandı.
