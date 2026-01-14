@@ -795,15 +795,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-07T05:39:22.168Z] [INFO] Logger başlatıldı
-[2026-01-07T05:39:22.169Z] [INFO] Tek seferlik mod...
-[2026-01-07T05:39:22.170Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-07T05:39:23.312Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-07T05:39:23.312Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-07T05:39:24.695Z] [INFO] 5 kesinti bulundu.
-[2026-01-07T05:39:24.695Z] [INFO] 33 kayıtlı kesinti var.
-[2026-01-07T05:39:24.696Z] [INFO] Yeni kesinti yok.
-[2026-01-07T05:39:24.696Z] [SUCCESS] Tamamlandı.
 [2026-01-07T05:55:07.797Z] [INFO] Logger başlatıldı
 [2026-01-07T05:55:07.798Z] [INFO] Tek seferlik mod...
 [2026-01-07T05:55:07.799Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9861,3 +9852,15 @@
 [2026-01-14T05:14:03.111Z] [INFO] 130 kayıtlı kesinti var.
 [2026-01-14T05:14:03.111Z] [INFO] Yeni kesinti yok.
 [2026-01-14T05:14:03.111Z] [SUCCESS] Tamamlandı.
+[2026-01-14T05:44:00.697Z] [INFO] Logger başlatıldı
+[2026-01-14T05:44:00.698Z] [INFO] Tek seferlik mod...
+[2026-01-14T05:44:00.699Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-14T05:44:01.549Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-14T05:44:01.550Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-14T05:44:02.713Z] [INFO] 1 kesinti bulundu.
+[2026-01-14T05:44:02.715Z] [INFO] 130 kayıtlı kesinti var.
+[2026-01-14T05:44:02.715Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-14T05:44:03.246Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2011313338962366673)
+[2026-01-14T05:44:13.251Z] [INFO] 1 tweet atıldı.
+[2026-01-14T05:44:13.253Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-14T05:44:13.253Z] [SUCCESS] Tamamlandı.
