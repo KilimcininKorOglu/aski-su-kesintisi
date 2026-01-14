@@ -795,21 +795,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-07T06:37:16.481Z] [INFO] Logger başlatıldı
-[2026-01-07T06:37:16.483Z] [INFO] Tek seferlik mod...
-[2026-01-07T06:37:16.483Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-07T06:37:17.284Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-07T06:37:17.284Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-07T06:37:18.637Z] [INFO] 7 kesinti bulundu.
-[2026-01-07T06:37:18.638Z] [INFO] 33 kayıtlı kesinti var.
-[2026-01-07T06:37:18.638Z] [INFO] 3 yeni kesinti bulundu!
-[2026-01-07T06:37:19.084Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Planlı Kesinti (ID: 2008790028231864367)
-[2026-01-07T06:37:29.927Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Planlı Kesinti (ID: 2008790073769443701)
-[2026-01-07T06:37:44.503Z] [INFO] Tweet kısaltıldı: 507 -> 146 karakter
-[2026-01-07T06:37:45.151Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2008790137359184292)
-[2026-01-07T06:37:55.156Z] [INFO] 3 tweet atıldı.
-[2026-01-07T06:37:55.157Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-01-07T06:37:55.158Z] [SUCCESS] Tamamlandı.
 [2026-01-07T07:01:35.671Z] [INFO] Logger başlatıldı
 [2026-01-07T07:01:35.673Z] [INFO] Tek seferlik mod...
 [2026-01-07T07:01:35.673Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9864,3 +9849,16 @@
 [2026-01-14T05:58:23.722Z] [INFO] 131 kayıtlı kesinti var.
 [2026-01-14T05:58:23.723Z] [INFO] Yeni kesinti yok.
 [2026-01-14T05:58:23.723Z] [SUCCESS] Tamamlandı.
+[2026-01-14T06:48:54.022Z] [INFO] Logger başlatıldı
+[2026-01-14T06:48:54.023Z] [INFO] Tek seferlik mod...
+[2026-01-14T06:48:54.024Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-14T06:48:54.762Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-14T06:48:54.762Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-14T06:48:56.366Z] [INFO] 3 kesinti bulundu.
+[2026-01-14T06:48:56.367Z] [INFO] 131 kayıtlı kesinti var.
+[2026-01-14T06:48:56.368Z] [INFO] 2 yeni kesinti bulundu!
+[2026-01-14T06:48:56.819Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2011329669833109511)
+[2026-01-14T06:49:07.352Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2011329714024268031)
+[2026-01-14T06:49:17.357Z] [INFO] 2 tweet atıldı.
+[2026-01-14T06:49:17.359Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-01-14T06:49:17.359Z] [SUCCESS] Tamamlandı.
