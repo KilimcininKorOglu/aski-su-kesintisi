@@ -795,21 +795,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-07T05:00:24.045Z] [INFO] Logger başlatıldı
-[2026-01-07T05:00:24.047Z] [INFO] Tek seferlik mod...
-[2026-01-07T05:00:24.047Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-07T05:00:24.897Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-07T05:00:24.898Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-07T05:00:26.140Z] [INFO] 4 kesinti bulundu.
-[2026-01-07T05:00:26.141Z] [INFO] 31 kayıtlı kesinti var.
-[2026-01-07T05:00:26.141Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-07T05:00:30.601Z] [INFO] Tweet kısaltıldı: 320 -> 123 karakter
-[2026-01-07T05:00:31.386Z] [SUCCESS] Ana tweet atıldı: KAZAN - Planlı Kesinti (ID: 2008765669068906856)
-[2026-01-07T05:00:45.811Z] [INFO] Tweet kısaltıldı: 630 -> 140 karakter
-[2026-01-07T05:00:46.583Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2008765732541358087)
-[2026-01-07T05:00:56.585Z] [INFO] 2 tweet atıldı.
-[2026-01-07T05:00:56.586Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-07T05:00:56.586Z] [SUCCESS] Tamamlandı.
 [2026-01-07T05:39:22.168Z] [INFO] Logger başlatıldı
 [2026-01-07T05:39:22.169Z] [INFO] Tek seferlik mod...
 [2026-01-07T05:39:22.170Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9867,3 +9852,12 @@
 [2026-01-14T04:48:34.656Z] [INFO] 130 kayıtlı kesinti var.
 [2026-01-14T04:48:34.656Z] [INFO] Yeni kesinti yok.
 [2026-01-14T04:48:34.656Z] [SUCCESS] Tamamlandı.
+[2026-01-14T05:14:01.365Z] [INFO] Logger başlatıldı
+[2026-01-14T05:14:01.366Z] [INFO] Tek seferlik mod...
+[2026-01-14T05:14:01.367Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-14T05:14:02.127Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-14T05:14:02.127Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-14T05:14:03.110Z] [INFO] 0 kesinti bulundu.
+[2026-01-14T05:14:03.111Z] [INFO] 130 kayıtlı kesinti var.
+[2026-01-14T05:14:03.111Z] [INFO] Yeni kesinti yok.
+[2026-01-14T05:14:03.111Z] [SUCCESS] Tamamlandı.
