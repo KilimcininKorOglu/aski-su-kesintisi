@@ -795,23 +795,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-08T06:37:22.338Z] [INFO] Logger başlatıldı
-[2026-01-08T06:37:22.339Z] [INFO] Tek seferlik mod...
-[2026-01-08T06:37:22.339Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-08T06:37:22.888Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-08T06:37:22.889Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-08T06:37:24.047Z] [INFO] 12 kesinti bulundu.
-[2026-01-08T06:37:24.047Z] [INFO] 57 kayıtlı kesinti var.
-[2026-01-08T06:37:24.048Z] [INFO] 3 yeni kesinti bulundu!
-[2026-01-08T06:37:28.615Z] [INFO] Tweet kısaltıldı: 301 -> 144 karakter
-[2026-01-08T06:37:29.286Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2009152458719916320)
-[2026-01-08T06:37:44.030Z] [INFO] Tweet kısaltıldı: 452 -> 141 karakter
-[2026-01-08T06:37:44.791Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2009152523828171145)
-[2026-01-08T06:37:59.451Z] [INFO] Tweet kısaltıldı: 291 -> 141 karakter
-[2026-01-08T06:38:00.789Z] [SUCCESS] Ana tweet atıldı: MAMAK - Planlı Kesinti (ID: 2009152590773407828)
-[2026-01-08T06:38:10.794Z] [INFO] 3 tweet atıldı.
-[2026-01-08T06:38:10.795Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-01-08T06:38:10.795Z] [SUCCESS] Tamamlandı.
 [2026-01-08T07:01:48.932Z] [INFO] Logger başlatıldı
 [2026-01-08T07:01:48.933Z] [INFO] Tek seferlik mod...
 [2026-01-08T07:01:48.933Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9831,3 +9814,12 @@
 [2026-01-15T05:57:53.706Z] [INFO] 143 kayıtlı kesinti var.
 [2026-01-15T05:57:53.707Z] [INFO] Yeni kesinti yok.
 [2026-01-15T05:57:53.707Z] [SUCCESS] Tamamlandı.
+[2026-01-15T06:47:36.910Z] [INFO] Logger başlatıldı
+[2026-01-15T06:47:36.911Z] [INFO] Tek seferlik mod...
+[2026-01-15T06:47:36.912Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-15T06:47:37.654Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-15T06:47:37.654Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-15T06:47:38.498Z] [INFO] 0 kesinti bulundu.
+[2026-01-15T06:47:38.499Z] [INFO] 143 kayıtlı kesinti var.
+[2026-01-15T06:47:38.499Z] [INFO] Yeni kesinti yok.
+[2026-01-15T06:47:38.500Z] [SUCCESS] Tamamlandı.
