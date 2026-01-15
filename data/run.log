@@ -795,22 +795,6 @@
 📅 6.01.2026 10:30:00 - 6.01.2026 23:55:00
 📍 Yeşilevler, Demetevler, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-08T05:34:58.527Z] [INFO] Logger başlatıldı
-[2026-01-08T05:34:58.529Z] [INFO] Tek seferlik mod...
-[2026-01-08T05:34:58.529Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-08T05:34:59.412Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-08T05:34:59.413Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-08T05:35:00.487Z] [INFO] 7 kesinti bulundu.
-[2026-01-08T05:35:00.488Z] [INFO] 53 kayıtlı kesinti var.
-[2026-01-08T05:35:00.488Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-08T05:35:04.950Z] [INFO] Tweet kısaltıldı: 313 -> 141 karakter
-[2026-01-08T05:35:05.570Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Planlı Kesinti (ID: 2009136756608872585)
-[2026-01-08T05:35:15.959Z] [WARN] Gemini overload. 12 saniye bekleniyor...
-[2026-01-08T05:35:32.350Z] [INFO] Tweet kısaltıldı: 376 -> 141 karakter
-[2026-01-08T05:35:32.993Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Planlı Kesinti (ID: 2009136871713198167)
-[2026-01-08T05:35:42.998Z] [INFO] 2 tweet atıldı.
-[2026-01-08T05:35:43.000Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-08T05:35:43.000Z] [SUCCESS] Tamamlandı.
 [2026-01-08T05:53:34.643Z] [INFO] Logger başlatıldı
 [2026-01-08T05:53:34.644Z] [INFO] Tek seferlik mod...
 [2026-01-08T05:53:34.645Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9842,3 +9826,12 @@
 [2026-01-15T05:15:06.262Z] [INFO] 143 kayıtlı kesinti var.
 [2026-01-15T05:15:06.262Z] [INFO] Yeni kesinti yok.
 [2026-01-15T05:15:06.262Z] [SUCCESS] Tamamlandı.
+[2026-01-15T05:44:52.404Z] [INFO] Logger başlatıldı
+[2026-01-15T05:44:52.406Z] [INFO] Tek seferlik mod...
+[2026-01-15T05:44:52.406Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-15T05:44:53.397Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-15T05:44:53.398Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-15T05:44:54.213Z] [INFO] 0 kesinti bulundu.
+[2026-01-15T05:44:54.215Z] [INFO] 143 kayıtlı kesinti var.
+[2026-01-15T05:44:54.215Z] [INFO] Yeni kesinti yok.
+[2026-01-15T05:44:54.215Z] [SUCCESS] Tamamlandı.
