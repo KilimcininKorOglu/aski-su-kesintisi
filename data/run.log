@@ -2665,17 +2665,6 @@
 📅 8.01.2026 09:00:00 - 8.01.2026 21:00:00
 📍 30 Ağustos, Kazım Karabekir, Süvari vb.
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-01-08T11:56:26.412Z] [INFO] Logger başlatıldı
-[2026-01-08T11:56:26.414Z] [INFO] Tek seferlik mod...
-[2026-01-08T11:56:26.414Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-08T11:56:27.506Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-08T11:56:27.506Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-08T11:56:28.551Z] [INFO] 14 kesinti bulundu.
-[2026-01-08T11:56:28.552Z] [INFO] 68 kayıtlı kesinti var.
-[2026-01-08T11:56:28.552Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-08T11:56:33.043Z] [INFO] Tweet kısaltıldı: 597 -> 153 karakter
-[2026-01-08T11:56:33.587Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-01-08T11:56:33.588Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2713,9 +2702,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:56:33.588Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:56:44.110Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-01-08T11:56:44.110Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2753,9 +2739,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:56:44.111Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:56:54.724Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-01-08T11:56:54.725Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2793,9 +2776,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:56:54.725Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:57:05.147Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-01-08T11:57:05.147Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2833,9 +2813,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:57:05.147Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:57:15.619Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-01-08T11:57:15.620Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2873,9 +2850,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:57:15.620Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:57:26.331Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-01-08T11:57:26.331Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2913,9 +2887,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:57:26.331Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:57:36.785Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-01-08T11:57:36.785Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2953,9 +2924,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:57:36.786Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:57:47.273Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-01-08T11:57:47.273Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -2993,9 +2961,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:57:47.273Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:57:57.760Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-01-08T11:57:57.761Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -3033,9 +2998,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:57:57.761Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-08T11:58:08.329Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-01-08T11:58:08.329Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -3073,15 +3035,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-08T11:58:08.329Z] [ERROR] Ana tweet atılamadı: ETİMESGUT - Planlı Kesinti
-[2026-01-08T11:58:08.329Z] [INFO] Tweet içeriği (153 karakter):
 🔧 ETİMESGUT - Planlı Kesinti
 📅 8.01.2026 09:00:00 - 8.01.2026 21:00:00
 📍 30 Ağustos, Kazım Karabekir, Süvari vb.
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-01-08T11:58:18.334Z] [INFO] 0 tweet atıldı.
-[2026-01-08T11:58:18.334Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-01-08T11:58:18.334Z] [SUCCESS] Tamamlandı.
 [2026-01-08T12:57:23.406Z] [INFO] Logger başlatıldı
 [2026-01-08T12:57:23.407Z] [INFO] Tek seferlik mod...
 [2026-01-08T12:57:23.407Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9655,3 +9612,15 @@
 [2026-01-15T11:56:16.814Z] [INFO] 148 kayıtlı kesinti var.
 [2026-01-15T11:56:16.814Z] [INFO] Yeni kesinti yok.
 [2026-01-15T11:56:16.814Z] [SUCCESS] Tamamlandı.
+[2026-01-15T12:55:55.276Z] [INFO] Logger başlatıldı
+[2026-01-15T12:55:55.277Z] [INFO] Tek seferlik mod...
+[2026-01-15T12:55:55.277Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-15T12:55:56.048Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-15T12:55:56.048Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-15T12:55:57.368Z] [INFO] 3 kesinti bulundu.
+[2026-01-15T12:55:57.370Z] [INFO] 148 kayıtlı kesinti var.
+[2026-01-15T12:55:57.370Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-15T12:55:57.748Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2011784420123086989)
+[2026-01-15T12:56:07.753Z] [INFO] 1 tweet atıldı.
+[2026-01-15T12:56:07.754Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-15T12:56:07.754Z] [SUCCESS] Tamamlandı.
