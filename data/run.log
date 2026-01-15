@@ -3039,19 +3039,6 @@
 📅 8.01.2026 09:00:00 - 8.01.2026 21:00:00
 📍 30 Ağustos, Kazım Karabekir, Süvari vb.
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-01-08T12:57:23.406Z] [INFO] Logger başlatıldı
-[2026-01-08T12:57:23.407Z] [INFO] Tek seferlik mod...
-[2026-01-08T12:57:23.407Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-08T12:57:24.107Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-08T12:57:24.107Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-08T12:57:25.567Z] [INFO] 13 kesinti bulundu.
-[2026-01-08T12:57:25.567Z] [INFO] 68 kayıtlı kesinti var.
-[2026-01-08T12:57:25.568Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-08T12:57:30.207Z] [INFO] Tweet kısaltıldı: 597 -> 153 karakter
-[2026-01-08T12:57:30.790Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Planlı Kesinti (ID: 2009248095226200303)
-[2026-01-08T12:57:40.791Z] [INFO] 1 tweet atıldı.
-[2026-01-08T12:57:40.792Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-08T12:57:40.793Z] [SUCCESS] Tamamlandı.
 [2026-01-08T13:46:00.101Z] [INFO] Logger başlatıldı
 [2026-01-08T13:46:00.103Z] [INFO] Tek seferlik mod...
 [2026-01-08T13:46:00.103Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9624,3 +9611,12 @@
 [2026-01-15T12:56:07.753Z] [INFO] 1 tweet atıldı.
 [2026-01-15T12:56:07.754Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-15T12:56:07.754Z] [SUCCESS] Tamamlandı.
+[2026-01-15T13:42:52.907Z] [INFO] Logger başlatıldı
+[2026-01-15T13:42:52.908Z] [INFO] Tek seferlik mod...
+[2026-01-15T13:42:52.908Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-15T13:42:54.049Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-15T13:42:54.049Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-15T13:42:54.879Z] [INFO] 2 kesinti bulundu.
+[2026-01-15T13:42:54.880Z] [INFO] 149 kayıtlı kesinti var.
+[2026-01-15T13:42:54.880Z] [INFO] Yeni kesinti yok.
+[2026-01-15T13:42:54.881Z] [SUCCESS] Tamamlandı.
