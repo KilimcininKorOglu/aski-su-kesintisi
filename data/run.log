@@ -4046,8 +4046,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T12:55:44.797Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-01-09T12:55:44.798Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4085,9 +4083,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T12:55:44.798Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T12:55:55.436Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-01-09T12:55:55.436Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4125,9 +4120,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T12:55:55.436Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T12:56:06.118Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-01-09T12:56:06.119Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4165,26 +4157,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T12:56:06.119Z] [ERROR] Ana tweet atılamadı: KEÇİÖREN - Planlı Kesinti
-[2026-01-09T12:56:06.119Z] [INFO] Tweet içeriği (138 karakter):
 🔧 KEÇİÖREN - Planlı Kesinti
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-01-09T12:56:16.123Z] [INFO] 0 tweet atıldı.
-[2026-01-09T12:56:16.124Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-01-09T12:56:16.124Z] [SUCCESS] Tamamlandı.
-[2026-01-09T13:39:14.313Z] [INFO] Logger başlatıldı
-[2026-01-09T13:39:14.314Z] [INFO] Tek seferlik mod...
-[2026-01-09T13:39:14.314Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-09T13:39:15.304Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-09T13:39:15.305Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-09T13:39:16.271Z] [INFO] 10 kesinti bulundu.
-[2026-01-09T13:39:16.272Z] [INFO] 89 kayıtlı kesinti var.
-[2026-01-09T13:39:16.272Z] [INFO] 3 yeni kesinti bulundu!
-[2026-01-09T13:39:20.939Z] [INFO] Tweet kısaltıldı: 325 -> 138 karakter
-[2026-01-09T13:39:21.534Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-01-09T13:39:21.534Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4222,9 +4198,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:39:21.534Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T13:39:32.116Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-01-09T13:39:32.116Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4262,9 +4235,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:39:32.116Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T13:39:42.724Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-01-09T13:39:42.724Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4302,7 +4272,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:39:42.724Z] [INFO] 10 saniye sonra tekrar denenecek...
 [2026-01-09T13:39:53.283Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
 [2026-01-09T13:39:53.284Z] [INFO] API yanıtı: {
   "code": 1,
@@ -9862,3 +9831,15 @@
 [2026-01-16T12:55:48.721Z] [INFO] 1 tweet atıldı.
 [2026-01-16T12:55:48.722Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-16T12:55:48.722Z] [SUCCESS] Tamamlandı.
+[2026-01-16T13:39:48.105Z] [INFO] Logger başlatıldı
+[2026-01-16T13:39:48.106Z] [INFO] Tek seferlik mod...
+[2026-01-16T13:39:48.107Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-16T13:39:48.847Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-16T13:39:48.847Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-16T13:39:49.984Z] [INFO] 3 kesinti bulundu.
+[2026-01-16T13:39:49.986Z] [INFO] 155 kayıtlı kesinti var.
+[2026-01-16T13:39:49.986Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-16T13:39:50.519Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2012157850328629455)
+[2026-01-16T13:40:00.523Z] [INFO] 1 tweet atıldı.
+[2026-01-16T13:40:00.524Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-16T13:40:00.525Z] [SUCCESS] Tamamlandı.
