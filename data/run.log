@@ -3413,22 +3413,6 @@
 📅 8.01.2026 17:20:00 - 9.01.2026 08:00:00
 📍 Hacıbey mahallesi-Atatürk mahallesi-Aliağa mahallesi-Yazı mahallesi
 #AnkaraSuKesintisi #ASKİ #Nallihan
-[2026-01-09T05:35:55.283Z] [INFO] Logger başlatıldı
-[2026-01-09T05:35:55.285Z] [INFO] Tek seferlik mod...
-[2026-01-09T05:35:55.285Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-09T05:35:56.132Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-09T05:35:56.133Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-09T05:35:57.486Z] [INFO] 9 kesinti bulundu.
-[2026-01-09T05:35:57.487Z] [INFO] 75 kayıtlı kesinti var.
-[2026-01-09T05:35:57.487Z] [INFO] 3 yeni kesinti bulundu!
-[2026-01-09T05:35:57.951Z] [SUCCESS] Ana tweet atıldı: KAZAN - Planlı Kesinti (ID: 2009499364092465554)
-[2026-01-09T05:36:12.491Z] [INFO] Tweet kısaltıldı: 364 -> 148 karakter
-[2026-01-09T05:36:13.084Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2009499427682312596)
-[2026-01-09T05:36:27.524Z] [INFO] Tweet kısaltıldı: 295 -> 166 karakter
-[2026-01-09T05:36:28.039Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Planlı Kesinti (ID: 2009499490315874724)
-[2026-01-09T05:36:38.045Z] [INFO] 3 tweet atıldı.
-[2026-01-09T05:36:38.046Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-01-09T05:36:38.046Z] [SUCCESS] Tamamlandı.
 [2026-01-09T05:54:01.745Z] [INFO] Logger başlatıldı
 [2026-01-09T05:54:01.746Z] [INFO] Tek seferlik mod...
 [2026-01-09T05:54:01.746Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9952,3 +9936,12 @@
 [2026-01-16T05:28:05.171Z] [INFO] 151 kayıtlı kesinti var.
 [2026-01-16T05:28:05.171Z] [INFO] Yeni kesinti yok.
 [2026-01-16T05:28:05.172Z] [SUCCESS] Tamamlandı.
+[2026-01-16T05:50:26.426Z] [INFO] Logger başlatıldı
+[2026-01-16T05:50:26.427Z] [INFO] Tek seferlik mod...
+[2026-01-16T05:50:26.428Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-16T05:50:27.174Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-16T05:50:27.174Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-16T05:50:28.334Z] [INFO] 1 kesinti bulundu.
+[2026-01-16T05:50:28.335Z] [INFO] 151 kayıtlı kesinti var.
+[2026-01-16T05:50:28.336Z] [INFO] Yeni kesinti yok.
+[2026-01-16T05:50:28.336Z] [SUCCESS] Tamamlandı.
