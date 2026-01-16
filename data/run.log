@@ -3787,20 +3787,6 @@
 📅 9.01.2026 07:00:00 - 9.01.2026 23:00:00
 📍 Yunus Emre, Barış, Çamlıca vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-09T08:59:36.028Z] [INFO] Logger başlatıldı
-[2026-01-09T08:59:36.030Z] [INFO] Tek seferlik mod...
-[2026-01-09T08:59:36.030Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-09T08:59:36.711Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-09T08:59:36.711Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-09T08:59:38.891Z] [INFO] 11 kesinti bulundu.
-[2026-01-09T08:59:38.892Z] [INFO] 85 kayıtlı kesinti var.
-[2026-01-09T08:59:38.892Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-09T08:59:43.706Z] [INFO] Tweet kısaltıldı: 1051 -> 149 karakter
-[2026-01-09T08:59:44.298Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Planlı Kesinti (ID: 2009550645108539819)
-[2026-01-09T08:59:54.859Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2009550689488470379)
-[2026-01-09T09:00:04.865Z] [INFO] 2 tweet atıldı.
-[2026-01-09T09:00:04.866Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-09T09:00:04.866Z] [SUCCESS] Tamamlandı.
 [2026-01-09T09:37:31.838Z] [INFO] Logger başlatıldı
 [2026-01-09T09:37:31.840Z] [INFO] Tek seferlik mod...
 [2026-01-09T09:37:31.840Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9895,3 +9881,12 @@
 [2026-01-16T08:58:24.385Z] [INFO] 152 kayıtlı kesinti var.
 [2026-01-16T08:58:24.386Z] [INFO] Yeni kesinti yok.
 [2026-01-16T08:58:24.386Z] [SUCCESS] Tamamlandı.
+[2026-01-16T09:35:21.396Z] [INFO] Logger başlatıldı
+[2026-01-16T09:35:21.398Z] [INFO] Tek seferlik mod...
+[2026-01-16T09:35:21.398Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-16T09:35:22.243Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-16T09:35:22.244Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-16T09:35:22.975Z] [INFO] 1 kesinti bulundu.
+[2026-01-16T09:35:22.976Z] [INFO] 152 kayıtlı kesinti var.
+[2026-01-16T09:35:22.977Z] [INFO] Yeni kesinti yok.
+[2026-01-16T09:35:22.977Z] [SUCCESS] Tamamlandı.
