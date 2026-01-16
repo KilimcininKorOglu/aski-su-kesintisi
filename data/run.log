@@ -4683,8 +4683,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:59:34.257Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-01-09T13:59:34.257Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4722,9 +4720,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:59:34.257Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T13:59:44.794Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-01-09T13:59:44.794Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4762,9 +4757,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:59:44.794Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T13:59:55.186Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-01-09T13:59:55.186Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4802,9 +4794,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T13:59:55.186Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T14:00:05.653Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-01-09T14:00:05.653Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4842,9 +4831,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T14:00:05.653Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T14:00:16.137Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-01-09T14:00:16.137Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4882,9 +4868,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T14:00:16.137Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T14:00:26.533Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-01-09T14:00:26.533Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4922,26 +4905,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T14:00:26.533Z] [ERROR] Ana tweet atılamadı: KEÇİÖREN - Planlı Kesinti
-[2026-01-09T14:00:26.533Z] [INFO] Tweet içeriği (138 karakter):
 🔧 KEÇİÖREN - Planlı Kesinti
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-01-09T14:00:36.538Z] [INFO] 0 tweet atıldı.
-[2026-01-09T14:00:36.538Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-01-09T14:00:36.538Z] [SUCCESS] Tamamlandı.
-[2026-01-09T14:34:14.482Z] [INFO] Logger başlatıldı
-[2026-01-09T14:34:14.483Z] [INFO] Tek seferlik mod...
-[2026-01-09T14:34:14.483Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-09T14:34:15.197Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-09T14:34:15.197Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-09T14:34:16.490Z] [INFO] 9 kesinti bulundu.
-[2026-01-09T14:34:16.491Z] [INFO] 91 kayıtlı kesinti var.
-[2026-01-09T14:34:16.491Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-09T14:34:21.065Z] [INFO] Tweet kısaltıldı: 325 -> 138 karakter
-[2026-01-09T14:34:21.552Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-01-09T14:34:21.552Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -4979,9 +4946,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T14:34:21.552Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-09T14:34:32.040Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-01-09T14:34:32.040Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -5019,7 +4983,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-09T14:34:32.041Z] [INFO] 10 saniye sonra tekrar denenecek...
 [2026-01-09T14:34:42.569Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
 [2026-01-09T14:34:42.569Z] [INFO] API yanıtı: {
   "code": 1,
@@ -9804,3 +9767,12 @@
 [2026-01-16T13:59:34.260Z] [INFO] 156 kayıtlı kesinti var.
 [2026-01-16T13:59:34.260Z] [INFO] Yeni kesinti yok.
 [2026-01-16T13:59:34.260Z] [SUCCESS] Tamamlandı.
+[2026-01-16T14:34:38.339Z] [INFO] Logger başlatıldı
+[2026-01-16T14:34:38.340Z] [INFO] Tek seferlik mod...
+[2026-01-16T14:34:38.340Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-16T14:34:39.078Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-16T14:34:39.079Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-16T14:34:40.336Z] [INFO] 3 kesinti bulundu.
+[2026-01-16T14:34:40.338Z] [INFO] 156 kayıtlı kesinti var.
+[2026-01-16T14:34:40.338Z] [INFO] Yeni kesinti yok.
+[2026-01-16T14:34:40.338Z] [SUCCESS] Tamamlandı.
