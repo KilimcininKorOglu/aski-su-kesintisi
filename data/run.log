@@ -3787,24 +3787,6 @@
 📅 9.01.2026 07:00:00 - 9.01.2026 23:00:00
 📍 Yunus Emre, Barış, Çamlıca vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-09T10:52:13.069Z] [INFO] Logger başlatıldı
-[2026-01-09T10:52:13.070Z] [INFO] Tek seferlik mod...
-[2026-01-09T10:52:13.071Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-09T10:52:14.027Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-09T10:52:14.028Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-09T10:52:15.746Z] [INFO] 12 kesinti bulundu.
-[2026-01-09T10:52:15.746Z] [INFO] 89 kayıtlı kesinti var.
-[2026-01-09T10:52:15.747Z] [INFO] Yeni kesinti yok.
-[2026-01-09T10:52:15.747Z] [SUCCESS] Tamamlandı.
-[2026-01-09T11:20:58.490Z] [INFO] Logger başlatıldı
-[2026-01-09T11:20:58.491Z] [INFO] Tek seferlik mod...
-[2026-01-09T11:20:58.491Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-09T11:20:59.254Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-09T11:20:59.254Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-09T11:21:00.141Z] [INFO] 11 kesinti bulundu.
-[2026-01-09T11:21:00.141Z] [INFO] 89 kayıtlı kesinti var.
-[2026-01-09T11:21:00.142Z] [INFO] Yeni kesinti yok.
-[2026-01-09T11:21:00.142Z] [SUCCESS] Tamamlandı.
 [2026-01-09T11:42:15.983Z] [INFO] Logger başlatıldı
 [2026-01-09T11:42:15.984Z] [INFO] Tek seferlik mod...
 [2026-01-09T11:42:15.984Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9883,3 +9865,15 @@
 [2026-01-16T10:51:15.024Z] [INFO] 152 kayıtlı kesinti var.
 [2026-01-16T10:51:15.024Z] [INFO] Yeni kesinti yok.
 [2026-01-16T10:51:15.025Z] [SUCCESS] Tamamlandı.
+[2026-01-16T11:21:33.611Z] [INFO] Logger başlatıldı
+[2026-01-16T11:21:33.612Z] [INFO] Tek seferlik mod...
+[2026-01-16T11:21:33.612Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-16T11:21:34.289Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-16T11:21:34.289Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-16T11:21:35.114Z] [INFO] 1 kesinti bulundu.
+[2026-01-16T11:21:35.116Z] [INFO] 152 kayıtlı kesinti var.
+[2026-01-16T11:21:35.116Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-16T11:21:35.631Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2012123059285897632)
+[2026-01-16T11:21:45.635Z] [INFO] 1 tweet atıldı.
+[2026-01-16T11:21:45.636Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-16T11:21:45.636Z] [SUCCESS] Tamamlandı.
