@@ -6031,19 +6031,6 @@
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-01-10T07:25:09.215Z] [INFO] Logger başlatıldı
-[2026-01-10T07:25:09.216Z] [INFO] Tek seferlik mod...
-[2026-01-10T07:25:09.216Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-10T07:25:09.945Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-10T07:25:09.945Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-10T07:25:11.275Z] [INFO] 2 kesinti bulundu.
-[2026-01-10T07:25:11.276Z] [INFO] 94 kayıtlı kesinti var.
-[2026-01-10T07:25:11.277Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-10T07:25:11.839Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2009889241128673526)
-[2026-01-10T07:25:22.495Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2009889285848359081)
-[2026-01-10T07:25:32.500Z] [INFO] 2 tweet atıldı.
-[2026-01-10T07:25:32.501Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-10T07:25:32.501Z] [SUCCESS] Tamamlandı.
 [2026-01-10T07:40:09.146Z] [INFO] Logger başlatıldı
 [2026-01-10T07:40:09.147Z] [INFO] Tek seferlik mod...
 [2026-01-10T07:40:09.148Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9679,3 +9666,15 @@
 [2026-01-17T07:01:03.287Z] [INFO] 156 kayıtlı kesinti var.
 [2026-01-17T07:01:03.287Z] [INFO] Yeni kesinti yok.
 [2026-01-17T07:01:03.287Z] [SUCCESS] Tamamlandı.
+[2026-01-17T07:29:37.769Z] [INFO] Logger başlatıldı
+[2026-01-17T07:29:37.770Z] [INFO] Tek seferlik mod...
+[2026-01-17T07:29:37.771Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-17T07:29:38.864Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-17T07:29:38.864Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-17T07:29:39.590Z] [INFO] 1 kesinti bulundu.
+[2026-01-17T07:29:39.591Z] [INFO] 156 kayıtlı kesinti var.
+[2026-01-17T07:29:39.591Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-17T07:29:40.255Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2012427081653641633)
+[2026-01-17T07:29:50.259Z] [INFO] 1 tweet atıldı.
+[2026-01-17T07:29:50.260Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-17T07:29:50.260Z] [SUCCESS] Tamamlandı.
