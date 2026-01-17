@@ -6031,24 +6031,6 @@
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-01-10T11:39:17.399Z] [INFO] Logger başlatıldı
-[2026-01-10T11:39:17.401Z] [INFO] Tek seferlik mod...
-[2026-01-10T11:39:17.401Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-10T11:39:18.129Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-10T11:39:18.130Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-10T11:39:19.056Z] [INFO] 3 kesinti bulundu.
-[2026-01-10T11:39:19.057Z] [INFO] 100 kayıtlı kesinti var.
-[2026-01-10T11:39:19.058Z] [INFO] Yeni kesinti yok.
-[2026-01-10T11:39:19.058Z] [SUCCESS] Tamamlandı.
-[2026-01-10T11:50:07.072Z] [INFO] Logger başlatıldı
-[2026-01-10T11:50:07.074Z] [INFO] Tek seferlik mod...
-[2026-01-10T11:50:07.074Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-10T11:50:07.978Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-10T11:50:07.979Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-10T11:50:09.399Z] [INFO] 4 kesinti bulundu.
-[2026-01-10T11:50:09.400Z] [INFO] 100 kayıtlı kesinti var.
-[2026-01-10T11:50:09.400Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-10T11:50:09.933Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2009955922458882474)
 [2026-01-10T11:50:19.939Z] [INFO] 1 tweet atıldı.
 [2026-01-10T11:50:19.941Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-10T11:50:19.941Z] [SUCCESS] Tamamlandı.
@@ -9695,3 +9677,12 @@
 [2026-01-17T11:39:08.212Z] [INFO] 163 kayıtlı kesinti var.
 [2026-01-17T11:39:08.212Z] [INFO] Yeni kesinti yok.
 [2026-01-17T11:39:08.212Z] [SUCCESS] Tamamlandı.
+[2026-01-17T11:50:14.186Z] [INFO] Logger başlatıldı
+[2026-01-17T11:50:14.188Z] [INFO] Tek seferlik mod...
+[2026-01-17T11:50:14.188Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-17T11:50:15.051Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-17T11:50:15.051Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-17T11:50:15.788Z] [INFO] 6 kesinti bulundu.
+[2026-01-17T11:50:15.789Z] [INFO] 163 kayıtlı kesinti var.
+[2026-01-17T11:50:15.789Z] [INFO] Yeni kesinti yok.
+[2026-01-17T11:50:15.789Z] [SUCCESS] Tamamlandı.
