@@ -6031,15 +6031,6 @@
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-01-10T15:23:37.010Z] [INFO] Logger başlatıldı
-[2026-01-10T15:23:37.012Z] [INFO] Tek seferlik mod...
-[2026-01-10T15:23:37.012Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-10T15:23:37.849Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-10T15:23:37.850Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-10T15:23:38.884Z] [INFO] 1 kesinti bulundu.
-[2026-01-10T15:23:38.885Z] [INFO] 101 kayıtlı kesinti var.
-[2026-01-10T15:23:38.885Z] [INFO] Yeni kesinti yok.
-[2026-01-10T15:23:38.885Z] [SUCCESS] Tamamlandı.
 [2026-01-10T15:41:25.377Z] [INFO] Logger başlatıldı
 [2026-01-10T15:41:25.378Z] [INFO] Tek seferlik mod...
 [2026-01-10T15:41:25.378Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9690,3 +9681,12 @@
 [2026-01-17T14:56:23.550Z] [INFO] 166 kayıtlı kesinti var.
 [2026-01-17T14:56:23.550Z] [INFO] Yeni kesinti yok.
 [2026-01-17T14:56:23.550Z] [SUCCESS] Tamamlandı.
+[2026-01-17T15:25:01.732Z] [INFO] Logger başlatıldı
+[2026-01-17T15:25:01.734Z] [INFO] Tek seferlik mod...
+[2026-01-17T15:25:01.734Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-17T15:25:02.775Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-17T15:25:02.775Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-17T15:25:04.205Z] [INFO] 6 kesinti bulundu.
+[2026-01-17T15:25:04.206Z] [INFO] 166 kayıtlı kesinti var.
+[2026-01-17T15:25:04.206Z] [INFO] Yeni kesinti yok.
+[2026-01-17T15:25:04.207Z] [SUCCESS] Tamamlandı.
