@@ -6031,27 +6031,6 @@
 📅 9.01.2026 09:20:00 - 9.01.2026 23:55:00
 📍 Ayvalı, Etlik, İncirli vb.
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-01-11T08:54:57.055Z] [INFO] Logger başlatıldı
-[2026-01-11T08:54:57.056Z] [INFO] Tek seferlik mod...
-[2026-01-11T08:54:57.057Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-11T08:54:57.872Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-11T08:54:57.872Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-11T08:54:58.890Z] [INFO] 3 kesinti bulundu.
-[2026-01-11T08:54:58.892Z] [INFO] 104 kayıtlı kesinti var.
-[2026-01-11T08:54:58.892Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-11T08:54:59.398Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2010274225945489628)
-[2026-01-11T08:55:09.403Z] [INFO] 1 tweet atıldı.
-[2026-01-11T08:55:09.404Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-11T08:55:09.404Z] [SUCCESS] Tamamlandı.
-[2026-01-11T09:23:21.507Z] [INFO] Logger başlatıldı
-[2026-01-11T09:23:21.508Z] [INFO] Tek seferlik mod...
-[2026-01-11T09:23:21.509Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-11T09:23:22.414Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-11T09:23:22.414Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-11T09:23:23.877Z] [INFO] 3 kesinti bulundu.
-[2026-01-11T09:23:23.878Z] [INFO] 105 kayıtlı kesinti var.
-[2026-01-11T09:23:23.879Z] [INFO] Yeni kesinti yok.
-[2026-01-11T09:23:23.879Z] [SUCCESS] Tamamlandı.
 [2026-01-11T09:42:53.318Z] [INFO] Logger başlatıldı
 [2026-01-11T09:42:53.319Z] [INFO] Tek seferlik mod...
 [2026-01-11T09:42:53.320Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9701,3 +9680,12 @@
 [2026-01-18T08:54:21.823Z] [INFO] 3 tweet atıldı.
 [2026-01-18T08:54:21.826Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-01-18T08:54:21.826Z] [SUCCESS] Tamamlandı.
+[2026-01-18T09:23:26.284Z] [INFO] Logger başlatıldı
+[2026-01-18T09:23:26.286Z] [INFO] Tek seferlik mod...
+[2026-01-18T09:23:26.286Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-18T09:23:26.883Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-18T09:23:26.883Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-18T09:23:28.132Z] [INFO] 4 kesinti bulundu.
+[2026-01-18T09:23:28.133Z] [INFO] 171 kayıtlı kesinti var.
+[2026-01-18T09:23:28.133Z] [INFO] Yeni kesinti yok.
+[2026-01-18T09:23:28.133Z] [SUCCESS] Tamamlandı.
