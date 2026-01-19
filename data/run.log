@@ -6052,24 +6052,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-12T19:44:43.187Z] [INFO] Logger başlatıldı
-[2026-01-12T19:44:43.188Z] [INFO] Tek seferlik mod...
-[2026-01-12T19:44:43.188Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-12T19:44:43.954Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-12T19:44:43.954Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-12T19:44:44.971Z] [INFO] 3 kesinti bulundu.
-[2026-01-12T19:44:44.973Z] [INFO] 119 kayıtlı kesinti var.
-[2026-01-12T19:44:44.973Z] [INFO] Yeni kesinti yok.
-[2026-01-12T19:44:44.973Z] [SUCCESS] Tamamlandı.
-[2026-01-12T19:56:12.102Z] [INFO] Logger başlatıldı
-[2026-01-12T19:56:12.104Z] [INFO] Tek seferlik mod...
-[2026-01-12T19:56:12.104Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-12T19:56:13.089Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-12T19:56:13.089Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-12T19:56:13.838Z] [INFO] 4 kesinti bulundu.
-[2026-01-12T19:56:13.839Z] [INFO] 119 kayıtlı kesinti var.
-[2026-01-12T19:56:13.839Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-12T19:56:14.378Z] [SUCCESS] Ana tweet atıldı: MAMAK - Planlı Kesinti (ID: 2010803022830669985)
 [2026-01-12T19:56:24.383Z] [INFO] 1 tweet atıldı.
 [2026-01-12T19:56:24.385Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-12T19:56:24.385Z] [SUCCESS] Tamamlandı.
@@ -9694,3 +9676,12 @@
 [2026-01-19T19:44:03.146Z] [INFO] 184 kayıtlı kesinti var.
 [2026-01-19T19:44:03.146Z] [INFO] Yeni kesinti yok.
 [2026-01-19T19:44:03.146Z] [SUCCESS] Tamamlandı.
+[2026-01-19T19:56:21.516Z] [INFO] Logger başlatıldı
+[2026-01-19T19:56:21.517Z] [INFO] Tek seferlik mod...
+[2026-01-19T19:56:21.518Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-19T19:56:22.111Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-19T19:56:22.112Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-19T19:56:23.240Z] [INFO] 0 kesinti bulundu.
+[2026-01-19T19:56:23.242Z] [INFO] 184 kayıtlı kesinti var.
+[2026-01-19T19:56:23.242Z] [INFO] Yeni kesinti yok.
+[2026-01-19T19:56:23.242Z] [SUCCESS] Tamamlandı.
