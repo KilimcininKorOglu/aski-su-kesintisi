@@ -6052,27 +6052,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-13T15:01:54.789Z] [INFO] Logger başlatıldı
-[2026-01-13T15:01:54.790Z] [INFO] Tek seferlik mod...
-[2026-01-13T15:01:54.790Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-13T15:01:55.650Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-13T15:01:55.651Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-13T15:01:56.576Z] [INFO] 3 kesinti bulundu.
-[2026-01-13T15:01:56.577Z] [INFO] 129 kayıtlı kesinti var.
-[2026-01-13T15:01:56.577Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-13T15:01:57.276Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2011091350826205491)
-[2026-01-13T15:02:07.280Z] [INFO] 1 tweet atıldı.
-[2026-01-13T15:02:07.282Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-13T15:02:07.282Z] [SUCCESS] Tamamlandı.
-[2026-01-13T15:38:39.962Z] [INFO] Logger başlatıldı
-[2026-01-13T15:38:39.964Z] [INFO] Tek seferlik mod...
-[2026-01-13T15:38:39.964Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-13T15:38:40.720Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-13T15:38:40.720Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-13T15:38:41.578Z] [INFO] 3 kesinti bulundu.
-[2026-01-13T15:38:41.579Z] [INFO] 130 kayıtlı kesinti var.
-[2026-01-13T15:38:41.579Z] [INFO] Yeni kesinti yok.
-[2026-01-13T15:38:41.579Z] [SUCCESS] Tamamlandı.
 [2026-01-13T15:58:07.269Z] [INFO] Logger başlatıldı
 [2026-01-13T15:58:07.271Z] [INFO] Tek seferlik mod...
 [2026-01-13T15:58:07.271Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9649,3 +9628,12 @@
 [2026-01-20T15:01:27.374Z] [INFO] 188 kayıtlı kesinti var.
 [2026-01-20T15:01:27.374Z] [INFO] Yeni kesinti yok.
 [2026-01-20T15:01:27.374Z] [SUCCESS] Tamamlandı.
+[2026-01-20T15:45:25.574Z] [INFO] Logger başlatıldı
+[2026-01-20T15:45:25.576Z] [INFO] Tek seferlik mod...
+[2026-01-20T15:45:25.576Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-20T15:45:26.475Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-20T15:45:26.476Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-20T15:45:27.478Z] [INFO] 0 kesinti bulundu.
+[2026-01-20T15:45:27.479Z] [INFO] 188 kayıtlı kesinti var.
+[2026-01-20T15:45:27.480Z] [INFO] Yeni kesinti yok.
+[2026-01-20T15:45:27.480Z] [SUCCESS] Tamamlandı.
