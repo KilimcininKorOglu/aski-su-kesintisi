@@ -6052,15 +6052,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-13T21:56:37.975Z] [INFO] Logger başlatıldı
-[2026-01-13T21:56:37.976Z] [INFO] Tek seferlik mod...
-[2026-01-13T21:56:37.977Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-13T21:56:38.797Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-13T21:56:38.798Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-13T21:56:39.883Z] [INFO] 0 kesinti bulundu.
-[2026-01-13T21:56:39.884Z] [INFO] 130 kayıtlı kesinti var.
-[2026-01-13T21:56:39.884Z] [INFO] Yeni kesinti yok.
-[2026-01-13T21:56:39.885Z] [SUCCESS] Tamamlandı.
 [2026-01-13T22:28:06.122Z] [INFO] Logger başlatıldı
 [2026-01-13T22:28:06.123Z] [INFO] Tek seferlik mod...
 [2026-01-13T22:28:06.123Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9611,3 +9602,12 @@
 [2026-01-20T21:51:01.650Z] [INFO] 192 kayıtlı kesinti var.
 [2026-01-20T21:51:01.650Z] [INFO] Yeni kesinti yok.
 [2026-01-20T21:51:01.650Z] [SUCCESS] Tamamlandı.
+[2026-01-20T22:25:03.195Z] [INFO] Logger başlatıldı
+[2026-01-20T22:25:03.196Z] [INFO] Tek seferlik mod...
+[2026-01-20T22:25:03.197Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-20T22:25:03.887Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-20T22:25:03.887Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-20T22:25:05.584Z] [INFO] 4 kesinti bulundu.
+[2026-01-20T22:25:05.585Z] [INFO] 192 kayıtlı kesinti var.
+[2026-01-20T22:25:05.586Z] [INFO] Yeni kesinti yok.
+[2026-01-20T22:25:05.586Z] [SUCCESS] Tamamlandı.
