@@ -6426,15 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-15T22:49:01.509Z] [INFO] Logger başlatıldı
-[2026-01-15T22:49:01.510Z] [INFO] Tek seferlik mod...
-[2026-01-15T22:49:01.511Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-15T22:49:02.507Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-15T22:49:02.507Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-15T22:49:03.852Z] [INFO] 1 kesinti bulundu.
-[2026-01-15T22:49:03.853Z] [INFO] 151 kayıtlı kesinti var.
-[2026-01-15T22:49:03.853Z] [INFO] Yeni kesinti yok.
-[2026-01-15T22:49:03.853Z] [SUCCESS] Tamamlandı.
 [2026-01-15T22:59:48.956Z] [INFO] Logger başlatıldı
 [2026-01-15T22:59:48.958Z] [INFO] Tek seferlik mod...
 [2026-01-15T22:59:48.958Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9466,3 +9457,33 @@
 [2026-01-22T22:34:32.491Z] [INFO] 210 kayıtlı kesinti var.
 [2026-01-22T22:34:32.491Z] [INFO] Yeni kesinti yok.
 [2026-01-22T22:34:32.491Z] [SUCCESS] Tamamlandı.
+[2026-01-22T22:54:13.176Z] [INFO] Logger başlatıldı
+[2026-01-22T22:54:13.178Z] [INFO] Tek seferlik mod...
+[2026-01-22T22:54:13.178Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-22T22:54:13.941Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-22T22:54:13.941Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-22T22:54:43.969Z] [ERROR] ASKİ sayfası çekilemedi:
+  AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
+    at RedirectableRequest.emit (node:events:524:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at Timeout._onTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
+    at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
+[2026-01-22T22:54:43.969Z] [ERROR] Hata oluştu:
+  AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
+    at RedirectableRequest.emit (node:events:524:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at Timeout._onTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
+    at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
+[2026-01-22T22:54:43.970Z] [SUCCESS] Tamamlandı.
