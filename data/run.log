@@ -6426,24 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-16T14:55:46.010Z] [INFO] Logger başlatıldı
-[2026-01-16T14:55:46.011Z] [INFO] Tek seferlik mod...
-[2026-01-16T14:55:46.012Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-16T14:55:46.717Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-16T14:55:46.717Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-16T14:55:47.953Z] [INFO] 3 kesinti bulundu.
-[2026-01-16T14:55:47.955Z] [INFO] 156 kayıtlı kesinti var.
-[2026-01-16T14:55:47.955Z] [INFO] Yeni kesinti yok.
-[2026-01-16T14:55:47.955Z] [SUCCESS] Tamamlandı.
-[2026-01-16T15:28:02.368Z] [INFO] Logger başlatıldı
-[2026-01-16T15:28:02.369Z] [INFO] Tek seferlik mod...
-[2026-01-16T15:28:02.370Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-16T15:28:03.594Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-16T15:28:03.595Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-16T15:28:04.527Z] [INFO] 3 kesinti bulundu.
-[2026-01-16T15:28:04.528Z] [INFO] 156 kayıtlı kesinti var.
-[2026-01-16T15:28:04.528Z] [INFO] Yeni kesinti yok.
-[2026-01-16T15:28:04.529Z] [SUCCESS] Tamamlandı.
 [2026-01-16T15:49:24.471Z] [INFO] Logger başlatıldı
 [2026-01-16T15:49:24.472Z] [INFO] Tek seferlik mod...
 [2026-01-16T15:49:24.472Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -9512,3 +9494,12 @@
 [2026-01-23T14:54:35.726Z] [INFO] 1 tweet atıldı.
 [2026-01-23T14:54:35.728Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-23T14:54:35.729Z] [SUCCESS] Tamamlandı.
+[2026-01-23T15:28:26.845Z] [INFO] Logger başlatıldı
+[2026-01-23T15:28:26.846Z] [INFO] Tek seferlik mod...
+[2026-01-23T15:28:26.846Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-23T15:28:27.549Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-23T15:28:27.549Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-23T15:28:28.584Z] [INFO] 5 kesinti bulundu.
+[2026-01-23T15:28:28.586Z] [INFO] 227 kayıtlı kesinti var.
+[2026-01-23T15:28:28.586Z] [INFO] Yeni kesinti yok.
+[2026-01-23T15:28:28.586Z] [SUCCESS] Tamamlandı.
