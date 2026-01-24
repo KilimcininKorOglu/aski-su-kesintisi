@@ -6426,18 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-17T12:43:01.293Z] [INFO] Logger başlatıldı
-[2026-01-17T12:43:01.294Z] [INFO] Tek seferlik mod...
-[2026-01-17T12:43:01.295Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-17T12:43:02.143Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-17T12:43:02.144Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-17T12:43:03.286Z] [INFO] 7 kesinti bulundu.
-[2026-01-17T12:43:03.287Z] [INFO] 163 kayıtlı kesinti var.
-[2026-01-17T12:43:03.288Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-17T12:43:03.716Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2012505949219819540)
-[2026-01-17T12:43:13.716Z] [INFO] 1 tweet atıldı.
-[2026-01-17T12:43:13.717Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-17T12:43:13.717Z] [SUCCESS] Tamamlandı.
 [2026-01-17T13:20:07.318Z] [INFO] Logger başlatıldı
 [2026-01-17T13:20:07.320Z] [INFO] Tek seferlik mod...
 [2026-01-17T13:20:07.320Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -15555,11 +15543,428 @@
 [2026-01-24T11:52:56.705Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Plansız Kesinti
 [2026-01-24T11:52:56.705Z] [INFO] Tweet içeriği (153 karakter):
 ⚠️ YENİMAHALLE - Plansız Kesinti
+📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
+📍 Karşıyaka, Pamuklar, Anadolu vb.
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-01-24T11:53:06.710Z] [INFO] 0 tweet atıldı.
+[2026-01-24T11:53:06.711Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-01-24T11:53:06.711Z] [SUCCESS] Tamamlandı.
+[2026-01-24T12:44:45.843Z] [INFO] Logger başlatıldı
+[2026-01-24T12:44:45.844Z] [INFO] Tek seferlik mod...
+[2026-01-24T12:44:45.845Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-24T12:44:46.554Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-24T12:44:46.555Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-24T12:44:47.739Z] [INFO] 7 kesinti bulundu.
+[2026-01-24T12:44:47.741Z] [INFO] 238 kayıtlı kesinti var.
+[2026-01-24T12:44:47.741Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-24T12:44:52.246Z] [INFO] Tweet kısaltıldı: 520 -> 153 karakter
+[2026-01-24T12:44:52.691Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
+[2026-01-24T12:44:52.692Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "1f22a70b39d3e9aa"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "1f22a70b39d3e9aa"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:44:52.692Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:45:03.011Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
+[2026-01-24T12:45:03.012Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "4785dd34e4e9c20a"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "4785dd34e4e9c20a"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:45:03.012Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:45:13.467Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
+[2026-01-24T12:45:13.468Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "5ff7f302fe442cf9"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "5ff7f302fe442cf9"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:45:13.468Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:45:23.781Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
+[2026-01-24T12:45:23.781Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "db37624ef2f08149"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "db37624ef2f08149"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:45:23.781Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:45:34.199Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
+[2026-01-24T12:45:34.199Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "8c46b6ebf90979ee"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "8c46b6ebf90979ee"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:45:34.199Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:45:44.568Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
+[2026-01-24T12:45:44.568Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "0078e3994e9096b3"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "0078e3994e9096b3"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:45:44.568Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:45:55.206Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
+[2026-01-24T12:45:55.206Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "ca2edc14965dc00f"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "ca2edc14965dc00f"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:45:55.206Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:46:05.680Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
+[2026-01-24T12:46:05.680Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "a681a12275256792"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "a681a12275256792"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:46:05.680Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:46:16.060Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
+[2026-01-24T12:46:16.060Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "9a59f9e438426e27"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "9a59f9e438426e27"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:46:16.061Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-24T12:46:26.451Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
+[2026-01-24T12:46:26.451Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "tracing": {
+            "trace_id": "f5011aff67198f98"
+          },
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "tracing": {
+          "trace_id": "f5011aff67198f98"
+        },
+        "code": 187,
+        "kind": "Permissions",
+        "name": "AuthorizationError",
+        "locations": [
+          {
+            "line": 18,
+            "column": 3
+          }
+        ],
+        "source": "Client",
+        "message": "Authorization: Status is a duplicate. (187)"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-24T12:46:26.451Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Plansız Kesinti
+[2026-01-24T12:46:26.451Z] [INFO] Tweet içeriği (153 karakter):
+⚠️ YENİMAHALLE - Plansız Kesinti
 
 📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
 📍 Karşıyaka, Pamuklar, Anadolu vb.
 
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-24T11:53:06.710Z] [INFO] 0 tweet atıldı.
-[2026-01-24T11:53:06.711Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-01-24T11:53:06.711Z] [SUCCESS] Tamamlandı.
+[2026-01-24T12:46:36.456Z] [INFO] 0 tweet atıldı.
+[2026-01-24T12:46:36.457Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-01-24T12:46:36.457Z] [SUCCESS] Tamamlandı.
