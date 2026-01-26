@@ -6426,15 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-19T12:54:35.856Z] [INFO] Logger başlatıldı
-[2026-01-19T12:54:35.858Z] [INFO] Tek seferlik mod...
-[2026-01-19T12:54:35.858Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-19T12:54:36.690Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-19T12:54:36.690Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-19T12:54:37.879Z] [INFO] 3 kesinti bulundu.
-[2026-01-19T12:54:37.881Z] [INFO] 184 kayıtlı kesinti var.
-[2026-01-19T12:54:37.881Z] [INFO] Yeni kesinti yok.
-[2026-01-19T12:54:37.881Z] [SUCCESS] Tamamlandı.
 [2026-01-19T13:47:57.769Z] [INFO] Logger başlatıldı
 [2026-01-19T13:47:57.770Z] [INFO] Tek seferlik mod...
 [2026-01-19T13:47:57.770Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18386,3 +18377,39 @@
 [2026-01-26T12:53:42.789Z] [INFO] 1 tweet atıldı.
 [2026-01-26T12:53:42.791Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-01-26T12:53:42.791Z] [SUCCESS] Tamamlandı.
+[2026-01-26T13:46:30.222Z] [INFO] Logger başlatıldı
+[2026-01-26T13:46:30.223Z] [INFO] Tek seferlik mod...
+[2026-01-26T13:46:30.224Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-26T13:46:31.409Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-26T13:46:31.409Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-26T13:46:32.501Z] [INFO] 5 kesinti bulundu.
+[2026-01-26T13:46:32.503Z] [INFO] 260 kayıtlı kesinti var.
+[2026-01-26T13:46:32.503Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-26T13:46:33.057Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
+[2026-01-26T13:46:33.058Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "path": [
+          "create_tweet"
+        ],
+        "extensions": {
+          "code": 37,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "message": "Authorization: Denied by access control: Requires a writable access token"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-01-26T13:46:33.058Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-01-26T13:46:43.648Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2015783462041719192)
+[2026-01-26T13:46:53.654Z] [INFO] 1 tweet atıldı.
+[2026-01-26T13:46:53.656Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-26T13:46:53.656Z] [SUCCESS] Tamamlandı.
