@@ -6426,18 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-19T05:40:13.436Z] [INFO] Logger başlatıldı
-[2026-01-19T05:40:13.437Z] [INFO] Tek seferlik mod...
-[2026-01-19T05:40:13.437Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-19T05:40:14.079Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-19T05:40:14.079Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-19T05:40:15.521Z] [INFO] 2 kesinti bulundu.
-[2026-01-19T05:40:15.523Z] [INFO] 179 kayıtlı kesinti var.
-[2026-01-19T05:40:15.523Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-19T05:40:15.970Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2013124324874395717)
-[2026-01-19T05:40:25.975Z] [INFO] 1 tweet atıldı.
-[2026-01-19T05:40:25.977Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-19T05:40:25.977Z] [SUCCESS] Tamamlandı.
 [2026-01-19T05:59:37.633Z] [INFO] Logger başlatıldı
 [2026-01-19T05:59:37.634Z] [INFO] Tek seferlik mod...
 [2026-01-19T05:59:37.635Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18369,3 +18357,12 @@
 [2026-01-26T05:03:17.841Z] [INFO] 251 kayıtlı kesinti var.
 [2026-01-26T05:03:17.841Z] [INFO] Yeni kesinti yok.
 [2026-01-26T05:03:17.841Z] [SUCCESS] Tamamlandı.
+[2026-01-26T05:46:51.517Z] [INFO] Logger başlatıldı
+[2026-01-26T05:46:51.519Z] [INFO] Tek seferlik mod...
+[2026-01-26T05:46:51.519Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-26T05:46:52.348Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-26T05:46:52.348Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-26T05:46:53.455Z] [INFO] 1 kesinti bulundu.
+[2026-01-26T05:46:53.457Z] [INFO] 251 kayıtlı kesinti var.
+[2026-01-26T05:46:53.457Z] [INFO] Yeni kesinti yok.
+[2026-01-26T05:46:53.457Z] [SUCCESS] Tamamlandı.
