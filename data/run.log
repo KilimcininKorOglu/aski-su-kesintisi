@@ -18369,3 +18369,15 @@
 [2026-01-27T11:12:31.907Z] [INFO] 265 kayıtlı kesinti var.
 [2026-01-27T11:12:31.908Z] [INFO] Yeni kesinti yok.
 [2026-01-27T11:12:31.908Z] [SUCCESS] Tamamlandı.
+[2026-01-27T11:40:21.314Z] [INFO] Logger başlatıldı
+[2026-01-27T11:40:21.316Z] [INFO] Tek seferlik mod...
+[2026-01-27T11:40:21.316Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-27T11:40:22.340Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-27T11:40:22.341Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-27T11:40:23.380Z] [INFO] 2 kesinti bulundu.
+[2026-01-27T11:40:23.382Z] [INFO] 265 kayıtlı kesinti var.
+[2026-01-27T11:40:23.382Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-27T11:40:23.940Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2016114058299375747)
+[2026-01-27T11:40:33.945Z] [INFO] 1 tweet atıldı.
+[2026-01-27T11:40:33.947Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-27T11:40:33.947Z] [SUCCESS] Tamamlandı.
