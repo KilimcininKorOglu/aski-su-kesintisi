@@ -6426,21 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-22T17:20:14.031Z] [INFO] Logger başlatıldı
-[2026-01-22T17:20:14.033Z] [INFO] Tek seferlik mod...
-[2026-01-22T17:20:14.033Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T17:20:14.736Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T17:20:14.737Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T17:20:24.398Z] [INFO] 3 kesinti bulundu.
-[2026-01-22T17:20:24.399Z] [INFO] 210 kayıtlı kesinti var.
-[2026-01-22T17:20:24.400Z] [INFO] Yeni kesinti yok.
-[2026-01-22T17:20:24.400Z] [SUCCESS] Tamamlandı.
-[2026-01-22T17:50:41.691Z] [INFO] Logger başlatıldı
-[2026-01-22T17:50:41.693Z] [INFO] Tek seferlik mod...
-[2026-01-22T17:50:41.693Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T17:50:42.307Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T17:50:42.307Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T17:51:12.333Z] [ERROR] ASKİ sayfası çekilemedi:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -6452,7 +6437,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-22T17:51:12.333Z] [ERROR] Hata oluştu:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -6464,7 +6448,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-22T17:51:12.333Z] [SUCCESS] Tamamlandı.
 [2026-01-22T18:36:12.531Z] [INFO] Logger başlatıldı
 [2026-01-22T18:36:12.533Z] [INFO] Tek seferlik mod...
 [2026-01-22T18:36:12.533Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18343,3 +18326,12 @@
 [2026-01-29T17:06:47.094Z] [INFO] 286 kayıtlı kesinti var.
 [2026-01-29T17:06:47.095Z] [INFO] Yeni kesinti yok.
 [2026-01-29T17:06:47.095Z] [SUCCESS] Tamamlandı.
+[2026-01-29T17:53:16.005Z] [INFO] Logger başlatıldı
+[2026-01-29T17:53:16.007Z] [INFO] Tek seferlik mod...
+[2026-01-29T17:53:16.007Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-29T17:53:16.787Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-29T17:53:16.787Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-29T17:53:18.035Z] [INFO] 0 kesinti bulundu.
+[2026-01-29T17:53:18.036Z] [INFO] 286 kayıtlı kesinti var.
+[2026-01-29T17:53:18.037Z] [INFO] Yeni kesinti yok.
+[2026-01-29T17:53:18.037Z] [SUCCESS] Tamamlandı.
