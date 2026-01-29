@@ -6448,12 +6448,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-22T22:54:13.176Z] [INFO] Logger başlatıldı
-[2026-01-22T22:54:13.178Z] [INFO] Tek seferlik mod...
-[2026-01-22T22:54:13.178Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T22:54:13.941Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T22:54:13.941Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T22:54:43.969Z] [ERROR] ASKİ sayfası çekilemedi:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -6465,7 +6459,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-22T22:54:43.969Z] [ERROR] Hata oluştu:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -6477,7 +6470,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-22T22:54:43.970Z] [SUCCESS] Tamamlandı.
 [2026-01-22T23:23:31.511Z] [INFO] Logger başlatıldı
 [2026-01-22T23:23:31.513Z] [INFO] Tek seferlik mod...
 [2026-01-22T23:23:31.513Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18317,3 +18309,12 @@
 [2026-01-29T22:45:41.512Z] [INFO] 286 kayıtlı kesinti var.
 [2026-01-29T22:45:41.512Z] [INFO] Yeni kesinti yok.
 [2026-01-29T22:45:41.512Z] [SUCCESS] Tamamlandı.
+[2026-01-29T23:13:04.082Z] [INFO] Logger başlatıldı
+[2026-01-29T23:13:04.083Z] [INFO] Tek seferlik mod...
+[2026-01-29T23:13:04.084Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-29T23:13:04.827Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-29T23:13:04.828Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-29T23:13:05.748Z] [INFO] 0 kesinti bulundu.
+[2026-01-29T23:13:05.750Z] [INFO] 286 kayıtlı kesinti var.
+[2026-01-29T23:13:05.751Z] [INFO] Yeni kesinti yok.
+[2026-01-29T23:13:05.751Z] [SUCCESS] Tamamlandı.
