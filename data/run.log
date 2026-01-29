@@ -6426,28 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-22T10:29:57.429Z] [INFO] Logger başlatıldı
-[2026-01-22T10:29:57.430Z] [INFO] Tek seferlik mod...
-[2026-01-22T10:29:57.431Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T10:29:58.231Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T10:29:58.231Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T10:29:59.312Z] [INFO] 5 kesinti bulundu.
-[2026-01-22T10:29:59.314Z] [INFO] 206 kayıtlı kesinti var.
-[2026-01-22T10:29:59.314Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-22T10:29:59.876Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2014284401988002172)
-[2026-01-22T10:30:10.649Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2014284446997025208)
-[2026-01-22T10:30:20.654Z] [INFO] 2 tweet atıldı.
-[2026-01-22T10:30:20.656Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-22T10:30:20.656Z] [SUCCESS] Tamamlandı.
-[2026-01-22T10:56:51.742Z] [INFO] Logger başlatıldı
-[2026-01-22T10:56:51.743Z] [INFO] Tek seferlik mod...
-[2026-01-22T10:56:51.743Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T10:56:52.379Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T10:56:52.379Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T10:56:53.509Z] [INFO] 5 kesinti bulundu.
-[2026-01-22T10:56:53.511Z] [INFO] 208 kayıtlı kesinti var.
-[2026-01-22T10:56:53.511Z] [INFO] Yeni kesinti yok.
-[2026-01-22T10:56:53.512Z] [SUCCESS] Tamamlandı.
 [2026-01-22T11:28:32.566Z] [INFO] Logger başlatıldı
 [2026-01-22T11:28:32.568Z] [INFO] Tek seferlik mod...
 [2026-01-22T11:28:32.568Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18374,3 +18352,15 @@
 [2026-01-29T10:07:13.035Z] [INFO] 284 kayıtlı kesinti var.
 [2026-01-29T10:07:13.035Z] [INFO] Yeni kesinti yok.
 [2026-01-29T10:07:13.035Z] [SUCCESS] Tamamlandı.
+[2026-01-29T10:56:54.669Z] [INFO] Logger başlatıldı
+[2026-01-29T10:56:54.671Z] [INFO] Tek seferlik mod...
+[2026-01-29T10:56:54.671Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-29T10:56:55.471Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-29T10:56:55.472Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-29T10:56:56.394Z] [INFO] 6 kesinti bulundu.
+[2026-01-29T10:56:56.396Z] [INFO] 284 kayıtlı kesinti var.
+[2026-01-29T10:56:56.396Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-29T10:56:56.956Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2016827899568169342)
+[2026-01-29T10:57:06.959Z] [INFO] 1 tweet atıldı.
+[2026-01-29T10:57:06.961Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-29T10:57:06.961Z] [SUCCESS] Tamamlandı.
