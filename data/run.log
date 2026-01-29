@@ -6426,27 +6426,6 @@
 📅 15.01.2026 18:00:00 - 15.01.2026 20:30:00
 📍 Fatih Mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-01-22T05:30:21.459Z] [INFO] Logger başlatıldı
-[2026-01-22T05:30:21.460Z] [INFO] Tek seferlik mod...
-[2026-01-22T05:30:21.460Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T05:30:22.440Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T05:30:22.440Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T05:30:23.482Z] [INFO] 0 kesinti bulundu.
-[2026-01-22T05:30:23.483Z] [INFO] 202 kayıtlı kesinti var.
-[2026-01-22T05:30:23.483Z] [INFO] Yeni kesinti yok.
-[2026-01-22T05:30:23.484Z] [SUCCESS] Tamamlandı.
-[2026-01-22T05:56:18.582Z] [INFO] Logger başlatıldı
-[2026-01-22T05:56:18.583Z] [INFO] Tek seferlik mod...
-[2026-01-22T05:56:18.583Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-22T05:56:19.747Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-22T05:56:19.748Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-22T05:56:20.772Z] [INFO] 1 kesinti bulundu.
-[2026-01-22T05:56:20.773Z] [INFO] 202 kayıtlı kesinti var.
-[2026-01-22T05:56:20.773Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-22T05:56:21.314Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2014215537614811215)
-[2026-01-22T05:56:31.319Z] [INFO] 1 tweet atıldı.
-[2026-01-22T05:56:31.321Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-22T05:56:31.321Z] [SUCCESS] Tamamlandı.
 [2026-01-22T06:42:16.181Z] [INFO] Logger başlatıldı
 [2026-01-22T06:42:16.182Z] [INFO] Tek seferlik mod...
 [2026-01-22T06:42:16.183Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18396,3 +18375,15 @@
 [2026-01-29T05:15:47.337Z] [INFO] 277 kayıtlı kesinti var.
 [2026-01-29T05:15:47.337Z] [INFO] Yeni kesinti yok.
 [2026-01-29T05:15:47.337Z] [SUCCESS] Tamamlandı.
+[2026-01-29T06:02:20.890Z] [INFO] Logger başlatıldı
+[2026-01-29T06:02:20.891Z] [INFO] Tek seferlik mod...
+[2026-01-29T06:02:20.891Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-29T06:02:21.708Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-29T06:02:21.708Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-29T06:02:22.512Z] [INFO] 1 kesinti bulundu.
+[2026-01-29T06:02:22.513Z] [INFO] 277 kayıtlı kesinti var.
+[2026-01-29T06:02:22.514Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-29T06:02:23.099Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2016753770072592392)
+[2026-01-29T06:02:33.103Z] [INFO] 1 tweet atıldı.
+[2026-01-29T06:02:33.105Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-29T06:02:33.105Z] [SUCCESS] Tamamlandı.
