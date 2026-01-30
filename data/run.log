@@ -6470,19 +6470,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-23T19:32:22.676Z] [INFO] Logger başlatıldı
-[2026-01-23T19:32:22.677Z] [INFO] Tek seferlik mod...
-[2026-01-23T19:32:22.678Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-23T19:32:23.628Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-23T19:32:23.629Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-23T19:32:24.483Z] [INFO] 3 kesinti bulundu.
-[2026-01-23T19:32:24.485Z] [INFO] 227 kayıtlı kesinti var.
-[2026-01-23T19:32:24.485Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-23T19:32:25.048Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2014783294223876165)
-[2026-01-23T19:32:35.466Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2014783337995633079)
-[2026-01-23T19:32:45.469Z] [INFO] 2 tweet atıldı.
-[2026-01-23T19:32:45.471Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-23T19:32:45.471Z] [SUCCESS] Tamamlandı.
 [2026-01-23T19:48:43.044Z] [INFO] Logger başlatıldı
 [2026-01-23T19:48:43.046Z] [INFO] Tek seferlik mod...
 [2026-01-23T19:48:43.046Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18198,3 +18185,12 @@
 [2026-01-30T19:08:41.312Z] [INFO] 295 kayıtlı kesinti var.
 [2026-01-30T19:08:41.312Z] [INFO] Yeni kesinti yok.
 [2026-01-30T19:08:41.312Z] [SUCCESS] Tamamlandı.
+[2026-01-30T19:45:44.893Z] [INFO] Logger başlatıldı
+[2026-01-30T19:45:44.895Z] [INFO] Tek seferlik mod...
+[2026-01-30T19:45:44.895Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-30T19:45:45.765Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-30T19:45:45.766Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-30T19:45:46.602Z] [INFO] 1 kesinti bulundu.
+[2026-01-30T19:45:46.603Z] [INFO] 295 kayıtlı kesinti var.
+[2026-01-30T19:45:46.604Z] [INFO] Yeni kesinti yok.
+[2026-01-30T19:45:46.604Z] [SUCCESS] Tamamlandı.
