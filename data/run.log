@@ -6470,20 +6470,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-23T09:01:16.099Z] [INFO] Logger başlatıldı
-[2026-01-23T09:01:16.100Z] [INFO] Tek seferlik mod...
-[2026-01-23T09:01:16.101Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-23T09:01:16.921Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-23T09:01:16.921Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-23T09:01:17.791Z] [INFO] 7 kesinti bulundu.
-[2026-01-23T09:01:17.792Z] [INFO] 217 kayıtlı kesinti var.
-[2026-01-23T09:01:17.793Z] [INFO] 3 yeni kesinti bulundu!
-[2026-01-23T09:01:18.296Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2014624469537747101)
-[2026-01-23T09:01:28.871Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2014624513892524139)
-[2026-01-23T09:01:39.534Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2014624558603751577)
-[2026-01-23T09:01:49.537Z] [INFO] 3 tweet atıldı.
-[2026-01-23T09:01:49.539Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-01-23T09:01:49.539Z] [SUCCESS] Tamamlandı.
 [2026-01-23T09:42:52.346Z] [INFO] Logger başlatıldı
 [2026-01-23T09:42:52.347Z] [INFO] Tek seferlik mod...
 [2026-01-23T09:42:52.347Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18269,3 +18255,12 @@
 [2026-01-30T08:54:23.361Z] [INFO] 293 kayıtlı kesinti var.
 [2026-01-30T08:54:23.361Z] [INFO] Yeni kesinti yok.
 [2026-01-30T08:54:23.361Z] [SUCCESS] Tamamlandı.
+[2026-01-30T09:40:31.286Z] [INFO] Logger başlatıldı
+[2026-01-30T09:40:31.287Z] [INFO] Tek seferlik mod...
+[2026-01-30T09:40:31.287Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-30T09:40:31.947Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-30T09:40:31.947Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-30T09:40:32.937Z] [INFO] 5 kesinti bulundu.
+[2026-01-30T09:40:32.939Z] [INFO] 293 kayıtlı kesinti var.
+[2026-01-30T09:40:32.939Z] [INFO] Yeni kesinti yok.
+[2026-01-30T09:40:32.939Z] [SUCCESS] Tamamlandı.
