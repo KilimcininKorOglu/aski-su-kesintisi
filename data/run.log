@@ -6470,20 +6470,6 @@
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:17:31)
-[2026-01-23T11:45:56.046Z] [INFO] Logger başlatıldı
-[2026-01-23T11:45:56.047Z] [INFO] Tek seferlik mod...
-[2026-01-23T11:45:56.047Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-23T11:45:56.768Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-23T11:45:56.768Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-23T11:45:57.772Z] [INFO] 6 kesinti bulundu.
-[2026-01-23T11:45:57.773Z] [INFO] 221 kayıtlı kesinti var.
-[2026-01-23T11:45:57.773Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-23T11:46:02.372Z] [INFO] Tweet kısaltıldı: 347 -> 141 karakter
-[2026-01-23T11:46:02.997Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2014665928945107032)
-[2026-01-23T11:46:13.799Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2014665974226813009)
-[2026-01-23T11:46:23.804Z] [INFO] 2 tweet atıldı.
-[2026-01-23T11:46:23.806Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-01-23T11:46:23.806Z] [SUCCESS] Tamamlandı.
 [2026-01-23T11:57:37.380Z] [INFO] Logger başlatıldı
 [2026-01-23T11:57:37.381Z] [INFO] Tek seferlik mod...
 [2026-01-23T11:57:37.381Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18246,3 +18232,12 @@
 [2026-01-30T11:36:12.950Z] [INFO] 294 kayıtlı kesinti var.
 [2026-01-30T11:36:12.950Z] [INFO] Yeni kesinti yok.
 [2026-01-30T11:36:12.950Z] [SUCCESS] Tamamlandı.
+[2026-01-30T11:57:03.392Z] [INFO] Logger başlatıldı
+[2026-01-30T11:57:03.394Z] [INFO] Tek seferlik mod...
+[2026-01-30T11:57:03.394Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-30T11:57:04.002Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-30T11:57:04.002Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-30T11:57:05.185Z] [INFO] 3 kesinti bulundu.
+[2026-01-30T11:57:05.187Z] [INFO] 294 kayıtlı kesinti var.
+[2026-01-30T11:57:05.187Z] [INFO] Yeni kesinti yok.
+[2026-01-30T11:57:05.187Z] [SUCCESS] Tamamlandı.
