@@ -7966,17 +7966,6 @@
 📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
 📍 Karşıyaka, Pamuklar, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-24T08:33:34.882Z] [INFO] Logger başlatıldı
-[2026-01-24T08:33:34.884Z] [INFO] Tek seferlik mod...
-[2026-01-24T08:33:34.884Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-24T08:33:35.494Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-24T08:33:35.494Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-24T08:33:36.593Z] [INFO] 6 kesinti bulundu.
-[2026-01-24T08:33:36.595Z] [INFO] 234 kayıtlı kesinti var.
-[2026-01-24T08:33:36.595Z] [INFO] 2 yeni kesinti bulundu!
-[2026-01-24T08:33:41.068Z] [INFO] Tweet kısaltıldı: 429 -> 153 karakter
-[2026-01-24T08:33:41.445Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-01-24T08:33:41.445Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8014,9 +8003,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:33:41.446Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:33:51.741Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-01-24T08:33:51.741Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8054,9 +8040,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:33:51.741Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:34:02.057Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-01-24T08:34:02.058Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8094,9 +8077,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:34:02.058Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:34:12.877Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-01-24T08:34:12.878Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8134,9 +8114,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:34:12.878Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:34:23.212Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-01-24T08:34:23.213Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8174,9 +8151,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:34:23.213Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:34:33.573Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-01-24T08:34:33.573Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8214,9 +8188,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:34:33.573Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:34:43.915Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-01-24T08:34:43.915Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8254,9 +8225,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:34:43.915Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:34:54.230Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-01-24T08:34:54.230Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8294,9 +8262,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:34:54.230Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:35:04.627Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-01-24T08:35:04.627Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8318,9 +8283,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:35:04.627Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-01-24T08:35:14.918Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-01-24T08:35:14.918Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -8358,16 +8320,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-24T08:35:14.919Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Plansız Kesinti
-[2026-01-24T08:35:14.919Z] [INFO] Tweet içeriği (153 karakter):
 ⚠️ YENİMAHALLE - Plansız Kesinti
 📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
 📍 Karşıyaka, Pamuklar, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-24T08:35:25.354Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2014980344005673312)
-[2026-01-24T08:35:35.359Z] [INFO] 1 tweet atıldı.
-[2026-01-24T08:35:35.361Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-24T08:35:35.361Z] [SUCCESS] Tamamlandı.
 [2026-01-24T08:54:49.486Z] [INFO] Logger başlatıldı
 [2026-01-24T08:54:49.487Z] [INFO] Tek seferlik mod...
 [2026-01-24T08:54:49.488Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17985,3 +17941,12 @@
 [2026-01-31T07:58:50.086Z] [INFO] 298 kayıtlı kesinti var.
 [2026-01-31T07:58:50.086Z] [INFO] Yeni kesinti yok.
 [2026-01-31T07:58:50.086Z] [SUCCESS] Tamamlandı.
+[2026-01-31T08:41:09.382Z] [INFO] Logger başlatıldı
+[2026-01-31T08:41:09.383Z] [INFO] Tek seferlik mod...
+[2026-01-31T08:41:09.384Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-31T08:41:10.131Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-31T08:41:10.132Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-31T08:41:10.883Z] [INFO] 4 kesinti bulundu.
+[2026-01-31T08:41:10.885Z] [INFO] 298 kayıtlı kesinti var.
+[2026-01-31T08:41:10.885Z] [INFO] Yeni kesinti yok.
+[2026-01-31T08:41:10.885Z] [SUCCESS] Tamamlandı.
