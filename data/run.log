@@ -14666,24 +14666,6 @@
 📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
 📍 Karşıyaka, Pamuklar, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-24T20:10:03.795Z] [INFO] Logger başlatıldı
-[2026-01-24T20:10:03.796Z] [INFO] Tek seferlik mod...
-[2026-01-24T20:10:03.796Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-24T20:10:04.607Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-24T20:10:04.608Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-24T20:10:05.428Z] [INFO] 0 kesinti bulundu.
-[2026-01-24T20:10:05.429Z] [INFO] 244 kayıtlı kesinti var.
-[2026-01-24T20:10:05.429Z] [INFO] Yeni kesinti yok.
-[2026-01-24T20:10:05.429Z] [SUCCESS] Tamamlandı.
-[2026-01-24T20:34:26.236Z] [INFO] Logger başlatıldı
-[2026-01-24T20:34:26.237Z] [INFO] Tek seferlik mod...
-[2026-01-24T20:34:26.237Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-24T20:34:27.356Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-24T20:34:27.356Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-24T20:34:28.650Z] [INFO] 0 kesinti bulundu.
-[2026-01-24T20:34:28.652Z] [INFO] 244 kayıtlı kesinti var.
-[2026-01-24T20:34:28.652Z] [INFO] Yeni kesinti yok.
-[2026-01-24T20:34:28.652Z] [SUCCESS] Tamamlandı.
 [2026-01-24T20:49:54.185Z] [INFO] Logger başlatıldı
 [2026-01-24T20:49:54.187Z] [INFO] Tek seferlik mod...
 [2026-01-24T20:49:54.187Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17311,3 +17293,15 @@
 [2026-01-31T20:00:19.883Z] [INFO] 301 kayıtlı kesinti var.
 [2026-01-31T20:00:19.883Z] [INFO] Yeni kesinti yok.
 [2026-01-31T20:00:19.884Z] [SUCCESS] Tamamlandı.
+[2026-01-31T20:37:48.347Z] [INFO] Logger başlatıldı
+[2026-01-31T20:37:48.348Z] [INFO] Tek seferlik mod...
+[2026-01-31T20:37:48.349Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-01-31T20:37:48.993Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-01-31T20:37:48.993Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-01-31T20:37:49.886Z] [INFO] 1 kesinti bulundu.
+[2026-01-31T20:37:49.887Z] [INFO] 301 kayıtlı kesinti var.
+[2026-01-31T20:37:49.888Z] [INFO] 1 yeni kesinti bulundu!
+[2026-01-31T20:37:50.532Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2017698861662539981)
+[2026-01-31T20:38:00.537Z] [INFO] 1 tweet atıldı.
+[2026-01-31T20:38:00.539Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-01-31T20:38:00.539Z] [SUCCESS] Tamamlandı.
