@@ -14666,24 +14666,6 @@
 📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
 📍 Karşıyaka, Pamuklar, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-25T04:05:03.572Z] [INFO] Logger başlatıldı
-[2026-01-25T04:05:03.574Z] [INFO] Tek seferlik mod...
-[2026-01-25T04:05:03.574Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-25T04:05:04.145Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-25T04:05:04.146Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-25T04:05:05.641Z] [INFO] 0 kesinti bulundu.
-[2026-01-25T04:05:05.643Z] [INFO] 244 kayıtlı kesinti var.
-[2026-01-25T04:05:05.643Z] [INFO] Yeni kesinti yok.
-[2026-01-25T04:05:05.643Z] [SUCCESS] Tamamlandı.
-[2026-01-25T04:58:16.212Z] [INFO] Logger başlatıldı
-[2026-01-25T04:58:16.213Z] [INFO] Tek seferlik mod...
-[2026-01-25T04:58:16.213Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-25T04:58:16.875Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-25T04:58:16.876Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-25T04:58:17.743Z] [INFO] 0 kesinti bulundu.
-[2026-01-25T04:58:17.744Z] [INFO] 244 kayıtlı kesinti var.
-[2026-01-25T04:58:17.744Z] [INFO] Yeni kesinti yok.
-[2026-01-25T04:58:17.744Z] [SUCCESS] Tamamlandı.
 [2026-01-25T05:35:29.590Z] [INFO] Logger başlatıldı
 [2026-01-25T05:35:29.592Z] [INFO] Tek seferlik mod...
 [2026-01-25T05:35:29.592Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17290,3 +17272,12 @@
 [2026-02-01T03:24:05.364Z] [INFO] 1 tweet atıldı.
 [2026-02-01T03:24:05.366Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-01T03:24:05.366Z] [SUCCESS] Tamamlandı.
+[2026-02-01T05:12:01.115Z] [INFO] Logger başlatıldı
+[2026-02-01T05:12:01.116Z] [INFO] Tek seferlik mod...
+[2026-02-01T05:12:01.117Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-01T05:12:01.909Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-01T05:12:01.909Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-01T05:12:02.659Z] [INFO] 1 kesinti bulundu.
+[2026-02-01T05:12:02.661Z] [INFO] 303 kayıtlı kesinti var.
+[2026-02-01T05:12:02.661Z] [INFO] Yeni kesinti yok.
+[2026-02-01T05:12:02.661Z] [SUCCESS] Tamamlandı.
