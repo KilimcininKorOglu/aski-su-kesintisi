@@ -14666,27 +14666,6 @@
 📅 23.01.2026 22:25:00 - 24.01.2026 20:00:00
 📍 Karşıyaka, Pamuklar, Anadolu vb.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-01-26T11:11:13.605Z] [INFO] Logger başlatıldı
-[2026-01-26T11:11:13.607Z] [INFO] Tek seferlik mod...
-[2026-01-26T11:11:13.607Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-26T11:11:14.582Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-26T11:11:14.582Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-26T11:11:15.433Z] [INFO] 4 kesinti bulundu.
-[2026-01-26T11:11:15.434Z] [INFO] 258 kayıtlı kesinti var.
-[2026-01-26T11:11:15.434Z] [INFO] Yeni kesinti yok.
-[2026-01-26T11:11:15.434Z] [SUCCESS] Tamamlandı.
-[2026-01-26T11:36:31.745Z] [INFO] Logger başlatıldı
-[2026-01-26T11:36:31.747Z] [INFO] Tek seferlik mod...
-[2026-01-26T11:36:31.747Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-26T11:36:32.889Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-26T11:36:32.890Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-26T11:36:33.796Z] [INFO] 5 kesinti bulundu.
-[2026-01-26T11:36:33.798Z] [INFO] 258 kayıtlı kesinti var.
-[2026-01-26T11:36:33.798Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-26T11:36:34.325Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2015750707337691346)
-[2026-01-26T11:36:44.330Z] [INFO] 1 tweet atıldı.
-[2026-01-26T11:36:44.332Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-26T11:36:44.332Z] [SUCCESS] Tamamlandı.
 [2026-01-26T11:51:14.366Z] [INFO] Logger başlatıldı
 [2026-01-26T11:51:14.367Z] [INFO] Tek seferlik mod...
 [2026-01-26T11:51:14.367Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17103,3 +17082,15 @@
 [2026-02-02T11:06:55.009Z] [INFO] 309 kayıtlı kesinti var.
 [2026-02-02T11:06:55.009Z] [INFO] Yeni kesinti yok.
 [2026-02-02T11:06:55.010Z] [SUCCESS] Tamamlandı.
+[2026-02-02T11:49:20.044Z] [INFO] Logger başlatıldı
+[2026-02-02T11:49:20.045Z] [INFO] Tek seferlik mod...
+[2026-02-02T11:49:20.045Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-02T11:49:21.101Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-02T11:49:21.101Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-02T11:49:22.372Z] [INFO] 4 kesinti bulundu.
+[2026-02-02T11:49:22.374Z] [INFO] 309 kayıtlı kesinti var.
+[2026-02-02T11:49:22.374Z] [INFO] 1 yeni kesinti bulundu!
+[2026-02-02T11:49:22.882Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2018290646067659072)
+[2026-02-02T11:49:32.886Z] [INFO] 1 tweet atıldı.
+[2026-02-02T11:49:32.888Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-02-02T11:49:32.889Z] [SUCCESS] Tamamlandı.
