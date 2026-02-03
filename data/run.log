@@ -14687,24 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-27T06:00:11.089Z] [INFO] Logger başlatıldı
-[2026-01-27T06:00:11.090Z] [INFO] Tek seferlik mod...
-[2026-01-27T06:00:11.090Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-27T06:00:11.824Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-27T06:00:11.825Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-27T06:00:12.977Z] [INFO] 0 kesinti bulundu.
-[2026-01-27T06:00:12.979Z] [INFO] 263 kayıtlı kesinti var.
-[2026-01-27T06:00:12.979Z] [INFO] Yeni kesinti yok.
-[2026-01-27T06:00:12.979Z] [SUCCESS] Tamamlandı.
-[2026-01-27T06:51:25.589Z] [INFO] Logger başlatıldı
-[2026-01-27T06:51:25.590Z] [INFO] Tek seferlik mod...
-[2026-01-27T06:51:25.591Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-27T06:51:26.339Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-27T06:51:26.339Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-27T06:51:27.209Z] [INFO] 0 kesinti bulundu.
-[2026-01-27T06:51:27.211Z] [INFO] 263 kayıtlı kesinti var.
-[2026-01-27T06:51:27.211Z] [INFO] Yeni kesinti yok.
-[2026-01-27T06:51:27.212Z] [SUCCESS] Tamamlandı.
 [2026-01-27T07:29:54.449Z] [INFO] Logger başlatıldı
 [2026-01-27T07:29:54.450Z] [INFO] Tek seferlik mod...
 [2026-01-27T07:29:54.450Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16952,3 +16934,16 @@
 [2026-02-03T05:59:16.699Z] [INFO] 1 tweet atıldı.
 [2026-02-03T05:59:16.701Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-03T05:59:16.701Z] [SUCCESS] Tamamlandı.
+[2026-02-03T07:03:46.711Z] [INFO] Logger başlatıldı
+[2026-02-03T07:03:46.713Z] [INFO] Tek seferlik mod...
+[2026-02-03T07:03:46.713Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-03T07:03:47.560Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-03T07:03:47.560Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-03T07:03:48.575Z] [INFO] 4 kesinti bulundu.
+[2026-02-03T07:03:48.577Z] [INFO] 313 kayıtlı kesinti var.
+[2026-02-03T07:03:48.577Z] [INFO] 2 yeni kesinti bulundu!
+[2026-02-03T07:03:49.270Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2018581170263646355)
+[2026-02-03T07:04:00.185Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2018581215998337428)
+[2026-02-03T07:04:10.190Z] [INFO] 2 tweet atıldı.
+[2026-02-03T07:04:10.193Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-02-03T07:04:10.194Z] [SUCCESS] Tamamlandı.
