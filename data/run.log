@@ -14687,27 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-28T07:49:31.515Z] [INFO] Logger başlatıldı
-[2026-01-28T07:49:31.516Z] [INFO] Tek seferlik mod...
-[2026-01-28T07:49:31.517Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-28T07:49:32.209Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-28T07:49:32.210Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-28T07:49:33.385Z] [INFO] 1 kesinti bulundu.
-[2026-01-28T07:49:33.387Z] [INFO] 272 kayıtlı kesinti var.
-[2026-01-28T07:49:33.387Z] [INFO] Yeni kesinti yok.
-[2026-01-28T07:49:33.387Z] [SUCCESS] Tamamlandı.
-[2026-01-28T08:00:24.848Z] [INFO] Logger başlatıldı
-[2026-01-28T08:00:24.849Z] [INFO] Tek seferlik mod...
-[2026-01-28T08:00:24.849Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-28T08:00:25.980Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-28T08:00:25.980Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-28T08:00:26.806Z] [INFO] 2 kesinti bulundu.
-[2026-01-28T08:00:26.808Z] [INFO] 272 kayıtlı kesinti var.
-[2026-01-28T08:00:26.809Z] [INFO] 1 yeni kesinti bulundu!
-[2026-01-28T08:00:27.375Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2016421095747047475)
-[2026-01-28T08:00:37.378Z] [INFO] 1 tweet atıldı.
-[2026-01-28T08:00:37.380Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-01-28T08:00:37.381Z] [SUCCESS] Tamamlandı.
 [2026-01-28T08:49:04.003Z] [INFO] Logger başlatıldı
 [2026-01-28T08:49:04.005Z] [INFO] Tek seferlik mod...
 [2026-01-28T08:49:04.005Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16830,3 +16809,16 @@
 [2026-02-04T07:31:37.779Z] [INFO] 1 tweet atıldı.
 [2026-02-04T07:31:37.781Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-04T07:31:37.781Z] [SUCCESS] Tamamlandı.
+[2026-02-04T08:05:49.075Z] [INFO] Logger başlatıldı
+[2026-02-04T08:05:49.076Z] [INFO] Tek seferlik mod...
+[2026-02-04T08:05:49.077Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-04T08:05:49.639Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-04T08:05:49.639Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-04T08:05:50.635Z] [INFO] 4 kesinti bulundu.
+[2026-02-04T08:05:50.637Z] [INFO] 327 kayıtlı kesinti var.
+[2026-02-04T08:05:50.637Z] [INFO] 2 yeni kesinti bulundu!
+[2026-02-04T08:05:51.035Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2018959168514965958)
+[2026-02-04T08:06:01.622Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2018959212827799972)
+[2026-02-04T08:06:11.627Z] [INFO] 2 tweet atıldı.
+[2026-02-04T08:06:11.629Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-02-04T08:06:11.630Z] [SUCCESS] Tamamlandı.
