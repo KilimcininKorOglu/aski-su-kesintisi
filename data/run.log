@@ -14687,24 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-31T09:45:53.579Z] [INFO] Logger başlatıldı
-[2026-01-31T09:45:53.580Z] [INFO] Tek seferlik mod...
-[2026-01-31T09:45:53.581Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-31T09:45:54.453Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-31T09:45:54.453Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-31T09:45:55.468Z] [INFO] 5 kesinti bulundu.
-[2026-01-31T09:45:55.470Z] [INFO] 299 kayıtlı kesinti var.
-[2026-01-31T09:45:55.470Z] [INFO] Yeni kesinti yok.
-[2026-01-31T09:45:55.470Z] [SUCCESS] Tamamlandı.
-[2026-01-31T09:59:58.443Z] [INFO] Logger başlatıldı
-[2026-01-31T09:59:58.444Z] [INFO] Tek seferlik mod...
-[2026-01-31T09:59:58.444Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-31T09:59:59.417Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-31T09:59:59.418Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-31T10:00:00.270Z] [INFO] 4 kesinti bulundu.
-[2026-01-31T10:00:00.272Z] [INFO] 299 kayıtlı kesinti var.
-[2026-01-31T10:00:00.272Z] [INFO] Yeni kesinti yok.
-[2026-01-31T10:00:00.272Z] [SUCCESS] Tamamlandı.
 [2026-01-31T10:36:37.579Z] [INFO] Logger başlatıldı
 [2026-01-31T10:36:37.581Z] [INFO] Tek seferlik mod...
 [2026-01-31T10:36:37.581Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16701,3 +16683,15 @@
 [2026-02-07T09:44:11.658Z] [INFO] 1 tweet atıldı.
 [2026-02-07T09:44:11.660Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-07T09:44:11.660Z] [SUCCESS] Tamamlandı.
+[2026-02-07T10:00:28.123Z] [INFO] Logger başlatıldı
+[2026-02-07T10:00:28.124Z] [INFO] Tek seferlik mod...
+[2026-02-07T10:00:28.124Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-07T10:00:28.651Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-07T10:00:28.651Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-07T10:00:29.770Z] [INFO] 3 kesinti bulundu.
+[2026-02-07T10:00:29.772Z] [INFO] 348 kayıtlı kesinti var.
+[2026-02-07T10:00:29.772Z] [INFO] 1 yeni kesinti bulundu!
+[2026-02-07T10:00:30.142Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2020075185047805979)
+[2026-02-07T10:00:40.146Z] [INFO] 1 tweet atıldı.
+[2026-02-07T10:00:40.148Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-02-07T10:00:40.148Z] [SUCCESS] Tamamlandı.
