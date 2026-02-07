@@ -14687,15 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-01-31T13:04:14.507Z] [INFO] Logger başlatıldı
-[2026-01-31T13:04:14.509Z] [INFO] Tek seferlik mod...
-[2026-01-31T13:04:14.509Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-01-31T13:04:15.299Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-01-31T13:04:15.300Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-01-31T13:04:16.333Z] [INFO] 2 kesinti bulundu.
-[2026-01-31T13:04:16.335Z] [INFO] 299 kayıtlı kesinti var.
-[2026-01-31T13:04:16.335Z] [INFO] Yeni kesinti yok.
-[2026-01-31T13:04:16.335Z] [SUCCESS] Tamamlandı.
 [2026-01-31T13:49:20.777Z] [INFO] Logger başlatıldı
 [2026-01-31T13:49:20.779Z] [INFO] Tek seferlik mod...
 [2026-01-31T13:49:20.779Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16698,3 +16689,15 @@
 [2026-02-07T12:53:41.910Z] [INFO] 350 kayıtlı kesinti var.
 [2026-02-07T12:53:41.910Z] [INFO] Yeni kesinti yok.
 [2026-02-07T12:53:41.911Z] [SUCCESS] Tamamlandı.
+[2026-02-07T13:45:36.052Z] [INFO] Logger başlatıldı
+[2026-02-07T13:45:36.053Z] [INFO] Tek seferlik mod...
+[2026-02-07T13:45:36.054Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-07T13:45:36.752Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-07T13:45:36.752Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-07T13:45:37.862Z] [INFO] 3 kesinti bulundu.
+[2026-02-07T13:45:37.864Z] [INFO] 350 kayıtlı kesinti var.
+[2026-02-07T13:45:37.864Z] [INFO] 1 yeni kesinti bulundu!
+[2026-02-07T13:45:38.400Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2020131842821877943)
+[2026-02-07T13:45:48.404Z] [INFO] 1 tweet atıldı.
+[2026-02-07T13:45:48.406Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-02-07T13:45:48.406Z] [SUCCESS] Tamamlandı.
