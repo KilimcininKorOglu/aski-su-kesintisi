@@ -14687,18 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-02T05:49:34.428Z] [INFO] Logger başlatıldı
-[2026-02-02T05:49:34.430Z] [INFO] Tek seferlik mod...
-[2026-02-02T05:49:34.430Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-02T05:49:35.572Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-02T05:49:35.573Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-02T05:49:36.578Z] [INFO] 1 kesinti bulundu.
-[2026-02-02T05:49:36.580Z] [INFO] 306 kayıtlı kesinti var.
-[2026-02-02T05:49:36.580Z] [INFO] 1 yeni kesinti bulundu!
-[2026-02-02T05:49:37.217Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2018200109096571057)
-[2026-02-02T05:49:47.222Z] [INFO] 1 tweet atıldı.
-[2026-02-02T05:49:47.224Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-02-02T05:49:47.224Z] [SUCCESS] Tamamlandı.
 [2026-02-02T06:45:49.050Z] [INFO] Logger başlatıldı
 [2026-02-02T06:45:49.052Z] [INFO] Tek seferlik mod...
 [2026-02-02T06:45:49.052Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16657,3 +16645,16 @@
 [2026-02-09T05:14:18.183Z] [INFO] 358 kayıtlı kesinti var.
 [2026-02-09T05:14:18.184Z] [INFO] Yeni kesinti yok.
 [2026-02-09T05:14:18.184Z] [SUCCESS] Tamamlandı.
+[2026-02-09T06:37:34.746Z] [INFO] Logger başlatıldı
+[2026-02-09T06:37:34.747Z] [INFO] Tek seferlik mod...
+[2026-02-09T06:37:34.748Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-09T06:37:35.383Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-09T06:37:35.384Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-09T06:37:36.323Z] [INFO] 3 kesinti bulundu.
+[2026-02-09T06:37:36.326Z] [INFO] 358 kayıtlı kesinti var.
+[2026-02-09T06:37:36.326Z] [INFO] 2 yeni kesinti bulundu!
+[2026-02-09T06:37:36.897Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2020748902513922102)
+[2026-02-09T06:37:47.538Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2020748947200090571)
+[2026-02-09T06:37:57.544Z] [INFO] 2 tweet atıldı.
+[2026-02-09T06:37:57.546Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-02-09T06:37:57.547Z] [SUCCESS] Tamamlandı.
