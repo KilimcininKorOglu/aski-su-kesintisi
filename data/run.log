@@ -14687,27 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-04T04:41:23.687Z] [INFO] Logger başlatıldı
-[2026-02-04T04:41:23.688Z] [INFO] Tek seferlik mod...
-[2026-02-04T04:41:23.688Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-04T04:41:24.221Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-04T04:41:24.222Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-04T04:41:25.047Z] [INFO] 0 kesinti bulundu.
-[2026-02-04T04:41:25.049Z] [INFO] 325 kayıtlı kesinti var.
-[2026-02-04T04:41:25.050Z] [INFO] Yeni kesinti yok.
-[2026-02-04T04:41:25.050Z] [SUCCESS] Tamamlandı.
-[2026-02-04T05:38:00.699Z] [INFO] Logger başlatıldı
-[2026-02-04T05:38:00.700Z] [INFO] Tek seferlik mod...
-[2026-02-04T05:38:00.700Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-04T05:38:01.231Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-04T05:38:01.231Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-04T05:38:02.406Z] [INFO] 1 kesinti bulundu.
-[2026-02-04T05:38:02.408Z] [INFO] 325 kayıtlı kesinti var.
-[2026-02-04T05:38:02.408Z] [INFO] 1 yeni kesinti bulundu!
-[2026-02-04T05:38:02.772Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2018921972277870654)
-[2026-02-04T05:38:12.775Z] [INFO] 1 tweet atıldı.
-[2026-02-04T05:38:12.777Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-02-04T05:38:12.778Z] [SUCCESS] Tamamlandı.
 [2026-02-04T06:31:00.391Z] [INFO] Logger başlatıldı
 [2026-02-04T06:31:00.393Z] [INFO] Tek seferlik mod...
 [2026-02-04T06:31:00.393Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16606,3 +16585,12 @@
 [2026-02-11T04:03:56.046Z] [INFO] 377 kayıtlı kesinti var.
 [2026-02-11T04:03:56.046Z] [INFO] Yeni kesinti yok.
 [2026-02-11T04:03:56.046Z] [SUCCESS] Tamamlandı.
+[2026-02-11T05:43:18.632Z] [INFO] Logger başlatıldı
+[2026-02-11T05:43:18.633Z] [INFO] Tek seferlik mod...
+[2026-02-11T05:43:18.633Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-11T05:43:19.294Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-11T05:43:19.294Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-11T05:43:20.449Z] [INFO] 0 kesinti bulundu.
+[2026-02-11T05:43:20.451Z] [INFO] 377 kayıtlı kesinti var.
+[2026-02-11T05:43:20.452Z] [INFO] Yeni kesinti yok.
+[2026-02-11T05:43:20.452Z] [SUCCESS] Tamamlandı.
