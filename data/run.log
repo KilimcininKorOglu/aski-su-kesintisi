@@ -14687,18 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-04T14:08:01.511Z] [INFO] Logger başlatıldı
-[2026-02-04T14:08:01.513Z] [INFO] Tek seferlik mod...
-[2026-02-04T14:08:01.513Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-04T14:08:02.013Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-04T14:08:02.013Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-04T14:08:03.220Z] [INFO] 2 kesinti bulundu.
-[2026-02-04T14:08:03.222Z] [INFO] 334 kayıtlı kesinti var.
-[2026-02-04T14:08:03.222Z] [INFO] 1 yeni kesinti bulundu!
-[2026-02-04T14:08:03.810Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2019050321503490358)
-[2026-02-04T14:08:13.814Z] [INFO] 1 tweet atıldı.
-[2026-02-04T14:08:13.816Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-02-04T14:08:13.816Z] [SUCCESS] Tamamlandı.
 [2026-02-04T14:59:12.869Z] [INFO] Logger başlatıldı
 [2026-02-04T14:59:12.870Z] [INFO] Tek seferlik mod...
 [2026-02-04T14:59:12.870Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16574,3 +16562,12 @@
 [2026-02-11T13:48:12.397Z] [INFO] 1 tweet atıldı.
 [2026-02-11T13:48:12.399Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-11T13:48:12.399Z] [SUCCESS] Tamamlandı.
+[2026-02-11T14:44:22.200Z] [INFO] Logger başlatıldı
+[2026-02-11T14:44:22.202Z] [INFO] Tek seferlik mod...
+[2026-02-11T14:44:22.202Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-11T14:44:23.147Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-11T14:44:23.147Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-11T14:44:24.030Z] [INFO] 1 kesinti bulundu.
+[2026-02-11T14:44:24.032Z] [INFO] 380 kayıtlı kesinti var.
+[2026-02-11T14:44:24.033Z] [INFO] Yeni kesinti yok.
+[2026-02-11T14:44:24.033Z] [SUCCESS] Tamamlandı.
