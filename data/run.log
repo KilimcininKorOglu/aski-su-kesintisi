@@ -14687,24 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-05T09:10:14.223Z] [INFO] Logger başlatıldı
-[2026-02-05T09:10:14.225Z] [INFO] Tek seferlik mod...
-[2026-02-05T09:10:14.225Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-05T09:10:14.781Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-05T09:10:14.781Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-05T09:10:15.961Z] [INFO] 0 kesinti bulundu.
-[2026-02-05T09:10:15.962Z] [INFO] 335 kayıtlı kesinti var.
-[2026-02-05T09:10:15.963Z] [INFO] Yeni kesinti yok.
-[2026-02-05T09:10:15.963Z] [SUCCESS] Tamamlandı.
-[2026-02-05T10:02:26.031Z] [INFO] Logger başlatıldı
-[2026-02-05T10:02:26.033Z] [INFO] Tek seferlik mod...
-[2026-02-05T10:02:26.033Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-05T10:02:26.669Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-05T10:02:26.669Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-05T10:02:27.644Z] [INFO] 0 kesinti bulundu.
-[2026-02-05T10:02:27.646Z] [INFO] 335 kayıtlı kesinti var.
-[2026-02-05T10:02:27.647Z] [INFO] Yeni kesinti yok.
-[2026-02-05T10:02:27.647Z] [SUCCESS] Tamamlandı.
 [2026-02-05T10:59:35.453Z] [INFO] Logger başlatıldı
 [2026-02-05T10:59:35.454Z] [INFO] Tek seferlik mod...
 [2026-02-05T10:59:35.455Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16558,3 +16540,17 @@
 [2026-02-12T09:05:06.429Z] [INFO] 382 kayıtlı kesinti var.
 [2026-02-12T09:05:06.430Z] [INFO] Yeni kesinti yok.
 [2026-02-12T09:05:06.430Z] [SUCCESS] Tamamlandı.
+[2026-02-12T10:04:52.245Z] [INFO] Logger başlatıldı
+[2026-02-12T10:04:52.247Z] [INFO] Tek seferlik mod...
+[2026-02-12T10:04:52.247Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-12T10:04:53.008Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-12T10:04:53.008Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-12T10:04:54.218Z] [INFO] 4 kesinti bulundu.
+[2026-02-12T10:04:54.220Z] [INFO] 382 kayıtlı kesinti var.
+[2026-02-12T10:04:54.220Z] [INFO] 3 yeni kesinti bulundu!
+[2026-02-12T10:04:54.797Z] [SUCCESS] Ana tweet atıldı: HAYMANA - Plansız Kesinti (ID: 2021888234440348152)
+[2026-02-12T10:05:05.461Z] [SUCCESS] Ana tweet atıldı: KIZILCAHAMAM - Plansız Kesinti (ID: 2021888278891536632)
+[2026-02-12T10:05:16.026Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2021888323468554599)
+[2026-02-12T10:05:26.031Z] [INFO] 3 tweet atıldı.
+[2026-02-12T10:05:26.034Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-02-12T10:05:26.034Z] [SUCCESS] Tamamlandı.
