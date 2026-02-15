@@ -14687,20 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-08T08:18:54.119Z] [INFO] Logger başlatıldı
-[2026-02-08T08:18:54.120Z] [INFO] Tek seferlik mod...
-[2026-02-08T08:18:54.121Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-08T08:18:54.578Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-08T08:18:54.579Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-08T08:18:55.793Z] [INFO] 2 kesinti bulundu.
-[2026-02-08T08:18:55.795Z] [INFO] 353 kayıtlı kesinti var.
-[2026-02-08T08:18:55.795Z] [INFO] 2 yeni kesinti bulundu!
-[2026-02-08T08:19:00.317Z] [INFO] Tweet kısaltıldı: 317 -> 145 karakter
-[2026-02-08T08:19:00.866Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2020412032663892136)
-[2026-02-08T08:19:11.347Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2020412076653703646)
-[2026-02-08T08:19:21.352Z] [INFO] 2 tweet atıldı.
-[2026-02-08T08:19:21.355Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-02-08T08:19:21.355Z] [SUCCESS] Tamamlandı.
 [2026-02-08T08:53:15.187Z] [INFO] Logger başlatıldı
 [2026-02-08T08:53:15.189Z] [INFO] Tek seferlik mod...
 [2026-02-08T08:53:15.189Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16503,3 +16489,15 @@
 [2026-02-15T07:55:54.216Z] [INFO] 1 tweet atıldı.
 [2026-02-15T07:55:54.218Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-15T07:55:54.218Z] [SUCCESS] Tamamlandı.
+[2026-02-15T08:38:05.536Z] [INFO] Logger başlatıldı
+[2026-02-15T08:38:05.537Z] [INFO] Tek seferlik mod...
+[2026-02-15T08:38:05.537Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-15T08:38:06.066Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-15T08:38:06.066Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-15T08:38:07.226Z] [INFO] 2 kesinti bulundu.
+[2026-02-15T08:38:07.229Z] [INFO] 398 kayıtlı kesinti var.
+[2026-02-15T08:38:07.229Z] [INFO] 1 yeni kesinti bulundu!
+[2026-02-15T08:38:07.590Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2022953557209821554)
+[2026-02-15T08:38:17.594Z] [INFO] 1 tweet atıldı.
+[2026-02-15T08:38:17.596Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-02-15T08:38:17.596Z] [SUCCESS] Tamamlandı.
