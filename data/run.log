@@ -14687,15 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-09T08:33:55.126Z] [INFO] Logger başlatıldı
-[2026-02-09T08:33:55.127Z] [INFO] Tek seferlik mod...
-[2026-02-09T08:33:55.128Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-09T08:33:55.858Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-09T08:33:55.858Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-09T08:33:56.790Z] [INFO] 3 kesinti bulundu.
-[2026-02-09T08:33:56.793Z] [INFO] 360 kayıtlı kesinti var.
-[2026-02-09T08:33:56.793Z] [INFO] Yeni kesinti yok.
-[2026-02-09T08:33:56.793Z] [SUCCESS] Tamamlandı.
 [2026-02-09T09:40:25.831Z] [INFO] Logger başlatıldı
 [2026-02-09T09:40:25.833Z] [INFO] Tek seferlik mod...
 [2026-02-09T09:40:25.833Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16510,3 +16501,18 @@
 [2026-02-16T08:00:06.333Z] [INFO] 1 tweet atıldı.
 [2026-02-16T08:00:06.336Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-16T08:00:06.336Z] [SUCCESS] Tamamlandı.
+[2026-02-16T09:01:04.674Z] [INFO] Logger başlatıldı
+[2026-02-16T09:01:04.675Z] [INFO] Tek seferlik mod...
+[2026-02-16T09:01:04.675Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-16T09:01:05.309Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-16T09:01:05.309Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-16T09:01:06.258Z] [INFO] 6 kesinti bulundu.
+[2026-02-16T09:01:06.260Z] [INFO] 404 kayıtlı kesinti var.
+[2026-02-16T09:01:06.260Z] [INFO] 4 yeni kesinti bulundu!
+[2026-02-16T09:01:06.813Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2023321729922478268)
+[2026-02-16T09:01:17.565Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2023321775027912854)
+[2026-02-16T09:01:28.262Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2023321819898589390)
+[2026-02-16T09:01:38.887Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2023321864505057422)
+[2026-02-16T09:01:48.892Z] [INFO] 4 tweet atıldı.
+[2026-02-16T09:01:48.895Z] [SUCCESS] 4 kesinti kaydedildi.
+[2026-02-16T09:01:48.895Z] [SUCCESS] Tamamlandı.
