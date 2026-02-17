@@ -14687,19 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-10T11:37:08.295Z] [INFO] Logger başlatıldı
-[2026-02-10T11:37:08.296Z] [INFO] Tek seferlik mod...
-[2026-02-10T11:37:08.297Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-10T11:37:08.767Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-10T11:37:08.767Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-10T11:37:10.147Z] [INFO] 5 kesinti bulundu.
-[2026-02-10T11:37:10.149Z] [INFO] 370 kayıtlı kesinti var.
-[2026-02-10T11:37:10.150Z] [INFO] 2 yeni kesinti bulundu!
-[2026-02-10T11:37:10.567Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2021186677134209263)
-[2026-02-10T11:37:21.079Z] [SUCCESS] Ana tweet atıldı: SEREFLIKOÇHISAR - Plansız Kesinti (ID: 2021186721329610781)
-[2026-02-10T11:37:31.085Z] [INFO] 2 tweet atıldı.
-[2026-02-10T11:37:31.088Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-02-10T11:37:31.088Z] [SUCCESS] Tamamlandı.
 [2026-02-10T12:36:39.107Z] [INFO] Logger başlatıldı
 [2026-02-10T12:36:39.108Z] [INFO] Tek seferlik mod...
 [2026-02-10T12:36:39.109Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16575,3 +16562,15 @@
 [2026-02-17T11:04:02.154Z] [INFO] 420 kayıtlı kesinti var.
 [2026-02-17T11:04:02.154Z] [INFO] Yeni kesinti yok.
 [2026-02-17T11:04:02.154Z] [SUCCESS] Tamamlandı.
+[2026-02-17T11:51:23.066Z] [INFO] Logger başlatıldı
+[2026-02-17T11:51:23.067Z] [INFO] Tek seferlik mod...
+[2026-02-17T11:51:23.067Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-17T11:51:23.834Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-17T11:51:23.835Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-17T11:51:24.788Z] [INFO] 5 kesinti bulundu.
+[2026-02-17T11:51:24.790Z] [INFO] 420 kayıtlı kesinti var.
+[2026-02-17T11:51:24.790Z] [INFO] 1 yeni kesinti bulundu!
+[2026-02-17T11:51:25.742Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2023726978910871621)
+[2026-02-17T11:51:35.747Z] [INFO] 1 tweet atıldı.
+[2026-02-17T11:51:35.749Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-02-17T11:51:35.750Z] [SUCCESS] Tamamlandı.
