@@ -14687,19 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-10T14:06:24.804Z] [INFO] Logger başlatıldı
-[2026-02-10T14:06:24.806Z] [INFO] Tek seferlik mod...
-[2026-02-10T14:06:24.806Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-10T14:06:25.212Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-10T14:06:25.213Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-10T14:06:26.325Z] [INFO] 5 kesinti bulundu.
-[2026-02-10T14:06:26.327Z] [INFO] 375 kayıtlı kesinti var.
-[2026-02-10T14:06:26.327Z] [INFO] 2 yeni kesinti bulundu!
-[2026-02-10T14:06:26.790Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2021224242189152647)
-[2026-02-10T14:06:37.333Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2021224286464229727)
-[2026-02-10T14:06:47.338Z] [INFO] 2 tweet atıldı.
-[2026-02-10T14:06:47.341Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-02-10T14:06:47.341Z] [SUCCESS] Tamamlandı.
 [2026-02-10T15:19:23.126Z] [INFO] Logger başlatıldı
 [2026-02-10T15:19:23.128Z] [INFO] Tek seferlik mod...
 [2026-02-10T15:19:23.128Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -16891,11 +16878,21 @@
 [2026-02-17T13:09:54.301Z] [ERROR] Ana tweet atılamadı: KAZAN - Plansız Kesinti
 [2026-02-17T13:09:54.301Z] [INFO] Tweet içeriği (173 karakter):
 ⚠️ KAZAN - Plansız Kesinti
-
 📅 17.02.2026 16:00:00 - 17.02.2026 20:00:00
 📍 SARAY MAHALLESİ SARAY KENT SANAYİ SİTESİ BAĞLI CADDE VE SOKAKLAR
-
 #AnkaraSuKesintisi #ASKİ #Kazan
 [2026-02-17T13:10:04.306Z] [INFO] 1 tweet atıldı.
 [2026-02-17T13:10:04.309Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-02-17T13:10:04.310Z] [SUCCESS] Tamamlandı.
+[2026-02-17T14:12:33.006Z] [INFO] Logger başlatıldı
+[2026-02-17T14:12:33.007Z] [INFO] Tek seferlik mod...
+[2026-02-17T14:12:33.008Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-17T14:12:33.573Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-17T14:12:33.574Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-17T14:12:34.970Z] [INFO] 5 kesinti bulundu.
+[2026-02-17T14:12:34.972Z] [INFO] 422 kayıtlı kesinti var.
+[2026-02-17T14:12:34.973Z] [INFO] 1 yeni kesinti bulundu!
+[2026-02-17T14:12:35.481Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2023762503558459629)
+[2026-02-17T14:12:45.486Z] [INFO] 1 tweet atıldı.
+[2026-02-17T14:12:45.488Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-02-17T14:12:45.488Z] [SUCCESS] Tamamlandı.
