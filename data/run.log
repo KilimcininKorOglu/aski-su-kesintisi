@@ -14687,18 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-14T09:57:38.217Z] [INFO] Logger başlatıldı
-[2026-02-14T09:57:38.218Z] [INFO] Tek seferlik mod...
-[2026-02-14T09:57:38.218Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-14T09:57:38.885Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-14T09:57:38.886Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-14T09:57:39.869Z] [INFO] 3 kesinti bulundu.
-[2026-02-14T09:57:39.871Z] [INFO] 394 kayıtlı kesinti var.
-[2026-02-14T09:57:39.872Z] [INFO] 1 yeni kesinti bulundu!
-[2026-02-14T09:57:40.259Z] [SUCCESS] Ana tweet atıldı: NALLIHAN - Plansız Kesinti (ID: 2022611187628937230)
-[2026-02-14T09:57:50.262Z] [INFO] 1 tweet atıldı.
-[2026-02-14T09:57:50.264Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-02-14T09:57:50.264Z] [SUCCESS] Tamamlandı.
 [2026-02-14T10:36:54.489Z] [INFO] Logger başlatıldı
 [2026-02-14T10:36:54.491Z] [INFO] Tek seferlik mod...
 [2026-02-14T10:36:54.491Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17012,3 +17000,12 @@
 [2026-02-21T09:47:39.560Z] [INFO] 456 kayıtlı kesinti var.
 [2026-02-21T09:47:39.561Z] [INFO] Yeni kesinti yok.
 [2026-02-21T09:47:39.561Z] [SUCCESS] Tamamlandı.
+[2026-02-21T10:01:33.345Z] [INFO] Logger başlatıldı
+[2026-02-21T10:01:33.346Z] [INFO] Tek seferlik mod...
+[2026-02-21T10:01:33.346Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-21T10:01:33.950Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-21T10:01:33.950Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-21T10:01:35.111Z] [INFO] 5 kesinti bulundu.
+[2026-02-21T10:01:35.113Z] [INFO] 456 kayıtlı kesinti var.
+[2026-02-21T10:01:35.113Z] [INFO] Yeni kesinti yok.
+[2026-02-21T10:01:35.114Z] [SUCCESS] Tamamlandı.
