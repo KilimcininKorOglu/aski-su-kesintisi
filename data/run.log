@@ -14687,18 +14687,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-02-14T08:16:03.362Z] [INFO] Logger başlatıldı
-[2026-02-14T08:16:03.364Z] [INFO] Tek seferlik mod...
-[2026-02-14T08:16:03.364Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-02-14T08:16:04.077Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-02-14T08:16:04.077Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-02-14T08:16:05.089Z] [INFO] 2 kesinti bulundu.
-[2026-02-14T08:16:05.091Z] [INFO] 393 kayıtlı kesinti var.
-[2026-02-14T08:16:05.092Z] [INFO] 1 yeni kesinti bulundu!
-[2026-02-14T08:16:05.669Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2022585624742834466)
-[2026-02-14T08:16:15.673Z] [INFO] 1 tweet atıldı.
-[2026-02-14T08:16:15.676Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-02-14T08:16:15.676Z] [SUCCESS] Tamamlandı.
 [2026-02-14T08:51:49.809Z] [INFO] Logger başlatıldı
 [2026-02-14T08:51:49.811Z] [INFO] Tek seferlik mod...
 [2026-02-14T08:51:49.811Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17010,3 +16998,12 @@
 [2026-02-21T07:57:31.060Z] [INFO] 454 kayıtlı kesinti var.
 [2026-02-21T07:57:31.060Z] [INFO] Yeni kesinti yok.
 [2026-02-21T07:57:31.060Z] [SUCCESS] Tamamlandı.
+[2026-02-21T08:41:08.700Z] [INFO] Logger başlatıldı
+[2026-02-21T08:41:08.701Z] [INFO] Tek seferlik mod...
+[2026-02-21T08:41:08.702Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-02-21T08:41:09.517Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-02-21T08:41:09.517Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-02-21T08:41:10.537Z] [INFO] 6 kesinti bulundu.
+[2026-02-21T08:41:10.539Z] [INFO] 454 kayıtlı kesinti var.
+[2026-02-21T08:41:10.539Z] [INFO] Yeni kesinti yok.
+[2026-02-21T08:41:10.539Z] [SUCCESS] Tamamlandı.
