@@ -139,16 +139,22 @@ async function delay(ms: number): Promise<void> {
 async function createTweet(text: string): Promise<string | null> {
   if (!twitterConfig || !twitterConfig.ct0) return null;
 
-  const params = new URLSearchParams({
-    auth_token: twitterConfig.authToken,
-    ct0: twitterConfig.ct0,
-    apiKey: twitterConfig.apiKey,
-    resFormat: 'json',
-    medias: '[]',
-    text: text
-  });
-
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    if (attempt % 10 === 0 && attempt > 0) {
+      log('ct0 token yenileniyor...');
+      const newCt0 = await getCt0Token();
+      if (newCt0) twitterConfig.ct0 = newCt0;
+    }
+
+    const params = new URLSearchParams({
+      auth_token: twitterConfig.authToken,
+      ct0: twitterConfig.ct0!,
+      apiKey: twitterConfig.apiKey,
+      resFormat: 'json',
+      medias: '[]',
+      text: text
+    });
+
     try {
       const response = await axios.get(
         `https://${twitterConfig.rapidApiHost}/base/apitools/createTweet?${params.toString()}`,
@@ -202,17 +208,23 @@ async function createTweet(text: string): Promise<string | null> {
 async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
   if (!twitterConfig || !twitterConfig.ct0) return false;
 
-  const params = new URLSearchParams({
-    auth_token: twitterConfig.authToken,
-    ct0: twitterConfig.ct0,
-    apiKey: twitterConfig.apiKey,
-    resFormat: 'json',
-    medias: '[]',
-    text: text,
-    tweetId: tweetId
-  });
-
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    if (attempt % 10 === 0 && attempt > 0) {
+      log('ct0 token yenileniyor...');
+      const newCt0 = await getCt0Token();
+      if (newCt0) twitterConfig.ct0 = newCt0;
+    }
+
+    const params = new URLSearchParams({
+      auth_token: twitterConfig.authToken,
+      ct0: twitterConfig.ct0!,
+      apiKey: twitterConfig.apiKey,
+      resFormat: 'json',
+      medias: '[]',
+      text: text,
+      tweetId: tweetId
+    });
+
     try {
       const response = await axios.get(
         `https://${twitterConfig.rapidApiHost}/base/apitools/tweetReply?${params.toString()}`,
