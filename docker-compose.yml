@@ -5,9 +5,6 @@ services:
     restart: unless-stopped
     env_file: .env
     volumes:
-      - bot-data:/app/data
+      - ./data:/app/data
     environment:
       - NODE_ENV=production
-
-volumes:
-  bot-data:
