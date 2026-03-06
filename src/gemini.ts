@@ -96,7 +96,7 @@ export async function shortenTweet(text: string, type: 'main' | 'reply', tweetDa
   // Ana tweet için: şablonu koruyarak sadece etkilenen yerleri kısalt
   if (type === 'main' && tweetData) {
     const baseLength = `${tweetData.emoji} ${tweetData.ilce} - ${tweetData.kesintiTuru}\n\n📅 ${tweetData.tarih}\n📍 \n\n${tweetData.hashtags}`.length;
-    const maxPlacesLength = TWEET_MAX_LENGTH - baseLength - 5; // 5 karakter buffer
+    const maxPlacesLength = TWEET_MAX_LENGTH - baseLength - 20;
     
     if (maxPlacesLength > 20) {
       const shortenedPlaces = await shortenPlaces(tweetData.etkilenenYerler, maxPlacesLength);
