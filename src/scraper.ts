@@ -62,7 +62,7 @@ function parseKesintiler($: cheerio.CheerioAPI): Kesinti[] {
     const arizaMatch = text.match(/Arıza Tarihi:\s*(\d{1,2}\.\d{2}\.\d{4}\s+\d{2}:\d{2}:\d{2})/);
     const tamirMatch = text.match(/Tamir Tarihi:\s*(\d{1,2}\.\d{2}\.\d{4}\s+\d{2}:\d{2}:\d{2})/);
     const detayMatch = text.match(/Detay:\s*([\s\S]*?)(?=Etkilenen Yerler:|$)/);
-    const yerlerMatch = text.match(/Etkilenen Yerler:\s*([\s\S]*?)$/);
+    const yerlerMatch = text.match(/Etkilenen Yerler:\s*([\s\S]*?)(?=Arıza Tarihi:|Tamir Tarihi:|Detay:|Planlı Kesinti|Plansız Kesinti|$)/);
     
     if (!arizaMatch || !tamirMatch) return;
     
