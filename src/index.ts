@@ -70,23 +70,20 @@ const isDryRun = process.argv.includes('--dry');
 
 // Tek seferlik çalıştırma modu
 if (process.argv.includes('--once')) {
-  initLogger();
-  log(isDryRun ? 'Dry run modu...' : 'Tek seferlik mod...');
-  initGeminiClient();
-  if (!isDryRun) {
-    initTwitterClient().then(() => {
-      checkAndTweet().then(() => {
-        success('Tamamlandı.');
-        process.exit(0);
-      });
-    });
-  } else {
-    // Dry run: Twitter client başlatılmaz
-    checkAndTweet().then(() => {
-      success('Dry run tamamlandı.');
-      process.exit(0);
-    });
-  }
+  (async () => {
+    try {
+      initLogger();
+      log(isDryRun ? 'Dry run modu...' : 'Tek seferlik mod...');
+      initGeminiClient();
+      if (!isDryRun) await initTwitterClient();
+      await checkAndTweet();
+      success(isDryRun ? 'Dry run tamamlandı.' : 'Tamamlandı.');
+    } catch (err) {
+      error('Kritik hata:', err);
+      process.exit(1);
+    }
+    process.exit(0);
+  })();
 } else {
   main();
 }
