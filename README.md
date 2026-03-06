@@ -34,15 +34,15 @@ cp .env.example .env
 
 ### Ortam Degiskenleri
 
-| Degisken               | Aciklama                                   | Varsayilan                                  |
-|------------------------|--------------------------------------------|---------------------------------------------|
-| `RAPIDAPI_KEY`         | RapidAPI anahtari                          | -                                           |
-| `RAPIDAPI_HOST`        | RapidAPI host                              | twitter-api-v1-1-enterprise.p.rapidapi.com  |
-| `TWITTER_AUTH_TOKEN`   | Twitter oturum token'i                     | -                                           |
-| `TWITTER_API_KEY`      | Twitter API key                            | -                                           |
-| `MAX_TWEET_RETRIES`    | Maksimum deneme sayisi                     | 100                                         |
-| `TWEET_RETRY_DELAY_MS` | Denemeler arasi bekleme (ms)               | 5000                                        |
-| `CHECK_INTERVAL_MS`    | Kontrol araligi (ms)                       | 300000                                      |
+| Degisken               | Aciklama                     | Varsayilan                                 |
+|------------------------|------------------------------|--------------------------------------------|
+| `RAPIDAPI_KEY`         | RapidAPI anahtari            | -                                          |
+| `RAPIDAPI_HOST`        | RapidAPI host                | twitter-api-v1-1-enterprise.p.rapidapi.com |
+| `TWITTER_AUTH_TOKEN`   | Twitter oturum token'i       | -                                          |
+| `TWITTER_API_KEY`      | Twitter API key              | -                                          |
+| `MAX_TWEET_RETRIES`    | Maksimum deneme sayisi       | 100                                        |
+| `TWEET_RETRY_DELAY_MS` | Denemeler arasi bekleme (ms) | 5000                                       |
+| `CHECK_INTERVAL_MS`    | Kontrol araligi (ms)         | 300000                                     |
 
 ## Kullanim
 
@@ -71,18 +71,18 @@ Repository'yi GitHub'a push ettiginizde otomatik olarak calisir.
 
 Repository > Settings > Secrets and variables > Actions > New repository secret
 
-| Secret               | Aciklama                        |
-|----------------------|---------------------------------|
-| `RAPIDAPI_KEY`       | RapidAPI anahtari               |
-| `TWITTER_AUTH_TOKEN` | Twitter oturum token'i          |
-| `TWITTER_API_KEY`    | Twitter API key                 |
+| Secret               | Aciklama               |
+|----------------------|------------------------|
+| `RAPIDAPI_KEY`       | RapidAPI anahtari      |
+| `TWITTER_AUTH_TOKEN` | Twitter oturum token'i |
+| `TWITTER_API_KEY`    | Twitter API key        |
 
 ### Opsiyonel Secrets
 
-| Secret                 | Varsayilan | Aciklama                    |
-|------------------------|------------|-----------------------------|
-| `MAX_TWEET_RETRIES`    | 100        | Maksimum deneme sayisi      |
-| `TWEET_RETRY_DELAY_MS` | 5000       | Denemeler arasi bekleme     |
+| Secret                 | Varsayilan | Aciklama                |
+|------------------------|------------|-------------------------|
+| `MAX_TWEET_RETRIES`    | 100        | Maksimum deneme sayisi  |
+| `TWEET_RETRY_DELAY_MS` | 5000       | Denemeler arasi bekleme |
 
 ### Manuel Tetikleme
 
@@ -117,11 +117,11 @@ basinc dusukluğu ve su kesintileri yasanabilmektedir...
 
 RapidAPI uzerinden `twitter-api-v1-1-enterprise` kullaniliyor.
 
-| Islem      | Endpoint                      | Method |
-|------------|-------------------------------|--------|
-| ct0 token  | `/base/apitools/getCt0`       | POST   |
-| Tweet at   | `/base/apitools/createTweet`  | GET    |
-| Yanit at   | `/base/apitools/tweetReply`   | GET    |
+| Islem     | Endpoint                     | Method |
+|-----------|------------------------------|--------|
+| ct0 token | `/base/apitools/getCt0`      | POST   |
+| Tweet at  | `/base/apitools/createTweet` | GET    |
+| Yanit at  | `/base/apitools/tweetReply`  | GET    |
 
 ct0 token her calistirmada dinamik olarak alinir.
 

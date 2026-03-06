@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const LOG_DIR = path.join(process.cwd(), 'data');
+const PROJECT_ROOT = path.resolve(__dirname, '..');
+const LOG_DIR = path.join(PROJECT_ROOT, 'data');
 const LOG_FILE = path.join(LOG_DIR, 'run.log');
 const LOG_RETENTION_DAYS = 7;
 
