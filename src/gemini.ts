@@ -6,6 +6,7 @@ let model: any = null;
 
 const TWEET_MAX_LENGTH = parseInt(process.env.TWEET_MAX_LENGTH || '280', 10);
 const GEMINI_RATE_LIMIT_DELAY = parseInt(process.env.GEMINI_RATE_LIMIT_DELAY || '4000', 10);
+const MAX_GEMINI_RETRIES = 10;
 
 async function delay(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -57,7 +58,7 @@ Kurallar:
 Liste:
 ${etkilenenYerler}`;
 
-  while (true) {
+  for (let attempt = 0; attempt < MAX_GEMINI_RETRIES; attempt++) {
     try {
       const result = await model.generateContent(prompt);
       const response = await result.response;
@@ -77,6 +78,9 @@ ${etkilenenYerler}`;
       await delay(waitTime);
     }
   }
+
+  warn(`Gemini ${MAX_GEMINI_RETRIES} denemede başarısız oldu. Orijinal metin kullanılıyor.`);
+  return etkilenenYerler;
 }
 
 export async function shortenTweet(text: string, type: 'main' | 'reply', tweetData?: TweetData): Promise<string> {
@@ -132,7 +136,7 @@ Kurallar:
 Metin:
 ${text}`;
 
-  while (true) {
+  for (let attempt = 0; attempt < MAX_GEMINI_RETRIES; attempt++) {
     try {
       const result = await model.generateContent(prompt);
       const response = await result.response;
@@ -162,6 +166,9 @@ ${text}`;
       await delay(waitTime);
     }
   }
+
+  warn(`Gemini ${MAX_GEMINI_RETRIES} denemede tweet kısaltamadı. Orijinal metin kullanılıyor.`);
+  return text;
 }
 
 export function getTweetMaxLength(): number {
