@@ -4,59 +4,59 @@ Ankara Su ve Kanalizasyon İdaresi (ASKİ) su kesintilerini otomatik olarak taki
 
 Takip etmek isterseniz https://x.com/ANKSuKesintisi
 
-## Ozellikler
+## Özellikler
 
-- ASKİ web sitesinden su kesintilerini otomatik olarak ceker
-- Yeni kesinti tespit edildiginde Twitter'da paylasir
-- Duplicate tweetleri onler (aynı kesinti icin tekrar tweet atmaz)
-- Basarisiz tweet'ler icin otomatik retry mekanizmasi
-- GitHub Actions ile 5 dakikada bir otomatik calisir
+- ASKİ web sitesinden su kesintilerini otomatik olarak çeker
+- Yeni kesinti tespit edildiğinde Twitter'da paylaşır
+- Duplicate tweetleri önler (aynı kesinti için tekrar tweet atmaz)
+- Başarısız tweet'ler için otomatik retry mekanizması
+- GitHub Actions ile 9 dakikada bir otomatik çalışır
 
 ## Kurulum
 
 ### Gereksinimler
 
 - Node.js 20+
-- RapidAPI hesabi (twitter-api-v1-1-enterprise)
-- Twitter hesabi
+- RapidAPI hesabı (twitter-api-v1-1-enterprise)
+- Twitter hesabı
 
 ### Yerel Kurulum
 
 ```bash
-# Bagimliliklari yukle
+# Bağımlılıkları yükle
 npm install
 
-# .env dosyasi olustur
+# .env dosyası oluştur
 cp .env.example .env
 
-# .env dosyasini duzenle ve API anahtarlarini ekle
+# .env dosyasını düzenle ve API anahtarlarını ekle
 ```
 
-### Ortam Degiskenleri
+### Ortam Değişkenleri
 
-| Degisken               | Aciklama                     | Varsayilan                                 |
+| Değişken               | Açıklama                     | Varsayılan                                 |
 |------------------------|------------------------------|--------------------------------------------|
-| `RAPIDAPI_KEY`         | RapidAPI anahtari            | -                                          |
+| `RAPIDAPI_KEY`         | RapidAPI anahtarı            | -                                          |
 | `RAPIDAPI_HOST`        | RapidAPI host                | twitter-api-v1-1-enterprise.p.rapidapi.com |
-| `TWITTER_AUTH_TOKEN`   | Twitter oturum token'i       | -                                          |
+| `TWITTER_AUTH_TOKEN`   | Twitter oturum token'ı       | -                                          |
 | `TWITTER_API_KEY`      | Twitter API key              | -                                          |
-| `MAX_TWEET_RETRIES`    | Maksimum deneme sayisi       | 100                                        |
-| `TWEET_RETRY_DELAY_MS` | Denemeler arasi bekleme (ms) | 5000                                       |
-| `CHECK_INTERVAL_MS`    | Kontrol araligi (ms)         | 300000                                     |
+| `MAX_TWEET_RETRIES`    | Maksimum deneme sayısı       | 100                                        |
+| `TWEET_RETRY_DELAY_MS` | Denemeler arası bekleme (ms) | 5000                                       |
+| `CHECK_INTERVAL_MS`    | Kontrol aralığı (ms)         | 300000                                     |
 
-## Kullanim
+## Kullanım
 
 ```bash
-# Tek seferlik calistir (test icin)
+# Tek seferlik çalıştır (test için)
 npm run dev -- --once
 
-# Surekli calistir (belirtilen aralikta kontrol eder)
+# Sürekli çalıştır (belirtilen aralıkta kontrol eder)
 npm start
 
-# Sadece scraper'i test et
+# Sadece scraper'ı test et
 npm run scrape
 
-# Debug modu (kac kesinti oldugunu goster)
+# Debug modu (kaç kesinti olduğunu göster)
 npm run scrape -- --debug
 
 # Build
@@ -65,94 +65,85 @@ npm run build
 
 ## GitHub Actions
 
-Repository'yi GitHub'a push ettiginizde otomatik olarak calisir.
+Repository'yi GitHub'a push ettiğinizde otomatik olarak çalışır.
 
-### Secrets Ayarlari
+### Secrets Ayarları
 
 Repository > Settings > Secrets and variables > Actions > New repository secret
 
-| Secret               | Aciklama               |
+| Secret               | Açıklama               |
 |----------------------|------------------------|
-| `RAPIDAPI_KEY`       | RapidAPI anahtari      |
-| `TWITTER_AUTH_TOKEN` | Twitter oturum token'i |
+| `RAPIDAPI_KEY`       | RapidAPI anahtarı      |
+| `TWITTER_AUTH_TOKEN` | Twitter oturum token'ı |
 | `TWITTER_API_KEY`    | Twitter API key        |
 
 ### Opsiyonel Secrets
 
-| Secret                 | Varsayilan | Aciklama                |
+| Secret                 | Varsayılan | Açıklama                |
 |------------------------|------------|-------------------------|
-| `MAX_TWEET_RETRIES`    | 100        | Maksimum deneme sayisi  |
-| `TWEET_RETRY_DELAY_MS` | 5000       | Denemeler arasi bekleme |
+| `MAX_TWEET_RETRIES`    | 100        | Maksimum deneme sayısı  |
+| `TWEET_RETRY_DELAY_MS` | 5000       | Denemeler arası bekleme |
 
 ### Manuel Tetikleme
 
-Actions > ASKİ Su Kesintisi Kontrolu > Run workflow
+Actions > ASKİ Su Kesintisi Kontrolü > Run workflow
 
-## Tweet Formati
+## Tweet Formatı
 
-Her kesinti icin 2 tweet atilir:
+Her kesinti için tweet atılır:
 
 ### Ana Tweet
 ```
-⚠️ YENİMAHALLE - Plansiz Kesinti
+⚠️ YENİMAHALLE - Plansız Kesinti
 
 📅 4.01.2026 11:10:00 - 4.01.2026 23:55:00
-📍 Demetevler Mahallesi, Demetlale Mahallesi, Demetgul Mahallesi...
+📍 Demetevler Mahallesi, Demetlale Mahallesi, Demetgül Mahallesi...
 
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-```
-
-### Yanit Tweet (Detay)
-```
-📋 Kesinti Aciklamasi:
-
-Devam eden kuraklik ve artan nufus nedeniyle su kaynaklarimiz 
-uzerindeki yuk artmistir. Bu nedenle bazi bolgelerde zaman zaman 
-basinc dusukluğu ve su kesintileri yasanabilmektedir...
 ```
 
 ## Teknik Detaylar
 
 ### Twitter API (RapidAPI)
 
-RapidAPI uzerinden `twitter-api-v1-1-enterprise` kullaniliyor.
+RapidAPI üzerinden `twitter-api-v1-1-enterprise` kullanılıyor.
 
-| Islem     | Endpoint                     | Method |
+| İşlem     | Endpoint                     | Method |
 |-----------|------------------------------|--------|
 | ct0 token | `/base/apitools/getCt0`      | POST   |
 | Tweet at  | `/base/apitools/createTweet` | GET    |
-| Yanit at  | `/base/apitools/tweetReply`  | GET    |
+| Yanıt at  | `/base/apitools/tweetReply`  | GET    |
 
-ct0 token her calistirmada dinamik olarak alinir.
+ct0 token her çalıştırmada dinamik olarak alınır.
 
-### Retry Mekanizmasi
+### Retry Mekanizması
 
-- Tweet/reply basarisiz olursa `MAX_TWEET_RETRIES` kez denenir
-- Her deneme arasinda `TWEET_RETRY_DELAY_MS` beklenir
-- API hatalari detayli loglanir (response.data, HTTP status)
+- Tweet/reply başarısız olursa `MAX_TWEET_RETRIES` kez denenir
+- Her deneme arasında `TWEET_RETRY_DELAY_MS` beklenir
+- API hataları detaylı loglanır (response.data, HTTP status)
 
-### Duplicate Onleme
+### Duplicate Önleme
 
-Her kesinti icin benzersiz bir ID olusturulur:
+Her kesinti için benzersiz bir ID oluşturulur:
 
 ```
 id = sha256(ilce + arizaTarihi + kesintiTuru + etkilenenYerler)
 ```
 
 Bu sayede:
-- Ayni ilcede farkli zamanlarda kesinti olabilir
-- Ayni ilcede farkli mahallelerde kesinti olabilir
-- Planli ve plansiz kesintiler ayri sayilir
+- Aynı ilçede farklı zamanlarda kesinti olabilir
+- Aynı ilçede farklı mahallelerde kesinti olabilir
+- Planlı ve plansız kesintiler ayrı sayılır
 
-### Dosya Yapisi
+### Dosya Yapısı
 
 ```
 src/
-├── index.ts      # Ana calisma dongusu
-├── scraper.ts    # ASKİ sayfasini ceker ve parse eder
-├── storage.ts    # JSON dosya yonetimi
+├── index.ts      # Ana çalışma döngüsü
+├── scraper.ts    # ASKİ sayfasını çeker ve parse eder
+├── storage.ts    # JSON dosya yönetimi
 ├── twitter.ts    # RapidAPI ile Twitter entegrasyonu
-└── types.ts      # TypeScript tanimlamalari
+└── types.ts      # TypeScript tanımlamaları
 
 data/
 └── kesintiler.json  # Bilinen kesintilerin listesi

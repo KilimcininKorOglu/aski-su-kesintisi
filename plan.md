@@ -1,29 +1,33 @@
-# Plan: ASKİ Su Kesintisi Twitter Botu
+# Plan: ASKİ Water Outage Twitter Bot
 
-## Mimari
+## Architecture
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│   Scraper       │────▶│   Karşılaştırma  │────▶│  Twitter API    │
-│ (aski.gov.tr)   │     │   (JSON dosya)   │     │  (Tweet atma)   │
+│   Scraper       │────▶│   Comparison     │────▶│  Twitter API    │
+│ (aski.gov.tr)   │     │   (JSON file)    │     │  (RapidAPI)     │
 └─────────────────┘     └──────────────────┘     └─────────────────┘
-        │                        │
-        ▼                        ▼
-   HTML Parse              kesintiler.json
-   (Cheerio)               (Durum takibi)
+        │                        │                        │
+        ▼                        ▼                        ▼
+   HTML Parse              kesintiler.json           Gemini API
+   (Cheerio)               (State tracking)       (Tweet shortening)
 ```
 
-## Bileşenler
+## Components
 
-| Dosya                  | Görev                                                   |
-|------------------------|---------------------------------------------------------|
-| `src/scraper.ts`       | ASKİ sayfasını çeker, kesintileri parse eder            |
-| `src/twitter.ts`       | Twitter API v2 ile tweet atar                           |
-| `src/storage.ts`       | Önceki kesintileri JSON'da saklar, yenileri tespit eder |
-| `src/index.ts`         | Ana çalışma döngüsü (cron veya interval)                |
-| `data/kesintiler.json` | Bilinen kesintilerin listesi                            |
+| File                   | Purpose                                           |
+|------------------------|---------------------------------------------------|
+| `src/scraper.ts`       | Fetches ASKİ page, parses outages                 |
+| `src/twitter.ts`       | Posts tweets via RapidAPI, retry mechanism        |
+| `src/storage.ts`       | Stores previous outages in JSON, detects new ones |
+| `src/gemini.ts`        | Shortens tweets exceeding 280 chars via Gemini    |
+| `src/logger.ts`        | File + console logging, 7-day retention           |
+| `src/types.ts`         | Kesinti interface, sha256 ID generator            |
+| `src/index.ts`         | Main loop, CLI flags (--once, --dry)              |
+| `data/kesintiler.json` | List of known outages                             |
+| `data/run.log`         | Run logs                                          |
 
-## Veri Yapısı
+## Data Structure
 
 ```typescript
 interface Kesinti {
@@ -37,38 +41,39 @@ interface Kesinti {
 }
 ```
 
-## Duplicate Önleme Stratejisi
+## Duplicate Prevention Strategy
 
-Her kesinti için benzersiz bir `id` oluşturulur:
+A unique `id` is generated for each outage:
 
 ```typescript
 id = sha256(ilce + arizaTarihi + kesintiTuru + etkilenenYerler)
 ```
 
-**Neden bu alanlar?**
+**Why these fields?**
 
-| Alan              | Sebep                                            |
-|-------------------|--------------------------------------------------|
-| `ilce`            | Aynı anda farklı ilçelerde kesinti olabilir      |
-| `arizaTarihi`     | Aynı ilçede farklı zamanlarda kesinti olabilir   |
-| `kesintiTuru`     | Planlı ve plansız kesinti aynı anda olabilir     |
-| `etkilenenYerler` | Aynı ilçede farklı mahallelerde kesinti olabilir |
+| Field             | Reason                                             |
+|-------------------|----------------------------------------------------|
+| `ilce`            | Multiple districts can have outages simultaneously |
+| `arizaTarihi`     | Same district can have outages at different times  |
+| `kesintiTuru`     | Planned and unplanned outages can occur together   |
+| `etkilenenYerler` | Same district can have outages in different areas  |
 
-**Dahil edilmeyen alanlar:**
+**Excluded fields:**
 
-| Alan          | Sebep                                              |
-|---------------|----------------------------------------------------|
-| `tamirTarihi` | Tamir süresi uzayabilir, kesinti aynı kalır        |
-| `detay`       | Açıklama metni güncellenebilir, kesinti aynı kalır |
+| Field         | Reason                                          |
+|---------------|-------------------------------------------------|
+| `tamirTarihi` | Repair time may extend, outage remains the same |
+| `detay`       | Description may be updated, outage remains same |
 
-**Akış:**
+**Flow:**
 
-1. Yeni kesintileri çek
-2. Her biri için `id` hesapla
-3. `kesintiler.json`'daki id'lerle karşılaştır
-4. Eşleşmeyen id varsa → yeni kesinti → tweet at
+1. Fetch new outages
+2. Calculate `id` for each
+3. Compare with ids in `kesintiler.json`
+4. If no match → new outage → post tweet
+5. Only successfully tweeted outages are saved
 
-## Tweet Formatı
+## Tweet Format
 
 ```
 ⚠️ YENİMAHALLE - Plansız Kesinti
@@ -79,23 +84,47 @@ id = sha256(ilce + arizaTarihi + kesintiTuru + etkilenenYerler)
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 ```
 
-## Gerekli Paketler
+Planned outages use 🔧 instead of ⚠️.
 
-- `node-fetch` veya `axios` - HTTP istekleri
-- `cheerio` - HTML parse
-- `twitter-api-v2` - Twitter API
-- `node-cron` - Zamanlayıcı (opsiyonel)
-- `dotenv` - Ortam değişkenleri
+## Dependencies
 
-## Çalışma Akışı
+- `axios` - HTTP requests (ASKİ scraping + RapidAPI)
+- `cheerio` - HTML parsing
+- `@google/generative-ai` - Tweet shortening via Gemini
+- `dotenv` - Environment variables
 
-1. Her 5-10 dakikada bir ASKİ sayfasını çek
-2. Kesintileri parse et
-3. `kesintiler.json` ile karşılaştır
-4. Yeni kesinti varsa tweet at ve JSON'u güncelle
+## Workflow
 
-## Twitter API Gereksinimleri
+1. Runs every 9 minutes via GitHub Actions (`*/9 * * * *`)
+2. Fetch and parse outages from ASKİ page
+3. Compare with `kesintiler.json`
+4. If new outage found:
+   - Shorten via Gemini if tweet exceeds 280 chars
+   - Post tweet via RapidAPI
+   - Save to `kesintiler.json` if successful
+5. `[skip ci]` prevents infinite loop
 
-- Twitter Developer hesabı
-- API Key, API Secret, Access Token, Access Token Secret
-- `.env` dosyasında saklanacak
+## Twitter API (RapidAPI)
+
+Uses `twitter-api-v1-1-enterprise` via RapidAPI.
+
+| Operation | Endpoint                     | Method |
+|-----------|------------------------------|--------|
+| ct0 token | `/base/apitools/getCt0`      | POST   |
+| Tweet     | `/base/apitools/createTweet` | GET    |
+| Reply     | `/base/apitools/tweetReply`  | GET    |
+
+- ct0 token is fetched dynamically on each run
+- Failed tweets retry up to MAX_TWEET_RETRIES (100) times
+- TWEET_RETRY_DELAY_MS (5000ms) wait between retries
+
+## Environment Variables
+
+| Variable             | Required | Default |
+|----------------------|----------|---------|
+| `RAPIDAPI_KEY`       | Yes      | -       |
+| `TWITTER_AUTH_TOKEN` | Yes      | -       |
+| `TWITTER_API_KEY`    | Yes      | -       |
+| `GEMINI_API_KEY`     | No       | -       |
+| `MAX_TWEET_RETRIES`  | No       | 100     |
+| `TWEET_MAX_LENGTH`   | No       | 280     |
