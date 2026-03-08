@@ -15901,3 +15901,12 @@
 [2026-03-08T07:08:19.130Z] [INFO] 1 tweet atıldı.
 [2026-03-08T07:08:19.133Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-08T07:08:19.133Z] [SUCCESS] Tamamlandı.
+[2026-03-08T07:41:25.059Z] [INFO] Logger başlatıldı
+[2026-03-08T07:41:25.060Z] [INFO] Tek seferlik mod...
+[2026-03-08T07:41:25.061Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-08T07:41:25.685Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-08T07:41:25.685Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-08T07:41:26.722Z] [INFO] 2 kesinti bulundu.
+[2026-03-08T07:41:26.725Z] [INFO] 480 kayıtlı kesinti var.
+[2026-03-08T07:41:26.726Z] [INFO] Yeni kesinti yok.
+[2026-03-08T07:41:26.726Z] [SUCCESS] Tamamlandı.
