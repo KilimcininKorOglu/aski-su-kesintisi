@@ -17017,3 +17017,18 @@
 [2026-03-11T08:01:23.200Z] [INFO] 1 tweet atıldı.
 [2026-03-11T08:01:23.203Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-11T08:01:23.203Z] [SUCCESS] Tamamlandı.
+[2026-03-11T08:55:59.535Z] [INFO] Logger başlatıldı
+[2026-03-11T08:55:59.537Z] [INFO] Tek seferlik mod...
+[2026-03-11T08:55:59.537Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-11T08:56:00.577Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-11T08:56:00.578Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-11T08:56:01.666Z] [INFO] 6 kesinti bulundu.
+[2026-03-11T08:56:01.668Z] [INFO] 512 kayıtlı kesinti var.
+[2026-03-11T08:56:01.669Z] [INFO] 3 yeni kesinti bulundu!
+[2026-03-11T08:56:02.143Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2031655372776480943)
+[2026-03-11T08:56:12.672Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2031655416963449151)
+[2026-03-11T08:56:27.252Z] [INFO] Tweet kısaltıldı: 292 -> 144 karakter
+[2026-03-11T08:56:28.377Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2031655482717524238)
+[2026-03-11T08:56:38.382Z] [INFO] 3 tweet atıldı.
+[2026-03-11T08:56:38.385Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-03-11T08:56:38.386Z] [SUCCESS] Tamamlandı.
