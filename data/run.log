@@ -17411,3 +17411,25 @@
 [2026-03-12T11:23:31.458Z] [INFO] 1 tweet atıldı.
 [2026-03-12T11:23:31.461Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-12T11:23:31.461Z] [SUCCESS] Tamamlandı.
+[2026-03-12T11:46:29.372Z] [INFO] Logger başlatıldı
+[2026-03-12T11:46:29.374Z] [INFO] Tek seferlik mod...
+[2026-03-12T11:46:29.374Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-12T11:46:39.762Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 504
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at IncomingMessage.emit (node:events:536:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
+[2026-03-12T11:46:39.763Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-03-12T11:46:39.763Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-12T11:46:40.993Z] [INFO] 5 kesinti bulundu.
+[2026-03-12T11:46:40.995Z] [INFO] 527 kayıtlı kesinti var.
+[2026-03-12T11:46:40.995Z] [INFO] Yeni kesinti yok.
+[2026-03-12T11:46:40.996Z] [SUCCESS] Tamamlandı.
