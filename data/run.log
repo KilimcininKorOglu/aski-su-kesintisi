@@ -14992,16 +14992,6 @@
 📅 17.02.2026 16:00:00 - 17.02.2026 20:00:00
 📍 SARAY MAHALLESİ SARAY KENT SANAYİ SİTESİ BAĞLI CADDE VE SOKAKLAR
 #AnkaraSuKesintisi #ASKİ #Kazan
-[2026-03-06T16:23:53.438Z] [INFO] Logger başlatıldı
-[2026-03-06T16:23:53.440Z] [INFO] Tek seferlik mod...
-[2026-03-06T16:23:53.440Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-06T16:23:53.849Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-06T16:23:53.849Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-06T16:23:55.495Z] [INFO] 3 kesinti bulundu.
-[2026-03-06T16:23:55.498Z] [INFO] 465 kayıtlı kesinti var.
-[2026-03-06T16:23:55.498Z] [INFO] 3 yeni kesinti bulundu!
-[2026-03-06T16:23:55.750Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-03-06T16:23:55.750Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15027,9 +15017,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-06T16:23:55.751Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-06T16:24:06.402Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-03-06T16:24:06.402Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15055,9 +15042,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-06T16:24:06.403Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-06T16:24:19.137Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-03-06T16:24:19.138Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15083,9 +15067,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-06T16:24:19.138Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-06T16:24:29.547Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-03-06T16:24:29.547Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15111,9 +15092,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-06T16:24:29.547Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-06T16:24:39.863Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-03-06T16:24:39.863Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15139,7 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-06T16:24:39.863Z] [INFO] 10 saniye sonra tekrar denenecek...
 [2026-03-06T16:24:50.504Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2029956378874548663)
 [2026-03-06T16:25:01.087Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2029956423355085156)
 [2026-03-06T16:25:11.682Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2029956467797946593)
@@ -17790,3 +17767,12 @@
 [2026-03-13T15:54:51.378Z] [INFO] 537 kayıtlı kesinti var.
 [2026-03-13T15:54:51.378Z] [INFO] Yeni kesinti yok.
 [2026-03-13T15:54:51.378Z] [SUCCESS] Tamamlandı.
+[2026-03-13T16:24:42.303Z] [INFO] Logger başlatıldı
+[2026-03-13T16:24:42.304Z] [INFO] Tek seferlik mod...
+[2026-03-13T16:24:42.305Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-13T16:24:43.044Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-13T16:24:43.044Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-13T16:24:43.964Z] [INFO] 4 kesinti bulundu.
+[2026-03-13T16:24:43.966Z] [INFO] 537 kayıtlı kesinti var.
+[2026-03-13T16:24:43.967Z] [INFO] Yeni kesinti yok.
+[2026-03-13T16:24:43.967Z] [SUCCESS] Tamamlandı.
