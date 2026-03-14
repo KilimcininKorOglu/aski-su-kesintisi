@@ -8,29 +8,36 @@ import { initGeminiClient } from './gemini';
 import { log, warn, error, success, initLogger } from './logger';
 
 const CHECK_INTERVAL = parseInt(process.env.CHECK_INTERVAL_MS || '300000', 10); // 5 dakika
+let isChecking = false;
 
 async function checkAndTweet(): Promise<void> {
-  log('Kesintiler kontrol ediliyor...');
-  
+  if (isChecking) {
+    warn('Önceki kontrol hala devam ediyor, bu çalışma atlanıyor.');
+    return;
+  }
+  isChecking = true;
+
   try {
+    log('Kesintiler kontrol ediliyor...');
+
     // Mevcut kesintileri çek
     const currentKesintiler = await fetchKesintiler();
     log(`${currentKesintiler.length} kesinti bulundu.`);
-    
+
     // Kayıtlı kesintileri yükle
     const storedKesintiler = loadKesintiler();
     log(`${storedKesintiler.length} kayıtlı kesinti var.`);
-    
+
     // Yeni kesintileri bul
     const newKesintiler = findNewKesintiler(currentKesintiler, storedKesintiler);
-    
+
     if (newKesintiler.length > 0) {
       log(`${newKesintiler.length} yeni kesinti bulundu!`);
-      
+
       // Tweet at ve başarılı olanları al
       const successfulKesintiler = await postMultipleTweets(newKesintiler);
       log(`${successfulKesintiler.length} tweet atıldı.`);
-      
+
       // Sadece başarılı tweet atılan kesintileri kaydet
       if (successfulKesintiler.length > 0) {
         const merged = mergeKesintiler(successfulKesintiler, storedKesintiler);
@@ -44,6 +51,8 @@ async function checkAndTweet(): Promise<void> {
     }
   } catch (err) {
     error('Hata oluştu:', err);
+  } finally {
+    isChecking = false;
   }
 }
 
