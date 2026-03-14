@@ -265,11 +265,12 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
   return false;
 }
 
-export async function postTweet(kesinti: Kesinti): Promise<boolean> {
+export async function postTweet(kesinti: Kesinti, isDryRun: boolean = false): Promise<boolean> {
   let mainTweet = formatMainTweet(kesinti);
 
   if (!twitterConfig) {
-    log('[DRY RUN] Ana tweet:');
+    const label = isDryRun ? '[DRY RUN]' : '[TWITTER DEVRE DIŞI]';
+    log(`${label} Ana tweet:`);
     log(mainTweet);
     log(`(${mainTweet.length} karakter)`);
     log('---');
@@ -307,11 +308,11 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   }
 }
 
-export async function postMultipleTweets(kesintiler: Kesinti[]): Promise<Kesinti[]> {
+export async function postMultipleTweets(kesintiler: Kesinti[], isDryRun: boolean = false): Promise<Kesinti[]> {
   const successfulKesintiler: Kesinti[] = [];
-  
+
   for (const kesinti of kesintiler) {
-    const success = await postTweet(kesinti);
+    const success = await postTweet(kesinti, isDryRun);
     if (success) {
       successfulKesintiler.push(kesinti);
     }

@@ -10,7 +10,7 @@ import { log, warn, error, success, initLogger } from './logger';
 const CHECK_INTERVAL = parseInt(process.env.CHECK_INTERVAL_MS || '300000', 10); // 5 dakika
 let isChecking = false;
 
-async function checkAndTweet(): Promise<void> {
+async function checkAndTweet(isDryRun: boolean = false): Promise<void> {
   if (isChecking) {
     warn('Önceki kontrol hala devam ediyor, bu çalışma atlanıyor.');
     return;
@@ -35,7 +35,7 @@ async function checkAndTweet(): Promise<void> {
       log(`${newKesintiler.length} yeni kesinti bulundu!`);
 
       // Tweet at ve başarılı olanları al
-      const successfulKesintiler = await postMultipleTweets(newKesintiler);
+      const successfulKesintiler = await postMultipleTweets(newKesintiler, isDryRun);
       log(`${successfulKesintiler.length} tweet atıldı.`);
 
       // Sadece başarılı tweet atılan kesintileri kaydet
@@ -85,7 +85,7 @@ if (process.argv.includes('--once')) {
       log(isDryRun ? 'Dry run modu...' : 'Tek seferlik mod...');
       initGeminiClient();
       if (!isDryRun) await initTwitterClient();
-      await checkAndTweet();
+      await checkAndTweet(isDryRun);
       success(isDryRun ? 'Dry run tamamlandı.' : 'Tamamlandı.');
     } catch (err) {
       error('Kritik hata:', err);
