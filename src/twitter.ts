@@ -267,13 +267,7 @@ async function replyToTweet(text: string, tweetId: string): Promise<boolean> {
 
 export async function postTweet(kesinti: Kesinti): Promise<boolean> {
   let mainTweet = formatMainTweet(kesinti);
-  const tweetData = getTweetData(kesinti);
-  // let replyTweet = formatReplyTweet(kesinti);
-  
-  // Gerekirse tweet'leri kısalt (tweetData ile format korunur)
-  mainTweet = await shortenTweet(mainTweet, 'main', tweetData);
-  // replyTweet = await shortenTweet(replyTweet, 'reply');
-  
+
   if (!twitterConfig) {
     log('[DRY RUN] Ana tweet:');
     log(mainTweet);
@@ -281,6 +275,9 @@ export async function postTweet(kesinti: Kesinti): Promise<boolean> {
     log('---');
     return false;
   }
+
+  const tweetData = getTweetData(kesinti);
+  mainTweet = await shortenTweet(mainTweet, 'main', tweetData);
 
   try {
     // Ana tweet'i at
