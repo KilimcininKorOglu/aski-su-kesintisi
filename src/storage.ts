@@ -32,7 +32,9 @@ export function loadKesintiler(): Kesinti[] {
 
 export function saveKesintiler(kesintiler: Kesinti[]): void {
   ensureDataDir();
-  fs.writeFileSync(KESINTILER_FILE, JSON.stringify(kesintiler, null, 2), 'utf-8');
+  const tmpFile = KESINTILER_FILE + '.tmp';
+  fs.writeFileSync(tmpFile, JSON.stringify(kesintiler, null, 2), 'utf-8');
+  fs.renameSync(tmpFile, KESINTILER_FILE);
 }
 
 export function findNewKesintiler(current: Kesinti[], stored: Kesinti[]): Kesinti[] {
