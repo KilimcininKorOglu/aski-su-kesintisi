@@ -15117,24 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-07T16:47:17.342Z] [INFO] Logger başlatıldı
-[2026-03-07T16:47:17.343Z] [INFO] Tek seferlik mod...
-[2026-03-07T16:47:17.344Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-07T16:47:17.763Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-07T16:47:17.764Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-07T16:47:18.852Z] [INFO] 2 kesinti bulundu.
-[2026-03-07T16:47:18.855Z] [INFO] 475 kayıtlı kesinti var.
-[2026-03-07T16:47:18.855Z] [INFO] Yeni kesinti yok.
-[2026-03-07T16:47:18.855Z] [SUCCESS] Tamamlandı.
-[2026-03-07T17:01:06.504Z] [INFO] Logger başlatıldı
-[2026-03-07T17:01:06.505Z] [INFO] Tek seferlik mod...
-[2026-03-07T17:01:06.505Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-07T17:01:07.146Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-07T17:01:07.146Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-07T17:01:08.004Z] [INFO] 1 kesinti bulundu.
-[2026-03-07T17:01:08.006Z] [INFO] 475 kayıtlı kesinti var.
-[2026-03-07T17:01:08.007Z] [INFO] Yeni kesinti yok.
-[2026-03-07T17:01:08.007Z] [SUCCESS] Tamamlandı.
 [2026-03-07T17:31:06.448Z] [INFO] Logger başlatıldı
 [2026-03-07T17:31:06.449Z] [INFO] Tek seferlik mod...
 [2026-03-07T17:31:06.449Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17694,3 +17676,15 @@
 [2026-03-14T16:43:44.196Z] [INFO] 540 kayıtlı kesinti var.
 [2026-03-14T16:43:44.197Z] [INFO] Yeni kesinti yok.
 [2026-03-14T16:43:44.197Z] [SUCCESS] Tamamlandı.
+[2026-03-14T17:02:38.199Z] [INFO] Logger başlatıldı
+[2026-03-14T17:02:38.201Z] [INFO] Tek seferlik mod...
+[2026-03-14T17:02:38.201Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-14T17:02:38.844Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-14T17:02:38.844Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-14T17:02:39.807Z] [INFO] 1 kesinti bulundu.
+[2026-03-14T17:02:39.810Z] [INFO] 540 kayıtlı kesinti var.
+[2026-03-14T17:02:39.810Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-14T17:02:40.396Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2032865002538021163)
+[2026-03-14T17:02:50.400Z] [INFO] 1 tweet atıldı.
+[2026-03-14T17:02:50.403Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-14T17:02:50.403Z] [SUCCESS] Tamamlandı.
