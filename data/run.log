@@ -15117,15 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-07T01:08:05.716Z] [INFO] Logger başlatıldı
-[2026-03-07T01:08:05.718Z] [INFO] Tek seferlik mod...
-[2026-03-07T01:08:05.718Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-07T01:08:06.578Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-07T01:08:06.579Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-07T01:08:07.815Z] [INFO] 1 kesinti bulundu.
-[2026-03-07T01:08:07.817Z] [INFO] 470 kayıtlı kesinti var.
-[2026-03-07T01:08:07.818Z] [INFO] Yeni kesinti yok.
-[2026-03-07T01:08:07.818Z] [SUCCESS] Tamamlandı.
 [2026-03-07T03:23:25.008Z] [INFO] Logger başlatıldı
 [2026-03-07T03:23:25.010Z] [INFO] Tek seferlik mod...
 [2026-03-07T03:23:25.010Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17767,3 +17758,15 @@
 [2026-03-14T00:02:55.319Z] [INFO] 538 kayıtlı kesinti var.
 [2026-03-14T00:02:55.320Z] [INFO] Yeni kesinti yok.
 [2026-03-14T00:02:55.320Z] [SUCCESS] Tamamlandı.
+[2026-03-14T02:46:36.124Z] [INFO] Logger başlatıldı
+[2026-03-14T02:46:36.125Z] [INFO] Tek seferlik mod...
+[2026-03-14T02:46:36.125Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-14T02:46:36.650Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-14T02:46:36.650Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-14T02:46:37.784Z] [INFO] 1 kesinti bulundu.
+[2026-03-14T02:46:37.787Z] [INFO] 538 kayıtlı kesinti var.
+[2026-03-14T02:46:37.787Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-14T02:46:38.382Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2032649574712750242)
+[2026-03-14T02:46:48.387Z] [INFO] 1 tweet atıldı.
+[2026-03-14T02:46:48.390Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-14T02:46:48.390Z] [SUCCESS] Tamamlandı.
