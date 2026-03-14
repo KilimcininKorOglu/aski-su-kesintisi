@@ -26,7 +26,7 @@ export function loadKesintiler(): Kesinti[] {
     return JSON.parse(data);
   } catch (err) {
     logError('kesintiler.json okunamadı:', err);
-    return [];
+    throw err;
   }
 }
 
