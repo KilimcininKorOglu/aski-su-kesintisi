@@ -15117,18 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-08T12:43:35.725Z] [INFO] Logger başlatıldı
-[2026-03-08T12:43:35.727Z] [INFO] Tek seferlik mod...
-[2026-03-08T12:43:35.727Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-08T12:43:36.375Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-08T12:43:36.375Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-08T12:43:37.312Z] [INFO] 4 kesinti bulundu.
-[2026-03-08T12:43:37.314Z] [INFO] 483 kayıtlı kesinti var.
-[2026-03-08T12:43:37.314Z] [INFO] 1 yeni kesinti bulundu!
-[2026-03-08T12:43:37.893Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2030625485403885800)
-[2026-03-08T12:43:47.898Z] [INFO] 1 tweet atıldı.
-[2026-03-08T12:43:47.900Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-03-08T12:43:47.900Z] [SUCCESS] Tamamlandı.
 [2026-03-08T13:28:14.947Z] [INFO] Logger başlatıldı
 [2026-03-08T13:28:14.948Z] [INFO] Tek seferlik mod...
 [2026-03-08T13:28:14.948Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17569,3 +17557,16 @@
 [2026-03-15T12:25:31.548Z] [INFO] 546 kayıtlı kesinti var.
 [2026-03-15T12:25:31.549Z] [INFO] Yeni kesinti yok.
 [2026-03-15T12:25:31.549Z] [SUCCESS] Tamamlandı.
+[2026-03-15T13:27:23.909Z] [INFO] Logger başlatıldı
+[2026-03-15T13:27:23.911Z] [INFO] Tek seferlik mod...
+[2026-03-15T13:27:23.911Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-15T13:27:24.541Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-15T13:27:24.542Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-15T13:27:25.307Z] [INFO] 2 kesinti bulundu.
+[2026-03-15T13:27:25.310Z] [INFO] 546 kayıtlı kesinti var.
+[2026-03-15T13:27:25.310Z] [INFO] 2 yeni kesinti bulundu!
+[2026-03-15T13:27:25.912Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2033173223110803640)
+[2026-03-15T13:27:36.564Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2033173267864047808)
+[2026-03-15T13:27:46.570Z] [INFO] 2 tweet atıldı.
+[2026-03-15T13:27:46.575Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-03-15T13:27:46.575Z] [SUCCESS] Tamamlandı.
