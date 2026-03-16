@@ -15117,28 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-09T05:10:54.214Z] [INFO] Logger başlatıldı
-[2026-03-09T05:10:54.216Z] [INFO] Tek seferlik mod...
-[2026-03-09T05:10:54.216Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-09T05:10:55.114Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-09T05:10:55.115Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-09T05:10:55.956Z] [INFO] 2 kesinti bulundu.
-[2026-03-09T05:10:55.959Z] [INFO] 485 kayıtlı kesinti var.
-[2026-03-09T05:10:55.959Z] [INFO] Yeni kesinti yok.
-[2026-03-09T05:10:55.959Z] [SUCCESS] Tamamlandı.
-[2026-03-09T06:11:29.277Z] [INFO] Logger başlatıldı
-[2026-03-09T06:11:29.279Z] [INFO] Tek seferlik mod...
-[2026-03-09T06:11:29.279Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-09T06:11:30.057Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-09T06:11:30.057Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-09T06:11:30.985Z] [INFO] 4 kesinti bulundu.
-[2026-03-09T06:11:30.987Z] [INFO] 485 kayıtlı kesinti var.
-[2026-03-09T06:11:30.988Z] [INFO] 2 yeni kesinti bulundu!
-[2026-03-09T06:11:31.587Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2030889196836258240)
-[2026-03-09T06:11:42.351Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2030889241866318119)
-[2026-03-09T06:11:52.356Z] [INFO] 2 tweet atıldı.
-[2026-03-09T06:11:52.359Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-03-09T06:11:52.359Z] [SUCCESS] Tamamlandı.
 [2026-03-09T07:17:07.899Z] [INFO] Logger başlatıldı
 [2026-03-09T07:17:07.900Z] [INFO] Tek seferlik mod...
 [2026-03-09T07:17:07.900Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17489,3 +17467,12 @@
 [2026-03-16T05:01:57.389Z] [INFO] 549 kayıtlı kesinti var.
 [2026-03-16T05:01:57.390Z] [INFO] Yeni kesinti yok.
 [2026-03-16T05:01:57.390Z] [SUCCESS] Tamamlandı.
+[2026-03-16T06:22:34.735Z] [INFO] Logger başlatıldı
+[2026-03-16T06:22:34.736Z] [INFO] Tek seferlik mod...
+[2026-03-16T06:22:34.737Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-16T06:22:35.294Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-16T06:22:35.294Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-16T06:22:36.271Z] [INFO] 1 kesinti bulundu.
+[2026-03-16T06:22:36.274Z] [INFO] 549 kayıtlı kesinti var.
+[2026-03-16T06:22:36.274Z] [INFO] Yeni kesinti yok.
+[2026-03-16T06:22:36.274Z] [SUCCESS] Tamamlandı.
