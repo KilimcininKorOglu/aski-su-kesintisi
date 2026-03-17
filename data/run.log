@@ -15117,20 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-10T08:34:31.337Z] [INFO] Logger başlatıldı
-[2026-03-10T08:34:31.338Z] [INFO] Tek seferlik mod...
-[2026-03-10T08:34:31.339Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-10T08:34:32.097Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-10T08:34:32.097Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-10T08:34:33.096Z] [INFO] 8 kesinti bulundu.
-[2026-03-10T08:34:33.099Z] [INFO] 501 kayıtlı kesinti var.
-[2026-03-10T08:34:33.099Z] [INFO] 3 yeni kesinti bulundu!
-[2026-03-10T08:34:33.775Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2031287580982128845)
-[2026-03-10T08:34:44.516Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2031287625961844864)
-[2026-03-10T08:34:55.409Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2031287671654592780)
-[2026-03-10T08:35:05.413Z] [INFO] 3 tweet atıldı.
-[2026-03-10T08:35:05.417Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-03-10T08:35:05.417Z] [SUCCESS] Tamamlandı.
 [2026-03-10T09:10:45.342Z] [INFO] Logger başlatıldı
 [2026-03-10T09:10:45.344Z] [INFO] Tek seferlik mod...
 [2026-03-10T09:10:45.344Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17975,11 +17961,309 @@
 [2026-03-17T08:06:11.603Z] [ERROR] Ana tweet atılamadı: AYAŞ - Plansız Kesinti
 [2026-03-17T08:06:11.604Z] [INFO] Tweet içeriği (234 karakter):
 ⚠️ AYAŞ - Plansız Kesinti
+📅 17.03.2026 10:55:00 - 17.03.2026 13:00:00
+📍 Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk Etkilenen Yerler: Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk
+#AnkaraSuKesintisi #ASKİ #Ayas
+[2026-03-17T08:06:21.608Z] [INFO] 0 tweet atıldı.
+[2026-03-17T08:06:21.609Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-03-17T08:06:21.609Z] [SUCCESS] Tamamlandı.
+[2026-03-17T09:03:10.423Z] [INFO] Logger başlatıldı
+[2026-03-17T09:03:10.424Z] [INFO] Tek seferlik mod...
+[2026-03-17T09:03:10.425Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-17T09:03:15.939Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-17T09:03:15.939Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-17T09:03:17.122Z] [INFO] 3 kesinti bulundu.
+[2026-03-17T09:03:17.125Z] [INFO] 555 kayıtlı kesinti var.
+[2026-03-17T09:03:17.125Z] [INFO] 2 yeni kesinti bulundu!
+[2026-03-17T09:03:17.534Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
+[2026-03-17T09:03:17.534Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:03:17.534Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:03:28.015Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
+[2026-03-17T09:03:28.016Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:03:28.016Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:03:38.394Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
+[2026-03-17T09:03:38.394Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:03:38.394Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:03:48.775Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
+[2026-03-17T09:03:48.775Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:03:48.776Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:03:59.120Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
+[2026-03-17T09:03:59.120Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:03:59.120Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:04:09.645Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
+[2026-03-17T09:04:09.645Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:04:09.645Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:04:20.065Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
+[2026-03-17T09:04:20.065Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:04:20.066Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:04:30.498Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
+[2026-03-17T09:04:30.498Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:04:30.498Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:04:40.886Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
+[2026-03-17T09:04:40.886Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:04:40.886Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-03-17T09:04:50.888Z] [INFO] ct0 token yenileniyor...
+[2026-03-17T09:04:51.790Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
+[2026-03-17T09:04:51.790Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 186,
+        "extensions": {
+          "code": 186,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Tweet needs to be a bit shorter. (186)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-03-17T09:04:51.790Z] [ERROR] Ana tweet atılamadı: AYAŞ - Plansız Kesinti
+[2026-03-17T09:04:51.790Z] [INFO] Tweet içeriği (234 karakter):
+⚠️ AYAŞ - Plansız Kesinti
 
 📅 17.03.2026 10:55:00 - 17.03.2026 13:00:00
 📍 Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk Etkilenen Yerler: Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk
 
 #AnkaraSuKesintisi #ASKİ #Ayas
-[2026-03-17T08:06:21.608Z] [INFO] 0 tweet atıldı.
-[2026-03-17T08:06:21.609Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-03-17T08:06:21.609Z] [SUCCESS] Tamamlandı.
+[2026-03-17T09:05:02.390Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2033831965926035887)
+[2026-03-17T09:05:12.396Z] [INFO] 1 tweet atıldı.
+[2026-03-17T09:05:12.401Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-17T09:05:12.401Z] [SUCCESS] Tamamlandı.
