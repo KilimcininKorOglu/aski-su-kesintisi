@@ -15117,27 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-10T09:10:45.342Z] [INFO] Logger başlatıldı
-[2026-03-10T09:10:45.344Z] [INFO] Tek seferlik mod...
-[2026-03-10T09:10:45.344Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-10T09:10:45.735Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-10T09:10:45.735Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-10T09:10:47.234Z] [INFO] 8 kesinti bulundu.
-[2026-03-10T09:10:47.238Z] [INFO] 504 kayıtlı kesinti var.
-[2026-03-10T09:10:47.238Z] [INFO] 1 yeni kesinti bulundu!
-[2026-03-10T09:10:47.723Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2031296699193504203)
-[2026-03-10T09:10:57.728Z] [INFO] 1 tweet atıldı.
-[2026-03-10T09:10:57.731Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-03-10T09:10:57.731Z] [SUCCESS] Tamamlandı.
-[2026-03-10T09:59:55.443Z] [INFO] Logger başlatıldı
-[2026-03-10T09:59:55.445Z] [INFO] Tek seferlik mod...
-[2026-03-10T09:59:55.445Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-10T09:59:55.976Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-10T09:59:55.976Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-10T09:59:57.180Z] [INFO] 7 kesinti bulundu.
-[2026-03-10T09:59:57.183Z] [INFO] 505 kayıtlı kesinti var.
-[2026-03-10T09:59:57.183Z] [INFO] Yeni kesinti yok.
-[2026-03-10T09:59:57.184Z] [SUCCESS] Tamamlandı.
 [2026-03-10T10:39:57.596Z] [INFO] Logger başlatıldı
 [2026-03-10T10:39:57.598Z] [INFO] Tek seferlik mod...
 [2026-03-10T10:39:57.598Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18258,12 +18237,19 @@
 [2026-03-17T09:04:51.790Z] [ERROR] Ana tweet atılamadı: AYAŞ - Plansız Kesinti
 [2026-03-17T09:04:51.790Z] [INFO] Tweet içeriği (234 karakter):
 ⚠️ AYAŞ - Plansız Kesinti
-
 📅 17.03.2026 10:55:00 - 17.03.2026 13:00:00
 📍 Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk Etkilenen Yerler: Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk
-
 #AnkaraSuKesintisi #ASKİ #Ayas
 [2026-03-17T09:05:02.390Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2033831965926035887)
 [2026-03-17T09:05:12.396Z] [INFO] 1 tweet atıldı.
 [2026-03-17T09:05:12.401Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-17T09:05:12.401Z] [SUCCESS] Tamamlandı.
+[2026-03-17T10:02:35.667Z] [INFO] Logger başlatıldı
+[2026-03-17T10:02:35.668Z] [INFO] Tek seferlik mod...
+[2026-03-17T10:02:35.669Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-17T10:02:36.889Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-17T10:02:36.889Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-17T10:02:38.100Z] [INFO] 1 kesinti bulundu.
+[2026-03-17T10:02:38.102Z] [INFO] 556 kayıtlı kesinti var.
+[2026-03-17T10:02:38.103Z] [INFO] Yeni kesinti yok.
+[2026-03-17T10:02:38.103Z] [SUCCESS] Tamamlandı.
