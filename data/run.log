@@ -15117,19 +15117,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-11T07:27:45.824Z] [INFO] Logger başlatıldı
-[2026-03-11T07:27:45.826Z] [INFO] Tek seferlik mod...
-[2026-03-11T07:27:45.826Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-11T07:27:46.568Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-11T07:27:46.569Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-11T07:27:47.488Z] [INFO] 2 kesinti bulundu.
-[2026-03-11T07:27:47.491Z] [INFO] 509 kayıtlı kesinti var.
-[2026-03-11T07:27:47.491Z] [INFO] 2 yeni kesinti bulundu!
-[2026-03-11T07:27:48.078Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2031633167715803228)
-[2026-03-11T07:27:58.841Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2031633212875936116)
-[2026-03-11T07:28:08.846Z] [INFO] 2 tweet atıldı.
-[2026-03-11T07:28:08.849Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-03-11T07:28:08.849Z] [SUCCESS] Tamamlandı.
 [2026-03-11T08:01:11.118Z] [INFO] Logger başlatıldı
 [2026-03-11T08:01:11.120Z] [INFO] Tek seferlik mod...
 [2026-03-11T08:01:11.120Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18196,3 +18183,15 @@
 [2026-03-18T07:17:17.369Z] [INFO] 1 tweet atıldı.
 [2026-03-18T07:17:17.372Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-18T07:17:17.372Z] [SUCCESS] Tamamlandı.
+[2026-03-18T08:00:49.050Z] [INFO] Logger başlatıldı
+[2026-03-18T08:00:49.052Z] [INFO] Tek seferlik mod...
+[2026-03-18T08:00:49.053Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-18T08:00:49.749Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-18T08:00:49.749Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-18T08:00:50.573Z] [INFO] 2 kesinti bulundu.
+[2026-03-18T08:00:50.576Z] [INFO] 559 kayıtlı kesinti var.
+[2026-03-18T08:00:50.577Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-18T08:00:51.105Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2034178200272834796)
+[2026-03-18T08:01:01.109Z] [INFO] 1 tweet atıldı.
+[2026-03-18T08:01:01.112Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-18T08:01:01.112Z] [SUCCESS] Tamamlandı.
