@@ -15138,10 +15138,6 @@
 📅 12.03.2026 11:25:00 - 12.03.2026 15:30:00
 📍 Ergazi mahallesi 1803 sokak ve Ergazi mahallesinin bir kısmı.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-03-12T11:46:29.372Z] [INFO] Logger başlatıldı
-[2026-03-12T11:46:29.374Z] [INFO] Tek seferlik mod...
-[2026-03-12T11:46:29.374Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-12T11:46:39.762Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 504
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at IncomingMessage.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -15154,21 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-12T11:46:39.763Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-03-12T11:46:39.763Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-12T11:46:40.993Z] [INFO] 5 kesinti bulundu.
-[2026-03-12T11:46:40.995Z] [INFO] 527 kayıtlı kesinti var.
-[2026-03-12T11:46:40.995Z] [INFO] Yeni kesinti yok.
-[2026-03-12T11:46:40.996Z] [SUCCESS] Tamamlandı.
-[2026-03-12T12:01:38.142Z] [INFO] Logger başlatıldı
-[2026-03-12T12:01:38.144Z] [INFO] Tek seferlik mod...
-[2026-03-12T12:01:38.144Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-12T12:01:38.737Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-12T12:01:38.737Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-12T12:01:39.786Z] [INFO] 3 kesinti bulundu.
-[2026-03-12T12:01:39.789Z] [INFO] 527 kayıtlı kesinti var.
-[2026-03-12T12:01:39.789Z] [INFO] Yeni kesinti yok.
-[2026-03-12T12:01:39.789Z] [SUCCESS] Tamamlandı.
 [2026-03-12T13:22:16.431Z] [INFO] Logger başlatıldı
 [2026-03-12T13:22:16.432Z] [INFO] Tek seferlik mod...
 [2026-03-12T13:22:16.433Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18146,3 +18127,12 @@
 [2026-03-19T11:44:31.157Z] [INFO] 565 kayıtlı kesinti var.
 [2026-03-19T11:44:31.158Z] [INFO] Yeni kesinti yok.
 [2026-03-19T11:44:31.158Z] [SUCCESS] Tamamlandı.
+[2026-03-19T12:03:25.053Z] [INFO] Logger başlatıldı
+[2026-03-19T12:03:25.055Z] [INFO] Tek seferlik mod...
+[2026-03-19T12:03:25.055Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-19T12:03:26.144Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-19T12:03:26.145Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-19T12:03:27.037Z] [INFO] 0 kesinti bulundu.
+[2026-03-19T12:03:27.040Z] [INFO] 565 kayıtlı kesinti var.
+[2026-03-19T12:03:27.040Z] [INFO] Yeni kesinti yok.
+[2026-03-19T12:03:27.040Z] [SUCCESS] Tamamlandı.
