@@ -15150,19 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-13T11:30:49.286Z] [INFO] Logger başlatıldı
-[2026-03-13T11:30:49.287Z] [INFO] Tek seferlik mod...
-[2026-03-13T11:30:49.287Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-13T11:30:49.719Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-13T11:30:49.719Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-13T11:30:51.460Z] [INFO] 5 kesinti bulundu.
-[2026-03-13T11:30:51.463Z] [INFO] 532 kayıtlı kesinti var.
-[2026-03-13T11:30:51.463Z] [INFO] 2 yeni kesinti bulundu!
-[2026-03-13T11:30:51.953Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2032419112685887979)
-[2026-03-13T11:31:02.791Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2032419157204185091)
-[2026-03-13T11:31:12.796Z] [INFO] 2 tweet atıldı.
-[2026-03-13T11:31:12.801Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-03-13T11:31:12.801Z] [SUCCESS] Tamamlandı.
 [2026-03-13T11:54:07.818Z] [INFO] Logger başlatıldı
 [2026-03-13T11:54:07.819Z] [INFO] Tek seferlik mod...
 [2026-03-13T11:54:07.819Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18117,3 +18104,12 @@
 [2026-03-20T11:01:46.694Z] [INFO] 566 kayıtlı kesinti var.
 [2026-03-20T11:01:46.694Z] [INFO] Yeni kesinti yok.
 [2026-03-20T11:01:46.694Z] [SUCCESS] Tamamlandı.
+[2026-03-20T11:39:15.729Z] [INFO] Logger başlatıldı
+[2026-03-20T11:39:15.730Z] [INFO] Tek seferlik mod...
+[2026-03-20T11:39:15.731Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-20T11:39:16.495Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-20T11:39:16.495Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-20T11:39:17.485Z] [INFO] 0 kesinti bulundu.
+[2026-03-20T11:39:17.487Z] [INFO] 566 kayıtlı kesinti var.
+[2026-03-20T11:39:17.488Z] [INFO] Yeni kesinti yok.
+[2026-03-20T11:39:17.488Z] [SUCCESS] Tamamlandı.
