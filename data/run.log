@@ -15150,18 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-13T19:03:58.536Z] [INFO] Logger başlatıldı
-[2026-03-13T19:03:58.537Z] [INFO] Tek seferlik mod...
-[2026-03-13T19:03:58.538Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-13T19:03:59.166Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-13T19:03:59.166Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-13T19:04:00.404Z] [INFO] 2 kesinti bulundu.
-[2026-03-13T19:04:00.406Z] [INFO] 537 kayıtlı kesinti var.
-[2026-03-13T19:04:00.407Z] [INFO] 1 yeni kesinti bulundu!
-[2026-03-13T19:04:01.022Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2032533151847981059)
-[2026-03-13T19:04:11.026Z] [INFO] 1 tweet atıldı.
-[2026-03-13T19:04:11.029Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-03-13T19:04:11.029Z] [SUCCESS] Tamamlandı.
 [2026-03-13T19:39:30.969Z] [INFO] Logger başlatıldı
 [2026-03-13T19:39:30.970Z] [INFO] Tek seferlik mod...
 [2026-03-13T19:39:30.970Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18106,3 +18094,12 @@
 [2026-03-20T18:32:01.562Z] [INFO] 566 kayıtlı kesinti var.
 [2026-03-20T18:32:01.563Z] [INFO] Yeni kesinti yok.
 [2026-03-20T18:32:01.563Z] [SUCCESS] Tamamlandı.
+[2026-03-20T19:21:05.562Z] [INFO] Logger başlatıldı
+[2026-03-20T19:21:05.563Z] [INFO] Tek seferlik mod...
+[2026-03-20T19:21:05.564Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-20T19:21:06.073Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-20T19:21:06.074Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-20T19:21:06.907Z] [INFO] 0 kesinti bulundu.
+[2026-03-20T19:21:06.910Z] [INFO] 566 kayıtlı kesinti var.
+[2026-03-20T19:21:06.910Z] [INFO] Yeni kesinti yok.
+[2026-03-20T19:21:06.910Z] [SUCCESS] Tamamlandı.
