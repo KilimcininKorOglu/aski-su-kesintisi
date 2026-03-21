@@ -15150,18 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-14T17:02:38.199Z] [INFO] Logger başlatıldı
-[2026-03-14T17:02:38.201Z] [INFO] Tek seferlik mod...
-[2026-03-14T17:02:38.201Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-14T17:02:38.844Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-14T17:02:38.844Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-14T17:02:39.807Z] [INFO] 1 kesinti bulundu.
-[2026-03-14T17:02:39.810Z] [INFO] 540 kayıtlı kesinti var.
-[2026-03-14T17:02:39.810Z] [INFO] 1 yeni kesinti bulundu!
-[2026-03-14T17:02:40.396Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2032865002538021163)
-[2026-03-14T17:02:50.400Z] [INFO] 1 tweet atıldı.
-[2026-03-14T17:02:50.403Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-03-14T17:02:50.403Z] [SUCCESS] Tamamlandı.
 [2026-03-14T17:36:58.108Z] [INFO] Logger başlatıldı
 [2026-03-14T17:36:58.109Z] [INFO] Tek seferlik mod...
 [2026-03-14T17:36:58.110Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18124,3 +18112,12 @@
 [2026-03-21T16:50:13.384Z] [INFO] 566 kayıtlı kesinti var.
 [2026-03-21T16:50:13.384Z] [INFO] Yeni kesinti yok.
 [2026-03-21T16:50:13.385Z] [SUCCESS] Tamamlandı.
+[2026-03-21T17:12:20.421Z] [INFO] Logger başlatıldı
+[2026-03-21T17:12:20.423Z] [INFO] Tek seferlik mod...
+[2026-03-21T17:12:20.423Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-21T17:12:21.443Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-21T17:12:21.444Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-21T17:12:22.266Z] [INFO] 0 kesinti bulundu.
+[2026-03-21T17:12:22.270Z] [INFO] 566 kayıtlı kesinti var.
+[2026-03-21T17:12:22.270Z] [INFO] Yeni kesinti yok.
+[2026-03-21T17:12:22.270Z] [SUCCESS] Tamamlandı.
