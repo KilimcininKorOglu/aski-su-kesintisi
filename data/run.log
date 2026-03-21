@@ -15150,15 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-14T08:33:39.194Z] [INFO] Logger başlatıldı
-[2026-03-14T08:33:39.195Z] [INFO] Tek seferlik mod...
-[2026-03-14T08:33:39.195Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-14T08:33:39.644Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-14T08:33:39.645Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-14T08:33:40.719Z] [INFO] 1 kesinti bulundu.
-[2026-03-14T08:33:40.722Z] [INFO] 539 kayıtlı kesinti var.
-[2026-03-14T08:33:40.722Z] [INFO] Yeni kesinti yok.
-[2026-03-14T08:33:40.722Z] [SUCCESS] Tamamlandı.
 [2026-03-14T09:01:41.076Z] [INFO] Logger başlatıldı
 [2026-03-14T09:01:41.077Z] [INFO] Tek seferlik mod...
 [2026-03-14T09:01:41.078Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18109,3 +18100,12 @@
 [2026-03-21T08:16:12.179Z] [INFO] 566 kayıtlı kesinti var.
 [2026-03-21T08:16:12.179Z] [INFO] Yeni kesinti yok.
 [2026-03-21T08:16:12.179Z] [SUCCESS] Tamamlandı.
+[2026-03-21T08:50:48.396Z] [INFO] Logger başlatıldı
+[2026-03-21T08:50:48.397Z] [INFO] Tek seferlik mod...
+[2026-03-21T08:50:48.397Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-21T08:50:48.917Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-21T08:50:48.918Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-21T08:50:49.797Z] [INFO] 0 kesinti bulundu.
+[2026-03-21T08:50:49.800Z] [INFO] 566 kayıtlı kesinti var.
+[2026-03-21T08:50:49.801Z] [INFO] Yeni kesinti yok.
+[2026-03-21T08:50:49.801Z] [SUCCESS] Tamamlandı.
