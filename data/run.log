@@ -15150,18 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-15T06:11:30.010Z] [INFO] Logger başlatıldı
-[2026-03-15T06:11:30.011Z] [INFO] Tek seferlik mod...
-[2026-03-15T06:11:30.012Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-15T06:11:30.695Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-15T06:11:30.695Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-15T06:11:31.990Z] [INFO] 2 kesinti bulundu.
-[2026-03-15T06:11:31.992Z] [INFO] 542 kayıtlı kesinti var.
-[2026-03-15T06:11:31.992Z] [INFO] 1 yeni kesinti bulundu!
-[2026-03-15T06:11:32.456Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2033063527662105075)
-[2026-03-15T06:11:42.460Z] [INFO] 1 tweet atıldı.
-[2026-03-15T06:11:42.463Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-03-15T06:11:42.463Z] [SUCCESS] Tamamlandı.
 [2026-03-15T07:13:01.313Z] [INFO] Logger başlatıldı
 [2026-03-15T07:13:01.314Z] [INFO] Tek seferlik mod...
 [2026-03-15T07:13:01.315Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18166,3 +18154,12 @@
 [2026-03-22T06:06:14.851Z] [INFO] 567 kayıtlı kesinti var.
 [2026-03-22T06:06:14.851Z] [INFO] Yeni kesinti yok.
 [2026-03-22T06:06:14.851Z] [SUCCESS] Tamamlandı.
+[2026-03-22T07:03:46.805Z] [INFO] Logger başlatıldı
+[2026-03-22T07:03:46.806Z] [INFO] Tek seferlik mod...
+[2026-03-22T07:03:46.807Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-22T07:03:47.450Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-22T07:03:47.451Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-22T07:03:48.416Z] [INFO] 0 kesinti bulundu.
+[2026-03-22T07:03:48.418Z] [INFO] 567 kayıtlı kesinti var.
+[2026-03-22T07:03:48.419Z] [INFO] Yeni kesinti yok.
+[2026-03-22T07:03:48.419Z] [SUCCESS] Tamamlandı.
