@@ -15300,8 +15300,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:52:20.221Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-03-16T07:52:20.221Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15327,9 +15325,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:52:20.221Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:52:30.652Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-03-16T07:52:30.653Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15355,9 +15350,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:52:30.653Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:52:41.009Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-03-16T07:52:41.009Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15383,10 +15375,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:52:41.010Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:52:51.014Z] [INFO] ct0 token yenileniyor...
-[2026-03-16T07:52:51.775Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-03-16T07:52:51.775Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15412,16 +15400,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:52:51.775Z] [ERROR] Ana tweet atılamadı: SİNCAN - Plansız Kesinti
-[2026-03-16T07:52:51.775Z] [INFO] Tweet içeriği (203 karakter):
 ⚠️ SİNCAN - Plansız Kesinti
 📅 16.03.2026 10:10:00 - 16.03.2026 17:00:00
 📍 Saraycık Mahallesi, Osmanlı Mahallesi, Pınarbaşı Mahallesi ve Ertuğrulgazi Mahallesi tamamı.
 #AnkaraSuKesintisi #ASKİ #Sincan
-[2026-03-16T07:53:02.428Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2033451458730021140)
-[2026-03-16T07:53:12.430Z] [INFO] 2 tweet atıldı.
-[2026-03-16T07:53:12.434Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-03-16T07:53:12.434Z] [SUCCESS] Tamamlandı.
 [2026-03-16T08:40:58.564Z] [INFO] Logger başlatıldı
 [2026-03-16T08:40:58.566Z] [INFO] Tek seferlik mod...
 [2026-03-16T08:40:58.566Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18177,3 +18159,15 @@
 [2026-03-23T07:52:24.222Z] [INFO] 1 tweet atıldı.
 [2026-03-23T07:52:24.225Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-23T07:52:24.225Z] [SUCCESS] Tamamlandı.
+[2026-03-23T08:37:43.950Z] [INFO] Logger başlatıldı
+[2026-03-23T08:37:43.951Z] [INFO] Tek seferlik mod...
+[2026-03-23T08:37:43.952Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-23T08:37:44.530Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-23T08:37:44.530Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-23T08:37:45.607Z] [INFO] 3 kesinti bulundu.
+[2026-03-23T08:37:45.610Z] [INFO] 571 kayıtlı kesinti var.
+[2026-03-23T08:37:45.610Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-23T08:37:46.177Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2035999430080631136)
+[2026-03-23T08:37:56.181Z] [INFO] 1 tweet atıldı.
+[2026-03-23T08:37:56.184Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-23T08:37:56.184Z] [SUCCESS] Tamamlandı.
