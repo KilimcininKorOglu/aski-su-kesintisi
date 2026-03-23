@@ -15150,17 +15150,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:78:22
-[2026-03-16T07:51:05.410Z] [INFO] Logger başlatıldı
-[2026-03-16T07:51:05.411Z] [INFO] Tek seferlik mod...
-[2026-03-16T07:51:05.411Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-16T07:51:05.881Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-16T07:51:05.882Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-16T07:51:06.897Z] [INFO] 4 kesinti bulundu.
-[2026-03-16T07:51:06.899Z] [INFO] 549 kayıtlı kesinti var.
-[2026-03-16T07:51:06.900Z] [INFO] 3 yeni kesinti bulundu!
-[2026-03-16T07:51:07.537Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2033450976808693771)
-[2026-03-16T07:51:17.950Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-03-16T07:51:17.950Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15186,9 +15175,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:51:17.950Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:51:28.297Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-03-16T07:51:28.297Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15214,9 +15200,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:51:28.297Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:51:38.793Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-03-16T07:51:38.794Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15242,9 +15225,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:51:38.794Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:51:49.078Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-03-16T07:51:49.078Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15270,9 +15250,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:51:49.078Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:51:59.529Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-03-16T07:51:59.529Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15298,9 +15275,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:51:59.529Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-16T07:52:09.882Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-03-16T07:52:09.882Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15326,7 +15300,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-16T07:52:09.882Z] [INFO] 10 saniye sonra tekrar denenecek...
 [2026-03-16T07:52:20.221Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
 [2026-03-16T07:52:20.221Z] [INFO] API yanıtı: {
   "code": 1,
@@ -18192,3 +18165,15 @@
 [2026-03-23T06:53:22.189Z] [INFO] 1 tweet atıldı.
 [2026-03-23T06:53:22.193Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-23T06:53:22.193Z] [SUCCESS] Tamamlandı.
+[2026-03-23T07:52:12.212Z] [INFO] Logger başlatıldı
+[2026-03-23T07:52:12.213Z] [INFO] Tek seferlik mod...
+[2026-03-23T07:52:12.213Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-23T07:52:12.652Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-23T07:52:12.652Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-23T07:52:13.623Z] [INFO] 2 kesinti bulundu.
+[2026-03-23T07:52:13.626Z] [INFO] 570 kayıtlı kesinti var.
+[2026-03-23T07:52:13.626Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-23T07:52:14.217Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2035987971493810371)
+[2026-03-23T07:52:24.222Z] [INFO] 1 tweet atıldı.
+[2026-03-23T07:52:24.225Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-23T07:52:24.225Z] [SUCCESS] Tamamlandı.
