@@ -15404,15 +15404,6 @@
 📅 16.03.2026 10:10:00 - 16.03.2026 17:00:00
 📍 Saraycık Mahallesi, Osmanlı Mahallesi, Pınarbaşı Mahallesi ve Ertuğrulgazi Mahallesi tamamı.
 #AnkaraSuKesintisi #ASKİ #Sincan
-[2026-03-17T06:12:48.478Z] [INFO] Logger başlatıldı
-[2026-03-17T06:12:48.479Z] [INFO] Tek seferlik mod...
-[2026-03-17T06:12:48.480Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-17T06:12:49.099Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-17T06:12:49.100Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-17T06:12:50.101Z] [INFO] 0 kesinti bulundu.
-[2026-03-17T06:12:50.103Z] [INFO] 554 kayıtlı kesinti var.
-[2026-03-17T06:12:50.103Z] [INFO] Yeni kesinti yok.
-[2026-03-17T06:12:50.104Z] [SUCCESS] Tamamlandı.
 [2026-03-17T07:18:48.327Z] [INFO] Logger başlatıldı
 [2026-03-17T07:18:48.329Z] [INFO] Tek seferlik mod...
 [2026-03-17T07:18:48.329Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18174,3 +18165,16 @@
 [2026-03-24T05:40:43.590Z] [INFO] 1 tweet atıldı.
 [2026-03-24T05:40:43.593Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-24T05:40:43.593Z] [SUCCESS] Tamamlandı.
+[2026-03-24T06:42:15.427Z] [INFO] Logger başlatıldı
+[2026-03-24T06:42:15.428Z] [INFO] Tek seferlik mod...
+[2026-03-24T06:42:15.428Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-24T06:42:16.147Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-24T06:42:16.147Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-24T06:42:17.314Z] [INFO] 3 kesinti bulundu.
+[2026-03-24T06:42:17.317Z] [INFO] 576 kayıtlı kesinti var.
+[2026-03-24T06:42:17.317Z] [INFO] 2 yeni kesinti bulundu!
+[2026-03-24T06:42:17.932Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2036332758927319233)
+[2026-03-24T06:42:28.665Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2036332804041261099)
+[2026-03-24T06:42:38.670Z] [INFO] 2 tweet atıldı.
+[2026-03-24T06:42:38.674Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-03-24T06:42:38.675Z] [SUCCESS] Tamamlandı.
