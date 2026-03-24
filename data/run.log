@@ -15912,15 +15912,6 @@
 📅 17.03.2026 10:55:00 - 17.03.2026 13:00:00
 📍 Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk Etkilenen Yerler: Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk
 #AnkaraSuKesintisi #ASKİ #Ayas
-[2026-03-17T11:00:58.696Z] [INFO] Logger başlatıldı
-[2026-03-17T11:00:58.697Z] [INFO] Tek seferlik mod...
-[2026-03-17T11:00:58.697Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-17T11:01:00.069Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-17T11:01:00.070Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-17T11:01:01.077Z] [INFO] 1 kesinti bulundu.
-[2026-03-17T11:01:01.080Z] [INFO] 556 kayıtlı kesinti var.
-[2026-03-17T11:01:01.080Z] [INFO] Yeni kesinti yok.
-[2026-03-17T11:01:01.080Z] [SUCCESS] Tamamlandı.
 [2026-03-17T11:50:07.690Z] [INFO] Logger başlatıldı
 [2026-03-17T11:50:07.692Z] [INFO] Tek seferlik mod...
 [2026-03-17T11:50:07.692Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18110,3 +18101,17 @@
 [2026-03-24T10:27:13.302Z] [INFO] 580 kayıtlı kesinti var.
 [2026-03-24T10:27:13.303Z] [INFO] Yeni kesinti yok.
 [2026-03-24T10:27:13.303Z] [SUCCESS] Tamamlandı.
+[2026-03-24T11:12:52.308Z] [INFO] Logger başlatıldı
+[2026-03-24T11:12:52.309Z] [INFO] Tek seferlik mod...
+[2026-03-24T11:12:52.309Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-24T11:12:52.814Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-24T11:12:52.814Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-24T11:12:53.639Z] [INFO] 4 kesinti bulundu.
+[2026-03-24T11:12:53.641Z] [INFO] 580 kayıtlı kesinti var.
+[2026-03-24T11:12:53.641Z] [INFO] 3 yeni kesinti bulundu!
+[2026-03-24T11:12:54.248Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2036400858968297842)
+[2026-03-24T11:13:04.915Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2036400903696306394)
+[2026-03-24T11:13:15.603Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2036400948554375546)
+[2026-03-24T11:13:25.606Z] [INFO] 3 tweet atıldı.
+[2026-03-24T11:13:25.610Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-03-24T11:13:25.610Z] [SUCCESS] Tamamlandı.
