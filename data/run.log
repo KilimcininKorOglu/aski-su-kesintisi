@@ -15658,16 +15658,6 @@
 📅 17.03.2026 10:55:00 - 17.03.2026 13:00:00
 📍 Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk Etkilenen Yerler: Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk
 #AnkaraSuKesintisi #ASKİ #Ayas
-[2026-03-17T09:03:10.423Z] [INFO] Logger başlatıldı
-[2026-03-17T09:03:10.424Z] [INFO] Tek seferlik mod...
-[2026-03-17T09:03:10.425Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-17T09:03:15.939Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-17T09:03:15.939Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-17T09:03:17.122Z] [INFO] 3 kesinti bulundu.
-[2026-03-17T09:03:17.125Z] [INFO] 555 kayıtlı kesinti var.
-[2026-03-17T09:03:17.125Z] [INFO] 2 yeni kesinti bulundu!
-[2026-03-17T09:03:17.534Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-03-17T09:03:17.534Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15693,9 +15683,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:03:17.534Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:03:28.015Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-03-17T09:03:28.016Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15721,9 +15708,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:03:28.016Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:03:38.394Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-03-17T09:03:38.394Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15749,9 +15733,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:03:38.394Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:03:48.775Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-03-17T09:03:48.775Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15777,9 +15758,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:03:48.776Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:03:59.120Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-03-17T09:03:59.120Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15805,9 +15783,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:03:59.120Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:04:09.645Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-03-17T09:04:09.645Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15833,9 +15808,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:04:09.645Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:04:20.065Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-03-17T09:04:20.065Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15861,9 +15833,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:04:20.066Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:04:30.498Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-03-17T09:04:30.498Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15889,9 +15858,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:04:30.498Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:04:40.886Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-03-17T09:04:40.886Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15917,10 +15883,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:04:40.886Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-03-17T09:04:50.888Z] [INFO] ct0 token yenileniyor...
-[2026-03-17T09:04:51.790Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-03-17T09:04:51.790Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -15946,16 +15908,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-03-17T09:04:51.790Z] [ERROR] Ana tweet atılamadı: AYAŞ - Plansız Kesinti
-[2026-03-17T09:04:51.790Z] [INFO] Tweet içeriği (234 karakter):
 ⚠️ AYAŞ - Plansız Kesinti
 📅 17.03.2026 10:55:00 - 17.03.2026 13:00:00
 📍 Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk Etkilenen Yerler: Emine Tevfika Ayaşlı Mahallesi 36 evler, 201.sk,224.sk
 #AnkaraSuKesintisi #ASKİ #Ayas
-[2026-03-17T09:05:02.390Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2033831965926035887)
-[2026-03-17T09:05:12.396Z] [INFO] 1 tweet atıldı.
-[2026-03-17T09:05:12.401Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-03-17T09:05:12.401Z] [SUCCESS] Tamamlandı.
 [2026-03-17T10:02:35.667Z] [INFO] Logger başlatıldı
 [2026-03-17T10:02:35.668Z] [INFO] Tek seferlik mod...
 [2026-03-17T10:02:35.669Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18145,3 +18101,12 @@
 [2026-03-24T08:27:56.471Z] [INFO] 580 kayıtlı kesinti var.
 [2026-03-24T08:27:56.472Z] [INFO] Yeni kesinti yok.
 [2026-03-24T08:27:56.472Z] [SUCCESS] Tamamlandı.
+[2026-03-24T09:30:22.040Z] [INFO] Logger başlatıldı
+[2026-03-24T09:30:22.042Z] [INFO] Tek seferlik mod...
+[2026-03-24T09:30:22.042Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-24T09:30:22.794Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-24T09:30:22.794Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-24T09:30:23.542Z] [INFO] 2 kesinti bulundu.
+[2026-03-24T09:30:23.545Z] [INFO] 580 kayıtlı kesinti var.
+[2026-03-24T09:30:23.546Z] [INFO] Yeni kesinti yok.
+[2026-03-24T09:30:23.546Z] [SUCCESS] Tamamlandı.
