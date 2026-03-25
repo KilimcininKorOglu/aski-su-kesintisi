@@ -15927,15 +15927,6 @@
 📅 18.03.2026 17:30:00 - 18.03.2026 20:30:00
 📍 Fatih mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-03-18T21:47:04.301Z] [INFO] Logger başlatıldı
-[2026-03-18T21:47:04.302Z] [INFO] Tek seferlik mod...
-[2026-03-18T21:47:04.302Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-18T21:47:04.818Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-18T21:47:04.818Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-18T21:47:05.571Z] [INFO] 0 kesinti bulundu.
-[2026-03-18T21:47:05.574Z] [INFO] 562 kayıtlı kesinti var.
-[2026-03-18T21:47:05.574Z] [INFO] Yeni kesinti yok.
-[2026-03-18T21:47:05.574Z] [SUCCESS] Tamamlandı.
 [2026-03-18T22:17:28.430Z] [INFO] Logger başlatıldı
 [2026-03-18T22:17:28.431Z] [INFO] Tek seferlik mod...
 [2026-03-18T22:17:28.431Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18132,3 +18123,12 @@
 [2026-03-25T21:24:31.308Z] [INFO] 591 kayıtlı kesinti var.
 [2026-03-25T21:24:31.309Z] [INFO] Yeni kesinti yok.
 [2026-03-25T21:24:31.309Z] [SUCCESS] Tamamlandı.
+[2026-03-25T21:56:54.429Z] [INFO] Logger başlatıldı
+[2026-03-25T21:56:54.430Z] [INFO] Tek seferlik mod...
+[2026-03-25T21:56:54.430Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-25T21:56:55.118Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-25T21:56:55.118Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-25T21:56:56.197Z] [INFO] 2 kesinti bulundu.
+[2026-03-25T21:56:56.200Z] [INFO] 591 kayıtlı kesinti var.
+[2026-03-25T21:56:56.200Z] [INFO] Yeni kesinti yok.
+[2026-03-25T21:56:56.200Z] [SUCCESS] Tamamlandı.
