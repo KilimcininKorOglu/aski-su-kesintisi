@@ -15942,24 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-03-22T03:44:04.239Z] [INFO] Logger başlatıldı
-[2026-03-22T03:44:04.241Z] [INFO] Tek seferlik mod...
-[2026-03-22T03:44:04.241Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-22T03:44:04.819Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-22T03:44:04.819Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-22T03:44:05.689Z] [INFO] 0 kesinti bulundu.
-[2026-03-22T03:44:05.691Z] [INFO] 567 kayıtlı kesinti var.
-[2026-03-22T03:44:05.692Z] [INFO] Yeni kesinti yok.
-[2026-03-22T03:44:05.692Z] [SUCCESS] Tamamlandı.
-[2026-03-22T05:10:51.169Z] [INFO] Logger başlatıldı
-[2026-03-22T05:10:51.171Z] [INFO] Tek seferlik mod...
-[2026-03-22T05:10:51.172Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-22T05:10:51.855Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-22T05:10:51.855Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-22T05:10:52.716Z] [INFO] 0 kesinti bulundu.
-[2026-03-22T05:10:52.719Z] [INFO] 567 kayıtlı kesinti var.
-[2026-03-22T05:10:52.719Z] [INFO] Yeni kesinti yok.
-[2026-03-22T05:10:52.719Z] [SUCCESS] Tamamlandı.
 [2026-03-22T06:06:13.371Z] [INFO] Logger başlatıldı
 [2026-03-22T06:06:13.373Z] [INFO] Tek seferlik mod...
 [2026-03-22T06:06:13.373Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17977,3 +17959,15 @@
 [2026-03-29T03:29:49.476Z] [INFO] 625 kayıtlı kesinti var.
 [2026-03-29T03:29:49.476Z] [INFO] Yeni kesinti yok.
 [2026-03-29T03:29:49.477Z] [SUCCESS] Tamamlandı.
+[2026-03-29T05:23:51.633Z] [INFO] Logger başlatıldı
+[2026-03-29T05:23:51.634Z] [INFO] Tek seferlik mod...
+[2026-03-29T05:23:51.634Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-29T05:23:52.106Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-29T05:23:52.106Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-29T05:23:53.350Z] [INFO] 1 kesinti bulundu.
+[2026-03-29T05:23:53.352Z] [INFO] 625 kayıtlı kesinti var.
+[2026-03-29T05:23:53.353Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-29T05:23:53.814Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2038124967750230208)
+[2026-03-29T05:24:03.817Z] [INFO] 1 tweet atıldı.
+[2026-03-29T05:24:03.958Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-29T05:24:03.958Z] [SUCCESS] Tamamlandı.
