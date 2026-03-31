@@ -15942,15 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-03-24T12:46:57.382Z] [INFO] Logger başlatıldı
-[2026-03-24T12:46:57.383Z] [INFO] Tek seferlik mod...
-[2026-03-24T12:46:57.384Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-24T12:46:57.961Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-24T12:46:57.961Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-24T12:46:59.100Z] [INFO] 5 kesinti bulundu.
-[2026-03-24T12:46:59.103Z] [INFO] 584 kayıtlı kesinti var.
-[2026-03-24T12:46:59.103Z] [INFO] Yeni kesinti yok.
-[2026-03-24T12:46:59.103Z] [SUCCESS] Tamamlandı.
 [2026-03-24T14:07:51.001Z] [INFO] Logger başlatıldı
 [2026-03-24T14:07:51.002Z] [INFO] Tek seferlik mod...
 [2026-03-24T14:07:51.003Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17819,3 +17810,16 @@
 [2026-03-31T11:59:42.130Z] [INFO] 1 tweet atıldı.
 [2026-03-31T11:59:42.133Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-03-31T11:59:42.133Z] [SUCCESS] Tamamlandı.
+[2026-03-31T13:17:24.812Z] [INFO] Logger başlatıldı
+[2026-03-31T13:17:24.813Z] [INFO] Tek seferlik mod...
+[2026-03-31T13:17:24.814Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-31T13:17:25.324Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-31T13:17:25.325Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-31T13:17:26.332Z] [INFO] 3 kesinti bulundu.
+[2026-03-31T13:17:26.335Z] [INFO] 639 kayıtlı kesinti var.
+[2026-03-31T13:17:26.335Z] [INFO] 2 yeni kesinti bulundu!
+[2026-03-31T13:17:26.892Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2038968916605833617)
+[2026-03-31T13:17:37.582Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2038968961375887850)
+[2026-03-31T13:17:47.587Z] [INFO] 2 tweet atıldı.
+[2026-03-31T13:17:47.592Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-03-31T13:17:47.592Z] [SUCCESS] Tamamlandı.
