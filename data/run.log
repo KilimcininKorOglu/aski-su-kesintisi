@@ -15942,19 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-03-24T06:42:15.427Z] [INFO] Logger başlatıldı
-[2026-03-24T06:42:15.428Z] [INFO] Tek seferlik mod...
-[2026-03-24T06:42:15.428Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-24T06:42:16.147Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-24T06:42:16.147Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-24T06:42:17.314Z] [INFO] 3 kesinti bulundu.
-[2026-03-24T06:42:17.317Z] [INFO] 576 kayıtlı kesinti var.
-[2026-03-24T06:42:17.317Z] [INFO] 2 yeni kesinti bulundu!
-[2026-03-24T06:42:17.932Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2036332758927319233)
-[2026-03-24T06:42:28.665Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2036332804041261099)
-[2026-03-24T06:42:38.670Z] [INFO] 2 tweet atıldı.
-[2026-03-24T06:42:38.674Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-03-24T06:42:38.675Z] [SUCCESS] Tamamlandı.
 [2026-03-24T07:39:32.357Z] [INFO] Logger başlatıldı
 [2026-03-24T07:39:32.358Z] [INFO] Tek seferlik mod...
 [2026-03-24T07:39:32.358Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17838,3 +17825,15 @@
 [2026-03-31T05:49:43.462Z] [INFO] 637 kayıtlı kesinti var.
 [2026-03-31T05:49:43.462Z] [INFO] Yeni kesinti yok.
 [2026-03-31T05:49:43.462Z] [SUCCESS] Tamamlandı.
+[2026-03-31T06:56:53.533Z] [INFO] Logger başlatıldı
+[2026-03-31T06:56:53.535Z] [INFO] Tek seferlik mod...
+[2026-03-31T06:56:53.535Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-03-31T06:56:53.967Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-03-31T06:56:53.968Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-03-31T06:56:55.140Z] [INFO] 1 kesinti bulundu.
+[2026-03-31T06:56:55.142Z] [INFO] 637 kayıtlı kesinti var.
+[2026-03-31T06:56:55.143Z] [INFO] 1 yeni kesinti bulundu!
+[2026-03-31T06:56:55.647Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2038873155390132265)
+[2026-03-31T06:57:05.652Z] [INFO] 1 tweet atıldı.
+[2026-03-31T06:57:05.663Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-03-31T06:57:05.663Z] [SUCCESS] Tamamlandı.
