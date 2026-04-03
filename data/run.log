@@ -15942,15 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-03-27T06:41:03.752Z] [INFO] Logger başlatıldı
-[2026-03-27T06:41:03.754Z] [INFO] Tek seferlik mod...
-[2026-03-27T06:41:03.754Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-27T06:41:04.184Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-27T06:41:04.184Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-27T06:41:05.360Z] [INFO] 0 kesinti bulundu.
-[2026-03-27T06:41:05.363Z] [INFO] 602 kayıtlı kesinti var.
-[2026-03-27T06:41:05.363Z] [INFO] Yeni kesinti yok.
-[2026-03-27T06:41:05.363Z] [SUCCESS] Tamamlandı.
 [2026-03-27T07:44:19.654Z] [INFO] Logger başlatıldı
 [2026-03-27T07:44:19.655Z] [INFO] Tek seferlik mod...
 [2026-03-27T07:44:19.656Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17788,3 +17779,17 @@
 [2026-04-03T05:26:04.713Z] [INFO] 656 kayıtlı kesinti var.
 [2026-04-03T05:26:04.713Z] [INFO] Yeni kesinti yok.
 [2026-04-03T05:26:04.713Z] [SUCCESS] Tamamlandı.
+[2026-04-03T06:41:58.493Z] [INFO] Logger başlatıldı
+[2026-04-03T06:41:58.495Z] [INFO] Tek seferlik mod...
+[2026-04-03T06:41:58.495Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-03T06:41:58.977Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-03T06:41:58.977Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-03T06:42:00.240Z] [INFO] 3 kesinti bulundu.
+[2026-04-03T06:42:00.243Z] [INFO] 656 kayıtlı kesinti var.
+[2026-04-03T06:42:00.243Z] [INFO] 3 yeni kesinti bulundu!
+[2026-04-03T06:42:00.720Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2039956565525229694)
+[2026-04-03T06:42:11.267Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2039956609791828434)
+[2026-04-03T06:42:21.879Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2039956654234702181)
+[2026-04-03T06:42:31.882Z] [INFO] 3 tweet atıldı.
+[2026-04-03T06:42:31.886Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-04-03T06:42:31.886Z] [SUCCESS] Tamamlandı.
