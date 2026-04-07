@@ -15942,19 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-03-31T13:17:24.812Z] [INFO] Logger başlatıldı
-[2026-03-31T13:17:24.813Z] [INFO] Tek seferlik mod...
-[2026-03-31T13:17:24.814Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-31T13:17:25.324Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-31T13:17:25.325Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-31T13:17:26.332Z] [INFO] 3 kesinti bulundu.
-[2026-03-31T13:17:26.335Z] [INFO] 639 kayıtlı kesinti var.
-[2026-03-31T13:17:26.335Z] [INFO] 2 yeni kesinti bulundu!
-[2026-03-31T13:17:26.892Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2038968916605833617)
-[2026-03-31T13:17:37.582Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2038968961375887850)
-[2026-03-31T13:17:47.587Z] [INFO] 2 tweet atıldı.
-[2026-03-31T13:17:47.592Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-03-31T13:17:47.592Z] [SUCCESS] Tamamlandı.
 [2026-03-31T14:44:11.933Z] [INFO] Logger başlatıldı
 [2026-03-31T14:44:11.934Z] [INFO] Tek seferlik mod...
 [2026-03-31T14:44:11.935Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17808,3 +17795,16 @@
 [2026-04-07T12:02:35.939Z] [INFO] 688 kayıtlı kesinti var.
 [2026-04-07T12:02:35.939Z] [INFO] Yeni kesinti yok.
 [2026-04-07T12:02:35.940Z] [SUCCESS] Tamamlandı.
+[2026-04-07T13:53:42.476Z] [INFO] Logger başlatıldı
+[2026-04-07T13:53:42.478Z] [INFO] Tek seferlik mod...
+[2026-04-07T13:53:42.479Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-07T13:53:43.064Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-07T13:53:43.064Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-07T13:53:44.241Z] [INFO] 6 kesinti bulundu.
+[2026-04-07T13:53:44.244Z] [INFO] 688 kayıtlı kesinti var.
+[2026-04-07T13:53:44.244Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-07T13:53:44.787Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2041514766280343578)
+[2026-04-07T13:53:55.481Z] [SUCCESS] Ana tweet atıldı: SEREFLIKOÇHISAR - Plansız Kesinti (ID: 2041514811302072556)
+[2026-04-07T13:54:05.487Z] [INFO] 2 tweet atıldı.
+[2026-04-07T13:54:05.491Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-07T13:54:05.491Z] [SUCCESS] Tamamlandı.
