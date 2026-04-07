@@ -15942,15 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-03-31T11:10:25.434Z] [INFO] Logger başlatıldı
-[2026-03-31T11:10:25.436Z] [INFO] Tek seferlik mod...
-[2026-03-31T11:10:25.436Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-03-31T11:10:26.053Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-03-31T11:10:26.054Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-03-31T11:10:27.189Z] [INFO] 0 kesinti bulundu.
-[2026-03-31T11:10:27.193Z] [INFO] 638 kayıtlı kesinti var.
-[2026-03-31T11:10:27.193Z] [INFO] Yeni kesinti yok.
-[2026-03-31T11:10:27.193Z] [SUCCESS] Tamamlandı.
 [2026-03-31T11:59:29.825Z] [INFO] Logger başlatıldı
 [2026-03-31T11:59:29.827Z] [INFO] Tek seferlik mod...
 [2026-03-31T11:59:29.827Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17806,3 +17797,17 @@
 [2026-04-07T10:17:12.183Z] [INFO] 1 tweet atıldı.
 [2026-04-07T10:17:12.187Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-04-07T10:17:12.188Z] [SUCCESS] Tamamlandı.
+[2026-04-07T11:15:08.547Z] [INFO] Logger başlatıldı
+[2026-04-07T11:15:08.548Z] [INFO] Tek seferlik mod...
+[2026-04-07T11:15:08.549Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-07T11:15:09.130Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-07T11:15:09.131Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-07T11:15:10.137Z] [INFO] 6 kesinti bulundu.
+[2026-04-07T11:15:10.140Z] [INFO] 685 kayıtlı kesinti var.
+[2026-04-07T11:15:10.140Z] [INFO] 3 yeni kesinti bulundu!
+[2026-04-07T11:15:10.738Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2041474861718179920)
+[2026-04-07T11:15:21.355Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2041474906119123381)
+[2026-04-07T11:15:32.110Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2041474951207956977)
+[2026-04-07T11:15:42.113Z] [INFO] 3 tweet atıldı.
+[2026-04-07T11:15:42.118Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-04-07T11:15:42.118Z] [SUCCESS] Tamamlandı.
