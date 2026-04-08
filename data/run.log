@@ -15942,19 +15942,6 @@
 📅 19.03.2026 11:00:00 - 19.03.2026 15:00:00
 📍 Yukarı Dikmen mahallesi,Oran mahallesi bir kısmına, Dumlupınar mahallesi bir kısmı,Hilal mahallesi bir kısmı,İlkbahar mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-04-01T07:02:27.822Z] [INFO] Logger başlatıldı
-[2026-04-01T07:02:27.824Z] [INFO] Tek seferlik mod...
-[2026-04-01T07:02:27.824Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-01T07:02:28.345Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-01T07:02:28.346Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-01T07:02:29.362Z] [INFO] 3 kesinti bulundu.
-[2026-04-01T07:02:29.366Z] [INFO] 642 kayıtlı kesinti var.
-[2026-04-01T07:02:29.366Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-01T07:02:29.994Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2039236945658949976)
-[2026-04-01T07:02:40.585Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2039236990080889001)
-[2026-04-01T07:02:50.591Z] [INFO] 2 tweet atıldı.
-[2026-04-01T07:02:50.597Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-01T07:02:50.597Z] [SUCCESS] Tamamlandı.
 [2026-04-01T08:19:59.663Z] [INFO] Logger başlatıldı
 [2026-04-01T08:19:59.665Z] [INFO] Tek seferlik mod...
 [2026-04-01T08:19:59.665Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17840,3 +17827,16 @@
 [2026-04-08T07:01:07.914Z] [INFO] 1 tweet atıldı.
 [2026-04-08T07:01:07.917Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-04-08T07:01:07.917Z] [SUCCESS] Tamamlandı.
+[2026-04-08T08:17:06.993Z] [INFO] Logger başlatıldı
+[2026-04-08T08:17:06.995Z] [INFO] Tek seferlik mod...
+[2026-04-08T08:17:06.995Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-08T08:17:07.629Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-08T08:17:07.629Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-08T08:17:09.037Z] [INFO] 5 kesinti bulundu.
+[2026-04-08T08:17:09.040Z] [INFO] 692 kayıtlı kesinti var.
+[2026-04-08T08:17:09.040Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-08T08:17:09.800Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2041792449836937343)
+[2026-04-08T08:17:20.448Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2041792495038951476)
+[2026-04-08T08:17:30.453Z] [INFO] 2 tweet atıldı.
+[2026-04-08T08:17:30.457Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-08T08:17:30.457Z] [SUCCESS] Tamamlandı.
