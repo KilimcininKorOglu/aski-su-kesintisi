@@ -15960,20 +15960,6 @@
 📅 6.04.2026 10:50:00 - 6.04.2026 17:00:00
 📍 Aydınlıkevler ve Önder mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Altindag
-[2026-04-07T11:15:08.547Z] [INFO] Logger başlatıldı
-[2026-04-07T11:15:08.548Z] [INFO] Tek seferlik mod...
-[2026-04-07T11:15:08.549Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-07T11:15:09.130Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-07T11:15:09.131Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-07T11:15:10.137Z] [INFO] 6 kesinti bulundu.
-[2026-04-07T11:15:10.140Z] [INFO] 685 kayıtlı kesinti var.
-[2026-04-07T11:15:10.140Z] [INFO] 3 yeni kesinti bulundu!
-[2026-04-07T11:15:10.738Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2041474861718179920)
-[2026-04-07T11:15:21.355Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2041474906119123381)
-[2026-04-07T11:15:32.110Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2041474951207956977)
-[2026-04-07T11:15:42.113Z] [INFO] 3 tweet atıldı.
-[2026-04-07T11:15:42.118Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-04-07T11:15:42.118Z] [SUCCESS] Tamamlandı.
 [2026-04-07T12:02:33.664Z] [INFO] Logger başlatıldı
 [2026-04-07T12:02:33.666Z] [INFO] Tek seferlik mod...
 [2026-04-07T12:02:33.666Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17896,3 +17882,18 @@
 [2026-04-14T10:49:08.557Z] [INFO] 745 kayıtlı kesinti var.
 [2026-04-14T10:49:08.557Z] [INFO] Yeni kesinti yok.
 [2026-04-14T10:49:08.557Z] [SUCCESS] Tamamlandı.
+[2026-04-14T11:43:56.883Z] [INFO] Logger başlatıldı
+[2026-04-14T11:43:56.885Z] [INFO] Tek seferlik mod...
+[2026-04-14T11:43:56.885Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-14T11:43:57.754Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-14T11:43:57.755Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-14T11:43:58.840Z] [INFO] 9 kesinti bulundu.
+[2026-04-14T11:43:58.843Z] [INFO] 745 kayıtlı kesinti var.
+[2026-04-14T11:43:58.843Z] [INFO] 4 yeni kesinti bulundu!
+[2026-04-14T11:43:59.411Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2044018827449774450)
+[2026-04-14T11:44:10.026Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2044018872089751682)
+[2026-04-14T11:44:20.588Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2044018916469682361)
+[2026-04-14T11:44:32.356Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2044018965748560175)
+[2026-04-14T11:44:42.360Z] [INFO] 4 tweet atıldı.
+[2026-04-14T11:44:42.367Z] [SUCCESS] 4 kesinti kaydedildi.
+[2026-04-14T11:44:42.367Z] [SUCCESS] Tamamlandı.
