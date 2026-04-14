@@ -15960,20 +15960,6 @@
 📅 6.04.2026 10:50:00 - 6.04.2026 17:00:00
 📍 Aydınlıkevler ve Önder mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Altindag
-[2026-04-07T09:16:29.897Z] [INFO] Logger başlatıldı
-[2026-04-07T09:16:29.899Z] [INFO] Tek seferlik mod...
-[2026-04-07T09:16:29.899Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-07T09:16:30.435Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-07T09:16:30.436Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-07T09:16:31.444Z] [INFO] 4 kesinti bulundu.
-[2026-04-07T09:16:31.447Z] [INFO] 682 kayıtlı kesinti var.
-[2026-04-07T09:16:31.447Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-07T09:16:35.887Z] [INFO] Tweet kısaltıldı: 286 -> 141 karakter
-[2026-04-07T09:16:36.476Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2041445022286094375)
-[2026-04-07T09:16:47.004Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2041445066393395665)
-[2026-04-07T09:16:57.008Z] [INFO] 2 tweet atıldı.
-[2026-04-07T09:16:57.013Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-07T09:16:57.013Z] [SUCCESS] Tamamlandı.
 [2026-04-07T10:16:55.360Z] [INFO] Logger başlatıldı
 [2026-04-07T10:16:55.361Z] [INFO] Tek seferlik mod...
 [2026-04-07T10:16:55.361Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17900,3 +17886,17 @@
 [2026-04-14T08:03:51.169Z] [INFO] 2 tweet atıldı.
 [2026-04-14T08:03:51.174Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-04-14T08:03:51.174Z] [SUCCESS] Tamamlandı.
+[2026-04-14T09:43:57.727Z] [INFO] Logger başlatıldı
+[2026-04-14T09:43:57.728Z] [INFO] Tek seferlik mod...
+[2026-04-14T09:43:57.728Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-14T09:43:58.273Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-14T09:43:58.273Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-14T09:43:59.187Z] [INFO] 6 kesinti bulundu.
+[2026-04-14T09:43:59.190Z] [INFO] 742 kayıtlı kesinti var.
+[2026-04-14T09:43:59.190Z] [INFO] 3 yeni kesinti bulundu!
+[2026-04-14T09:43:59.692Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2043988629824123039)
+[2026-04-14T09:44:10.332Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2043988674355048553)
+[2026-04-14T09:44:20.821Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2043988718495904210)
+[2026-04-14T09:44:30.826Z] [INFO] 3 tweet atıldı.
+[2026-04-14T09:44:30.831Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-04-14T09:44:30.831Z] [SUCCESS] Tamamlandı.
