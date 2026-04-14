@@ -15960,19 +15960,6 @@
 📅 6.04.2026 10:50:00 - 6.04.2026 17:00:00
 📍 Aydınlıkevler ve Önder mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Altindag
-[2026-04-07T10:16:55.360Z] [INFO] Logger başlatıldı
-[2026-04-07T10:16:55.361Z] [INFO] Tek seferlik mod...
-[2026-04-07T10:16:55.361Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-07T10:16:55.837Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-07T10:16:55.837Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-07T10:16:56.977Z] [INFO] 4 kesinti bulundu.
-[2026-04-07T10:16:56.980Z] [INFO] 684 kayıtlı kesinti var.
-[2026-04-07T10:16:56.981Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-07T10:17:01.481Z] [INFO] Tweet kısaltıldı: 292 -> 151 karakter
-[2026-04-07T10:17:02.182Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2041460229523808271)
-[2026-04-07T10:17:12.183Z] [INFO] 1 tweet atıldı.
-[2026-04-07T10:17:12.187Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-07T10:17:12.188Z] [SUCCESS] Tamamlandı.
 [2026-04-07T11:15:08.547Z] [INFO] Logger başlatıldı
 [2026-04-07T11:15:08.548Z] [INFO] Tek seferlik mod...
 [2026-04-07T11:15:08.549Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17900,3 +17887,12 @@
 [2026-04-14T09:44:30.826Z] [INFO] 3 tweet atıldı.
 [2026-04-14T09:44:30.831Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-04-14T09:44:30.831Z] [SUCCESS] Tamamlandı.
+[2026-04-14T10:49:06.899Z] [INFO] Logger başlatıldı
+[2026-04-14T10:49:06.901Z] [INFO] Tek seferlik mod...
+[2026-04-14T10:49:06.901Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-14T10:49:07.398Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-14T10:49:07.399Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-14T10:49:08.554Z] [INFO] 6 kesinti bulundu.
+[2026-04-14T10:49:08.557Z] [INFO] 745 kayıtlı kesinti var.
+[2026-04-14T10:49:08.557Z] [INFO] Yeni kesinti yok.
+[2026-04-14T10:49:08.557Z] [SUCCESS] Tamamlandı.
