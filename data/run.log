@@ -15960,15 +15960,6 @@
 📅 6.04.2026 10:50:00 - 6.04.2026 17:00:00
 📍 Aydınlıkevler ve Önder mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Altindag
-[2026-04-07T12:02:33.664Z] [INFO] Logger başlatıldı
-[2026-04-07T12:02:33.666Z] [INFO] Tek seferlik mod...
-[2026-04-07T12:02:33.666Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-07T12:02:34.247Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-07T12:02:34.247Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-07T12:02:35.936Z] [INFO] 4 kesinti bulundu.
-[2026-04-07T12:02:35.939Z] [INFO] 688 kayıtlı kesinti var.
-[2026-04-07T12:02:35.939Z] [INFO] Yeni kesinti yok.
-[2026-04-07T12:02:35.940Z] [SUCCESS] Tamamlandı.
 [2026-04-07T13:53:42.476Z] [INFO] Logger başlatıldı
 [2026-04-07T13:53:42.478Z] [INFO] Tek seferlik mod...
 [2026-04-07T13:53:42.479Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17897,3 +17888,18 @@
 [2026-04-14T11:44:42.360Z] [INFO] 4 tweet atıldı.
 [2026-04-14T11:44:42.367Z] [SUCCESS] 4 kesinti kaydedildi.
 [2026-04-14T11:44:42.367Z] [SUCCESS] Tamamlandı.
+[2026-04-14T12:44:55.992Z] [INFO] Logger başlatıldı
+[2026-04-14T12:44:55.993Z] [INFO] Tek seferlik mod...
+[2026-04-14T12:44:55.994Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-14T12:44:56.504Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-14T12:44:56.505Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-14T12:44:57.514Z] [INFO] 10 kesinti bulundu.
+[2026-04-14T12:44:57.518Z] [INFO] 749 kayıtlı kesinti var.
+[2026-04-14T12:44:57.518Z] [INFO] 4 yeni kesinti bulundu!
+[2026-04-14T12:44:58.080Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2044034173028184338)
+[2026-04-14T12:45:08.753Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2044034217810768106)
+[2026-04-14T12:45:19.410Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2044034262547288513)
+[2026-04-14T12:45:29.981Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2044034306977476826)
+[2026-04-14T12:45:39.986Z] [INFO] 4 tweet atıldı.
+[2026-04-14T12:45:39.992Z] [SUCCESS] 4 kesinti kaydedildi.
+[2026-04-14T12:45:39.992Z] [SUCCESS] Tamamlandı.
