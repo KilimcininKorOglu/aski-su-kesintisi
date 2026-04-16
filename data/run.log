@@ -15996,18 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-09T12:44:14.157Z] [INFO] Logger başlatıldı
-[2026-04-09T12:44:14.158Z] [INFO] Tek seferlik mod...
-[2026-04-09T12:44:14.158Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-09T12:44:14.557Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-09T12:44:14.558Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-09T12:44:16.100Z] [INFO] 5 kesinti bulundu.
-[2026-04-09T12:44:16.104Z] [INFO] 700 kayıtlı kesinti var.
-[2026-04-09T12:44:16.104Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-09T12:44:16.618Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2042222059909218452)
-[2026-04-09T12:44:26.622Z] [INFO] 1 tweet atıldı.
-[2026-04-09T12:44:26.625Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-09T12:44:26.626Z] [SUCCESS] Tamamlandı.
 [2026-04-09T14:25:33.542Z] [INFO] Logger başlatıldı
 [2026-04-09T14:25:33.543Z] [INFO] Tek seferlik mod...
 [2026-04-09T14:25:33.543Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18475,11 +18463,21 @@
 [2026-04-16T11:45:50.352Z] [ERROR] Ana tweet atılamadı: YENİMAHALLE - Plansız Kesinti
 [2026-04-16T11:45:50.352Z] [INFO] Tweet içeriği (171 karakter):
 ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 16.04.2026 13:00:00 - 17.04.2026 17:00:00
 📍 Mehmet Akif Ersoy mahallesi , Aselsan, Ego civarı.
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-04-16T11:46:00.357Z] [INFO] 0 tweet atıldı.
 [2026-04-16T11:46:00.357Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-04-16T11:46:00.357Z] [SUCCESS] Tamamlandı.
+[2026-04-16T12:48:54.804Z] [INFO] Logger başlatıldı
+[2026-04-16T12:48:54.805Z] [INFO] Tek seferlik mod...
+[2026-04-16T12:48:54.805Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-16T12:48:55.660Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-16T12:48:55.660Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-16T12:48:56.739Z] [INFO] 8 kesinti bulundu.
+[2026-04-16T12:48:56.742Z] [INFO] 782 kayıtlı kesinti var.
+[2026-04-16T12:48:56.743Z] [INFO] 1 yeni kesinti bulundu!
+[2026-04-16T12:48:58.012Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2044759952984854897)
+[2026-04-16T12:49:08.017Z] [INFO] 1 tweet atıldı.
+[2026-04-16T12:49:08.020Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-04-16T12:49:08.021Z] [SUCCESS] Tamamlandı.
