@@ -15996,31 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-09T08:13:52.665Z] [INFO] Logger başlatıldı
-[2026-04-09T08:13:52.667Z] [INFO] Tek seferlik mod...
-[2026-04-09T08:13:52.667Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-09T08:13:53.274Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-09T08:13:53.274Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-09T08:13:54.212Z] [INFO] 4 kesinti bulundu.
-[2026-04-09T08:13:54.215Z] [INFO] 695 kayıtlı kesinti var.
-[2026-04-09T08:13:54.216Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-09T08:13:54.686Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2042154020161384713)
-[2026-04-09T08:14:05.349Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2042154064730014188)
-[2026-04-09T08:14:15.355Z] [INFO] 2 tweet atıldı.
-[2026-04-09T08:14:15.359Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-09T08:14:15.359Z] [SUCCESS] Tamamlandı.
-[2026-04-09T09:39:36.638Z] [INFO] Logger başlatıldı
-[2026-04-09T09:39:36.639Z] [INFO] Tek seferlik mod...
-[2026-04-09T09:39:36.639Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-09T09:39:37.242Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-09T09:39:37.243Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-09T09:39:38.261Z] [INFO] 3 kesinti bulundu.
-[2026-04-09T09:39:38.264Z] [INFO] 697 kayıtlı kesinti var.
-[2026-04-09T09:39:38.264Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-09T09:39:38.696Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2042175595698917414)
-[2026-04-09T09:39:48.698Z] [INFO] 1 tweet atıldı.
-[2026-04-09T09:39:48.701Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-09T09:39:48.701Z] [SUCCESS] Tamamlandı.
 [2026-04-09T10:43:35.793Z] [INFO] Logger başlatıldı
 [2026-04-09T10:43:35.795Z] [INFO] Tek seferlik mod...
 [2026-04-09T10:43:35.795Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -17915,31 +17890,40 @@
 [2026-04-16T08:04:03.608Z] [INFO] 3 yeni kesinti bulundu!
 [2026-04-16T08:04:03.608Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-04-16T08:04:03.608Z] [INFO] ⚠️ KAZAN - Plansız Kesinti
-
 📅 16.04.2026 09:30:00 - 16.04.2026 23:00:00
 📍 ORHANİYA MAH KÖY İÇİ KÜME EVLERİ SERPMELER
-
 #AnkaraSuKesintisi #ASKİ #Kazan
 [2026-04-16T08:04:03.608Z] [INFO] (151 karakter)
 [2026-04-16T08:04:03.609Z] [INFO] ---
 [2026-04-16T08:04:03.609Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-04-16T08:04:03.609Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
-
 📅 16.04.2026 09:50:00 - 16.04.2026 19:00:00
 📍 Örnek Mahallesinin tamamı ve Gültepe Mahallesinin bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Altindag
 [2026-04-16T08:04:03.609Z] [INFO] (174 karakter)
 [2026-04-16T08:04:03.609Z] [INFO] ---
 [2026-04-16T08:04:03.609Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-04-16T08:04:03.609Z] [INFO] ⚠️ GÜDÜL - Plansız Kesinti
-
 📅 16.04.2026 10:20:00 - 16.04.2026 14:00:00
 📍 Akbaş Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Gudul
 [2026-04-16T08:04:03.609Z] [INFO] (124 karakter)
 [2026-04-16T08:04:03.609Z] [INFO] ---
 [2026-04-16T08:04:03.609Z] [INFO] 0 tweet atıldı.
 [2026-04-16T08:04:03.610Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-04-16T08:04:03.610Z] [SUCCESS] Tamamlandı.
+[2026-04-16T09:43:12.918Z] [INFO] Logger başlatıldı
+[2026-04-16T09:43:12.920Z] [INFO] Tek seferlik mod...
+[2026-04-16T09:43:12.920Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-16T09:43:13.493Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-16T09:43:13.494Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-16T09:43:14.888Z] [INFO] 8 kesinti bulundu.
+[2026-04-16T09:43:14.894Z] [INFO] 776 kayıtlı kesinti var.
+[2026-04-16T09:43:14.894Z] [INFO] 4 yeni kesinti bulundu!
+[2026-04-16T09:43:15.314Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2044713219387019673)
+[2026-04-16T09:43:25.877Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2044713263691374646)
+[2026-04-16T09:43:36.499Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2044713308172046650)
+[2026-04-16T09:43:47.055Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2044713352539283866)
+[2026-04-16T09:43:57.060Z] [INFO] 4 tweet atıldı.
+[2026-04-16T09:43:57.065Z] [SUCCESS] 4 kesinti kaydedildi.
+[2026-04-16T09:43:57.066Z] [SUCCESS] Tamamlandı.
