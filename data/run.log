@@ -15996,19 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-10T08:59:17.237Z] [INFO] Logger başlatıldı
-[2026-04-10T08:59:17.238Z] [INFO] Tek seferlik mod...
-[2026-04-10T08:59:17.238Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-10T08:59:17.632Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-10T08:59:17.632Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-10T08:59:18.754Z] [INFO] 7 kesinti bulundu.
-[2026-04-10T08:59:18.757Z] [INFO] 706 kayıtlı kesinti var.
-[2026-04-10T08:59:18.758Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-10T08:59:19.163Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2042527835257176298)
-[2026-04-10T08:59:29.714Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2042527879469371571)
-[2026-04-10T08:59:39.720Z] [INFO] 2 tweet atıldı.
-[2026-04-10T08:59:39.725Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-10T08:59:39.725Z] [SUCCESS] Tamamlandı.
 [2026-04-10T10:07:14.355Z] [INFO] Logger başlatıldı
 [2026-04-10T10:07:14.356Z] [INFO] Tek seferlik mod...
 [2026-04-10T10:07:14.357Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18774,3 +18761,16 @@
 [2026-04-17T08:53:57.622Z] [INFO] 2 tweet atıldı.
 [2026-04-17T08:53:57.628Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-04-17T08:53:57.628Z] [SUCCESS] Tamamlandı.
+[2026-04-17T10:00:53.657Z] [INFO] Logger başlatıldı
+[2026-04-17T10:00:53.658Z] [INFO] Tek seferlik mod...
+[2026-04-17T10:00:53.658Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-17T10:00:54.113Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-17T10:00:54.114Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-17T10:00:55.319Z] [INFO] 6 kesinti bulundu.
+[2026-04-17T10:00:55.322Z] [INFO] 791 kayıtlı kesinti var.
+[2026-04-17T10:00:55.322Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-17T10:00:55.742Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2045080054972223875)
+[2026-04-17T10:01:06.198Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2045080098953703548)
+[2026-04-17T10:01:16.203Z] [INFO] 2 tweet atıldı.
+[2026-04-17T10:01:16.208Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-17T10:01:16.209Z] [SUCCESS] Tamamlandı.
