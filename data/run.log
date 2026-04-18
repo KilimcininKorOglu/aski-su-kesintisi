@@ -15996,19 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-11T10:32:59.578Z] [INFO] Logger başlatıldı
-[2026-04-11T10:32:59.579Z] [INFO] Tek seferlik mod...
-[2026-04-11T10:32:59.580Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-11T10:33:00.042Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-11T10:33:00.042Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-11T10:33:01.202Z] [INFO] 3 kesinti bulundu.
-[2026-04-11T10:33:01.205Z] [INFO] 714 kayıtlı kesinti var.
-[2026-04-11T10:33:01.206Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-11T10:33:01.715Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2042913805869744267)
-[2026-04-11T10:33:12.199Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2042913850023120907)
-[2026-04-11T10:33:22.205Z] [INFO] 2 tweet atıldı.
-[2026-04-11T10:33:22.209Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-11T10:33:22.210Z] [SUCCESS] Tamamlandı.
 [2026-04-11T11:04:04.432Z] [INFO] Logger başlatıldı
 [2026-04-11T11:04:04.434Z] [INFO] Tek seferlik mod...
 [2026-04-11T11:04:04.434Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18747,3 +18734,15 @@
 [2026-04-18T10:05:13.751Z] [INFO] 1 tweet atıldı.
 [2026-04-18T10:05:13.755Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-04-18T10:05:13.755Z] [SUCCESS] Tamamlandı.
+[2026-04-18T10:54:19.044Z] [INFO] Logger başlatıldı
+[2026-04-18T10:54:19.046Z] [INFO] Tek seferlik mod...
+[2026-04-18T10:54:19.046Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-18T10:54:19.545Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-18T10:54:19.546Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-18T10:54:20.540Z] [INFO] 3 kesinti bulundu.
+[2026-04-18T10:54:20.544Z] [INFO] 804 kayıtlı kesinti var.
+[2026-04-18T10:54:20.544Z] [INFO] 1 yeni kesinti bulundu!
+[2026-04-18T10:54:21.116Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2045455886756532276)
+[2026-04-18T10:54:31.120Z] [INFO] 1 tweet atıldı.
+[2026-04-18T10:54:31.123Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-04-18T10:54:31.123Z] [SUCCESS] Tamamlandı.
