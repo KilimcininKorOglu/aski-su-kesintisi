@@ -15996,18 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-11T07:57:03.064Z] [INFO] Logger başlatıldı
-[2026-04-11T07:57:03.065Z] [INFO] Tek seferlik mod...
-[2026-04-11T07:57:03.065Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-11T07:57:03.486Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-11T07:57:03.487Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-11T07:57:04.566Z] [INFO] 2 kesinti bulundu.
-[2026-04-11T07:57:04.569Z] [INFO] 713 kayıtlı kesinti var.
-[2026-04-11T07:57:04.569Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-11T07:57:04.937Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2042874560832508323)
-[2026-04-11T07:57:14.941Z] [INFO] 1 tweet atıldı.
-[2026-04-11T07:57:14.944Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-11T07:57:14.944Z] [SUCCESS] Tamamlandı.
 [2026-04-11T08:34:46.732Z] [INFO] Logger başlatıldı
 [2026-04-11T08:34:46.734Z] [INFO] Tek seferlik mod...
 [2026-04-11T08:34:46.734Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18750,3 +18738,15 @@
 [2026-04-18T07:44:24.488Z] [INFO] 801 kayıtlı kesinti var.
 [2026-04-18T07:44:24.489Z] [INFO] Yeni kesinti yok.
 [2026-04-18T07:44:24.489Z] [SUCCESS] Tamamlandı.
+[2026-04-18T08:27:15.533Z] [INFO] Logger başlatıldı
+[2026-04-18T08:27:15.534Z] [INFO] Tek seferlik mod...
+[2026-04-18T08:27:15.535Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-18T08:27:16.002Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-18T08:27:16.002Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-18T08:27:17.188Z] [INFO] 2 kesinti bulundu.
+[2026-04-18T08:27:17.191Z] [INFO] 801 kayıtlı kesinti var.
+[2026-04-18T08:27:17.191Z] [INFO] 1 yeni kesinti bulundu!
+[2026-04-18T08:27:17.622Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2045418878772383851)
+[2026-04-18T08:27:27.626Z] [INFO] 1 tweet atıldı.
+[2026-04-18T08:27:27.629Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-04-18T08:27:27.629Z] [SUCCESS] Tamamlandı.
