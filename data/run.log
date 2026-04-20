@@ -15996,17 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-13T12:44:06.832Z] [INFO] Logger başlatıldı
-[2026-04-13T12:44:06.833Z] [INFO] Tek seferlik mod...
-[2026-04-13T12:44:06.833Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-13T12:44:08.111Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-13T12:44:08.111Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-13T12:44:09.395Z] [INFO] 7 kesinti bulundu.
-[2026-04-13T12:44:09.398Z] [INFO] 733 kayıtlı kesinti var.
-[2026-04-13T12:44:09.398Z] [INFO] 3 yeni kesinti bulundu!
-[2026-04-13T12:44:09.985Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2043671583122985061)
-[2026-04-13T12:44:20.513Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-04-13T12:44:20.514Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16032,9 +16021,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:44:20.514Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:44:31.181Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-04-13T12:44:31.181Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16060,9 +16046,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:44:31.181Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:44:41.701Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-04-13T12:44:41.701Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16088,9 +16071,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:44:41.701Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:44:52.379Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-04-13T12:44:52.380Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16116,9 +16096,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:44:52.380Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:45:02.948Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-04-13T12:45:02.948Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16144,9 +16121,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:45:02.948Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:45:13.467Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-04-13T12:45:13.467Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16172,9 +16146,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:45:13.467Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:45:23.935Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-04-13T12:45:23.936Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16200,9 +16171,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:45:23.936Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:45:34.455Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-04-13T12:45:34.455Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16228,9 +16196,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:45:34.455Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:45:44.951Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-04-13T12:45:44.952Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16256,10 +16221,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:45:44.952Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-13T12:45:54.957Z] [INFO] ct0 token yenileniyor...
-[2026-04-13T12:45:55.976Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-04-13T12:45:55.977Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16285,16 +16246,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-13T12:45:55.977Z] [ERROR] Ana tweet atılamadı: AKYURT - Plansız Kesinti
-[2026-04-13T12:45:55.977Z] [INFO] Tweet içeriği (129 karakter):
 ⚠️ AKYURT - Plansız Kesinti
 📅 13.04.2026 15:20:00 - 13.04.2026 18:00:00
 📍 yıldırım mahallesi
 #AnkaraSuKesintisi #ASKİ #Akyurt
-[2026-04-13T12:46:06.829Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2043672073500078479)
-[2026-04-13T12:46:16.832Z] [INFO] 2 tweet atıldı.
-[2026-04-13T12:46:16.837Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-13T12:46:16.837Z] [SUCCESS] Tamamlandı.
 [2026-04-13T14:18:26.919Z] [INFO] Logger başlatıldı
 [2026-04-13T14:18:26.920Z] [INFO] Tek seferlik mod...
 [2026-04-13T14:18:26.920Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18714,3 +18669,12 @@
 [2026-04-20T11:42:20.204Z] [INFO] 2 tweet atıldı.
 [2026-04-20T11:42:20.210Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-04-20T11:42:20.210Z] [SUCCESS] Tamamlandı.
+[2026-04-20T12:48:44.780Z] [INFO] Logger başlatıldı
+[2026-04-20T12:48:44.781Z] [INFO] Tek seferlik mod...
+[2026-04-20T12:48:44.781Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-20T12:48:45.183Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-20T12:48:45.184Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-20T12:48:46.447Z] [INFO] 4 kesinti bulundu.
+[2026-04-20T12:48:46.450Z] [INFO] 818 kayıtlı kesinti var.
+[2026-04-20T12:48:46.450Z] [INFO] Yeni kesinti yok.
+[2026-04-20T12:48:46.451Z] [SUCCESS] Tamamlandı.
