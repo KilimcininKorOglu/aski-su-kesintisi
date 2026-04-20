@@ -15996,18 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-13T11:37:43.572Z] [INFO] Logger başlatıldı
-[2026-04-13T11:37:43.573Z] [INFO] Tek seferlik mod...
-[2026-04-13T11:37:43.574Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-13T11:37:44.215Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-13T11:37:44.215Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-13T11:37:45.095Z] [INFO] 6 kesinti bulundu.
-[2026-04-13T11:37:45.099Z] [INFO] 732 kayıtlı kesinti var.
-[2026-04-13T11:37:45.099Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-13T11:37:45.742Z] [SUCCESS] Ana tweet atıldı: ÇAMLIDERE - Plansız Kesinti (ID: 2043654872445472950)
-[2026-04-13T11:37:55.746Z] [INFO] 1 tweet atıldı.
-[2026-04-13T11:37:55.750Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-13T11:37:55.750Z] [SUCCESS] Tamamlandı.
 [2026-04-13T12:44:06.832Z] [INFO] Logger başlatıldı
 [2026-04-13T12:44:06.833Z] [INFO] Tek seferlik mod...
 [2026-04-13T12:44:06.833Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18713,3 +18701,16 @@
 [2026-04-20T10:12:13.692Z] [INFO] 3 tweet atıldı.
 [2026-04-20T10:12:13.697Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-04-20T10:12:13.698Z] [SUCCESS] Tamamlandı.
+[2026-04-20T11:41:57.549Z] [INFO] Logger başlatıldı
+[2026-04-20T11:41:57.550Z] [INFO] Tek seferlik mod...
+[2026-04-20T11:41:57.550Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-20T11:41:58.107Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-20T11:41:58.108Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-20T11:41:59.184Z] [INFO] 4 kesinti bulundu.
+[2026-04-20T11:41:59.187Z] [INFO] 816 kayıtlı kesinti var.
+[2026-04-20T11:41:59.187Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-20T11:41:59.628Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2046192652262216145)
+[2026-04-20T11:42:10.198Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2046192696512155875)
+[2026-04-20T11:42:20.204Z] [INFO] 2 tweet atıldı.
+[2026-04-20T11:42:20.210Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-20T11:42:20.210Z] [SUCCESS] Tamamlandı.
