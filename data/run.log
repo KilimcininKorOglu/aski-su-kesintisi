@@ -15996,24 +15996,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-13T03:46:44.678Z] [INFO] Logger başlatıldı
-[2026-04-13T03:46:44.679Z] [INFO] Tek seferlik mod...
-[2026-04-13T03:46:44.680Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-13T03:46:45.261Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-13T03:46:45.261Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-13T03:46:46.215Z] [INFO] 0 kesinti bulundu.
-[2026-04-13T03:46:46.218Z] [INFO] 724 kayıtlı kesinti var.
-[2026-04-13T03:46:46.219Z] [INFO] Yeni kesinti yok.
-[2026-04-13T03:46:46.219Z] [SUCCESS] Tamamlandı.
-[2026-04-13T06:05:04.798Z] [INFO] Logger başlatıldı
-[2026-04-13T06:05:04.799Z] [INFO] Tek seferlik mod...
-[2026-04-13T06:05:04.800Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-13T06:05:05.396Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-13T06:05:05.397Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-13T06:05:06.450Z] [INFO] 0 kesinti bulundu.
-[2026-04-13T06:05:06.453Z] [INFO] 724 kayıtlı kesinti var.
-[2026-04-13T06:05:06.453Z] [INFO] Yeni kesinti yok.
-[2026-04-13T06:05:06.454Z] [SUCCESS] Tamamlandı.
 [2026-04-13T08:18:31.792Z] [INFO] Logger başlatıldı
 [2026-04-13T08:18:31.793Z] [INFO] Tek seferlik mod...
 [2026-04-13T08:18:31.793Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18722,3 +18704,16 @@
 [2026-04-20T03:46:05.538Z] [INFO] 810 kayıtlı kesinti var.
 [2026-04-20T03:46:05.538Z] [INFO] Yeni kesinti yok.
 [2026-04-20T03:46:05.539Z] [SUCCESS] Tamamlandı.
+[2026-04-20T06:05:29.780Z] [INFO] Logger başlatıldı
+[2026-04-20T06:05:29.781Z] [INFO] Tek seferlik mod...
+[2026-04-20T06:05:29.782Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-20T06:05:30.326Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-20T06:05:30.327Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-20T06:05:31.271Z] [INFO] 2 kesinti bulundu.
+[2026-04-20T06:05:31.275Z] [INFO] 810 kayıtlı kesinti var.
+[2026-04-20T06:05:31.275Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-20T06:05:31.799Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2046107978319966249)
+[2026-04-20T06:05:42.371Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2046108022708343195)
+[2026-04-20T06:05:52.378Z] [INFO] 2 tweet atıldı.
+[2026-04-20T06:05:52.383Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-20T06:05:52.383Z] [SUCCESS] Tamamlandı.
