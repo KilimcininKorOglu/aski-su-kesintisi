@@ -16250,19 +16250,6 @@
 📅 13.04.2026 15:20:00 - 13.04.2026 18:00:00
 📍 yıldırım mahallesi
 #AnkaraSuKesintisi #ASKİ #Akyurt
-[2026-04-13T17:44:48.397Z] [INFO] Logger başlatıldı
-[2026-04-13T17:44:48.399Z] [INFO] Tek seferlik mod...
-[2026-04-13T17:44:48.399Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-13T17:44:49.150Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-13T17:44:49.150Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-13T17:44:50.332Z] [INFO] 3 kesinti bulundu.
-[2026-04-13T17:44:50.335Z] [INFO] 737 kayıtlı kesinti var.
-[2026-04-13T17:44:50.336Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-13T17:44:50.950Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2043747252783722556)
-[2026-04-13T17:45:01.529Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2043747297222373751)
-[2026-04-13T17:45:11.534Z] [INFO] 2 tweet atıldı.
-[2026-04-13T17:45:11.539Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-13T17:45:11.539Z] [SUCCESS] Tamamlandı.
 [2026-04-13T18:49:22.941Z] [INFO] Logger başlatıldı
 [2026-04-13T18:49:22.942Z] [INFO] Tek seferlik mod...
 [2026-04-13T18:49:22.943Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18689,3 +18676,16 @@
 [2026-04-20T17:44:08.767Z] [INFO] 820 kayıtlı kesinti var.
 [2026-04-20T17:44:08.767Z] [INFO] Yeni kesinti yok.
 [2026-04-20T17:44:08.767Z] [SUCCESS] Tamamlandı.
+[2026-04-20T18:42:08.745Z] [INFO] Logger başlatıldı
+[2026-04-20T18:42:08.747Z] [INFO] Tek seferlik mod...
+[2026-04-20T18:42:08.747Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-20T18:42:09.398Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-20T18:42:09.398Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-20T18:42:10.369Z] [INFO] 3 kesinti bulundu.
+[2026-04-20T18:42:10.373Z] [INFO] 820 kayıtlı kesinti var.
+[2026-04-20T18:42:10.373Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-20T18:42:10.906Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2046298396055745006)
+[2026-04-20T18:42:21.529Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2046298440624418952)
+[2026-04-20T18:42:31.535Z] [INFO] 2 tweet atıldı.
+[2026-04-20T18:42:31.540Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-20T18:42:31.540Z] [SUCCESS] Tamamlandı.
