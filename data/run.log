@@ -16250,20 +16250,6 @@
 📅 13.04.2026 15:20:00 - 13.04.2026 18:00:00
 📍 yıldırım mahallesi
 #AnkaraSuKesintisi #ASKİ #Akyurt
-[2026-04-14T08:03:23.934Z] [INFO] Logger başlatıldı
-[2026-04-14T08:03:23.935Z] [INFO] Tek seferlik mod...
-[2026-04-14T08:03:23.935Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-14T08:03:24.565Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-14T08:03:24.566Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-14T08:03:25.717Z] [INFO] 3 kesinti bulundu.
-[2026-04-14T08:03:25.721Z] [INFO] 740 kayıtlı kesinti var.
-[2026-04-14T08:03:25.721Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-14T08:03:30.176Z] [INFO] Tweet kısaltıldı: 344 -> 127 karakter
-[2026-04-14T08:03:30.656Z] [SUCCESS] Ana tweet atıldı: NALLIHAN - Plansız Kesinti (ID: 2043963342264643657)
-[2026-04-14T08:03:41.164Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2043963386346778769)
-[2026-04-14T08:03:51.169Z] [INFO] 2 tweet atıldı.
-[2026-04-14T08:03:51.174Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-14T08:03:51.174Z] [SUCCESS] Tamamlandı.
 [2026-04-14T09:43:57.727Z] [INFO] Logger başlatıldı
 [2026-04-14T09:43:57.728Z] [INFO] Tek seferlik mod...
 [2026-04-14T09:43:57.728Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18694,3 +18680,12 @@
 [2026-04-21T07:16:27.343Z] [INFO] 2 tweet atıldı.
 [2026-04-21T07:16:27.348Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-04-21T07:16:27.348Z] [SUCCESS] Tamamlandı.
+[2026-04-21T09:02:37.692Z] [INFO] Logger başlatıldı
+[2026-04-21T09:02:37.694Z] [INFO] Tek seferlik mod...
+[2026-04-21T09:02:37.694Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-21T09:02:38.266Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-21T09:02:38.267Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-21T09:02:39.042Z] [INFO] 4 kesinti bulundu.
+[2026-04-21T09:02:39.046Z] [INFO] 826 kayıtlı kesinti var.
+[2026-04-21T09:02:39.047Z] [INFO] Yeni kesinti yok.
+[2026-04-21T09:02:39.047Z] [SUCCESS] Tamamlandı.
