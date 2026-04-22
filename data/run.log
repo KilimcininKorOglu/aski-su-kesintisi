@@ -16250,19 +16250,6 @@
 📅 13.04.2026 15:20:00 - 13.04.2026 18:00:00
 📍 yıldırım mahallesi
 #AnkaraSuKesintisi #ASKİ #Akyurt
-[2026-04-15T09:44:47.500Z] [INFO] Logger başlatıldı
-[2026-04-15T09:44:47.501Z] [INFO] Tek seferlik mod...
-[2026-04-15T09:44:47.502Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-15T09:44:48.155Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-15T09:44:48.156Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-15T09:44:49.029Z] [INFO] 8 kesinti bulundu.
-[2026-04-15T09:44:49.032Z] [INFO] 764 kayıtlı kesinti var.
-[2026-04-15T09:44:49.033Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-15T09:44:49.540Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2044351226796712285)
-[2026-04-15T09:45:00.226Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2044351271420002349)
-[2026-04-15T09:45:10.231Z] [INFO] 2 tweet atıldı.
-[2026-04-15T09:45:10.236Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-04-15T09:45:10.236Z] [SUCCESS] Tamamlandı.
 [2026-04-15T10:46:32.482Z] [INFO] Logger başlatıldı
 [2026-04-15T10:46:32.483Z] [INFO] Tek seferlik mod...
 [2026-04-15T10:46:32.483Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18689,22 +18676,31 @@
 [2026-04-22T08:05:27.936Z] [INFO] 2 yeni kesinti bulundu!
 [2026-04-22T08:05:27.937Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-04-22T08:05:27.937Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
-
 📅 22.04.2026 10:05:00 - 22.04.2026 13:00:00
 📍 Beytepe Mahallesi İrfan GÜMÜŞEL Caddesi Ve Civarı
-
 #AnkaraSuKesintisi #ASKİ #Beypazari
 [2026-04-22T08:05:27.937Z] [INFO] (166 karakter)
 [2026-04-22T08:05:27.937Z] [INFO] ---
 [2026-04-22T08:05:27.937Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-04-22T08:05:27.937Z] [INFO] ⚠️ KEÇİÖREN - Plansız Kesinti
-
 📅 22.04.2026 10:30:00 - 22.04.2026 13:00:00
 📍 KARARGAHTEPE İLE BASINEVLERİ MH
-
 #AnkaraSuKesintisi #ASKİ #Kecioren
 [2026-04-22T08:05:27.938Z] [INFO] (146 karakter)
 [2026-04-22T08:05:27.938Z] [INFO] ---
 [2026-04-22T08:05:27.938Z] [INFO] 0 tweet atıldı.
 [2026-04-22T08:05:27.938Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-04-22T08:05:27.938Z] [SUCCESS] Tamamlandı.
+[2026-04-22T09:45:53.303Z] [INFO] Logger başlatıldı
+[2026-04-22T09:45:53.305Z] [INFO] Tek seferlik mod...
+[2026-04-22T09:45:53.305Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-22T09:45:53.911Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-22T09:45:53.911Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-22T09:45:55.063Z] [INFO] 3 kesinti bulundu.
+[2026-04-22T09:45:55.066Z] [INFO] 836 kayıtlı kesinti var.
+[2026-04-22T09:45:55.067Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-22T09:45:55.625Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2046888218898141478)
+[2026-04-22T09:46:06.141Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2046888263026430238)
+[2026-04-22T09:46:16.146Z] [INFO] 2 tweet atıldı.
+[2026-04-22T09:46:16.152Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-22T09:46:16.152Z] [SUCCESS] Tamamlandı.
