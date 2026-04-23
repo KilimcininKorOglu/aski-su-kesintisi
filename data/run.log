@@ -16250,15 +16250,6 @@
 📅 13.04.2026 15:20:00 - 13.04.2026 18:00:00
 📍 yıldırım mahallesi
 #AnkaraSuKesintisi #ASKİ #Akyurt
-[2026-04-16T04:24:10.774Z] [INFO] Logger başlatıldı
-[2026-04-16T04:24:10.775Z] [INFO] Tek seferlik mod...
-[2026-04-16T04:24:10.776Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-16T04:24:11.772Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-16T04:24:11.772Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-16T04:24:12.824Z] [INFO] 0 kesinti bulundu.
-[2026-04-16T04:24:12.827Z] [INFO] 772 kayıtlı kesinti var.
-[2026-04-16T04:24:12.827Z] [INFO] Yeni kesinti yok.
-[2026-04-16T04:24:12.827Z] [SUCCESS] Tamamlandı.
 [2026-04-16T06:16:01.506Z] [INFO] Logger başlatıldı
 [2026-04-16T06:16:01.507Z] [INFO] Tek seferlik mod...
 [2026-04-16T06:16:01.508Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18713,3 +18704,12 @@
 [2026-04-23T03:38:41.315Z] [INFO] 849 kayıtlı kesinti var.
 [2026-04-23T03:38:41.315Z] [INFO] Yeni kesinti yok.
 [2026-04-23T03:38:41.315Z] [SUCCESS] Tamamlandı.
+[2026-04-23T05:52:25.803Z] [INFO] Logger başlatıldı
+[2026-04-23T05:52:25.804Z] [INFO] Tek seferlik mod...
+[2026-04-23T05:52:25.804Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-23T05:52:26.347Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-23T05:52:26.348Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-23T05:52:27.395Z] [INFO] 1 kesinti bulundu.
+[2026-04-23T05:52:27.397Z] [INFO] 849 kayıtlı kesinti var.
+[2026-04-23T05:52:27.398Z] [INFO] Yeni kesinti yok.
+[2026-04-23T05:52:27.398Z] [SUCCESS] Tamamlandı.
