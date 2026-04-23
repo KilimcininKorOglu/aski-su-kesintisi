@@ -16250,21 +16250,6 @@
 📅 13.04.2026 15:20:00 - 13.04.2026 18:00:00
 📍 yıldırım mahallesi
 #AnkaraSuKesintisi #ASKİ #Akyurt
-[2026-04-16T06:16:01.506Z] [INFO] Logger başlatıldı
-[2026-04-16T06:16:01.507Z] [INFO] Tek seferlik mod...
-[2026-04-16T06:16:01.508Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-16T06:16:02.093Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-16T06:16:02.094Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-16T06:16:03.346Z] [INFO] 4 kesinti bulundu.
-[2026-04-16T06:16:03.349Z] [INFO] 772 kayıtlı kesinti var.
-[2026-04-16T06:16:03.350Z] [INFO] 4 yeni kesinti bulundu!
-[2026-04-16T06:16:03.814Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2044661077850640417)
-[2026-04-16T06:16:14.326Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2044661121936933161)
-[2026-04-16T06:16:24.819Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2044661166023266465)
-[2026-04-16T06:16:35.236Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2044661209757360638)
-[2026-04-16T06:16:45.241Z] [INFO] 4 tweet atıldı.
-[2026-04-16T06:16:45.247Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-04-16T06:16:45.247Z] [SUCCESS] Tamamlandı.
 [2026-04-16T08:03:52.224Z] [INFO] Logger başlatıldı
 [2026-04-16T08:03:52.225Z] [INFO] Tek seferlik mod...
 [2026-04-16T08:03:52.226Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18713,3 +18698,12 @@
 [2026-04-23T05:52:27.397Z] [INFO] 849 kayıtlı kesinti var.
 [2026-04-23T05:52:27.398Z] [INFO] Yeni kesinti yok.
 [2026-04-23T05:52:27.398Z] [SUCCESS] Tamamlandı.
+[2026-04-23T07:16:54.121Z] [INFO] Logger başlatıldı
+[2026-04-23T07:16:54.123Z] [INFO] Tek seferlik mod...
+[2026-04-23T07:16:54.123Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-23T07:16:54.768Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-23T07:16:54.768Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-23T07:16:55.705Z] [INFO] 0 kesinti bulundu.
+[2026-04-23T07:16:55.710Z] [INFO] 849 kayıtlı kesinti var.
+[2026-04-23T07:16:55.710Z] [INFO] Yeni kesinti yok.
+[2026-04-23T07:16:55.710Z] [SUCCESS] Tamamlandı.
