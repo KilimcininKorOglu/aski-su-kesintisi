@@ -16271,21 +16271,6 @@
 📅 16.04.2026 10:20:00 - 16.04.2026 14:00:00
 📍 Akbaş Mahallesi
 #AnkaraSuKesintisi #ASKİ #Gudul
-[2026-04-16T09:43:12.918Z] [INFO] Logger başlatıldı
-[2026-04-16T09:43:12.920Z] [INFO] Tek seferlik mod...
-[2026-04-16T09:43:12.920Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-16T09:43:13.493Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-16T09:43:13.494Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-16T09:43:14.888Z] [INFO] 8 kesinti bulundu.
-[2026-04-16T09:43:14.894Z] [INFO] 776 kayıtlı kesinti var.
-[2026-04-16T09:43:14.894Z] [INFO] 4 yeni kesinti bulundu!
-[2026-04-16T09:43:15.314Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2044713219387019673)
-[2026-04-16T09:43:25.877Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2044713263691374646)
-[2026-04-16T09:43:36.499Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2044713308172046650)
-[2026-04-16T09:43:47.055Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2044713352539283866)
-[2026-04-16T09:43:57.060Z] [INFO] 4 tweet atıldı.
-[2026-04-16T09:43:57.065Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-04-16T09:43:57.066Z] [SUCCESS] Tamamlandı.
 [2026-04-16T10:47:10.380Z] [INFO] Logger başlatıldı
 [2026-04-16T10:47:10.381Z] [INFO] Tek seferlik mod...
 [2026-04-16T10:47:10.382Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18697,3 +18682,15 @@
 [2026-04-23T09:04:55.271Z] [INFO] 3 tweet atıldı.
 [2026-04-23T09:04:55.277Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-04-23T09:04:55.277Z] [SUCCESS] Tamamlandı.
+[2026-04-23T10:40:53.498Z] [INFO] Logger başlatıldı
+[2026-04-23T10:40:53.500Z] [INFO] Tek seferlik mod...
+[2026-04-23T10:40:53.500Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-23T10:40:54.109Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-23T10:40:54.109Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-23T10:40:54.994Z] [INFO] 4 kesinti bulundu.
+[2026-04-23T10:40:54.998Z] [INFO] 852 kayıtlı kesinti var.
+[2026-04-23T10:40:54.998Z] [INFO] 1 yeni kesinti bulundu!
+[2026-04-23T10:40:55.504Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2047264447438487610)
+[2026-04-23T10:41:05.507Z] [INFO] 1 tweet atıldı.
+[2026-04-23T10:41:05.511Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-04-23T10:41:05.511Z] [SUCCESS] Tamamlandı.
