@@ -16759,18 +16759,6 @@
 📅 16.04.2026 13:00:00 - 17.04.2026 17:00:00
 📍 Mehmet Akif Ersoy mahallesi , Aselsan, Ego civarı.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-04-17T05:51:09.452Z] [INFO] Logger başlatıldı
-[2026-04-17T05:51:09.453Z] [INFO] Tek seferlik mod...
-[2026-04-17T05:51:09.454Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-17T05:51:10.124Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-17T05:51:10.125Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-17T05:51:11.106Z] [INFO] 4 kesinti bulundu.
-[2026-04-17T05:51:11.110Z] [INFO] 785 kayıtlı kesinti var.
-[2026-04-17T05:51:11.111Z] [INFO] 4 yeni kesinti bulundu!
-[2026-04-17T05:51:11.584Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2045017206984208595)
-[2026-04-17T05:51:22.189Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2045017251267616981)
-[2026-04-17T05:51:32.560Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-04-17T05:51:32.561Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16796,9 +16784,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:51:32.561Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:51:43.064Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-04-17T05:51:43.064Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16824,9 +16809,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:51:43.064Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:51:53.439Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-04-17T05:51:53.439Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16852,9 +16834,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:51:53.439Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:52:03.808Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-04-17T05:52:03.808Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16880,9 +16859,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:52:03.808Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:52:14.280Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-04-17T05:52:14.280Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16908,9 +16884,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:52:14.280Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:52:24.609Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-04-17T05:52:24.609Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16936,9 +16909,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:52:24.609Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:52:35.005Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-04-17T05:52:35.005Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16964,9 +16934,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:52:35.005Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:52:45.319Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-04-17T05:52:45.320Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -16992,9 +16959,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:52:45.320Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:52:55.755Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-04-17T05:52:55.755Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -17020,10 +16984,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:52:55.755Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-04-17T05:53:05.760Z] [INFO] ct0 token yenileniyor...
-[2026-04-17T05:53:06.521Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-04-17T05:53:06.521Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -17049,16 +17009,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-04-17T05:53:06.521Z] [ERROR] Ana tweet atılamadı: ETİMESGUT - Plansız Kesinti
-[2026-04-17T05:53:06.521Z] [INFO] Tweet içeriği (146 karakter):
 ⚠️ ETİMESGUT - Plansız Kesinti
 📅 17.04.2026 08:30:00 - 17.04.2026 13:00:00
 📍 Ahi Mesut Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-04-17T05:53:17.150Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2045017733495210060)
-[2026-04-17T05:53:27.155Z] [INFO] 3 tweet atıldı.
-[2026-04-17T05:53:27.160Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-04-17T05:53:27.160Z] [SUCCESS] Tamamlandı.
 [2026-04-17T07:13:34.998Z] [INFO] Logger başlatıldı
 [2026-04-17T07:13:34.999Z] [INFO] Tek seferlik mod...
 [2026-04-17T07:13:34.999Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18606,3 +18560,16 @@
 [2026-04-24T04:54:17.929Z] [INFO] 853 kayıtlı kesinti var.
 [2026-04-24T04:54:17.929Z] [INFO] Yeni kesinti yok.
 [2026-04-24T04:54:17.929Z] [SUCCESS] Tamamlandı.
+[2026-04-24T06:56:38.853Z] [INFO] Logger başlatıldı
+[2026-04-24T06:56:38.854Z] [INFO] Tek seferlik mod...
+[2026-04-24T06:56:38.854Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-24T06:56:39.485Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-24T06:56:39.486Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-24T06:56:40.955Z] [INFO] 2 kesinti bulundu.
+[2026-04-24T06:56:40.958Z] [INFO] 853 kayıtlı kesinti var.
+[2026-04-24T06:56:40.959Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-24T06:56:41.530Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2047570405301604558)
+[2026-04-24T06:56:52.182Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2047570449949975029)
+[2026-04-24T06:57:02.188Z] [INFO] 2 tweet atıldı.
+[2026-04-24T06:57:02.194Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-24T06:57:02.194Z] [SUCCESS] Tamamlandı.
