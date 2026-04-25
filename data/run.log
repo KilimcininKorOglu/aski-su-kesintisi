@@ -17013,18 +17013,6 @@
 📅 17.04.2026 08:30:00 - 17.04.2026 13:00:00
 📍 Ahi Mesut Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-04-18T09:24:45.671Z] [INFO] Logger başlatıldı
-[2026-04-18T09:24:45.672Z] [INFO] Tek seferlik mod...
-[2026-04-18T09:24:45.672Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-18T09:24:46.389Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-18T09:24:46.389Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-18T09:24:47.410Z] [INFO] 3 kesinti bulundu.
-[2026-04-18T09:24:47.413Z] [INFO] 802 kayıtlı kesinti var.
-[2026-04-18T09:24:47.413Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-18T09:24:47.975Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2045433350434038024)
-[2026-04-18T09:24:57.979Z] [INFO] 1 tweet atıldı.
-[2026-04-18T09:24:57.982Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-18T09:24:57.983Z] [SUCCESS] Tamamlandı.
 [2026-04-18T10:05:01.703Z] [INFO] Logger başlatıldı
 [2026-04-18T10:05:01.705Z] [INFO] Tek seferlik mod...
 [2026-04-18T10:05:01.705Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18543,3 +18531,16 @@
 [2026-04-25T08:40:59.132Z] [INFO] 1 tweet atıldı.
 [2026-04-25T08:40:59.135Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-04-25T08:40:59.135Z] [SUCCESS] Tamamlandı.
+[2026-04-25T09:34:49.163Z] [INFO] Logger başlatıldı
+[2026-04-25T09:34:49.165Z] [INFO] Tek seferlik mod...
+[2026-04-25T09:34:49.165Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-25T09:34:49.806Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-25T09:34:49.807Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-25T09:34:50.704Z] [INFO] 5 kesinti bulundu.
+[2026-04-25T09:34:50.708Z] [INFO] 863 kayıtlı kesinti var.
+[2026-04-25T09:34:50.709Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-25T09:34:51.297Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2047972595979751591)
+[2026-04-25T09:35:01.949Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2047972640691023993)
+[2026-04-25T09:35:11.954Z] [INFO] 2 tweet atıldı.
+[2026-04-25T09:35:11.960Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-25T09:35:11.960Z] [SUCCESS] Tamamlandı.
