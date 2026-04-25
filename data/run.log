@@ -17013,15 +17013,6 @@
 📅 17.04.2026 08:30:00 - 17.04.2026 13:00:00
 📍 Ahi Mesut Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-04-18T15:01:37.203Z] [INFO] Logger başlatıldı
-[2026-04-18T15:01:37.204Z] [INFO] Tek seferlik mod...
-[2026-04-18T15:01:37.204Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-18T15:01:37.958Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-18T15:01:37.958Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-18T15:01:38.702Z] [INFO] 0 kesinti bulundu.
-[2026-04-18T15:01:38.706Z] [INFO] 805 kayıtlı kesinti var.
-[2026-04-18T15:01:38.706Z] [INFO] Yeni kesinti yok.
-[2026-04-18T15:01:38.706Z] [SUCCESS] Tamamlandı.
 [2026-04-18T15:48:44.590Z] [INFO] Logger başlatıldı
 [2026-04-18T15:48:44.591Z] [INFO] Tek seferlik mod...
 [2026-04-18T15:48:44.592Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18535,3 +18526,16 @@
 [2026-04-25T14:28:30.835Z] [INFO] 1 tweet atıldı.
 [2026-04-25T14:28:30.939Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-04-25T14:28:30.939Z] [SUCCESS] Tamamlandı.
+[2026-04-25T15:09:05.406Z] [INFO] Logger başlatıldı
+[2026-04-25T15:09:05.407Z] [INFO] Tek seferlik mod...
+[2026-04-25T15:09:05.407Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-25T15:09:05.870Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-25T15:09:05.870Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-25T15:09:07.333Z] [INFO] 4 kesinti bulundu.
+[2026-04-25T15:09:07.336Z] [INFO] 867 kayıtlı kesinti var.
+[2026-04-25T15:09:07.337Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-25T15:09:07.833Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2048056718941454843)
+[2026-04-25T15:09:18.596Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2048056763422007385)
+[2026-04-25T15:09:28.601Z] [INFO] 2 tweet atıldı.
+[2026-04-25T15:09:28.607Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-25T15:09:28.607Z] [SUCCESS] Tamamlandı.
