@@ -17013,12 +17013,6 @@
 📅 17.04.2026 08:30:00 - 17.04.2026 13:00:00
 📍 Ahi Mesut Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-04-18T18:26:03.407Z] [INFO] Logger başlatıldı
-[2026-04-18T18:26:03.408Z] [INFO] Tek seferlik mod...
-[2026-04-18T18:26:03.409Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-18T18:26:04.030Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-18T18:26:04.030Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-18T18:26:34.065Z] [ERROR] ASKİ sayfası çekilemedi:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -17031,7 +17025,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-18T18:26:34.065Z] [ERROR] Hata oluştu:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -17044,7 +17037,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-18T18:26:34.065Z] [SUCCESS] Tamamlandı.
 [2026-04-18T19:12:26.878Z] [INFO] Logger başlatıldı
 [2026-04-18T19:12:26.879Z] [INFO] Tek seferlik mod...
 [2026-04-18T19:12:26.879Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18539,3 +18531,15 @@
 [2026-04-25T17:50:59.337Z] [INFO] 869 kayıtlı kesinti var.
 [2026-04-25T17:50:59.338Z] [INFO] Yeni kesinti yok.
 [2026-04-25T17:50:59.338Z] [SUCCESS] Tamamlandı.
+[2026-04-25T18:29:09.453Z] [INFO] Logger başlatıldı
+[2026-04-25T18:29:09.455Z] [INFO] Tek seferlik mod...
+[2026-04-25T18:29:09.455Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-25T18:29:09.855Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-25T18:29:09.855Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-25T18:29:11.094Z] [INFO] 2 kesinti bulundu.
+[2026-04-25T18:29:11.098Z] [INFO] 869 kayıtlı kesinti var.
+[2026-04-25T18:29:11.098Z] [INFO] 1 yeni kesinti bulundu!
+[2026-04-25T18:29:11.499Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2048107066305470662)
+[2026-04-25T18:29:21.503Z] [INFO] 1 tweet atıldı.
+[2026-04-25T18:29:21.506Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-04-25T18:29:21.506Z] [SUCCESS] Tamamlandı.
