@@ -17037,18 +17037,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-19T12:58:23.489Z] [INFO] Logger başlatıldı
-[2026-04-19T12:58:23.490Z] [INFO] Tek seferlik mod...
-[2026-04-19T12:58:23.491Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-19T12:58:24.170Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-19T12:58:24.171Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-19T12:58:25.061Z] [INFO] 1 kesinti bulundu.
-[2026-04-19T12:58:25.065Z] [INFO] 808 kayıtlı kesinti var.
-[2026-04-19T12:58:25.066Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-19T12:58:25.672Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2045849499546136764)
-[2026-04-19T12:58:35.676Z] [INFO] 1 tweet atıldı.
-[2026-04-19T12:58:35.679Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-19T12:58:35.679Z] [SUCCESS] Tamamlandı.
 [2026-04-19T13:58:35.255Z] [INFO] Logger başlatıldı
 [2026-04-19T13:58:35.257Z] [INFO] Tek seferlik mod...
 [2026-04-19T13:58:35.257Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18539,3 +18527,12 @@
 [2026-04-26T12:32:42.617Z] [INFO] 1 tweet atıldı.
 [2026-04-26T12:32:42.622Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-04-26T12:32:42.623Z] [SUCCESS] Tamamlandı.
+[2026-04-26T13:47:29.356Z] [INFO] Logger başlatıldı
+[2026-04-26T13:47:29.357Z] [INFO] Tek seferlik mod...
+[2026-04-26T13:47:29.358Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-26T13:47:29.962Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-26T13:47:29.963Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-26T13:47:30.844Z] [INFO] 1 kesinti bulundu.
+[2026-04-26T13:47:30.848Z] [INFO] 874 kayıtlı kesinti var.
+[2026-04-26T13:47:30.848Z] [INFO] Yeni kesinti yok.
+[2026-04-26T13:47:30.848Z] [SUCCESS] Tamamlandı.
