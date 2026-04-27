@@ -17037,18 +17037,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-20T08:23:46.042Z] [INFO] Logger başlatıldı
-[2026-04-20T08:23:46.043Z] [INFO] Tek seferlik mod...
-[2026-04-20T08:23:46.043Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-20T08:23:46.555Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-20T08:23:46.556Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-20T08:23:48.052Z] [INFO] 3 kesinti bulundu.
-[2026-04-20T08:23:48.054Z] [INFO] 812 kayıtlı kesinti var.
-[2026-04-20T08:23:48.054Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-20T08:23:48.520Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2046142777382318186)
-[2026-04-20T08:23:58.524Z] [INFO] 1 tweet atıldı.
-[2026-04-20T08:23:58.527Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-20T08:23:58.527Z] [SUCCESS] Tamamlandı.
 [2026-04-20T10:11:40.313Z] [INFO] Logger başlatıldı
 [2026-04-20T10:11:40.314Z] [INFO] Tek seferlik mod...
 [2026-04-20T10:11:40.314Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18525,13 +18513,29 @@
 [2026-04-27T07:19:47.733Z] [INFO] 1 yeni kesinti bulundu!
 [2026-04-27T07:19:47.733Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-04-27T07:19:47.733Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-04-27T07:19:47.733Z] [INFO] (141 karakter)
 [2026-04-27T07:19:47.733Z] [INFO] ---
 [2026-04-27T07:19:47.733Z] [INFO] 0 tweet atıldı.
 [2026-04-27T07:19:47.734Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-04-27T07:19:47.734Z] [SUCCESS] Tamamlandı.
+[2026-04-27T09:32:52.267Z] [INFO] Logger başlatıldı
+[2026-04-27T09:32:52.268Z] [INFO] Tek seferlik mod...
+[2026-04-27T09:32:52.269Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-27T09:32:53.294Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-27T09:32:53.294Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-27T09:32:54.878Z] [INFO] 7 kesinti bulundu.
+[2026-04-27T09:32:54.884Z] [INFO] 874 kayıtlı kesinti var.
+[2026-04-27T09:32:54.884Z] [INFO] 7 yeni kesinti bulundu!
+[2026-04-27T09:32:55.421Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2048696885846872389)
+[2026-04-27T09:33:05.997Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2048696930101006363)
+[2026-04-27T09:33:16.604Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2048696974585782612)
+[2026-04-27T09:33:27.181Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2048697018974101707)
+[2026-04-27T09:33:38.308Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2048697065618931823)
+[2026-04-27T09:33:49.314Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2048697111655629066)
+[2026-04-27T09:33:59.880Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2048697156186603939)
+[2026-04-27T09:34:09.885Z] [INFO] 7 tweet atıldı.
+[2026-04-27T09:34:09.892Z] [SUCCESS] 7 kesinti kaydedildi.
+[2026-04-27T09:34:09.892Z] [SUCCESS] Tamamlandı.
