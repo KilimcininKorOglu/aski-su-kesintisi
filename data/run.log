@@ -17037,20 +17037,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-20T10:11:40.313Z] [INFO] Logger başlatıldı
-[2026-04-20T10:11:40.314Z] [INFO] Tek seferlik mod...
-[2026-04-20T10:11:40.314Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-20T10:11:40.938Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-20T10:11:40.938Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-20T10:11:41.910Z] [INFO] 3 kesinti bulundu.
-[2026-04-20T10:11:41.913Z] [INFO] 813 kayıtlı kesinti var.
-[2026-04-20T10:11:41.914Z] [INFO] 3 yeni kesinti bulundu!
-[2026-04-20T10:11:42.430Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2046169930895344044)
-[2026-04-20T10:11:53.021Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2046169975329788282)
-[2026-04-20T10:12:03.689Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2046170019982454919)
-[2026-04-20T10:12:13.692Z] [INFO] 3 tweet atıldı.
-[2026-04-20T10:12:13.697Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-04-20T10:12:13.698Z] [SUCCESS] Tamamlandı.
 [2026-04-20T11:41:57.549Z] [INFO] Logger başlatıldı
 [2026-04-20T11:41:57.550Z] [INFO] Tek seferlik mod...
 [2026-04-20T11:41:57.550Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18539,3 +18525,16 @@
 [2026-04-27T09:34:09.885Z] [INFO] 7 tweet atıldı.
 [2026-04-27T09:34:09.892Z] [SUCCESS] 7 kesinti kaydedildi.
 [2026-04-27T09:34:09.892Z] [SUCCESS] Tamamlandı.
+[2026-04-27T11:22:59.159Z] [INFO] Logger başlatıldı
+[2026-04-27T11:22:59.160Z] [INFO] Tek seferlik mod...
+[2026-04-27T11:22:59.160Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-27T11:22:59.827Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-27T11:22:59.827Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-27T11:23:01.158Z] [INFO] 7 kesinti bulundu.
+[2026-04-27T11:23:01.161Z] [INFO] 881 kayıtlı kesinti var.
+[2026-04-27T11:23:01.161Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-27T11:23:01.698Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2048724594371281406)
+[2026-04-27T11:23:12.485Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2048724639673881010)
+[2026-04-27T11:23:22.490Z] [INFO] 2 tweet atıldı.
+[2026-04-27T11:23:22.495Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-27T11:23:22.496Z] [SUCCESS] Tamamlandı.
