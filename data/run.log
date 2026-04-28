@@ -17037,24 +17037,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-21T22:51:41.270Z] [INFO] Logger başlatıldı
-[2026-04-21T22:51:41.272Z] [INFO] Tek seferlik mod...
-[2026-04-21T22:51:41.272Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-21T22:51:41.892Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-21T22:51:41.893Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-21T22:51:43.074Z] [INFO] 0 kesinti bulundu.
-[2026-04-21T22:51:43.078Z] [INFO] 835 kayıtlı kesinti var.
-[2026-04-21T22:51:43.078Z] [INFO] Yeni kesinti yok.
-[2026-04-21T22:51:43.078Z] [SUCCESS] Tamamlandı.
-[2026-04-21T23:23:44.072Z] [INFO] Logger başlatıldı
-[2026-04-21T23:23:44.073Z] [INFO] Tek seferlik mod...
-[2026-04-21T23:23:44.073Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-21T23:23:44.572Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-21T23:23:44.573Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-21T23:23:45.731Z] [INFO] 0 kesinti bulundu.
-[2026-04-21T23:23:45.734Z] [INFO] 835 kayıtlı kesinti var.
-[2026-04-21T23:23:45.734Z] [INFO] Yeni kesinti yok.
-[2026-04-21T23:23:45.735Z] [SUCCESS] Tamamlandı.
 [2026-04-21T23:54:44.219Z] [INFO] Logger başlatıldı
 [2026-04-21T23:54:44.220Z] [INFO] Tek seferlik mod...
 [2026-04-21T23:54:44.220Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18464,3 +18446,12 @@
 [2026-04-28T22:37:01.048Z] [INFO] 904 kayıtlı kesinti var.
 [2026-04-28T22:37:01.048Z] [INFO] Yeni kesinti yok.
 [2026-04-28T22:37:01.048Z] [SUCCESS] Tamamlandı.
+[2026-04-28T23:33:42.775Z] [INFO] Logger başlatıldı
+[2026-04-28T23:33:42.777Z] [INFO] Tek seferlik mod...
+[2026-04-28T23:33:42.777Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-28T23:33:43.308Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-28T23:33:43.309Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-28T23:33:44.730Z] [INFO] 2 kesinti bulundu.
+[2026-04-28T23:33:44.735Z] [INFO] 904 kayıtlı kesinti var.
+[2026-04-28T23:33:44.736Z] [INFO] Yeni kesinti yok.
+[2026-04-28T23:33:44.736Z] [SUCCESS] Tamamlandı.
