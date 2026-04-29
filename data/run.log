@@ -17055,20 +17055,6 @@
 📅 22.04.2026 10:30:00 - 22.04.2026 13:00:00
 📍 KARARGAHTEPE İLE BASINEVLERİ MH
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-04-22T14:24:39.697Z] [INFO] Logger başlatıldı
-[2026-04-22T14:24:39.698Z] [INFO] Tek seferlik mod...
-[2026-04-22T14:24:39.698Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-22T14:24:40.404Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-22T14:24:40.405Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-22T14:24:41.309Z] [INFO] 5 kesinti bulundu.
-[2026-04-22T14:24:41.312Z] [INFO] 843 kayıtlı kesinti var.
-[2026-04-22T14:24:41.313Z] [INFO] 3 yeni kesinti bulundu!
-[2026-04-22T14:24:41.901Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2046958373896442328)
-[2026-04-22T14:24:52.498Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2046958418389557542)
-[2026-04-22T14:25:03.198Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2046958463230906586)
-[2026-04-22T14:25:13.201Z] [INFO] 3 tweet atıldı.
-[2026-04-22T14:25:13.207Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-04-22T14:25:13.207Z] [SUCCESS] Tamamlandı.
 [2026-04-22T15:46:16.618Z] [INFO] Logger başlatıldı
 [2026-04-22T15:46:16.619Z] [INFO] Tek seferlik mod...
 [2026-04-22T15:46:16.619Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18423,3 +18409,16 @@
 [2026-04-29T12:53:52.330Z] [INFO] 2 tweet atıldı.
 [2026-04-29T12:53:52.336Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-04-29T12:53:52.336Z] [SUCCESS] Tamamlandı.
+[2026-04-29T14:59:50.531Z] [INFO] Logger başlatıldı
+[2026-04-29T14:59:50.532Z] [INFO] Tek seferlik mod...
+[2026-04-29T14:59:50.532Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-29T14:59:51.038Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-29T14:59:51.039Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-29T14:59:52.309Z] [INFO] 2 kesinti bulundu.
+[2026-04-29T14:59:52.312Z] [INFO] 916 kayıtlı kesinti var.
+[2026-04-29T14:59:52.313Z] [INFO] 2 yeni kesinti bulundu!
+[2026-04-29T14:59:52.803Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2049503942573519228)
+[2026-04-29T15:00:03.395Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2049503986982719583)
+[2026-04-29T15:00:13.400Z] [INFO] 2 tweet atıldı.
+[2026-04-29T15:00:13.406Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-04-29T15:00:13.406Z] [SUCCESS] Tamamlandı.
