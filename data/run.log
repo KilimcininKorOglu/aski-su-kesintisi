@@ -17037,10 +17037,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-04-22T08:05:26.105Z] [INFO] Logger başlatıldı
-[2026-04-22T08:05:26.107Z] [INFO] Tek seferlik mod...
-[2026-04-22T08:05:26.107Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-22T08:05:26.555Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 502
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at IncomingMessage.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -17053,28 +17049,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-22T08:05:26.556Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-04-22T08:05:26.556Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-22T08:05:27.933Z] [INFO] 3 kesinti bulundu.
-[2026-04-22T08:05:27.936Z] [INFO] 836 kayıtlı kesinti var.
-[2026-04-22T08:05:27.936Z] [INFO] 2 yeni kesinti bulundu!
-[2026-04-22T08:05:27.937Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-04-22T08:05:27.937Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
 📅 22.04.2026 10:05:00 - 22.04.2026 13:00:00
 📍 Beytepe Mahallesi İrfan GÜMÜŞEL Caddesi Ve Civarı
 #AnkaraSuKesintisi #ASKİ #Beypazari
-[2026-04-22T08:05:27.937Z] [INFO] (166 karakter)
-[2026-04-22T08:05:27.937Z] [INFO] ---
-[2026-04-22T08:05:27.937Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-04-22T08:05:27.937Z] [INFO] ⚠️ KEÇİÖREN - Plansız Kesinti
 📅 22.04.2026 10:30:00 - 22.04.2026 13:00:00
 📍 KARARGAHTEPE İLE BASINEVLERİ MH
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-04-22T08:05:27.938Z] [INFO] (146 karakter)
-[2026-04-22T08:05:27.938Z] [INFO] ---
-[2026-04-22T08:05:27.938Z] [INFO] 0 tweet atıldı.
-[2026-04-22T08:05:27.938Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-04-22T08:05:27.938Z] [SUCCESS] Tamamlandı.
 [2026-04-22T09:45:53.303Z] [INFO] Logger başlatıldı
 [2026-04-22T09:45:53.305Z] [INFO] Tek seferlik mod...
 [2026-04-22T09:45:53.305Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18451,3 +18431,18 @@
 [2026-04-29T07:08:31.919Z] [INFO] 3 tweet atıldı.
 [2026-04-29T07:08:31.925Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-04-29T07:08:31.925Z] [SUCCESS] Tamamlandı.
+[2026-04-29T09:20:53.712Z] [INFO] Logger başlatıldı
+[2026-04-29T09:20:53.713Z] [INFO] Tek seferlik mod...
+[2026-04-29T09:20:53.713Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-04-29T09:20:54.307Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-04-29T09:20:54.308Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-04-29T09:20:55.466Z] [INFO] 6 kesinti bulundu.
+[2026-04-29T09:20:55.472Z] [INFO] 908 kayıtlı kesinti var.
+[2026-04-29T09:20:55.472Z] [INFO] 4 yeni kesinti bulundu!
+[2026-04-29T09:20:55.992Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2049418643784753557)
+[2026-04-29T09:21:06.695Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2049418688835850668)
+[2026-04-29T09:21:17.250Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2049418733039595796)
+[2026-04-29T09:21:27.941Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2049418777910251978)
+[2026-04-29T09:21:37.945Z] [INFO] 4 tweet atıldı.
+[2026-04-29T09:21:37.951Z] [SUCCESS] 4 kesinti kaydedildi.
+[2026-04-29T09:21:37.951Z] [SUCCESS] Tamamlandı.
