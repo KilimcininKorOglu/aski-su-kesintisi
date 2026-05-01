@@ -17055,18 +17055,6 @@
 📅 22.04.2026 10:30:00 - 22.04.2026 13:00:00
 📍 KARARGAHTEPE İLE BASINEVLERİ MH
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-04-24T08:56:16.904Z] [INFO] Logger başlatıldı
-[2026-04-24T08:56:16.906Z] [INFO] Tek seferlik mod...
-[2026-04-24T08:56:16.906Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-24T08:56:17.650Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-24T08:56:17.650Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-24T08:56:19.058Z] [INFO] 2 kesinti bulundu.
-[2026-04-24T08:56:19.062Z] [INFO] 855 kayıtlı kesinti var.
-[2026-04-24T08:56:19.062Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-24T08:56:19.611Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2047600512183496986)
-[2026-04-24T08:56:29.616Z] [INFO] 1 tweet atıldı.
-[2026-04-24T08:56:29.619Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-04-24T08:56:29.619Z] [SUCCESS] Tamamlandı.
 [2026-04-24T10:15:44.698Z] [INFO] Logger başlatıldı
 [2026-04-24T10:15:44.700Z] [INFO] Tek seferlik mod...
 [2026-04-24T10:15:44.700Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18389,3 +18377,17 @@
 [2026-05-01T07:23:43.745Z] [INFO] 1 tweet atıldı.
 [2026-05-01T07:23:43.749Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-01T07:23:43.749Z] [SUCCESS] Tamamlandı.
+[2026-05-01T09:14:12.919Z] [INFO] Logger başlatıldı
+[2026-05-01T09:14:12.921Z] [INFO] Tek seferlik mod...
+[2026-05-01T09:14:12.921Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-01T09:14:13.465Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-01T09:14:13.466Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-01T09:14:14.333Z] [INFO] 3 kesinti bulundu.
+[2026-05-01T09:14:14.337Z] [INFO] 933 kayıtlı kesinti var.
+[2026-05-01T09:14:14.338Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-01T09:14:14.899Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2050141737537171785)
+[2026-05-01T09:14:25.557Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2050141782235877569)
+[2026-05-01T09:14:36.140Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2050141826603225450)
+[2026-05-01T09:14:46.144Z] [INFO] 3 tweet atıldı.
+[2026-05-01T09:14:46.149Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-01T09:14:46.149Z] [SUCCESS] Tamamlandı.
