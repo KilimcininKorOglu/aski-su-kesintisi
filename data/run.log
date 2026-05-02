@@ -17055,15 +17055,6 @@
 📅 22.04.2026 10:30:00 - 22.04.2026 13:00:00
 📍 KARARGAHTEPE İLE BASINEVLERİ MH
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-04-25T12:29:58.719Z] [INFO] Logger başlatıldı
-[2026-04-25T12:29:58.720Z] [INFO] Tek seferlik mod...
-[2026-04-25T12:29:58.720Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-25T12:29:59.316Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-25T12:29:59.316Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-25T12:30:00.551Z] [INFO] 2 kesinti bulundu.
-[2026-04-25T12:30:00.555Z] [INFO] 865 kayıtlı kesinti var.
-[2026-04-25T12:30:00.555Z] [INFO] Yeni kesinti yok.
-[2026-04-25T12:30:00.556Z] [SUCCESS] Tamamlandı.
 [2026-04-25T13:44:05.672Z] [INFO] Logger başlatıldı
 [2026-04-25T13:44:05.673Z] [INFO] Tek seferlik mod...
 [2026-04-25T13:44:05.673Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18370,3 +18361,15 @@
 [2026-05-02T12:08:11.063Z] [INFO] 947 kayıtlı kesinti var.
 [2026-05-02T12:08:11.064Z] [INFO] Yeni kesinti yok.
 [2026-05-02T12:08:11.064Z] [SUCCESS] Tamamlandı.
+[2026-05-02T13:43:55.262Z] [INFO] Logger başlatıldı
+[2026-05-02T13:43:55.263Z] [INFO] Tek seferlik mod...
+[2026-05-02T13:43:55.264Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-02T13:43:55.714Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-02T13:43:55.714Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-02T13:43:57.335Z] [INFO] 2 kesinti bulundu.
+[2026-05-02T13:43:57.339Z] [INFO] 947 kayıtlı kesinti var.
+[2026-05-02T13:43:57.339Z] [INFO] 1 yeni kesinti bulundu!
+[2026-05-02T13:43:57.790Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2050572001354600744)
+[2026-05-02T13:44:07.794Z] [INFO] 1 tweet atıldı.
+[2026-05-02T13:44:07.798Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-05-02T13:44:07.798Z] [SUCCESS] Tamamlandı.
