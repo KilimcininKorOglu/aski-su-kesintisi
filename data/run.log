@@ -17070,24 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-04-27T09:32:52.267Z] [INFO] Logger başlatıldı
-[2026-04-27T09:32:52.268Z] [INFO] Tek seferlik mod...
-[2026-04-27T09:32:52.269Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-27T09:32:53.294Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-27T09:32:53.294Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-27T09:32:54.878Z] [INFO] 7 kesinti bulundu.
-[2026-04-27T09:32:54.884Z] [INFO] 874 kayıtlı kesinti var.
-[2026-04-27T09:32:54.884Z] [INFO] 7 yeni kesinti bulundu!
-[2026-04-27T09:32:55.421Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2048696885846872389)
-[2026-04-27T09:33:05.997Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2048696930101006363)
-[2026-04-27T09:33:16.604Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2048696974585782612)
-[2026-04-27T09:33:27.181Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2048697018974101707)
-[2026-04-27T09:33:38.308Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2048697065618931823)
-[2026-04-27T09:33:49.314Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2048697111655629066)
-[2026-04-27T09:33:59.880Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2048697156186603939)
-[2026-04-27T09:34:09.885Z] [INFO] 7 tweet atıldı.
-[2026-04-27T09:34:09.892Z] [SUCCESS] 7 kesinti kaydedildi.
-[2026-04-27T09:34:09.892Z] [SUCCESS] Tamamlandı.
 [2026-04-27T11:22:59.159Z] [INFO] Logger başlatıldı
 [2026-04-27T11:22:59.160Z] [INFO] Tek seferlik mod...
 [2026-04-27T11:22:59.160Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18300,3 +18282,12 @@
 [2026-05-04T09:07:31.177Z] [INFO] 1 tweet atıldı.
 [2026-05-04T09:07:31.181Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-04T09:07:31.181Z] [SUCCESS] Tamamlandı.
+[2026-05-04T11:12:25.217Z] [INFO] Logger başlatıldı
+[2026-05-04T11:12:25.219Z] [INFO] Tek seferlik mod...
+[2026-05-04T11:12:25.219Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-04T11:12:25.875Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-04T11:12:25.876Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-04T11:12:26.751Z] [INFO] 1 kesinti bulundu.
+[2026-05-04T11:12:26.755Z] [INFO] 953 kayıtlı kesinti var.
+[2026-05-04T11:12:26.755Z] [INFO] Yeni kesinti yok.
+[2026-05-04T11:12:26.755Z] [SUCCESS] Tamamlandı.
