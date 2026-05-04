@@ -17055,10 +17055,6 @@
 📅 22.04.2026 10:30:00 - 22.04.2026 13:00:00
 📍 KARARGAHTEPE İLE BASINEVLERİ MH
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-04-27T07:19:36.479Z] [INFO] Logger başlatıldı
-[2026-04-27T07:19:36.480Z] [INFO] Tek seferlik mod...
-[2026-04-27T07:19:36.481Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-27T07:19:46.863Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 504
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at IncomingMessage.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -17071,21 +17067,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-04-27T07:19:46.863Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-04-27T07:19:46.863Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-27T07:19:47.729Z] [INFO] 1 kesinti bulundu.
-[2026-04-27T07:19:47.732Z] [INFO] 874 kayıtlı kesinti var.
-[2026-04-27T07:19:47.733Z] [INFO] 1 yeni kesinti bulundu!
-[2026-04-27T07:19:47.733Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-04-27T07:19:47.733Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-04-27T07:19:47.733Z] [INFO] (141 karakter)
-[2026-04-27T07:19:47.733Z] [INFO] ---
-[2026-04-27T07:19:47.733Z] [INFO] 0 tweet atıldı.
-[2026-04-27T07:19:47.734Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-04-27T07:19:47.734Z] [SUCCESS] Tamamlandı.
 [2026-04-27T09:32:52.267Z] [INFO] Logger başlatıldı
 [2026-04-27T09:32:52.268Z] [INFO] Tek seferlik mod...
 [2026-04-27T09:32:52.269Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18304,3 +18288,15 @@
 [2026-05-04T06:47:56.961Z] [INFO] 952 kayıtlı kesinti var.
 [2026-05-04T06:47:56.961Z] [INFO] Yeni kesinti yok.
 [2026-05-04T06:47:56.961Z] [SUCCESS] Tamamlandı.
+[2026-05-04T09:07:19.059Z] [INFO] Logger başlatıldı
+[2026-05-04T09:07:19.060Z] [INFO] Tek seferlik mod...
+[2026-05-04T09:07:19.060Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-04T09:07:19.638Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-04T09:07:19.639Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-04T09:07:20.781Z] [INFO] 1 kesinti bulundu.
+[2026-05-04T09:07:20.785Z] [INFO] 952 kayıtlı kesinti var.
+[2026-05-04T09:07:20.785Z] [INFO] 1 yeni kesinti bulundu!
+[2026-05-04T09:07:21.174Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2051227165904306248)
+[2026-05-04T09:07:31.177Z] [INFO] 1 tweet atıldı.
+[2026-05-04T09:07:31.181Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-05-04T09:07:31.181Z] [SUCCESS] Tamamlandı.
