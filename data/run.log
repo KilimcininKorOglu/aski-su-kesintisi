@@ -17070,21 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-04-28T10:05:03.368Z] [INFO] Logger başlatıldı
-[2026-04-28T10:05:03.370Z] [INFO] Tek seferlik mod...
-[2026-04-28T10:05:03.370Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-04-28T10:05:03.912Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-04-28T10:05:03.913Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-04-28T10:05:05.296Z] [INFO] 9 kesinti bulundu.
-[2026-04-28T10:05:05.300Z] [INFO] 893 kayıtlı kesinti var.
-[2026-04-28T10:05:05.300Z] [INFO] 4 yeni kesinti bulundu!
-[2026-04-28T10:05:05.735Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2049067369994322271)
-[2026-04-28T10:05:16.268Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2049067414156169600)
-[2026-04-28T10:05:26.820Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2049067458506690944)
-[2026-04-28T10:05:37.583Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2049067503582921206)
-[2026-04-28T10:05:47.588Z] [INFO] 4 tweet atıldı.
-[2026-04-28T10:05:47.593Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-04-28T10:05:47.593Z] [SUCCESS] Tamamlandı.
 [2026-04-28T11:56:11.824Z] [INFO] Logger başlatıldı
 [2026-04-28T11:56:11.825Z] [INFO] Tek seferlik mod...
 [2026-04-28T11:56:11.825Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18275,3 +18260,12 @@
 [2026-05-05T08:34:27.393Z] [INFO] 1 tweet atıldı.
 [2026-05-05T08:34:27.398Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-05T08:34:27.398Z] [SUCCESS] Tamamlandı.
+[2026-05-05T10:20:44.046Z] [INFO] Logger başlatıldı
+[2026-05-05T10:20:44.047Z] [INFO] Tek seferlik mod...
+[2026-05-05T10:20:44.048Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-05T10:20:44.523Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-05T10:20:44.524Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-05T10:20:45.822Z] [INFO] 2 kesinti bulundu.
+[2026-05-05T10:20:45.826Z] [INFO] 959 kayıtlı kesinti var.
+[2026-05-05T10:20:45.826Z] [INFO] Yeni kesinti yok.
+[2026-05-05T10:20:45.826Z] [SUCCESS] Tamamlandı.
