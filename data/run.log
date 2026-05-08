@@ -17070,27 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-01T14:04:10.492Z] [INFO] Logger başlatıldı
-[2026-05-01T14:04:10.494Z] [INFO] Tek seferlik mod...
-[2026-05-01T14:04:10.494Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-01T14:04:11.086Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-01T14:04:11.087Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-01T14:04:12.078Z] [INFO] 2 kesinti bulundu.
-[2026-05-01T14:04:12.082Z] [INFO] 939 kayıtlı kesinti var.
-[2026-05-01T14:04:12.083Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-01T14:04:12.611Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2050214708763091374)
-[2026-05-01T14:04:22.616Z] [INFO] 1 tweet atıldı.
-[2026-05-01T14:04:22.621Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-05-01T14:04:22.621Z] [SUCCESS] Tamamlandı.
-[2026-05-01T15:07:04.249Z] [INFO] Logger başlatıldı
-[2026-05-01T15:07:04.250Z] [INFO] Tek seferlik mod...
-[2026-05-01T15:07:04.251Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-01T15:07:05.014Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-01T15:07:05.014Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-01T15:07:05.993Z] [INFO] 1 kesinti bulundu.
-[2026-05-01T15:07:05.997Z] [INFO] 940 kayıtlı kesinti var.
-[2026-05-01T15:07:05.998Z] [INFO] Yeni kesinti yok.
-[2026-05-01T15:07:05.998Z] [SUCCESS] Tamamlandı.
 [2026-05-01T16:05:29.863Z] [INFO] Logger başlatıldı
 [2026-05-01T16:05:29.865Z] [INFO] Tek seferlik mod...
 [2026-05-01T16:05:29.865Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19359,31 +19338,38 @@
 [2026-05-08T13:44:35.240Z] [INFO] 3 yeni kesinti bulundu!
 [2026-05-08T13:44:35.240Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-05-08T13:44:35.240Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
-
 📅 8.05.2026 09:00:00 - 8.05.2026 17:00:00
 📍 Hacılar ve Ballıkpınar Mahalleleri bir kısmına
-
 #AnkaraSuKesintisi #ASKİ #Golbasi
 [2026-05-08T13:44:35.241Z] [INFO] (157 karakter)
 [2026-05-08T13:44:35.241Z] [INFO] ---
 [2026-05-08T13:44:35.241Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-05-08T13:44:35.241Z] [INFO] ⚠️ SEREFLIKOÇHISAR - Plansız Kesinti
-
 📅 8.05.2026 12:05:00 - 15.05.2026 15:05:00
 📍 Cumhuriyet, Emek Mahalleleri.
-
 #AnkaraSuKesintisi #ASKİ #Sereflikochisar
 [2026-05-08T13:44:35.241Z] [INFO] (157 karakter)
 [2026-05-08T13:44:35.241Z] [INFO] ---
 [2026-05-08T13:44:35.241Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-05-08T13:44:35.242Z] [INFO] ⚠️ KEÇİÖREN - Plansız Kesinti
-
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
-
 #AnkaraSuKesintisi #ASKİ #Kecioren
 [2026-05-08T13:44:35.242Z] [INFO] (151 karakter)
 [2026-05-08T13:44:35.242Z] [INFO] ---
 [2026-05-08T13:44:35.242Z] [INFO] 0 tweet atıldı.
 [2026-05-08T13:44:35.242Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-05-08T13:44:35.242Z] [SUCCESS] Tamamlandı.
+[2026-05-08T15:09:58.601Z] [INFO] Logger başlatıldı
+[2026-05-08T15:09:58.602Z] [INFO] Tek seferlik mod...
+[2026-05-08T15:09:58.603Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-08T15:10:00.286Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-08T15:10:00.286Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-08T15:10:01.279Z] [INFO] 2 kesinti bulundu.
+[2026-05-08T15:10:01.283Z] [INFO] 959 kayıtlı kesinti var.
+[2026-05-08T15:10:01.283Z] [INFO] 2 yeni kesinti bulundu!
+[2026-05-08T15:10:01.755Z] [SUCCESS] Ana tweet atıldı: SEREFLIKOÇHISAR - Plansız Kesinti (ID: 2052767987804070365)
+[2026-05-08T15:10:12.367Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2052768032175673442)
+[2026-05-08T15:10:22.373Z] [INFO] 2 tweet atıldı.
+[2026-05-08T15:10:22.379Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-08T15:10:22.379Z] [SUCCESS] Tamamlandı.
