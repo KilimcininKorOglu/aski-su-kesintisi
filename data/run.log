@@ -17070,19 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-02T10:36:54.053Z] [INFO] Logger başlatıldı
-[2026-05-02T10:36:54.054Z] [INFO] Tek seferlik mod...
-[2026-05-02T10:36:54.054Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-02T10:36:54.587Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-02T10:36:54.588Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-02T10:36:55.463Z] [INFO] 6 kesinti bulundu.
-[2026-05-02T10:36:55.469Z] [INFO] 945 kayıtlı kesinti var.
-[2026-05-02T10:36:55.469Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-02T10:36:56.030Z] [SUCCESS] Ana tweet atıldı: NALLIHAN - Plansız Kesinti (ID: 2050524933831418262)
-[2026-05-02T10:37:06.632Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2050524978446242013)
-[2026-05-02T10:37:16.637Z] [INFO] 2 tweet atıldı.
-[2026-05-02T10:37:16.644Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-02T10:37:16.644Z] [SUCCESS] Tamamlandı.
 [2026-05-02T11:28:36.209Z] [INFO] Logger başlatıldı
 [2026-05-02T11:28:36.211Z] [INFO] Tek seferlik mod...
 [2026-05-02T11:28:36.211Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19357,3 +19344,16 @@
 [2026-05-09T10:34:42.444Z] [INFO] 963 kayıtlı kesinti var.
 [2026-05-09T10:34:42.444Z] [INFO] Yeni kesinti yok.
 [2026-05-09T10:34:42.444Z] [SUCCESS] Tamamlandı.
+[2026-05-09T11:27:36.287Z] [INFO] Logger başlatıldı
+[2026-05-09T11:27:36.288Z] [INFO] Tek seferlik mod...
+[2026-05-09T11:27:36.289Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-09T11:27:36.783Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-09T11:27:36.783Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-09T11:27:37.889Z] [INFO] 5 kesinti bulundu.
+[2026-05-09T11:27:37.892Z] [INFO] 963 kayıtlı kesinti var.
+[2026-05-09T11:27:37.893Z] [INFO] 2 yeni kesinti bulundu!
+[2026-05-09T11:27:38.283Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2053074409146253700)
+[2026-05-09T11:27:48.808Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2053074453291274395)
+[2026-05-09T11:27:58.810Z] [INFO] 2 tweet atıldı.
+[2026-05-09T11:27:58.816Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-09T11:27:58.816Z] [SUCCESS] Tamamlandı.
