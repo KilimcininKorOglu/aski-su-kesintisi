@@ -17070,24 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-02T11:28:36.209Z] [INFO] Logger başlatıldı
-[2026-05-02T11:28:36.211Z] [INFO] Tek seferlik mod...
-[2026-05-02T11:28:36.211Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-02T11:28:37.077Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-02T11:28:37.078Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-02T11:28:38.365Z] [INFO] 6 kesinti bulundu.
-[2026-05-02T11:28:38.370Z] [INFO] 947 kayıtlı kesinti var.
-[2026-05-02T11:28:38.370Z] [INFO] Yeni kesinti yok.
-[2026-05-02T11:28:38.370Z] [SUCCESS] Tamamlandı.
-[2026-05-02T12:08:09.564Z] [INFO] Logger başlatıldı
-[2026-05-02T12:08:09.565Z] [INFO] Tek seferlik mod...
-[2026-05-02T12:08:09.566Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-02T12:08:09.996Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-02T12:08:09.997Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-02T12:08:11.059Z] [INFO] 3 kesinti bulundu.
-[2026-05-02T12:08:11.063Z] [INFO] 947 kayıtlı kesinti var.
-[2026-05-02T12:08:11.064Z] [INFO] Yeni kesinti yok.
-[2026-05-02T12:08:11.064Z] [SUCCESS] Tamamlandı.
 [2026-05-02T13:43:55.262Z] [INFO] Logger başlatıldı
 [2026-05-02T13:43:55.263Z] [INFO] Tek seferlik mod...
 [2026-05-02T13:43:55.264Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19357,3 +19339,16 @@
 [2026-05-09T11:27:58.810Z] [INFO] 2 tweet atıldı.
 [2026-05-09T11:27:58.816Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-05-09T11:27:58.816Z] [SUCCESS] Tamamlandı.
+[2026-05-09T12:10:34.264Z] [INFO] Logger başlatıldı
+[2026-05-09T12:10:34.266Z] [INFO] Tek seferlik mod...
+[2026-05-09T12:10:34.266Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-09T12:10:34.971Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-09T12:10:34.971Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-09T12:10:35.924Z] [INFO] 6 kesinti bulundu.
+[2026-05-09T12:10:35.927Z] [INFO] 965 kayıtlı kesinti var.
+[2026-05-09T12:10:35.928Z] [INFO] 2 yeni kesinti bulundu!
+[2026-05-09T12:10:36.415Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2053085222535860565)
+[2026-05-09T12:10:47.036Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2053085267125485777)
+[2026-05-09T12:10:57.041Z] [INFO] 2 tweet atıldı.
+[2026-05-09T12:10:57.048Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-09T12:10:57.048Z] [SUCCESS] Tamamlandı.
