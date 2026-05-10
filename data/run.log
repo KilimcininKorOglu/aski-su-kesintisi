@@ -17070,15 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-03T07:27:18.166Z] [INFO] Logger başlatıldı
-[2026-05-03T07:27:18.168Z] [INFO] Tek seferlik mod...
-[2026-05-03T07:27:18.168Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-03T07:27:18.683Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-03T07:27:18.683Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-03T07:27:19.559Z] [INFO] 0 kesinti bulundu.
-[2026-05-03T07:27:19.565Z] [INFO] 949 kayıtlı kesinti var.
-[2026-05-03T07:27:19.565Z] [INFO] Yeni kesinti yok.
-[2026-05-03T07:27:19.565Z] [SUCCESS] Tamamlandı.
 [2026-05-03T09:04:33.154Z] [INFO] Logger başlatıldı
 [2026-05-03T09:04:33.155Z] [INFO] Tek seferlik mod...
 [2026-05-03T09:04:33.155Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19350,3 +19341,18 @@
 [2026-05-10T06:44:01.375Z] [INFO] 4 tweet atıldı.
 [2026-05-10T06:44:01.381Z] [SUCCESS] 4 kesinti kaydedildi.
 [2026-05-10T06:44:01.382Z] [SUCCESS] Tamamlandı.
+[2026-05-10T08:29:07.548Z] [INFO] Logger başlatıldı
+[2026-05-10T08:29:07.549Z] [INFO] Tek seferlik mod...
+[2026-05-10T08:29:07.549Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-10T08:29:08.122Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-10T08:29:08.122Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-10T08:29:09.161Z] [INFO] 9 kesinti bulundu.
+[2026-05-10T08:29:09.167Z] [INFO] 973 kayıtlı kesinti var.
+[2026-05-10T08:29:09.167Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-10T08:29:09.653Z] [SUCCESS] Ana tweet atıldı: ÇAMLIDERE - Plansız Kesinti (ID: 2053391881850241051)
+[2026-05-10T08:29:24.085Z] [INFO] Tweet kısaltıldı: 281 -> 150 karakter
+[2026-05-10T08:29:24.648Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2053391944638951676)
+[2026-05-10T08:29:35.238Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2053391989069267267)
+[2026-05-10T08:29:45.240Z] [INFO] 3 tweet atıldı.
+[2026-05-10T08:29:45.247Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-10T08:29:45.247Z] [SUCCESS] Tamamlandı.
