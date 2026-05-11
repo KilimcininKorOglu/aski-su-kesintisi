@@ -17070,19 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-04T12:54:33.354Z] [INFO] Logger başlatıldı
-[2026-05-04T12:54:33.355Z] [INFO] Tek seferlik mod...
-[2026-05-04T12:54:33.356Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-04T12:54:34.208Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-04T12:54:34.208Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-04T12:54:35.260Z] [INFO] 2 kesinti bulundu.
-[2026-05-04T12:54:35.264Z] [INFO] 953 kayıtlı kesinti var.
-[2026-05-04T12:54:35.265Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-04T12:54:35.849Z] [SUCCESS] Ana tweet atıldı: ÇAMLIDERE - Plansız Kesinti (ID: 2051284353775542298)
-[2026-05-04T12:54:46.933Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2051284400147665386)
-[2026-05-04T12:54:56.938Z] [INFO] 2 tweet atıldı.
-[2026-05-04T12:54:56.944Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-04T12:54:56.944Z] [SUCCESS] Tamamlandı.
 [2026-05-04T15:00:07.612Z] [INFO] Logger başlatıldı
 [2026-05-04T15:00:07.614Z] [INFO] Tek seferlik mod...
 [2026-05-04T15:00:07.614Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19324,3 +19311,17 @@
 [2026-05-11T11:43:05.325Z] [INFO] 982 kayıtlı kesinti var.
 [2026-05-11T11:43:05.325Z] [INFO] Yeni kesinti yok.
 [2026-05-11T11:43:05.325Z] [SUCCESS] Tamamlandı.
+[2026-05-11T14:07:53.286Z] [INFO] Logger başlatıldı
+[2026-05-11T14:07:53.287Z] [INFO] Tek seferlik mod...
+[2026-05-11T14:07:53.288Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-11T14:07:53.885Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-11T14:07:53.886Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-11T14:07:55.572Z] [INFO] 4 kesinti bulundu.
+[2026-05-11T14:07:55.576Z] [INFO] 982 kayıtlı kesinti var.
+[2026-05-11T14:07:55.577Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-11T14:07:55.965Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2053839524304965971)
+[2026-05-11T14:08:06.832Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2053839569389523215)
+[2026-05-11T14:08:17.349Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2053839614096642058)
+[2026-05-11T14:08:27.353Z] [INFO] 3 tweet atıldı.
+[2026-05-11T14:08:27.360Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-11T14:08:27.360Z] [SUCCESS] Tamamlandı.
