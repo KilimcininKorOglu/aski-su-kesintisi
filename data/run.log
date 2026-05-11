@@ -17070,24 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-04T16:46:26.996Z] [INFO] Logger başlatıldı
-[2026-05-04T16:46:26.998Z] [INFO] Tek seferlik mod...
-[2026-05-04T16:46:26.998Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-04T16:46:27.365Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-04T16:46:27.366Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-04T16:46:28.456Z] [INFO] 2 kesinti bulundu.
-[2026-05-04T16:46:28.460Z] [INFO] 956 kayıtlı kesinti var.
-[2026-05-04T16:46:28.460Z] [INFO] Yeni kesinti yok.
-[2026-05-04T16:46:28.461Z] [SUCCESS] Tamamlandı.
-[2026-05-04T18:06:08.291Z] [INFO] Logger başlatıldı
-[2026-05-04T18:06:08.293Z] [INFO] Tek seferlik mod...
-[2026-05-04T18:06:08.293Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-04T18:06:08.997Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-04T18:06:08.997Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-04T18:06:10.355Z] [INFO] 1 kesinti bulundu.
-[2026-05-04T18:06:10.359Z] [INFO] 956 kayıtlı kesinti var.
-[2026-05-04T18:06:10.359Z] [INFO] Yeni kesinti yok.
-[2026-05-04T18:06:10.359Z] [SUCCESS] Tamamlandı.
 [2026-05-04T19:52:29.295Z] [INFO] Logger başlatıldı
 [2026-05-04T19:52:29.296Z] [INFO] Tek seferlik mod...
 [2026-05-04T19:52:29.297Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19322,3 +19304,16 @@
 [2026-05-11T16:39:55.677Z] [INFO] 985 kayıtlı kesinti var.
 [2026-05-11T16:39:55.678Z] [INFO] Yeni kesinti yok.
 [2026-05-11T16:39:55.678Z] [SUCCESS] Tamamlandı.
+[2026-05-11T18:22:12.631Z] [INFO] Logger başlatıldı
+[2026-05-11T18:22:12.632Z] [INFO] Tek seferlik mod...
+[2026-05-11T18:22:12.632Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-11T18:22:13.172Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-11T18:22:13.172Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-11T18:22:14.295Z] [INFO] 6 kesinti bulundu.
+[2026-05-11T18:22:14.300Z] [INFO] 985 kayıtlı kesinti var.
+[2026-05-11T18:22:14.300Z] [INFO] 2 yeni kesinti bulundu!
+[2026-05-11T18:22:14.727Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2053903524262732205)
+[2026-05-11T18:22:25.255Z] [SUCCESS] Ana tweet atıldı: NALLIHAN - Plansız Kesinti (ID: 2053903568449724543)
+[2026-05-11T18:22:35.260Z] [INFO] 2 tweet atıldı.
+[2026-05-11T18:22:35.265Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-11T18:22:35.265Z] [SUCCESS] Tamamlandı.
