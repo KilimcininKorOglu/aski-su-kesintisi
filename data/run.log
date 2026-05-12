@@ -17070,15 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-05T06:32:30.205Z] [INFO] Logger başlatıldı
-[2026-05-05T06:32:30.206Z] [INFO] Tek seferlik mod...
-[2026-05-05T06:32:30.206Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-05T06:32:31.186Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-05T06:32:31.186Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-05T06:32:32.556Z] [INFO] 2 kesinti bulundu.
-[2026-05-05T06:32:32.560Z] [INFO] 958 kayıtlı kesinti var.
-[2026-05-05T06:32:32.560Z] [INFO] Yeni kesinti yok.
-[2026-05-05T06:32:32.561Z] [SUCCESS] Tamamlandı.
 [2026-05-05T08:34:14.770Z] [INFO] Logger başlatıldı
 [2026-05-05T08:34:14.771Z] [INFO] Tek seferlik mod...
 [2026-05-05T08:34:14.771Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19305,3 +19296,17 @@
 [2026-05-12T04:50:38.054Z] [INFO] 988 kayıtlı kesinti var.
 [2026-05-12T04:50:38.054Z] [INFO] Yeni kesinti yok.
 [2026-05-12T04:50:38.054Z] [SUCCESS] Tamamlandı.
+[2026-05-12T07:32:54.575Z] [INFO] Logger başlatıldı
+[2026-05-12T07:32:54.576Z] [INFO] Tek seferlik mod...
+[2026-05-12T07:32:54.577Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-12T07:32:55.020Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-12T07:32:55.020Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-12T07:32:55.896Z] [INFO] 3 kesinti bulundu.
+[2026-05-12T07:32:55.900Z] [INFO] 988 kayıtlı kesinti var.
+[2026-05-12T07:32:55.900Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-12T07:32:56.489Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2054102509254561955)
+[2026-05-12T07:33:07.013Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2054102553613537467)
+[2026-05-12T07:33:17.496Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2054102597540478979)
+[2026-05-12T07:33:27.499Z] [INFO] 3 tweet atıldı.
+[2026-05-12T07:33:27.506Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-12T07:33:27.506Z] [SUCCESS] Tamamlandı.
