@@ -17160,10 +17160,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-05-05T21:14:58.084Z] [INFO] Logger başlatıldı
-[2026-05-05T21:14:58.085Z] [INFO] Tek seferlik mod...
-[2026-05-05T21:14:58.085Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-05T21:14:59.106Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -17176,9 +17172,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-05-05T21:14:59.107Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-05-05T21:14:59.107Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-05T21:15:29.114Z] [ERROR] ASKİ sayfası çekilemedi:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -17191,7 +17184,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-05-05T21:15:29.114Z] [ERROR] Hata oluştu:
   AxiosError: timeout of 30000ms exceeded
     at RedirectableRequest.handleRequestTimeout (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:854:15)
     at RedirectableRequest.emit (node:events:524:28)
@@ -17204,7 +17196,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-05-05T21:15:29.115Z] [SUCCESS] Tamamlandı.
 [2026-05-05T22:12:24.417Z] [INFO] Logger başlatıldı
 [2026-05-05T22:12:24.418Z] [INFO] Tek seferlik mod...
 [2026-05-05T22:12:24.419Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19262,3 +19253,12 @@
 [2026-05-12T20:21:37.770Z] [INFO] 996 kayıtlı kesinti var.
 [2026-05-12T20:21:37.771Z] [INFO] Yeni kesinti yok.
 [2026-05-12T20:21:37.771Z] [SUCCESS] Tamamlandı.
+[2026-05-12T21:44:00.856Z] [INFO] Logger başlatıldı
+[2026-05-12T21:44:00.857Z] [INFO] Tek seferlik mod...
+[2026-05-12T21:44:00.858Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-12T21:44:01.531Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-12T21:44:01.532Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-12T21:44:02.878Z] [INFO] 2 kesinti bulundu.
+[2026-05-12T21:44:02.882Z] [INFO] 996 kayıtlı kesinti var.
+[2026-05-12T21:44:02.882Z] [INFO] Yeni kesinti yok.
+[2026-05-12T21:44:02.882Z] [SUCCESS] Tamamlandı.
