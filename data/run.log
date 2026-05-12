@@ -17070,19 +17070,6 @@
 📅 27.04.2026 09:30:00 - 27.04.2026 15:00:00
 📍 İlker mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-05-05T10:20:44.046Z] [INFO] Logger başlatıldı
-[2026-05-05T10:20:44.047Z] [INFO] Tek seferlik mod...
-[2026-05-05T10:20:44.048Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-05T10:20:44.523Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-05T10:20:44.524Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-05T10:20:45.822Z] [INFO] 2 kesinti bulundu.
-[2026-05-05T10:20:45.826Z] [INFO] 959 kayıtlı kesinti var.
-[2026-05-05T10:20:45.826Z] [INFO] Yeni kesinti yok.
-[2026-05-05T10:20:45.826Z] [SUCCESS] Tamamlandı.
-[2026-05-05T11:43:18.620Z] [INFO] Logger başlatıldı
-[2026-05-05T11:43:18.621Z] [INFO] Tek seferlik mod...
-[2026-05-05T11:43:18.621Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-05T11:43:21.008Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -17095,21 +17082,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-05-05T11:43:21.009Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-05-05T11:43:21.009Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-05T11:43:22.167Z] [INFO] 2 kesinti bulundu.
-[2026-05-05T11:43:22.171Z] [INFO] 959 kayıtlı kesinti var.
-[2026-05-05T11:43:22.171Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-05T11:43:22.172Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-05-05T11:43:22.172Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
 📅 5.05.2026 14:20:00 - 5.05.2026 21:00:00
 📍 Yeni Bayındır, Küçük Kayaş mahallesi , Kıbrıs köyü mahallesi, Yeşilbayır , Şahap Gürler mahalleleri
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-05-05T11:43:22.172Z] [INFO] (206 karakter)
-[2026-05-05T11:43:22.172Z] [INFO] ---
-[2026-05-05T11:43:22.172Z] [INFO] 0 tweet atıldı.
-[2026-05-05T11:43:22.172Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-05-05T11:43:22.173Z] [SUCCESS] Tamamlandı.
 [2026-05-05T12:53:12.176Z] [INFO] Logger başlatıldı
 [2026-05-05T12:53:12.178Z] [INFO] Tek seferlik mod...
 [2026-05-05T12:53:12.178Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19310,3 +19285,12 @@
 [2026-05-12T10:07:16.188Z] [INFO] 1 tweet atıldı.
 [2026-05-12T10:07:16.192Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-12T10:07:16.192Z] [SUCCESS] Tamamlandı.
+[2026-05-12T12:06:23.267Z] [INFO] Logger başlatıldı
+[2026-05-12T12:06:23.268Z] [INFO] Tek seferlik mod...
+[2026-05-12T12:06:23.269Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-12T12:06:23.823Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-12T12:06:23.824Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-12T12:06:24.716Z] [INFO] 2 kesinti bulundu.
+[2026-05-12T12:06:24.720Z] [INFO] 992 kayıtlı kesinti var.
+[2026-05-12T12:06:24.721Z] [INFO] Yeni kesinti yok.
+[2026-05-12T12:06:24.721Z] [SUCCESS] Tamamlandı.
