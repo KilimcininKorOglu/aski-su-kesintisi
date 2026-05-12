@@ -17196,10 +17196,6 @@
     at async fetchKesintiler (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/scraper.ts:10:22)
     at async checkAndTweet (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:24:31)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:88:7
-[2026-05-05T22:12:24.417Z] [INFO] Logger başlatıldı
-[2026-05-05T22:12:24.418Z] [INFO] Tek seferlik mod...
-[2026-05-05T22:12:24.419Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-05T22:12:26.167Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -17212,21 +17208,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-05-05T22:12:26.168Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-05-05T22:12:26.168Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-05T22:12:27.324Z] [INFO] 2 kesinti bulundu.
-[2026-05-05T22:12:27.328Z] [INFO] 959 kayıtlı kesinti var.
-[2026-05-05T22:12:27.328Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-05T22:12:27.329Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-05-05T22:12:27.329Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 6.05.2026 01:00:00 - 6.05.2026 04:00:00
 📍 Oğuzlar Mahallesi Bir Kısmı ve Ayyıldız Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-05-05T22:12:27.329Z] [INFO] (174 karakter)
-[2026-05-05T22:12:27.329Z] [INFO] ---
-[2026-05-05T22:12:27.329Z] [INFO] 0 tweet atıldı.
-[2026-05-05T22:12:27.329Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-05-05T22:12:27.329Z] [SUCCESS] Tamamlandı.
 [2026-05-05T23:10:22.986Z] [INFO] Logger başlatıldı
 [2026-05-05T23:10:22.988Z] [INFO] Tek seferlik mod...
 [2026-05-05T23:10:22.988Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19262,3 +19246,12 @@
 [2026-05-12T21:44:02.882Z] [INFO] 996 kayıtlı kesinti var.
 [2026-05-12T21:44:02.882Z] [INFO] Yeni kesinti yok.
 [2026-05-12T21:44:02.882Z] [SUCCESS] Tamamlandı.
+[2026-05-12T22:45:16.434Z] [INFO] Logger başlatıldı
+[2026-05-12T22:45:16.435Z] [INFO] Tek seferlik mod...
+[2026-05-12T22:45:16.436Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-12T22:45:16.905Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-12T22:45:16.905Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-12T22:45:18.058Z] [INFO] 1 kesinti bulundu.
+[2026-05-12T22:45:18.063Z] [INFO] 996 kayıtlı kesinti var.
+[2026-05-12T22:45:18.063Z] [INFO] Yeni kesinti yok.
+[2026-05-12T22:45:18.064Z] [SUCCESS] Tamamlandı.
