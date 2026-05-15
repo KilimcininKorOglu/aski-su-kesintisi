@@ -17709,10 +17709,6 @@
 📅 7.05.2026 23:35:00 - 8.05.2026 04:00:00
 📍 Yeşil evler mahallesi, Özevler mahallesi, Barış mahallesi, Karşıyaka mahallesi bir kısmı.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-05-08T01:17:30.359Z] [INFO] Logger başlatıldı
-[2026-05-08T01:17:30.360Z] [INFO] Tek seferlik mod...
-[2026-05-08T01:17:30.360Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-08T01:17:31.546Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -17725,12 +17721,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-05-08T01:17:31.546Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-05-08T01:17:31.546Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-08T01:17:32.689Z] [INFO] 0 kesinti bulundu.
-[2026-05-08T01:17:32.693Z] [INFO] 959 kayıtlı kesinti var.
-[2026-05-08T01:17:32.693Z] [INFO] Yeni kesinti yok.
-[2026-05-08T01:17:32.693Z] [SUCCESS] Tamamlandı.
 [2026-05-08T04:24:28.152Z] [INFO] Logger başlatıldı
 [2026-05-08T04:24:28.153Z] [INFO] Tek seferlik mod...
 [2026-05-08T04:24:28.154Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18972,3 +18962,12 @@
 [2026-05-14T23:37:05.253Z] [INFO] 1016 kayıtlı kesinti var.
 [2026-05-14T23:37:05.254Z] [INFO] Yeni kesinti yok.
 [2026-05-14T23:37:05.254Z] [SUCCESS] Tamamlandı.
+[2026-05-15T01:28:45.819Z] [INFO] Logger başlatıldı
+[2026-05-15T01:28:45.820Z] [INFO] Tek seferlik mod...
+[2026-05-15T01:28:45.820Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-15T01:28:46.331Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-15T01:28:46.331Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-15T01:28:47.215Z] [INFO] 0 kesinti bulundu.
+[2026-05-15T01:28:47.219Z] [INFO] 1016 kayıtlı kesinti var.
+[2026-05-15T01:28:47.220Z] [INFO] Yeni kesinti yok.
+[2026-05-15T01:28:47.220Z] [SUCCESS] Tamamlandı.
