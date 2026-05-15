@@ -17853,19 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-08T15:09:58.601Z] [INFO] Logger başlatıldı
-[2026-05-08T15:09:58.602Z] [INFO] Tek seferlik mod...
-[2026-05-08T15:09:58.603Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-08T15:10:00.286Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-08T15:10:00.286Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-08T15:10:01.279Z] [INFO] 2 kesinti bulundu.
-[2026-05-08T15:10:01.283Z] [INFO] 959 kayıtlı kesinti var.
-[2026-05-08T15:10:01.283Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-08T15:10:01.755Z] [SUCCESS] Ana tweet atıldı: SEREFLIKOÇHISAR - Plansız Kesinti (ID: 2052767987804070365)
-[2026-05-08T15:10:12.367Z] [SUCCESS] Ana tweet atıldı: KEÇİÖREN - Plansız Kesinti (ID: 2052768032175673442)
-[2026-05-08T15:10:22.373Z] [INFO] 2 tweet atıldı.
-[2026-05-08T15:10:22.379Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-08T15:10:22.379Z] [SUCCESS] Tamamlandı.
 [2026-05-08T16:44:27.737Z] [INFO] Logger başlatıldı
 [2026-05-08T16:44:27.738Z] [INFO] Tek seferlik mod...
 [2026-05-08T16:44:27.738Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18883,3 +18870,15 @@
 [2026-05-15T14:41:00.663Z] [INFO] 1023 kayıtlı kesinti var.
 [2026-05-15T14:41:00.663Z] [INFO] Yeni kesinti yok.
 [2026-05-15T14:41:00.664Z] [SUCCESS] Tamamlandı.
+[2026-05-15T16:22:28.749Z] [INFO] Logger başlatıldı
+[2026-05-15T16:22:28.751Z] [INFO] Tek seferlik mod...
+[2026-05-15T16:22:28.751Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-15T16:22:29.226Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-15T16:22:29.226Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-15T16:22:30.891Z] [INFO] 1 kesinti bulundu.
+[2026-05-15T16:22:30.895Z] [INFO] 1023 kayıtlı kesinti var.
+[2026-05-15T16:22:30.896Z] [INFO] 1 yeni kesinti bulundu!
+[2026-05-15T16:22:31.292Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2055322946227573162)
+[2026-05-15T16:22:41.297Z] [INFO] 1 tweet atıldı.
+[2026-05-15T16:22:41.301Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-05-15T16:22:41.302Z] [SUCCESS] Tamamlandı.
