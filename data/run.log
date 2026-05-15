@@ -17853,24 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-08T17:57:28.896Z] [INFO] Logger başlatıldı
-[2026-05-08T17:57:28.898Z] [INFO] Tek seferlik mod...
-[2026-05-08T17:57:28.898Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-08T17:57:29.411Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-08T17:57:29.411Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-08T17:57:30.512Z] [INFO] 2 kesinti bulundu.
-[2026-05-08T17:57:30.516Z] [INFO] 961 kayıtlı kesinti var.
-[2026-05-08T17:57:30.517Z] [INFO] Yeni kesinti yok.
-[2026-05-08T17:57:30.517Z] [SUCCESS] Tamamlandı.
-[2026-05-08T19:08:06.000Z] [INFO] Logger başlatıldı
-[2026-05-08T19:08:06.002Z] [INFO] Tek seferlik mod...
-[2026-05-08T19:08:06.003Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-08T19:08:06.635Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-08T19:08:06.636Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-08T19:08:07.908Z] [INFO] 1 kesinti bulundu.
-[2026-05-08T19:08:07.912Z] [INFO] 961 kayıtlı kesinti var.
-[2026-05-08T19:08:07.912Z] [INFO] Yeni kesinti yok.
-[2026-05-08T19:08:07.912Z] [SUCCESS] Tamamlandı.
 [2026-05-08T20:14:19.385Z] [INFO] Logger başlatıldı
 [2026-05-08T20:14:19.387Z] [INFO] Tek seferlik mod...
 [2026-05-08T20:14:19.387Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18882,3 +18864,15 @@
 [2026-05-15T17:55:17.542Z] [INFO] 1024 kayıtlı kesinti var.
 [2026-05-15T17:55:17.542Z] [INFO] Yeni kesinti yok.
 [2026-05-15T17:55:17.542Z] [SUCCESS] Tamamlandı.
+[2026-05-15T19:11:17.580Z] [INFO] Logger başlatıldı
+[2026-05-15T19:11:17.581Z] [INFO] Tek seferlik mod...
+[2026-05-15T19:11:17.582Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-15T19:11:18.195Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-15T19:11:18.196Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-15T19:11:19.343Z] [INFO] 1 kesinti bulundu.
+[2026-05-15T19:11:19.347Z] [INFO] 1024 kayıtlı kesinti var.
+[2026-05-15T19:11:19.347Z] [INFO] 1 yeni kesinti bulundu!
+[2026-05-15T19:11:19.840Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2055365428336296345)
+[2026-05-15T19:11:29.844Z] [INFO] 1 tweet atıldı.
+[2026-05-15T19:11:29.848Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-05-15T19:11:29.848Z] [SUCCESS] Tamamlandı.
