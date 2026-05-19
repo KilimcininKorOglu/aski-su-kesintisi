@@ -17853,18 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-12T10:07:04.258Z] [INFO] Logger başlatıldı
-[2026-05-12T10:07:04.259Z] [INFO] Tek seferlik mod...
-[2026-05-12T10:07:04.260Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-12T10:07:04.688Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-12T10:07:04.688Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-12T10:07:05.780Z] [INFO] 2 kesinti bulundu.
-[2026-05-12T10:07:05.784Z] [INFO] 991 kayıtlı kesinti var.
-[2026-05-12T10:07:05.784Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-12T10:07:06.183Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2054141305496965277)
-[2026-05-12T10:07:16.188Z] [INFO] 1 tweet atıldı.
-[2026-05-12T10:07:16.192Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-05-12T10:07:16.192Z] [SUCCESS] Tamamlandı.
 [2026-05-12T12:06:23.267Z] [INFO] Logger başlatıldı
 [2026-05-12T12:06:23.268Z] [INFO] Tek seferlik mod...
 [2026-05-12T12:06:23.269Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18858,3 +18846,17 @@
 [2026-05-19T08:49:37.275Z] [INFO] 4 tweet atıldı.
 [2026-05-19T08:49:37.282Z] [SUCCESS] 4 kesinti kaydedildi.
 [2026-05-19T08:49:37.282Z] [SUCCESS] Tamamlandı.
+[2026-05-19T11:46:43.089Z] [INFO] Logger başlatıldı
+[2026-05-19T11:46:43.091Z] [INFO] Tek seferlik mod...
+[2026-05-19T11:46:43.091Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-19T11:46:43.822Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-19T11:46:43.822Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-19T11:46:45.013Z] [INFO] 4 kesinti bulundu.
+[2026-05-19T11:46:45.017Z] [INFO] 1062 kayıtlı kesinti var.
+[2026-05-19T11:46:45.018Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-19T11:46:45.487Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2056703099302265032)
+[2026-05-19T11:46:56.036Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2056703143703097603)
+[2026-05-19T11:47:06.571Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2056703187999129739)
+[2026-05-19T11:47:16.573Z] [INFO] 3 tweet atıldı.
+[2026-05-19T11:47:16.580Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-19T11:47:16.580Z] [SUCCESS] Tamamlandı.
