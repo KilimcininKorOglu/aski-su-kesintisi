@@ -17853,15 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-12T04:50:36.168Z] [INFO] Logger başlatıldı
-[2026-05-12T04:50:36.169Z] [INFO] Tek seferlik mod...
-[2026-05-12T04:50:36.170Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-12T04:50:36.778Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-12T04:50:36.779Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-12T04:50:38.048Z] [INFO] 1 kesinti bulundu.
-[2026-05-12T04:50:38.054Z] [INFO] 988 kayıtlı kesinti var.
-[2026-05-12T04:50:38.054Z] [INFO] Yeni kesinti yok.
-[2026-05-12T04:50:38.054Z] [SUCCESS] Tamamlandı.
 [2026-05-12T07:32:54.575Z] [INFO] Logger başlatıldı
 [2026-05-12T07:32:54.576Z] [INFO] Tek seferlik mod...
 [2026-05-12T07:32:54.577Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18850,3 +18841,19 @@
 [2026-05-19T01:34:54.140Z] [INFO] 1053 kayıtlı kesinti var.
 [2026-05-19T01:34:54.141Z] [INFO] Yeni kesinti yok.
 [2026-05-19T01:34:54.141Z] [SUCCESS] Tamamlandı.
+[2026-05-19T05:45:49.148Z] [INFO] Logger başlatıldı
+[2026-05-19T05:45:49.149Z] [INFO] Tek seferlik mod...
+[2026-05-19T05:45:49.150Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-19T05:45:49.680Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-19T05:45:49.680Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-19T05:45:50.859Z] [INFO] 6 kesinti bulundu.
+[2026-05-19T05:45:50.863Z] [INFO] 1053 kayıtlı kesinti var.
+[2026-05-19T05:45:50.863Z] [INFO] 5 yeni kesinti bulundu!
+[2026-05-19T05:45:51.411Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2056612275558154384)
+[2026-05-19T05:46:01.952Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2056612319912939763)
+[2026-05-19T05:46:12.566Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2056612364460712431)
+[2026-05-19T05:46:23.114Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2056612408698048972)
+[2026-05-19T05:46:33.783Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2056612453421846799)
+[2026-05-19T05:46:43.789Z] [INFO] 5 tweet atıldı.
+[2026-05-19T05:46:43.797Z] [SUCCESS] 5 kesinti kaydedildi.
+[2026-05-19T05:46:43.797Z] [SUCCESS] Tamamlandı.
