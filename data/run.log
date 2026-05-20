@@ -17853,15 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-13T05:02:28.483Z] [INFO] Logger başlatıldı
-[2026-05-13T05:02:28.485Z] [INFO] Tek seferlik mod...
-[2026-05-13T05:02:28.485Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-13T05:02:28.949Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-13T05:02:28.950Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-13T05:02:30.024Z] [INFO] 0 kesinti bulundu.
-[2026-05-13T05:02:30.027Z] [INFO] 996 kayıtlı kesinti var.
-[2026-05-13T05:02:30.028Z] [INFO] Yeni kesinti yok.
-[2026-05-13T05:02:30.028Z] [SUCCESS] Tamamlandı.
 [2026-05-13T08:05:48.011Z] [INFO] Logger başlatıldı
 [2026-05-13T08:05:48.012Z] [INFO] Tek seferlik mod...
 [2026-05-13T08:05:48.012Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18847,3 +18838,18 @@
 [2026-05-20T04:38:25.312Z] [INFO] 1 tweet atıldı.
 [2026-05-20T04:38:25.316Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-20T04:38:25.316Z] [SUCCESS] Tamamlandı.
+[2026-05-20T08:04:23.754Z] [INFO] Logger başlatıldı
+[2026-05-20T08:04:23.755Z] [INFO] Tek seferlik mod...
+[2026-05-20T08:04:23.755Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-20T08:04:24.420Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-20T08:04:24.420Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-20T08:04:25.628Z] [INFO] 3 kesinti bulundu.
+[2026-05-20T08:04:25.632Z] [INFO] 1067 kayıtlı kesinti var.
+[2026-05-20T08:04:25.632Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-20T08:04:26.021Z] [SUCCESS] Ana tweet atıldı: ÇAMLIDERE - Plansız Kesinti (ID: 2057009537631359437)
+[2026-05-20T08:04:36.576Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2057009581944086869)
+[2026-05-20T08:04:51.182Z] [INFO] Tweet kısaltıldı: 347 -> 148 karakter
+[2026-05-20T08:04:51.646Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2057009645093535901)
+[2026-05-20T08:05:01.651Z] [INFO] 3 tweet atıldı.
+[2026-05-20T08:05:01.658Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-20T08:05:01.659Z] [SUCCESS] Tamamlandı.
