@@ -17853,22 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-13T12:29:57.446Z] [INFO] Logger başlatıldı
-[2026-05-13T12:29:57.448Z] [INFO] Tek seferlik mod...
-[2026-05-13T12:29:57.448Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-13T12:29:58.020Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-13T12:29:58.021Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-13T12:29:59.213Z] [INFO] 6 kesinti bulundu.
-[2026-05-13T12:29:59.217Z] [INFO] 1000 kayıtlı kesinti var.
-[2026-05-13T12:29:59.218Z] [INFO] 4 yeni kesinti bulundu!
-[2026-05-13T12:29:59.661Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2054539653014036597)
-[2026-05-13T12:30:10.210Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2054539697272270974)
-[2026-05-13T12:30:26.107Z] [INFO] Tweet kısaltıldı: 434 -> 152 karakter
-[2026-05-13T12:30:26.656Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2054539766256025897)
-[2026-05-13T12:30:37.181Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2054539810434654397)
-[2026-05-13T12:30:47.185Z] [INFO] 4 tweet atıldı.
-[2026-05-13T12:30:47.191Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-05-13T12:30:47.191Z] [SUCCESS] Tamamlandı.
 [2026-05-13T15:24:28.117Z] [INFO] Logger başlatıldı
 [2026-05-13T15:24:28.118Z] [INFO] Tek seferlik mod...
 [2026-05-13T15:24:28.119Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18845,3 +18829,15 @@
 [2026-05-20T11:17:03.805Z] [INFO] 6 tweet atıldı.
 [2026-05-20T11:17:03.812Z] [SUCCESS] 6 kesinti kaydedildi.
 [2026-05-20T11:17:03.812Z] [SUCCESS] Tamamlandı.
+[2026-05-20T13:46:58.771Z] [INFO] Logger başlatıldı
+[2026-05-20T13:46:58.772Z] [INFO] Tek seferlik mod...
+[2026-05-20T13:46:58.772Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-20T13:46:59.313Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-20T13:46:59.314Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-20T13:47:00.198Z] [INFO] 1 kesinti bulundu.
+[2026-05-20T13:47:00.202Z] [INFO] 1076 kayıtlı kesinti var.
+[2026-05-20T13:47:00.202Z] [INFO] 1 yeni kesinti bulundu!
+[2026-05-20T13:47:00.836Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2057095750669246737)
+[2026-05-20T13:47:10.840Z] [INFO] 1 tweet atıldı.
+[2026-05-20T13:47:10.844Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-05-20T13:47:10.845Z] [SUCCESS] Tamamlandı.
