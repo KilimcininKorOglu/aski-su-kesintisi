@@ -17853,15 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-16T15:40:15.902Z] [INFO] Logger başlatıldı
-[2026-05-16T15:40:15.903Z] [INFO] Tek seferlik mod...
-[2026-05-16T15:40:15.903Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-16T15:40:16.373Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-16T15:40:16.373Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-16T15:40:17.541Z] [INFO] 2 kesinti bulundu.
-[2026-05-16T15:40:17.545Z] [INFO] 1034 kayıtlı kesinti var.
-[2026-05-16T15:40:17.546Z] [INFO] Yeni kesinti yok.
-[2026-05-16T15:40:17.546Z] [SUCCESS] Tamamlandı.
 [2026-05-16T16:33:12.365Z] [INFO] Logger başlatıldı
 [2026-05-16T16:33:12.366Z] [INFO] Tek seferlik mod...
 [2026-05-16T16:33:12.367Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19053,11 +19044,18 @@
 [2026-05-23T15:21:03.344Z] [ERROR] Ana tweet atılamadı: ETİMESGUT - Plansız Kesinti
 [2026-05-23T15:21:03.344Z] [INFO] Tweet içeriği (161 karakter):
 ⚠️ ETİMESGUT - Plansız Kesinti
-
 📅 23.05.2026 18:20:00 - 23.05.2026 21:00:00
 📍 Ahi mesut ve Ayyıldız mahallesinin bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Etimesgut
 [2026-05-23T15:21:13.345Z] [INFO] 2 tweet atıldı.
 [2026-05-23T15:21:13.352Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-05-23T15:21:13.352Z] [SUCCESS] Tamamlandı.
+[2026-05-23T16:15:52.724Z] [INFO] Logger başlatıldı
+[2026-05-23T16:15:52.726Z] [INFO] Tek seferlik mod...
+[2026-05-23T16:15:52.726Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-23T16:15:53.162Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-23T16:15:53.162Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-23T16:15:54.036Z] [INFO] 2 kesinti bulundu.
+[2026-05-23T16:15:54.040Z] [INFO] 1100 kayıtlı kesinti var.
+[2026-05-23T16:15:54.040Z] [INFO] Yeni kesinti yok.
+[2026-05-23T16:15:54.040Z] [SUCCESS] Tamamlandı.
