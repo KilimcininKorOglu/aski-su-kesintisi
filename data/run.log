@@ -17853,21 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-16T08:53:34.506Z] [INFO] Logger başlatıldı
-[2026-05-16T08:53:34.507Z] [INFO] Tek seferlik mod...
-[2026-05-16T08:53:34.508Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-16T08:53:35.329Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-16T08:53:35.330Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-16T08:53:36.655Z] [INFO] 5 kesinti bulundu.
-[2026-05-16T08:53:36.661Z] [INFO] 1026 kayıtlı kesinti var.
-[2026-05-16T08:53:36.661Z] [INFO] 4 yeni kesinti bulundu!
-[2026-05-16T08:53:37.265Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2055572364449178081)
-[2026-05-16T08:53:47.899Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2055572409223381319)
-[2026-05-16T08:53:58.522Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2055572453741723658)
-[2026-05-16T08:54:09.219Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2055572498578915340)
-[2026-05-16T08:54:19.224Z] [INFO] 4 tweet atıldı.
-[2026-05-16T08:54:19.231Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-05-16T08:54:19.232Z] [SUCCESS] Tamamlandı.
 [2026-05-16T10:05:14.168Z] [INFO] Logger başlatıldı
 [2026-05-16T10:05:14.169Z] [INFO] Tek seferlik mod...
 [2026-05-16T10:05:14.170Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18775,3 +18760,16 @@
 [2026-05-23T07:24:31.424Z] [INFO] 2 tweet atıldı.
 [2026-05-23T07:24:31.431Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-05-23T07:24:31.431Z] [SUCCESS] Tamamlandı.
+[2026-05-23T09:16:14.695Z] [INFO] Logger başlatıldı
+[2026-05-23T09:16:14.696Z] [INFO] Tek seferlik mod...
+[2026-05-23T09:16:14.696Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-23T09:16:15.229Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-23T09:16:15.230Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-23T09:16:16.513Z] [INFO] 4 kesinti bulundu.
+[2026-05-23T09:16:16.517Z] [INFO] 1094 kayıtlı kesinti var.
+[2026-05-23T09:16:16.518Z] [INFO] 2 yeni kesinti bulundu!
+[2026-05-23T09:16:16.929Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2058114782415524092)
+[2026-05-23T09:16:27.551Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2058114826971566308)
+[2026-05-23T09:16:37.556Z] [INFO] 2 tweet atıldı.
+[2026-05-23T09:16:37.562Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-23T09:16:37.562Z] [SUCCESS] Tamamlandı.
