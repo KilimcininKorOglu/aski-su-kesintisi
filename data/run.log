@@ -17853,18 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-16T14:44:07.718Z] [INFO] Logger başlatıldı
-[2026-05-16T14:44:07.720Z] [INFO] Tek seferlik mod...
-[2026-05-16T14:44:07.720Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-16T14:44:08.275Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-16T14:44:08.276Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-16T14:44:09.094Z] [INFO] 2 kesinti bulundu.
-[2026-05-16T14:44:09.097Z] [INFO] 1033 kayıtlı kesinti var.
-[2026-05-16T14:44:09.098Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-16T14:44:09.556Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2055660580338618728)
-[2026-05-16T14:44:19.561Z] [INFO] 1 tweet atıldı.
-[2026-05-16T14:44:19.565Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-05-16T14:44:19.565Z] [SUCCESS] Tamamlandı.
 [2026-05-16T15:40:15.902Z] [INFO] Logger başlatıldı
 [2026-05-16T15:40:15.903Z] [INFO] Tek seferlik mod...
 [2026-05-16T15:40:15.903Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -18772,3 +18760,304 @@
 [2026-05-23T14:13:44.335Z] [INFO] 1098 kayıtlı kesinti var.
 [2026-05-23T14:13:44.335Z] [INFO] Yeni kesinti yok.
 [2026-05-23T14:13:44.335Z] [SUCCESS] Tamamlandı.
+[2026-05-23T15:19:06.372Z] [INFO] Logger başlatıldı
+[2026-05-23T15:19:06.373Z] [INFO] Tek seferlik mod...
+[2026-05-23T15:19:06.373Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-23T15:19:06.832Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-23T15:19:06.832Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-23T15:19:07.834Z] [INFO] 4 kesinti bulundu.
+[2026-05-23T15:19:07.838Z] [INFO] 1098 kayıtlı kesinti var.
+[2026-05-23T15:19:07.839Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-23T15:19:08.247Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2058206097912263093)
+[2026-05-23T15:19:18.848Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2058206142405521589)
+[2026-05-23T15:19:29.183Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
+[2026-05-23T15:19:29.183Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:19:29.184Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:19:39.543Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
+[2026-05-23T15:19:39.543Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:19:39.543Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:19:49.905Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
+[2026-05-23T15:19:49.905Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:19:49.905Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:20:00.193Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
+[2026-05-23T15:20:00.193Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:20:00.193Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:20:10.642Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
+[2026-05-23T15:20:10.642Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:20:10.642Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:20:21.007Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
+[2026-05-23T15:20:21.007Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:20:21.008Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:20:31.400Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
+[2026-05-23T15:20:31.401Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:20:31.401Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:20:41.770Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
+[2026-05-23T15:20:41.770Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:20:41.770Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:20:52.131Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
+[2026-05-23T15:20:52.131Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:20:52.131Z] [INFO] 10 saniye sonra tekrar denenecek...
+[2026-05-23T15:21:02.133Z] [INFO] ct0 token yenileniyor...
+[2026-05-23T15:21:03.343Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
+[2026-05-23T15:21:03.343Z] [INFO] API yanıtı: {
+  "code": 1,
+  "data": {
+    "data": {},
+    "errors": [
+      {
+        "code": 187,
+        "extensions": {
+          "code": 187,
+          "kind": "Permissions",
+          "name": "AuthorizationError",
+          "source": "Client"
+        },
+        "kind": "Permissions",
+        "message": "Authorization: Status is a duplicate. (187)",
+        "name": "AuthorizationError",
+        "path": [
+          "create_tweet"
+        ],
+        "source": "Client"
+      }
+    ]
+  },
+  "result": null,
+  "msg": "SUCCESS"
+}
+[2026-05-23T15:21:03.344Z] [ERROR] Ana tweet atılamadı: ETİMESGUT - Plansız Kesinti
+[2026-05-23T15:21:03.344Z] [INFO] Tweet içeriği (161 karakter):
+⚠️ ETİMESGUT - Plansız Kesinti
+
+📅 23.05.2026 18:20:00 - 23.05.2026 21:00:00
+📍 Ahi mesut ve Ayyıldız mahallesinin bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Etimesgut
+[2026-05-23T15:21:13.345Z] [INFO] 2 tweet atıldı.
+[2026-05-23T15:21:13.352Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-23T15:21:13.352Z] [SUCCESS] Tamamlandı.
