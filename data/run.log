@@ -17853,15 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-19T17:20:52.026Z] [INFO] Logger başlatıldı
-[2026-05-19T17:20:52.027Z] [INFO] Tek seferlik mod...
-[2026-05-19T17:20:52.028Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-19T17:20:52.642Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-19T17:20:52.642Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-19T17:20:53.922Z] [INFO] 1 kesinti bulundu.
-[2026-05-19T17:20:53.926Z] [INFO] 1065 kayıtlı kesinti var.
-[2026-05-19T17:20:53.927Z] [INFO] Yeni kesinti yok.
-[2026-05-19T17:20:53.927Z] [SUCCESS] Tamamlandı.
 [2026-05-19T19:21:05.695Z] [INFO] Logger başlatıldı
 [2026-05-19T19:21:05.696Z] [INFO] Tek seferlik mod...
 [2026-05-19T19:21:05.696Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19019,3 +19010,12 @@
 [2026-05-26T14:27:31.682Z] [INFO] 1 tweet atıldı.
 [2026-05-26T14:27:31.686Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-26T14:27:31.686Z] [SUCCESS] Tamamlandı.
+[2026-05-26T17:43:01.213Z] [INFO] Logger başlatıldı
+[2026-05-26T17:43:01.215Z] [INFO] Tek seferlik mod...
+[2026-05-26T17:43:01.215Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-26T17:43:01.885Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-26T17:43:01.885Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-26T17:43:02.780Z] [INFO] 0 kesinti bulundu.
+[2026-05-26T17:43:02.784Z] [INFO] 1120 kayıtlı kesinti var.
+[2026-05-26T17:43:02.785Z] [INFO] Yeni kesinti yok.
+[2026-05-26T17:43:02.785Z] [SUCCESS] Tamamlandı.
