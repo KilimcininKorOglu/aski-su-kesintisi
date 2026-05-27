@@ -17853,21 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-20T08:04:23.754Z] [INFO] Logger başlatıldı
-[2026-05-20T08:04:23.755Z] [INFO] Tek seferlik mod...
-[2026-05-20T08:04:23.755Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-20T08:04:24.420Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-20T08:04:24.420Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-20T08:04:25.628Z] [INFO] 3 kesinti bulundu.
-[2026-05-20T08:04:25.632Z] [INFO] 1067 kayıtlı kesinti var.
-[2026-05-20T08:04:25.632Z] [INFO] 3 yeni kesinti bulundu!
-[2026-05-20T08:04:26.021Z] [SUCCESS] Ana tweet atıldı: ÇAMLIDERE - Plansız Kesinti (ID: 2057009537631359437)
-[2026-05-20T08:04:36.576Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2057009581944086869)
-[2026-05-20T08:04:51.182Z] [INFO] Tweet kısaltıldı: 347 -> 148 karakter
-[2026-05-20T08:04:51.646Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2057009645093535901)
-[2026-05-20T08:05:01.651Z] [INFO] 3 tweet atıldı.
-[2026-05-20T08:05:01.658Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-05-20T08:05:01.659Z] [SUCCESS] Tamamlandı.
 [2026-05-20T11:15:50.417Z] [INFO] Logger başlatıldı
 [2026-05-20T11:15:50.418Z] [INFO] Tek seferlik mod...
 [2026-05-20T11:15:50.419Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19884,3 +19869,12 @@
 [2026-05-27T06:03:33.295Z] [INFO] 1121 kayıtlı kesinti var.
 [2026-05-27T06:03:33.296Z] [INFO] Yeni kesinti yok.
 [2026-05-27T06:03:33.296Z] [SUCCESS] Tamamlandı.
+[2026-05-27T10:13:40.148Z] [INFO] Logger başlatıldı
+[2026-05-27T10:13:40.149Z] [INFO] Tek seferlik mod...
+[2026-05-27T10:13:40.150Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-27T10:13:41.116Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-27T10:13:41.116Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-27T10:13:42.332Z] [INFO] 0 kesinti bulundu.
+[2026-05-27T10:13:42.337Z] [INFO] 1121 kayıtlı kesinti var.
+[2026-05-27T10:13:42.337Z] [INFO] Yeni kesinti yok.
+[2026-05-27T10:13:42.337Z] [SUCCESS] Tamamlandı.
