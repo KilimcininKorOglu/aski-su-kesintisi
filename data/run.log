@@ -17853,19 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-21T14:49:55.648Z] [INFO] Logger başlatıldı
-[2026-05-21T14:49:55.649Z] [INFO] Tek seferlik mod...
-[2026-05-21T14:49:55.649Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-21T14:49:56.137Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-21T14:49:56.137Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-21T14:49:57.247Z] [INFO] 4 kesinti bulundu.
-[2026-05-21T14:49:57.253Z] [INFO] 1084 kayıtlı kesinti var.
-[2026-05-21T14:49:57.253Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-21T14:49:57.670Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2057473979808669901)
-[2026-05-21T14:50:08.095Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2057474023576293430)
-[2026-05-21T14:50:18.101Z] [INFO] 2 tweet atıldı.
-[2026-05-21T14:50:18.107Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-21T14:50:18.107Z] [SUCCESS] Tamamlandı.
 [2026-05-21T17:23:13.601Z] [INFO] Logger başlatıldı
 [2026-05-21T17:23:13.602Z] [INFO] Tek seferlik mod...
 [2026-05-21T17:23:13.602Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19850,3 +19837,16 @@
 [2026-05-28T12:38:24.300Z] [INFO] 1 tweet atıldı.
 [2026-05-28T12:38:24.304Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-05-28T12:38:24.304Z] [SUCCESS] Tamamlandı.
+[2026-05-28T16:41:06.925Z] [INFO] Logger başlatıldı
+[2026-05-28T16:41:06.926Z] [INFO] Tek seferlik mod...
+[2026-05-28T16:41:06.927Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-28T16:41:08.172Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-28T16:41:08.172Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-28T16:41:09.057Z] [INFO] 3 kesinti bulundu.
+[2026-05-28T16:41:09.061Z] [INFO] 1123 kayıtlı kesinti var.
+[2026-05-28T16:41:09.062Z] [INFO] 2 yeni kesinti bulundu!
+[2026-05-28T16:41:09.532Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2060038678689530328)
+[2026-05-28T16:41:20.114Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2060038723035906560)
+[2026-05-28T16:41:30.119Z] [INFO] 2 tweet atıldı.
+[2026-05-28T16:41:30.126Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-05-28T16:41:30.126Z] [SUCCESS] Tamamlandı.
