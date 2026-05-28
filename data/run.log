@@ -17853,21 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-21T11:57:24.124Z] [INFO] Logger başlatıldı
-[2026-05-21T11:57:24.126Z] [INFO] Tek seferlik mod...
-[2026-05-21T11:57:24.126Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-21T11:57:24.705Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-21T11:57:24.705Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-21T11:57:25.860Z] [INFO] 6 kesinti bulundu.
-[2026-05-21T11:57:25.864Z] [INFO] 1080 kayıtlı kesinti var.
-[2026-05-21T11:57:25.865Z] [INFO] 4 yeni kesinti bulundu!
-[2026-05-21T11:57:26.363Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2057430563301265561)
-[2026-05-21T11:57:36.933Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2057430607593132426)
-[2026-05-21T11:57:47.488Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2057430651910115807)
-[2026-05-21T11:57:58.128Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2057430696499835047)
-[2026-05-21T11:58:08.133Z] [INFO] 4 tweet atıldı.
-[2026-05-21T11:58:08.141Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-05-21T11:58:08.141Z] [SUCCESS] Tamamlandı.
 [2026-05-21T14:49:55.648Z] [INFO] Logger başlatıldı
 [2026-05-21T14:49:55.649Z] [INFO] Tek seferlik mod...
 [2026-05-21T14:49:55.649Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19853,3 +19838,15 @@
 [2026-05-28T09:02:24.893Z] [INFO] 1122 kayıtlı kesinti var.
 [2026-05-28T09:02:24.893Z] [INFO] Yeni kesinti yok.
 [2026-05-28T09:02:24.893Z] [SUCCESS] Tamamlandı.
+[2026-05-28T12:38:11.683Z] [INFO] Logger başlatıldı
+[2026-05-28T12:38:11.684Z] [INFO] Tek seferlik mod...
+[2026-05-28T12:38:11.684Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-28T12:38:12.812Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-28T12:38:12.812Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-28T12:38:13.710Z] [INFO] 1 kesinti bulundu.
+[2026-05-28T12:38:13.714Z] [INFO] 1122 kayıtlı kesinti var.
+[2026-05-28T12:38:13.714Z] [INFO] 1 yeni kesinti bulundu!
+[2026-05-28T12:38:14.296Z] [SUCCESS] Ana tweet atıldı: HAYMANA - Plansız Kesinti (ID: 2059977545664376957)
+[2026-05-28T12:38:24.300Z] [INFO] 1 tweet atıldı.
+[2026-05-28T12:38:24.304Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-05-28T12:38:24.304Z] [SUCCESS] Tamamlandı.
