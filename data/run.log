@@ -17853,19 +17853,6 @@
 📅 8.05.2026 14:30:00 - 8.05.2026 17:00:00
 📍 karargahtepe ve basınevleri alt kotlar
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-05-22T08:38:24.329Z] [INFO] Logger başlatıldı
-[2026-05-22T08:38:24.330Z] [INFO] Tek seferlik mod...
-[2026-05-22T08:38:24.331Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-22T08:38:24.782Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-22T08:38:24.782Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-22T08:38:26.458Z] [INFO] 5 kesinti bulundu.
-[2026-05-22T08:38:26.462Z] [INFO] 1088 kayıtlı kesinti var.
-[2026-05-22T08:38:26.463Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-22T08:38:26.866Z] [SUCCESS] Ana tweet atıldı: AYAŞ - Plansız Kesinti (ID: 2057742873358118985)
-[2026-05-22T08:38:37.250Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2057742916936958416)
-[2026-05-22T08:38:47.255Z] [INFO] 2 tweet atıldı.
-[2026-05-22T08:38:47.262Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-22T08:38:47.262Z] [SUCCESS] Tamamlandı.
 [2026-05-22T11:28:06.865Z] [INFO] Logger başlatıldı
 [2026-05-22T11:28:06.867Z] [INFO] Tek seferlik mod...
 [2026-05-22T11:28:06.867Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19837,3 +19824,17 @@
 [2026-05-29T06:32:54.425Z] [INFO] 1125 kayıtlı kesinti var.
 [2026-05-29T06:32:54.426Z] [INFO] Yeni kesinti yok.
 [2026-05-29T06:32:54.426Z] [SUCCESS] Tamamlandı.
+[2026-05-29T10:31:46.820Z] [INFO] Logger başlatıldı
+[2026-05-29T10:31:46.821Z] [INFO] Tek seferlik mod...
+[2026-05-29T10:31:46.822Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-05-29T10:31:47.308Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-05-29T10:31:47.308Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-05-29T10:31:48.434Z] [INFO] 4 kesinti bulundu.
+[2026-05-29T10:31:48.438Z] [INFO] 1125 kayıtlı kesinti var.
+[2026-05-29T10:31:48.438Z] [INFO] 3 yeni kesinti bulundu!
+[2026-05-29T10:31:48.813Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2060308117834158379)
+[2026-05-29T10:31:59.236Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2060308161559732726)
+[2026-05-29T10:32:09.693Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2060308205369233914)
+[2026-05-29T10:32:19.696Z] [INFO] 3 tweet atıldı.
+[2026-05-29T10:32:19.704Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-05-29T10:32:19.704Z] [SUCCESS] Tamamlandı.
