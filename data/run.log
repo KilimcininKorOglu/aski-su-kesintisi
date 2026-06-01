@@ -18107,19 +18107,6 @@
 📅 23.05.2026 18:20:00 - 23.05.2026 21:00:00
 📍 Ahi mesut ve Ayyıldız mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-05-25T10:44:35.440Z] [INFO] Logger başlatıldı
-[2026-05-25T10:44:35.442Z] [INFO] Tek seferlik mod...
-[2026-05-25T10:44:35.442Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-25T10:44:36.123Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-25T10:44:36.124Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-25T10:44:36.935Z] [INFO] 2 kesinti bulundu.
-[2026-05-25T10:44:36.940Z] [INFO] 1116 kayıtlı kesinti var.
-[2026-05-25T10:44:36.940Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-25T10:44:37.427Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2058861789983756733)
-[2026-05-25T10:44:48.146Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2058861834728599683)
-[2026-05-25T10:44:58.152Z] [INFO] 2 tweet atıldı.
-[2026-05-25T10:44:58.158Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-25T10:44:58.159Z] [SUCCESS] Tamamlandı.
 [2026-05-25T13:49:06.477Z] [INFO] Logger başlatıldı
 [2026-05-25T13:49:06.478Z] [INFO] Tek seferlik mod...
 [2026-05-25T13:49:06.478Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19745,3 +19732,15 @@
 [2026-06-01T06:52:46.104Z] [INFO] 1148 kayıtlı kesinti var.
 [2026-06-01T06:52:46.105Z] [INFO] Yeni kesinti yok.
 [2026-06-01T06:52:46.105Z] [SUCCESS] Tamamlandı.
+[2026-06-01T12:25:19.123Z] [INFO] Logger başlatıldı
+[2026-06-01T12:25:19.125Z] [INFO] Tek seferlik mod...
+[2026-06-01T12:25:19.125Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-01T12:25:20.098Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-01T12:25:20.098Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-01T12:25:21.447Z] [INFO] 2 kesinti bulundu.
+[2026-06-01T12:25:21.452Z] [INFO] 1148 kayıtlı kesinti var.
+[2026-06-01T12:25:21.452Z] [INFO] 1 yeni kesinti bulundu!
+[2026-06-01T12:25:21.886Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2061423857387630742)
+[2026-06-01T12:25:31.891Z] [INFO] 1 tweet atıldı.
+[2026-06-01T12:25:31.895Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-06-01T12:25:31.895Z] [SUCCESS] Tamamlandı.
