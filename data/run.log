@@ -18107,18 +18107,6 @@
 📅 23.05.2026 18:20:00 - 23.05.2026 21:00:00
 📍 Ahi mesut ve Ayyıldız mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-05-26T08:55:15.645Z] [INFO] Logger başlatıldı
-[2026-05-26T08:55:15.646Z] [INFO] Tek seferlik mod...
-[2026-05-26T08:55:15.647Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-26T08:55:16.356Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-26T08:55:16.356Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-26T08:55:17.106Z] [INFO] 1 kesinti bulundu.
-[2026-05-26T08:55:17.110Z] [INFO] 1118 kayıtlı kesinti var.
-[2026-05-26T08:55:17.111Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-26T08:55:17.597Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2059196663978479856)
-[2026-05-26T08:55:27.601Z] [INFO] 1 tweet atıldı.
-[2026-05-26T08:55:27.605Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-05-26T08:55:27.606Z] [SUCCESS] Tamamlandı.
 [2026-05-26T14:27:19.507Z] [INFO] Logger başlatıldı
 [2026-05-26T14:27:19.508Z] [INFO] Tek seferlik mod...
 [2026-05-26T14:27:19.509Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19699,3 +19687,17 @@
 [2026-06-02T06:19:14.742Z] [INFO] 1149 kayıtlı kesinti var.
 [2026-06-02T06:19:14.743Z] [INFO] Yeni kesinti yok.
 [2026-06-02T06:19:14.743Z] [SUCCESS] Tamamlandı.
+[2026-06-02T10:57:58.998Z] [INFO] Logger başlatıldı
+[2026-06-02T10:57:59.000Z] [INFO] Tek seferlik mod...
+[2026-06-02T10:57:59.000Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-02T10:57:59.639Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-02T10:57:59.640Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-02T10:58:00.940Z] [INFO] 2 kesinti bulundu.
+[2026-06-02T10:58:00.944Z] [INFO] 1149 kayıtlı kesinti var.
+[2026-06-02T10:58:00.945Z] [INFO] 2 yeni kesinti bulundu!
+[2026-06-02T10:58:05.407Z] [INFO] Tweet kısaltıldı: 373 -> 142 karakter
+[2026-06-02T10:58:06.229Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2061764285232275695)
+[2026-06-02T10:58:16.948Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2061764330329420110)
+[2026-06-02T10:58:26.954Z] [INFO] 2 tweet atıldı.
+[2026-06-02T10:58:26.961Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-06-02T10:58:26.961Z] [SUCCESS] Tamamlandı.
