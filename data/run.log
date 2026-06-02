@@ -18107,15 +18107,6 @@
 📅 23.05.2026 18:20:00 - 23.05.2026 21:00:00
 📍 Ahi mesut ve Ayyıldız mahallesinin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-05-26T17:43:01.213Z] [INFO] Logger başlatıldı
-[2026-05-26T17:43:01.215Z] [INFO] Tek seferlik mod...
-[2026-05-26T17:43:01.215Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-26T17:43:01.885Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-26T17:43:01.885Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-26T17:43:02.780Z] [INFO] 0 kesinti bulundu.
-[2026-05-26T17:43:02.784Z] [INFO] 1120 kayıtlı kesinti var.
-[2026-05-26T17:43:02.785Z] [INFO] Yeni kesinti yok.
-[2026-05-26T17:43:02.785Z] [SUCCESS] Tamamlandı.
 [2026-05-26T19:39:44.138Z] [INFO] Logger başlatıldı
 [2026-05-26T19:39:44.139Z] [INFO] Tek seferlik mod...
 [2026-05-26T19:39:44.140Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19702,3 +19693,20 @@
 [2026-06-02T14:48:35.399Z] [INFO] 2 tweet atıldı.
 [2026-06-02T14:48:35.406Z] [SUCCESS] 2 kesinti kaydedildi.
 [2026-06-02T14:48:35.407Z] [SUCCESS] Tamamlandı.
+[2026-06-02T18:26:18.779Z] [INFO] Logger başlatıldı
+[2026-06-02T18:26:18.781Z] [INFO] Tek seferlik mod...
+[2026-06-02T18:26:18.781Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-02T18:26:19.252Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-02T18:26:19.253Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-02T18:26:20.502Z] [INFO] 5 kesinti bulundu.
+[2026-06-02T18:26:20.507Z] [INFO] 1153 kayıtlı kesinti var.
+[2026-06-02T18:26:20.507Z] [INFO] 5 yeni kesinti bulundu!
+[2026-06-02T18:26:20.919Z] [SUCCESS] Ana tweet atıldı: AKYURT - Plansız Kesinti (ID: 2061877089876471901)
+[2026-06-02T18:26:35.421Z] [INFO] Tweet kısaltıldı: 295 -> 154 karakter
+[2026-06-02T18:26:35.924Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2061877152862372245)
+[2026-06-02T18:26:46.389Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2061877196730569073)
+[2026-06-02T18:26:57.136Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2061877241831977136)
+[2026-06-02T18:27:07.607Z] [SUCCESS] Ana tweet atıldı: GÜDÜL - Plansız Kesinti (ID: 2061877285637255288)
+[2026-06-02T18:27:17.612Z] [INFO] 5 tweet atıldı.
+[2026-06-02T18:27:17.620Z] [SUCCESS] 5 kesinti kaydedildi.
+[2026-06-02T18:27:17.620Z] [SUCCESS] Tamamlandı.
