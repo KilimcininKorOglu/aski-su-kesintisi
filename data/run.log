@@ -18615,17 +18615,6 @@
 📅 26.05.2026 21:30:00 - 27.05.2026 03:00:00
 📍 Diriliş, Gülveren, Bahçelerüstü vb.
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-05-26T23:45:07.679Z] [INFO] Logger başlatıldı
-[2026-05-26T23:45:07.680Z] [INFO] Tek seferlik mod...
-[2026-05-26T23:45:07.681Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-26T23:45:08.350Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-26T23:45:08.351Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-26T23:45:09.251Z] [INFO] 2 kesinti bulundu.
-[2026-05-26T23:45:09.256Z] [INFO] 1121 kayıtlı kesinti var.
-[2026-05-26T23:45:09.256Z] [INFO] 1 yeni kesinti bulundu!
-[2026-05-26T23:45:13.923Z] [INFO] Tweet kısaltıldı: 667 -> 144 karakter
-[2026-05-26T23:45:14.268Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-05-26T23:45:14.268Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18651,9 +18640,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:45:14.268Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:45:24.667Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-05-26T23:45:24.667Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18679,9 +18665,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:45:24.667Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:45:35.133Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-05-26T23:45:35.134Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18707,9 +18690,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:45:35.134Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:45:45.566Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-05-26T23:45:45.566Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18735,9 +18715,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:45:45.566Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:45:55.980Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-05-26T23:45:55.980Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18763,9 +18740,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:45:55.981Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:46:06.434Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-05-26T23:46:06.434Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18791,9 +18765,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:46:06.434Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:46:16.843Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-05-26T23:46:16.844Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18819,9 +18790,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:46:16.844Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:46:27.262Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-05-26T23:46:27.262Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18847,9 +18815,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:46:27.262Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:46:37.688Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-05-26T23:46:37.689Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18875,10 +18840,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:46:37.689Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-05-26T23:46:47.691Z] [INFO] ct0 token yenileniyor...
-[2026-05-26T23:46:48.911Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-05-26T23:46:48.911Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -18904,15 +18865,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-05-26T23:46:48.911Z] [ERROR] Ana tweet atılamadı: MAMAK - Plansız Kesinti
-[2026-05-26T23:46:48.911Z] [INFO] Tweet içeriği (144 karakter):
 ⚠️ MAMAK - Plansız Kesinti
 📅 26.05.2026 21:30:00 - 27.05.2026 03:00:00
 📍 Diriliş, Gülveren, Bahçelerüstü vb.
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-05-26T23:46:58.916Z] [INFO] 0 tweet atıldı.
-[2026-05-26T23:46:58.917Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-05-26T23:46:58.917Z] [SUCCESS] Tamamlandı.
 [2026-05-27T01:51:40.021Z] [INFO] Logger başlatıldı
 [2026-05-27T01:51:40.022Z] [INFO] Tek seferlik mod...
 [2026-05-27T01:51:40.023Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19630,3 +19586,12 @@
 [2026-06-02T23:16:03.761Z] [INFO] 1 tweet atıldı.
 [2026-06-02T23:16:03.766Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-06-02T23:16:03.766Z] [SUCCESS] Tamamlandı.
+[2026-06-03T01:47:47.180Z] [INFO] Logger başlatıldı
+[2026-06-03T01:47:47.181Z] [INFO] Tek seferlik mod...
+[2026-06-03T01:47:47.181Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-03T01:47:47.675Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-03T01:47:47.675Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-03T01:47:48.593Z] [INFO] 4 kesinti bulundu.
+[2026-06-03T01:47:48.598Z] [INFO] 1159 kayıtlı kesinti var.
+[2026-06-03T01:47:48.598Z] [INFO] Yeni kesinti yok.
+[2026-06-03T01:47:48.599Z] [SUCCESS] Tamamlandı.
