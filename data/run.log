@@ -18869,19 +18869,6 @@
 📅 26.05.2026 21:30:00 - 27.05.2026 03:00:00
 📍 Diriliş, Gülveren, Bahçelerüstü vb.
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-05-29T17:00:04.731Z] [INFO] Logger başlatıldı
-[2026-05-29T17:00:04.732Z] [INFO] Tek seferlik mod...
-[2026-05-29T17:00:04.732Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-05-29T17:00:05.523Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-05-29T17:00:05.523Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-05-29T17:00:06.498Z] [INFO] 3 kesinti bulundu.
-[2026-05-29T17:00:06.502Z] [INFO] 1128 kayıtlı kesinti var.
-[2026-05-29T17:00:06.502Z] [INFO] 2 yeni kesinti bulundu!
-[2026-05-29T17:00:07.011Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2060405837408141515)
-[2026-05-29T17:00:17.589Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2060405881809088667)
-[2026-05-29T17:00:27.594Z] [INFO] 2 tweet atıldı.
-[2026-05-29T17:00:27.601Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-05-29T17:00:27.601Z] [SUCCESS] Tamamlandı.
 [2026-05-29T19:31:23.106Z] [INFO] Logger başlatıldı
 [2026-05-29T19:31:23.107Z] [INFO] Tek seferlik mod...
 [2026-05-29T19:31:23.107Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19886,3 +19873,12 @@
 [2026-06-05T16:10:02.565Z] [INFO] 1178 kayıtlı kesinti var.
 [2026-06-05T16:10:02.566Z] [INFO] Yeni kesinti yok.
 [2026-06-05T16:10:02.566Z] [SUCCESS] Tamamlandı.
+[2026-06-05T18:06:32.193Z] [INFO] Logger başlatıldı
+[2026-06-05T18:06:32.195Z] [INFO] Tek seferlik mod...
+[2026-06-05T18:06:32.195Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-05T18:06:33.290Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-05T18:06:33.290Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-05T18:06:34.115Z] [INFO] 0 kesinti bulundu.
+[2026-06-05T18:06:34.119Z] [INFO] 1178 kayıtlı kesinti var.
+[2026-06-05T18:06:34.120Z] [INFO] Yeni kesinti yok.
+[2026-06-05T18:06:34.120Z] [SUCCESS] Tamamlandı.
