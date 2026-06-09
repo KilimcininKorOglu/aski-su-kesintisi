@@ -18869,20 +18869,6 @@
 📅 26.05.2026 21:30:00 - 27.05.2026 03:00:00
 📍 Diriliş, Gülveren, Bahçelerüstü vb.
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-06-02T10:57:58.998Z] [INFO] Logger başlatıldı
-[2026-06-02T10:57:59.000Z] [INFO] Tek seferlik mod...
-[2026-06-02T10:57:59.000Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-02T10:57:59.639Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-02T10:57:59.640Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-02T10:58:00.940Z] [INFO] 2 kesinti bulundu.
-[2026-06-02T10:58:00.944Z] [INFO] 1149 kayıtlı kesinti var.
-[2026-06-02T10:58:00.945Z] [INFO] 2 yeni kesinti bulundu!
-[2026-06-02T10:58:05.407Z] [INFO] Tweet kısaltıldı: 373 -> 142 karakter
-[2026-06-02T10:58:06.229Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2061764285232275695)
-[2026-06-02T10:58:16.948Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2061764330329420110)
-[2026-06-02T10:58:26.954Z] [INFO] 2 tweet atıldı.
-[2026-06-02T10:58:26.961Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-06-02T10:58:26.961Z] [SUCCESS] Tamamlandı.
 [2026-06-02T14:48:12.203Z] [INFO] Logger başlatıldı
 [2026-06-02T14:48:12.204Z] [INFO] Tek seferlik mod...
 [2026-06-02T14:48:12.205Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19919,3 +19905,17 @@
 [2026-06-09T08:51:58.494Z] [INFO] 5 tweet atıldı.
 [2026-06-09T08:51:58.501Z] [SUCCESS] 5 kesinti kaydedildi.
 [2026-06-09T08:51:58.501Z] [SUCCESS] Tamamlandı.
+[2026-06-09T11:48:03.052Z] [INFO] Logger başlatıldı
+[2026-06-09T11:48:03.053Z] [INFO] Tek seferlik mod...
+[2026-06-09T11:48:03.054Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-09T11:48:03.510Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-09T11:48:03.510Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-09T11:48:04.405Z] [INFO] 6 kesinti bulundu.
+[2026-06-09T11:48:04.410Z] [INFO] 1209 kayıtlı kesinti var.
+[2026-06-09T11:48:04.411Z] [INFO] 3 yeni kesinti bulundu!
+[2026-06-09T11:48:04.891Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2064313577717309769)
+[2026-06-09T11:48:15.615Z] [SUCCESS] Ana tweet atıldı: ELMADAĞ - Plansız Kesinti (ID: 2064313622642520093)
+[2026-06-09T11:48:26.204Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2064313667035037876)
+[2026-06-09T11:48:36.205Z] [INFO] 3 tweet atıldı.
+[2026-06-09T11:48:36.212Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-06-09T11:48:36.212Z] [SUCCESS] Tamamlandı.
