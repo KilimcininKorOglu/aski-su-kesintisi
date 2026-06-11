@@ -19123,19 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-04T17:24:09.401Z] [INFO] Logger başlatıldı
-[2026-06-04T17:24:09.402Z] [INFO] Tek seferlik mod...
-[2026-06-04T17:24:09.403Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-04T17:24:10.015Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-04T17:24:10.016Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-04T17:24:11.037Z] [INFO] 2 kesinti bulundu.
-[2026-06-04T17:24:11.041Z] [INFO] 1172 kayıtlı kesinti var.
-[2026-06-04T17:24:11.042Z] [INFO] 2 yeni kesinti bulundu!
-[2026-06-04T17:24:11.439Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2062586223110275524)
-[2026-06-04T17:24:21.964Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2062586267129483510)
-[2026-06-04T17:24:31.970Z] [INFO] 2 tweet atıldı.
-[2026-06-04T17:24:31.977Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-06-04T17:24:31.977Z] [SUCCESS] Tamamlandı.
 [2026-06-04T19:33:54.746Z] [INFO] Logger başlatıldı
 [2026-06-04T19:33:54.747Z] [INFO] Tek seferlik mod...
 [2026-06-04T19:33:54.747Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19922,3 +19909,12 @@
 [2026-06-11T14:50:03.246Z] [INFO] 3 tweet atıldı.
 [2026-06-11T14:50:03.254Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-06-11T14:50:03.254Z] [SUCCESS] Tamamlandı.
+[2026-06-11T17:56:37.475Z] [INFO] Logger başlatıldı
+[2026-06-11T17:56:37.477Z] [INFO] Tek seferlik mod...
+[2026-06-11T17:56:37.477Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-11T17:56:37.940Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-11T17:56:37.941Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-11T17:56:39.240Z] [INFO] 1 kesinti bulundu.
+[2026-06-11T17:56:39.244Z] [INFO] 1237 kayıtlı kesinti var.
+[2026-06-11T17:56:39.245Z] [INFO] Yeni kesinti yok.
+[2026-06-11T17:56:39.245Z] [SUCCESS] Tamamlandı.
