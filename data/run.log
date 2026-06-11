@@ -18869,15 +18869,6 @@
 📅 26.05.2026 21:30:00 - 27.05.2026 03:00:00
 📍 Diriliş, Gülveren, Bahçelerüstü vb.
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-06-04T05:01:14.686Z] [INFO] Logger başlatıldı
-[2026-06-04T05:01:14.688Z] [INFO] Tek seferlik mod...
-[2026-06-04T05:01:14.688Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-04T05:01:15.238Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-04T05:01:15.239Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-04T05:01:16.028Z] [INFO] 1 kesinti bulundu.
-[2026-06-04T05:01:16.033Z] [INFO] 1165 kayıtlı kesinti var.
-[2026-06-04T05:01:16.033Z] [INFO] Yeni kesinti yok.
-[2026-06-04T05:01:16.034Z] [SUCCESS] Tamamlandı.
 [2026-06-04T08:56:06.110Z] [INFO] Logger başlatıldı
 [2026-06-04T08:56:06.112Z] [INFO] Tek seferlik mod...
 [2026-06-04T08:56:06.112Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19957,3 +19948,19 @@
 [2026-06-11T01:37:55.029Z] [INFO] 1225 kayıtlı kesinti var.
 [2026-06-11T01:37:55.029Z] [INFO] Yeni kesinti yok.
 [2026-06-11T01:37:55.030Z] [SUCCESS] Tamamlandı.
+[2026-06-11T06:23:27.466Z] [INFO] Logger başlatıldı
+[2026-06-11T06:23:27.467Z] [INFO] Tek seferlik mod...
+[2026-06-11T06:23:27.468Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-11T06:23:27.958Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-11T06:23:27.958Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-11T06:23:29.231Z] [INFO] 5 kesinti bulundu.
+[2026-06-11T06:23:29.236Z] [INFO] 1225 kayıtlı kesinti var.
+[2026-06-11T06:23:29.236Z] [INFO] 5 yeni kesinti bulundu!
+[2026-06-11T06:23:29.588Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2064956668182692261)
+[2026-06-11T06:23:40.071Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2064956712097083841)
+[2026-06-11T06:23:50.639Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2064956756556714296)
+[2026-06-11T06:24:01.089Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2064956800261398578)
+[2026-06-11T06:24:11.594Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2064956844351824291)
+[2026-06-11T06:24:21.594Z] [INFO] 5 tweet atıldı.
+[2026-06-11T06:24:21.601Z] [SUCCESS] 5 kesinti kaydedildi.
+[2026-06-11T06:24:21.601Z] [SUCCESS] Tamamlandı.
