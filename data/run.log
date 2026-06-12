@@ -19123,18 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-05T13:24:45.030Z] [INFO] Logger başlatıldı
-[2026-06-05T13:24:45.031Z] [INFO] Tek seferlik mod...
-[2026-06-05T13:24:45.032Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-05T13:24:46.526Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-05T13:24:46.527Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-05T13:24:47.583Z] [INFO] 2 kesinti bulundu.
-[2026-06-05T13:24:47.588Z] [INFO] 1177 kayıtlı kesinti var.
-[2026-06-05T13:24:47.588Z] [INFO] 1 yeni kesinti bulundu!
-[2026-06-05T13:24:47.948Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2062888366061002754)
-[2026-06-05T13:24:57.953Z] [INFO] 1 tweet atıldı.
-[2026-06-05T13:24:57.958Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-06-05T13:24:57.958Z] [SUCCESS] Tamamlandı.
 [2026-06-05T16:10:00.731Z] [INFO] Logger başlatıldı
 [2026-06-05T16:10:00.732Z] [INFO] Tek seferlik mod...
 [2026-06-05T16:10:00.732Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19903,3 +19891,18 @@
 [2026-06-12T10:54:01.030Z] [INFO] 1 tweet atıldı.
 [2026-06-12T10:54:01.035Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-06-12T10:54:01.035Z] [SUCCESS] Tamamlandı.
+[2026-06-12T13:55:08.203Z] [INFO] Logger başlatıldı
+[2026-06-12T13:55:08.204Z] [INFO] Tek seferlik mod...
+[2026-06-12T13:55:08.204Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-12T13:55:08.747Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-12T13:55:08.747Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-12T13:55:09.918Z] [INFO] 5 kesinti bulundu.
+[2026-06-12T13:55:09.923Z] [INFO] 1238 kayıtlı kesinti var.
+[2026-06-12T13:55:09.924Z] [INFO] 4 yeni kesinti bulundu!
+[2026-06-12T13:55:10.529Z] [SUCCESS] Ana tweet atıldı: KIZILCAHAMAM - Plansız Kesinti (ID: 2065432725507674195)
+[2026-06-12T13:55:21.384Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2065432769958908400)
+[2026-06-12T13:55:32.288Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2065432816461189341)
+[2026-06-12T13:55:43.012Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2065432861247992019)
+[2026-06-12T13:55:53.017Z] [INFO] 4 tweet atıldı.
+[2026-06-12T13:55:53.025Z] [SUCCESS] 4 kesinti kaydedildi.
+[2026-06-12T13:55:53.025Z] [SUCCESS] Tamamlandı.
