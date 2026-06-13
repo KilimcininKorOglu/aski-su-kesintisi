@@ -19123,18 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-06T08:10:05.989Z] [INFO] Logger başlatıldı
-[2026-06-06T08:10:05.991Z] [INFO] Tek seferlik mod...
-[2026-06-06T08:10:05.991Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-06T08:10:06.735Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-06T08:10:06.735Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-06T08:10:07.755Z] [INFO] 1 kesinti bulundu.
-[2026-06-06T08:10:07.759Z] [INFO] 1178 kayıtlı kesinti var.
-[2026-06-06T08:10:07.760Z] [INFO] 1 yeni kesinti bulundu!
-[2026-06-06T08:10:08.322Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2063171566897422529)
-[2026-06-06T08:10:18.325Z] [INFO] 1 tweet atıldı.
-[2026-06-06T08:10:18.330Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-06-06T08:10:18.330Z] [SUCCESS] Tamamlandı.
 [2026-06-06T10:20:32.542Z] [INFO] Logger başlatıldı
 [2026-06-06T10:20:32.544Z] [INFO] Tek seferlik mod...
 [2026-06-06T10:20:32.544Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19911,3 +19899,15 @@
 [2026-06-13T06:03:10.488Z] [INFO] 1248 kayıtlı kesinti var.
 [2026-06-13T06:03:10.488Z] [INFO] Yeni kesinti yok.
 [2026-06-13T06:03:10.489Z] [SUCCESS] Tamamlandı.
+[2026-06-13T09:29:29.083Z] [INFO] Logger başlatıldı
+[2026-06-13T09:29:29.084Z] [INFO] Tek seferlik mod...
+[2026-06-13T09:29:29.084Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-13T09:29:29.963Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-13T09:29:29.963Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-13T09:29:31.598Z] [INFO] 2 kesinti bulundu.
+[2026-06-13T09:29:31.603Z] [INFO] 1248 kayıtlı kesinti var.
+[2026-06-13T09:29:31.603Z] [INFO] 1 yeni kesinti bulundu!
+[2026-06-13T09:29:32.040Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2065728262626811933)
+[2026-06-13T09:29:42.045Z] [INFO] 1 tweet atıldı.
+[2026-06-13T09:29:42.050Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-06-13T09:29:42.050Z] [SUCCESS] Tamamlandı.
