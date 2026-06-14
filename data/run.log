@@ -19123,19 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-07T14:19:16.536Z] [INFO] Logger başlatıldı
-[2026-06-07T14:19:16.537Z] [INFO] Tek seferlik mod...
-[2026-06-07T14:19:16.537Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-07T14:19:17.106Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-07T14:19:17.106Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-07T14:19:18.241Z] [INFO] 2 kesinti bulundu.
-[2026-06-07T14:19:18.246Z] [INFO] 1189 kayıtlı kesinti var.
-[2026-06-07T14:19:18.246Z] [INFO] 2 yeni kesinti bulundu!
-[2026-06-07T14:19:18.752Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2063626860555329855)
-[2026-06-07T14:19:29.366Z] [SUCCESS] Ana tweet atıldı: KAZAN - Plansız Kesinti (ID: 2063626905065247128)
-[2026-06-07T14:19:39.371Z] [INFO] 2 tweet atıldı.
-[2026-06-07T14:19:39.379Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-06-07T14:19:39.379Z] [SUCCESS] Tamamlandı.
 [2026-06-07T15:46:36.939Z] [INFO] Logger başlatıldı
 [2026-06-07T15:46:36.940Z] [INFO] Tek seferlik mod...
 [2026-06-07T15:46:36.940Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19870,3 +19857,15 @@
 [2026-06-14T12:15:51.244Z] [INFO] 1253 kayıtlı kesinti var.
 [2026-06-14T12:15:51.244Z] [INFO] Yeni kesinti yok.
 [2026-06-14T12:15:51.245Z] [SUCCESS] Tamamlandı.
+[2026-06-14T14:28:39.282Z] [INFO] Logger başlatıldı
+[2026-06-14T14:28:39.283Z] [INFO] Tek seferlik mod...
+[2026-06-14T14:28:39.284Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-14T14:28:39.804Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-14T14:28:39.804Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-14T14:28:41.065Z] [INFO] 2 kesinti bulundu.
+[2026-06-14T14:28:41.070Z] [INFO] 1253 kayıtlı kesinti var.
+[2026-06-14T14:28:41.070Z] [INFO] 1 yeni kesinti bulundu!
+[2026-06-14T14:28:41.435Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2066165935778730126)
+[2026-06-14T14:28:51.439Z] [INFO] 1 tweet atıldı.
+[2026-06-14T14:28:51.444Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-06-14T14:28:51.444Z] [SUCCESS] Tamamlandı.
