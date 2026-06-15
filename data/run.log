@@ -19123,20 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-08T06:55:44.716Z] [INFO] Logger başlatıldı
-[2026-06-08T06:55:44.718Z] [INFO] Tek seferlik mod...
-[2026-06-08T06:55:44.718Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-08T06:55:45.972Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-08T06:55:45.973Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-08T06:55:47.254Z] [INFO] 4 kesinti bulundu.
-[2026-06-08T06:55:47.259Z] [INFO] 1193 kayıtlı kesinti var.
-[2026-06-08T06:55:47.259Z] [INFO] 3 yeni kesinti bulundu!
-[2026-06-08T06:55:47.669Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2063877633449025850)
-[2026-06-08T06:55:58.214Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2063877677690581378)
-[2026-06-08T06:56:08.681Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2063877721651098078)
-[2026-06-08T06:56:18.686Z] [INFO] 3 tweet atıldı.
-[2026-06-08T06:56:18.694Z] [SUCCESS] 3 kesinti kaydedildi.
-[2026-06-08T06:56:18.694Z] [SUCCESS] Tamamlandı.
 [2026-06-08T11:47:46.894Z] [INFO] Logger başlatıldı
 [2026-06-08T11:47:46.895Z] [INFO] Tek seferlik mod...
 [2026-06-08T11:47:46.895Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19858,3 +19844,20 @@
 [2026-06-15T02:08:39.675Z] [INFO] 1256 kayıtlı kesinti var.
 [2026-06-15T02:08:39.675Z] [INFO] Yeni kesinti yok.
 [2026-06-15T02:08:39.675Z] [SUCCESS] Tamamlandı.
+[2026-06-15T07:33:25.177Z] [INFO] Logger başlatıldı
+[2026-06-15T07:33:25.179Z] [INFO] Tek seferlik mod...
+[2026-06-15T07:33:25.179Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-15T07:33:25.603Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-15T07:33:25.603Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-15T07:33:27.358Z] [INFO] 7 kesinti bulundu.
+[2026-06-15T07:33:27.363Z] [INFO] 1256 kayıtlı kesinti var.
+[2026-06-15T07:33:27.363Z] [INFO] 6 yeni kesinti bulundu!
+[2026-06-15T07:33:27.833Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2066423828352540743)
+[2026-06-15T07:33:38.294Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2066423872224976927)
+[2026-06-15T07:33:48.710Z] [SUCCESS] Ana tweet atıldı: GÖLBAŞI - Plansız Kesinti (ID: 2066423915996696994)
+[2026-06-15T07:33:59.255Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2066423960099844119)
+[2026-06-15T07:34:09.702Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2066424003938664909)
+[2026-06-15T07:34:20.149Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2066424047756566830)
+[2026-06-15T07:34:30.150Z] [INFO] 6 tweet atıldı.
+[2026-06-15T07:34:30.157Z] [SUCCESS] 6 kesinti kaydedildi.
+[2026-06-15T07:34:30.158Z] [SUCCESS] Tamamlandı.
