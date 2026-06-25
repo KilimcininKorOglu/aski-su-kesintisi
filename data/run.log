@@ -19123,15 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-18T21:36:28.998Z] [INFO] Logger başlatıldı
-[2026-06-18T21:36:28.999Z] [INFO] Tek seferlik mod...
-[2026-06-18T21:36:28.999Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-18T21:36:29.434Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-18T21:36:29.434Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-18T21:36:30.910Z] [INFO] 0 kesinti bulundu.
-[2026-06-18T21:36:30.915Z] [INFO] 1301 kayıtlı kesinti var.
-[2026-06-18T21:36:30.916Z] [INFO] Yeni kesinti yok.
-[2026-06-18T21:36:30.916Z] [SUCCESS] Tamamlandı.
 [2026-06-18T23:22:46.200Z] [INFO] Logger başlatıldı
 [2026-06-18T23:22:46.201Z] [INFO] Tek seferlik mod...
 [2026-06-18T23:22:46.201Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -19925,3 +19916,18 @@
 [2026-06-25T20:24:51.308Z] [INFO] 1375 kayıtlı kesinti var.
 [2026-06-25T20:24:51.308Z] [INFO] Yeni kesinti yok.
 [2026-06-25T20:24:51.308Z] [SUCCESS] Tamamlandı.
+[2026-06-25T21:56:37.769Z] [INFO] Logger başlatıldı
+[2026-06-25T21:56:37.771Z] [INFO] Tek seferlik mod...
+[2026-06-25T21:56:37.771Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-06-25T21:56:38.294Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-06-25T21:56:38.294Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-06-25T21:56:39.116Z] [INFO] 2 kesinti bulundu.
+[2026-06-25T21:56:39.121Z] [INFO] 1375 kayıtlı kesinti var.
+[2026-06-25T21:56:39.122Z] [INFO] 1 yeni kesinti bulundu!
+[2026-06-25T21:56:39.335Z] [WARN] Gemini overload. 12 saniye bekleniyor...
+[2026-06-25T21:56:51.522Z] [WARN] Gemini overload. 12 saniye bekleniyor...
+[2026-06-25T21:57:10.642Z] [INFO] Tweet kısaltıldı: 491 -> 146 karakter
+[2026-06-25T21:57:11.267Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2070265070190477776)
+[2026-06-25T21:57:21.273Z] [INFO] 1 tweet atıldı.
+[2026-06-25T21:57:21.281Z] [SUCCESS] 1 kesinti kaydedildi.
+[2026-06-25T21:57:21.281Z] [SUCCESS] Tamamlandı.
