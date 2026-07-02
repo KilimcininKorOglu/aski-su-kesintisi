@@ -19123,21 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-25T21:56:37.769Z] [INFO] Logger başlatıldı
-[2026-06-25T21:56:37.771Z] [INFO] Tek seferlik mod...
-[2026-06-25T21:56:37.771Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-25T21:56:38.294Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-25T21:56:38.294Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-25T21:56:39.116Z] [INFO] 2 kesinti bulundu.
-[2026-06-25T21:56:39.121Z] [INFO] 1375 kayıtlı kesinti var.
-[2026-06-25T21:56:39.122Z] [INFO] 1 yeni kesinti bulundu!
-[2026-06-25T21:56:39.335Z] [WARN] Gemini overload. 12 saniye bekleniyor...
-[2026-06-25T21:56:51.522Z] [WARN] Gemini overload. 12 saniye bekleniyor...
-[2026-06-25T21:57:10.642Z] [INFO] Tweet kısaltıldı: 491 -> 146 karakter
-[2026-06-25T21:57:11.267Z] [SUCCESS] Ana tweet atıldı: ÇANKAYA - Plansız Kesinti (ID: 2070265070190477776)
-[2026-06-25T21:57:21.273Z] [INFO] 1 tweet atıldı.
-[2026-06-25T21:57:21.281Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-06-25T21:57:21.281Z] [SUCCESS] Tamamlandı.
 [2026-06-25T23:08:44.960Z] [INFO] Logger başlatıldı
 [2026-06-25T23:08:44.961Z] [INFO] Tek seferlik mod...
 [2026-06-25T23:08:44.961Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -20048,3 +20033,12 @@
 [2026-07-02T21:19:50.590Z] [INFO] 1 tweet atıldı.
 [2026-07-02T21:19:50.595Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-07-02T21:19:50.595Z] [SUCCESS] Tamamlandı.
+[2026-07-02T22:30:53.329Z] [INFO] Logger başlatıldı
+[2026-07-02T22:30:53.330Z] [INFO] Tek seferlik mod...
+[2026-07-02T22:30:53.331Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-02T22:30:53.689Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-07-02T22:30:53.690Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-02T22:30:55.228Z] [INFO] 0 kesinti bulundu.
+[2026-07-02T22:30:55.233Z] [INFO] 1452 kayıtlı kesinti var.
+[2026-07-02T22:30:55.234Z] [INFO] Yeni kesinti yok.
+[2026-07-02T22:30:55.234Z] [SUCCESS] Tamamlandı.
