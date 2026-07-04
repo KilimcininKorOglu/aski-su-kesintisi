@@ -19123,21 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-27T10:22:45.310Z] [INFO] Logger başlatıldı
-[2026-06-27T10:22:45.311Z] [INFO] Tek seferlik mod...
-[2026-06-27T10:22:45.311Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-27T10:22:45.867Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-27T10:22:45.867Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-27T10:22:46.914Z] [INFO] 5 kesinti bulundu.
-[2026-06-27T10:22:46.918Z] [INFO] 1396 kayıtlı kesinti var.
-[2026-06-27T10:22:46.919Z] [INFO] 4 yeni kesinti bulundu!
-[2026-06-27T10:22:47.311Z] [SUCCESS] Ana tweet atıldı: ÇUBUK - Plansız Kesinti (ID: 2070815094699917364)
-[2026-06-27T10:22:57.795Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2070815138626797748)
-[2026-06-27T10:23:08.277Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2070815182616728023)
-[2026-06-27T10:23:18.759Z] [SUCCESS] Ana tweet atıldı: SİNCAN - Plansız Kesinti (ID: 2070815226602442990)
-[2026-06-27T10:23:28.763Z] [INFO] 4 tweet atıldı.
-[2026-06-27T10:23:28.771Z] [SUCCESS] 4 kesinti kaydedildi.
-[2026-06-27T10:23:28.771Z] [SUCCESS] Tamamlandı.
 [2026-06-27T11:48:54.459Z] [INFO] Logger başlatıldı
 [2026-06-27T11:48:54.461Z] [INFO] Tek seferlik mod...
 [2026-06-27T11:48:54.461Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -20408,3 +20393,16 @@
 [2026-07-04T09:37:34.737Z] [INFO] 3 tweet atıldı.
 [2026-07-04T09:37:34.746Z] [SUCCESS] 3 kesinti kaydedildi.
 [2026-07-04T09:37:34.746Z] [SUCCESS] Tamamlandı.
+[2026-07-04T11:09:31.287Z] [INFO] Logger başlatıldı
+[2026-07-04T11:09:31.288Z] [INFO] Tek seferlik mod...
+[2026-07-04T11:09:31.289Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-04T11:09:31.790Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-07-04T11:09:31.790Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-04T11:09:33.064Z] [INFO] 6 kesinti bulundu.
+[2026-07-04T11:09:33.070Z] [INFO] 1467 kayıtlı kesinti var.
+[2026-07-04T11:09:33.070Z] [INFO] 2 yeni kesinti bulundu!
+[2026-07-04T11:09:33.490Z] [SUCCESS] Ana tweet atıldı: YENİMAHALLE - Plansız Kesinti (ID: 2073363579617849411)
+[2026-07-04T11:09:44.071Z] [SUCCESS] Ana tweet atıldı: PURSAKLAR - Plansız Kesinti (ID: 2073363624039702606)
+[2026-07-04T11:09:54.077Z] [INFO] 2 tweet atıldı.
+[2026-07-04T11:09:54.085Z] [SUCCESS] 2 kesinti kaydedildi.
+[2026-07-04T11:09:54.085Z] [SUCCESS] Tamamlandı.
