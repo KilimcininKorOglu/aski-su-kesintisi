@@ -19123,18 +19123,6 @@
 📅 4.06.2026 11:30:00 - 4.06.2026 13:30:00
 📍 -Pursaklar Mimar Sinan Mahallesi nin bir kısmı -Pursaklar Fatih Mahallesi nin bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-06-27T08:14:06.937Z] [INFO] Logger başlatıldı
-[2026-06-27T08:14:06.939Z] [INFO] Tek seferlik mod...
-[2026-06-27T08:14:06.939Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-27T08:14:07.670Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-27T08:14:07.670Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-27T08:14:08.538Z] [INFO] 1 kesinti bulundu.
-[2026-06-27T08:14:08.543Z] [INFO] 1395 kayıtlı kesinti var.
-[2026-06-27T08:14:08.543Z] [INFO] 1 yeni kesinti bulundu!
-[2026-06-27T08:14:09.221Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2070782722587738537)
-[2026-06-27T08:14:19.226Z] [INFO] 1 tweet atıldı.
-[2026-06-27T08:14:19.231Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-06-27T08:14:19.231Z] [SUCCESS] Tamamlandı.
 [2026-06-27T10:22:45.310Z] [INFO] Logger başlatıldı
 [2026-06-27T10:22:45.311Z] [INFO] Tek seferlik mod...
 [2026-06-27T10:22:45.311Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -20399,11 +20387,24 @@
 [2026-07-04T07:31:13.094Z] [ERROR] Ana tweet atılamadı: MAMAK - Plansız Kesinti
 [2026-07-04T07:31:13.094Z] [INFO] Tweet içeriği (136 karakter):
 ⚠️ MAMAK - Plansız Kesinti
-
 📅 4.07.2026 09:50:00 - 4.07.2026 14:00:00
 📍 Yeni Bayındır, Yeşilbayır vb.
-
 #AnkaraSuKesintisi #ASKİ #Mamak
 [2026-07-04T07:31:23.095Z] [INFO] 1 tweet atıldı.
 [2026-07-04T07:31:23.104Z] [SUCCESS] 1 kesinti kaydedildi.
 [2026-07-04T07:31:23.104Z] [SUCCESS] Tamamlandı.
+[2026-07-04T09:36:56.678Z] [INFO] Logger başlatıldı
+[2026-07-04T09:36:56.679Z] [INFO] Tek seferlik mod...
+[2026-07-04T09:36:56.679Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-04T09:36:57.402Z] [INFO] Twitter API başarıyla yapılandırıldı.
+[2026-07-04T09:36:57.403Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-04T09:36:58.467Z] [INFO] 6 kesinti bulundu.
+[2026-07-04T09:36:58.472Z] [INFO] 1464 kayıtlı kesinti var.
+[2026-07-04T09:36:58.473Z] [INFO] 3 yeni kesinti bulundu!
+[2026-07-04T09:36:59.006Z] [SUCCESS] Ana tweet atıldı: ALTINDAĞ - Plansız Kesinti (ID: 2073340282423435587)
+[2026-07-04T09:37:09.625Z] [SUCCESS] Ana tweet atıldı: ETİMESGUT - Plansız Kesinti (ID: 2073340327000486250)
+[2026-07-04T09:37:24.095Z] [INFO] Tweet kısaltıldı: 329 -> 136 karakter
+[2026-07-04T09:37:24.732Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2073340390414127502)
+[2026-07-04T09:37:34.737Z] [INFO] 3 tweet atıldı.
+[2026-07-04T09:37:34.746Z] [SUCCESS] 3 kesinti kaydedildi.
+[2026-07-04T09:37:34.746Z] [SUCCESS] Tamamlandı.
