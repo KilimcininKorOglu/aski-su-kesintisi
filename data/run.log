@@ -19138,19 +19138,6 @@
 📅 30.06.2026 12:30:00 - 30.06.2026 17:00:00
 📍 Şehitlik mah. bir bölümü
 #AnkaraSuKesintisi #ASKİ #Polatli
-[2026-06-30T13:18:49.425Z] [INFO] Logger başlatıldı
-[2026-06-30T13:18:49.426Z] [INFO] Tek seferlik mod...
-[2026-06-30T13:18:49.427Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-06-30T13:18:49.858Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-06-30T13:18:49.858Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-06-30T13:18:51.112Z] [INFO] 4 kesinti bulundu.
-[2026-06-30T13:18:51.117Z] [INFO] 1431 kayıtlı kesinti var.
-[2026-06-30T13:18:51.117Z] [INFO] 2 yeni kesinti bulundu!
-[2026-06-30T13:18:51.536Z] [SUCCESS] Ana tweet atıldı: POLATLI - Plansız Kesinti (ID: 2071946567855329396)
-[2026-06-30T13:19:01.986Z] [SUCCESS] Ana tweet atıldı: BEYPAZARI - Plansız Kesinti (ID: 2071946611534758168)
-[2026-06-30T13:19:11.992Z] [INFO] 2 tweet atıldı.
-[2026-06-30T13:19:12.000Z] [SUCCESS] 2 kesinti kaydedildi.
-[2026-06-30T13:19:12.000Z] [SUCCESS] Tamamlandı.
 [2026-06-30T15:43:30.391Z] [INFO] Logger başlatıldı
 [2026-06-30T15:43:30.392Z] [INFO] Tek seferlik mod...
 [2026-06-30T15:43:30.393Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -20921,22 +20908,51 @@
 [2026-07-07T11:29:19.092Z] [INFO] 2 yeni kesinti bulundu!
 [2026-07-07T11:29:19.092Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-07T11:29:19.092Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
-
 📅 7.07.2026 11:00:00 - 7.07.2026 17:00:00
 📍 Yeni Bayındır mahallesi, Yeşilbayır mahallelerin üst kotları
-
 #AnkaraSuKesintisi #ASKİ #Mamak
 [2026-07-07T11:29:19.092Z] [INFO] (167 karakter)
 [2026-07-07T11:29:19.092Z] [INFO] ---
 [2026-07-07T11:29:19.092Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-07T11:29:19.092Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
-
 📅 7.07.2026 14:15:00 - 7.07.2026 16:00:00
 📍 Kurtuluş Mahallesi Karanfil Sokak Ve Civarı
-
 #AnkaraSuKesintisi #ASKİ #Beypazari
 [2026-07-07T11:29:19.093Z] [INFO] (158 karakter)
 [2026-07-07T11:29:19.093Z] [INFO] ---
 [2026-07-07T11:29:19.093Z] [INFO] 0 tweet atıldı.
 [2026-07-07T11:29:19.093Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-07T11:29:19.093Z] [SUCCESS] Tamamlandı.
+[2026-07-07T13:35:23.874Z] [INFO] Logger başlatıldı
+[2026-07-07T13:35:23.875Z] [INFO] Tek seferlik mod...
+[2026-07-07T13:35:23.875Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-07T13:35:27.493Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-07T13:35:27.493Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-07T13:35:27.493Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-07T13:35:28.350Z] [INFO] 1 kesinti bulundu.
+[2026-07-07T13:35:28.355Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-07T13:35:28.356Z] [INFO] 1 yeni kesinti bulundu!
+[2026-07-07T13:35:28.356Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-07T13:35:28.356Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 7.07.2026 15:10:00 - 7.07.2026 18:00:00
+📍 BEYLER MAHALLESİ.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-07-07T13:35:28.356Z] [INFO] (132 karakter)
+[2026-07-07T13:35:28.356Z] [INFO] ---
+[2026-07-07T13:35:28.356Z] [INFO] 0 tweet atıldı.
+[2026-07-07T13:35:28.356Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-07T13:35:28.357Z] [SUCCESS] Tamamlandı.
