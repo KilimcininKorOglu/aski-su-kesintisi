@@ -19138,15 +19138,6 @@
 📅 30.06.2026 12:30:00 - 30.06.2026 17:00:00
 📍 Şehitlik mah. bir bölümü
 #AnkaraSuKesintisi #ASKİ #Polatli
-[2026-07-01T17:32:40.774Z] [INFO] Logger başlatıldı
-[2026-07-01T17:32:40.776Z] [INFO] Tek seferlik mod...
-[2026-07-01T17:32:40.776Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-01T17:32:41.292Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-07-01T17:32:41.293Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-01T17:32:42.945Z] [INFO] 0 kesinti bulundu.
-[2026-07-01T17:32:42.950Z] [INFO] 1441 kayıtlı kesinti var.
-[2026-07-01T17:32:42.950Z] [INFO] Yeni kesinti yok.
-[2026-07-01T17:32:42.951Z] [SUCCESS] Tamamlandı.
 [2026-07-01T19:19:12.859Z] [INFO] Logger başlatıldı
 [2026-07-01T19:19:12.861Z] [INFO] Tek seferlik mod...
 [2026-07-01T19:19:12.861Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -21296,22 +21287,60 @@
 [2026-07-08T16:45:32.266Z] [INFO] 2 yeni kesinti bulundu!
 [2026-07-08T16:45:32.266Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-08T16:45:32.266Z] [INFO] ⚠️ AYAŞ - Plansız Kesinti
-
 📅 8.07.2026 09:55:00 - 8.07.2026 23:30:00
 📍 Ayaş Gökler Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Ayas
 [2026-07-08T16:45:32.266Z] [INFO] (126 karakter)
 [2026-07-08T16:45:32.266Z] [INFO] ---
 [2026-07-08T16:45:32.266Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-08T16:45:32.266Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 8.07.2026 16:45:00 - 8.07.2026 20:00:00
 📍 Yakupabdal mahallesinin bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-07-08T16:45:32.267Z] [INFO] (144 karakter)
 [2026-07-08T16:45:32.267Z] [INFO] ---
 [2026-07-08T16:45:32.267Z] [INFO] 0 tweet atıldı.
 [2026-07-08T16:45:32.267Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-08T16:45:32.267Z] [SUCCESS] Tamamlandı.
+[2026-07-08T18:08:25.742Z] [INFO] Logger başlatıldı
+[2026-07-08T18:08:25.743Z] [INFO] Tek seferlik mod...
+[2026-07-08T18:08:25.744Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-08T18:08:26.888Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-08T18:08:26.888Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-08T18:08:26.889Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-08T18:08:28.369Z] [INFO] 2 kesinti bulundu.
+[2026-07-08T18:08:28.374Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-08T18:08:28.375Z] [INFO] 2 yeni kesinti bulundu!
+[2026-07-08T18:08:28.375Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-08T18:08:28.375Z] [INFO] ⚠️ AYAŞ - Plansız Kesinti
+
+📅 8.07.2026 09:55:00 - 8.07.2026 23:30:00
+📍 Ayaş Gökler Mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Ayas
+[2026-07-08T18:08:28.375Z] [INFO] (126 karakter)
+[2026-07-08T18:08:28.376Z] [INFO] ---
+[2026-07-08T18:08:28.376Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-08T18:08:28.376Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
+
+📅 8.07.2026 16:45:00 - 8.07.2026 22:00:00
+📍 Yakupabdal mahallesinin bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Cankaya
+[2026-07-08T18:08:28.376Z] [INFO] (144 karakter)
+[2026-07-08T18:08:28.376Z] [INFO] ---
+[2026-07-08T18:08:28.376Z] [INFO] 0 tweet atıldı.
+[2026-07-08T18:08:28.376Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-08T18:08:28.376Z] [SUCCESS] Tamamlandı.
