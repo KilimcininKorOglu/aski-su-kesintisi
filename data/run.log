@@ -19138,20 +19138,6 @@
 📅 30.06.2026 12:30:00 - 30.06.2026 17:00:00
 📍 Şehitlik mah. bir bölümü
 #AnkaraSuKesintisi #ASKİ #Polatli
-[2026-07-04T07:29:03.896Z] [INFO] Logger başlatıldı
-[2026-07-04T07:29:03.897Z] [INFO] Tek seferlik mod...
-[2026-07-04T07:29:03.898Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-04T07:29:04.397Z] [INFO] Twitter API başarıyla yapılandırıldı.
-[2026-07-04T07:29:04.397Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-04T07:29:05.311Z] [INFO] 3 kesinti bulundu.
-[2026-07-04T07:29:05.316Z] [INFO] 1463 kayıtlı kesinti var.
-[2026-07-04T07:29:05.317Z] [INFO] 2 yeni kesinti bulundu!
-[2026-07-04T07:29:05.745Z] [WARN] Gemini overload. 12 saniye bekleniyor...
-[2026-07-04T07:29:22.854Z] [INFO] Tweet kısaltıldı: 290 -> 136 karakter
-[2026-07-04T07:29:23.433Z] [SUCCESS] Ana tweet atıldı: MAMAK - Plansız Kesinti (ID: 2073308172681687315)
-[2026-07-04T07:29:37.864Z] [INFO] Tweet kısaltıldı: 290 -> 136 karakter
-[2026-07-04T07:29:38.291Z] [ERROR] Tweet ID alınamadı (deneme 1/10)
-[2026-07-04T07:29:38.291Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19183,9 +19169,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:29:38.291Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:29:48.620Z] [ERROR] Tweet ID alınamadı (deneme 2/10)
-[2026-07-04T07:29:48.620Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19217,9 +19200,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:29:48.620Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:29:59.234Z] [ERROR] Tweet ID alınamadı (deneme 3/10)
-[2026-07-04T07:29:59.234Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19251,9 +19231,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:29:59.234Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:30:09.663Z] [ERROR] Tweet ID alınamadı (deneme 4/10)
-[2026-07-04T07:30:09.663Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19285,9 +19262,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:30:09.663Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:30:20.142Z] [ERROR] Tweet ID alınamadı (deneme 5/10)
-[2026-07-04T07:30:20.142Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19319,9 +19293,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:30:20.142Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:30:30.785Z] [ERROR] Tweet ID alınamadı (deneme 6/10)
-[2026-07-04T07:30:30.785Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19353,9 +19324,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:30:30.785Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:30:41.233Z] [ERROR] Tweet ID alınamadı (deneme 7/10)
-[2026-07-04T07:30:41.233Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19387,9 +19355,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:30:41.233Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:30:51.665Z] [ERROR] Tweet ID alınamadı (deneme 8/10)
-[2026-07-04T07:30:51.665Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19421,9 +19386,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:30:51.665Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:31:02.181Z] [ERROR] Tweet ID alınamadı (deneme 9/10)
-[2026-07-04T07:31:02.181Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19455,10 +19417,6 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:31:02.181Z] [INFO] 10 saniye sonra tekrar denenecek...
-[2026-07-04T07:31:12.182Z] [INFO] ct0 token yenileniyor...
-[2026-07-04T07:31:13.094Z] [ERROR] Tweet ID alınamadı (deneme 10/10)
-[2026-07-04T07:31:13.094Z] [INFO] API yanıtı: {
   "code": 1,
   "data": {
     "data": {},
@@ -19490,15 +19448,10 @@
   "result": null,
   "msg": "SUCCESS"
 }
-[2026-07-04T07:31:13.094Z] [ERROR] Ana tweet atılamadı: MAMAK - Plansız Kesinti
-[2026-07-04T07:31:13.094Z] [INFO] Tweet içeriği (136 karakter):
 ⚠️ MAMAK - Plansız Kesinti
 📅 4.07.2026 09:50:00 - 4.07.2026 14:00:00
 📍 Yeni Bayındır, Yeşilbayır vb.
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-07-04T07:31:23.095Z] [INFO] 1 tweet atıldı.
-[2026-07-04T07:31:23.104Z] [SUCCESS] 1 kesinti kaydedildi.
-[2026-07-04T07:31:23.104Z] [SUCCESS] Tamamlandı.
 [2026-07-04T09:36:56.678Z] [INFO] Logger başlatıldı
 [2026-07-04T09:36:56.679Z] [INFO] Tek seferlik mod...
 [2026-07-04T09:36:56.679Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -21984,13 +21937,53 @@
 [2026-07-11T06:29:48.222Z] [INFO] 1 yeni kesinti bulundu!
 [2026-07-11T06:29:48.222Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-11T06:29:48.222Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
-
 📅 11.07.2026 09:15:00 - 11.07.2026 12:00:00
 📍 seher, seher 1, seher 2 sokak ve buna bağlı sokaklar
-
 #AnkaraSuKesintisi #ASKİ #Cubuk
 [2026-07-11T06:29:48.223Z] [INFO] (161 karakter)
 [2026-07-11T06:29:48.223Z] [INFO] ---
 [2026-07-11T06:29:48.223Z] [INFO] 0 tweet atıldı.
 [2026-07-11T06:29:48.223Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-11T06:29:48.223Z] [SUCCESS] Tamamlandı.
+[2026-07-11T08:20:05.077Z] [INFO] Logger başlatıldı
+[2026-07-11T08:20:05.078Z] [INFO] Tek seferlik mod...
+[2026-07-11T08:20:05.078Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-11T08:20:05.735Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-11T08:20:05.735Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-11T08:20:05.735Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-11T08:20:06.741Z] [INFO] 2 kesinti bulundu.
+[2026-07-11T08:20:06.747Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-11T08:20:06.747Z] [INFO] 2 yeni kesinti bulundu!
+[2026-07-11T08:20:06.748Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-11T08:20:06.748Z] [INFO] ⚠️ AKYURT - Plansız Kesinti
+
+📅 11.07.2026 10:30:00 - 11.07.2026 14:30:00
+📍 TİMURHAN MAHALLESİ. YILDIRIM MAHALLESİNİN BİR KISMI ETKİLENMEKTEDİR. VERDİĞİMİZ RAHATSIZLIKTAN DOLAYI ÖZÜR DİLERİZ.
+
+#AnkaraSuKesintisi #ASKİ #Akyurt
+[2026-07-11T08:20:06.748Z] [INFO] (226 karakter)
+[2026-07-11T08:20:06.748Z] [INFO] ---
+[2026-07-11T08:20:06.748Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-11T08:20:06.748Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
+
+📅 11.07.2026 10:35:00 - 11.07.2026 13:00:00
+📍 Hacıkara Mahallesi Vildan Sokak Ve Civarı
+
+#AnkaraSuKesintisi #ASKİ #Beypazari
+[2026-07-11T08:20:06.748Z] [INFO] (158 karakter)
+[2026-07-11T08:20:06.748Z] [INFO] ---
+[2026-07-11T08:20:06.749Z] [INFO] 0 tweet atıldı.
+[2026-07-11T08:20:06.749Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-11T08:20:06.749Z] [SUCCESS] Tamamlandı.
