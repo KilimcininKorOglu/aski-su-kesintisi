@@ -19494,10 +19494,6 @@
 📅 5.07.2026 14:45:00 - 5.07.2026 18:00:00
 📍 İstasyon Mh Tamamı ve Fatih Mh bir kısmı.
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-07-05T14:49:25.743Z] [INFO] Logger başlatıldı
-[2026-07-05T14:49:25.744Z] [INFO] Tek seferlik mod...
-[2026-07-05T14:49:25.744Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-05T14:49:26.354Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -19510,28 +19506,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-05T14:49:26.355Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-05T14:49:26.355Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-05T14:49:27.176Z] [INFO] 3 kesinti bulundu.
-[2026-07-05T14:49:27.182Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-05T14:49:27.183Z] [INFO] 2 yeni kesinti bulundu!
-[2026-07-05T14:49:27.183Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-05T14:49:27.183Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
 📅 5.07.2026 14:40:00 - 5.07.2026 20:00:00
 📍 Cengizhan mahallesi, Duralialıç mahallesi, Akşemsettin mahallesi, Boğaziçi mahallesi, Şahintepe mahallesi, Şirintepe mahallesi, Fahrikorutürk mahallelerin üst kotları
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-07-05T14:49:27.183Z] [INFO] (273 karakter)
-[2026-07-05T14:49:27.183Z] [INFO] ---
-[2026-07-05T14:49:27.184Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-05T14:49:27.184Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
 📅 5.07.2026 14:45:00 - 5.07.2026 18:00:00
 📍 İstasyon Mh Tamamı ve Fatih Mh bir kısmı.
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-07-05T14:49:27.184Z] [INFO] (152 karakter)
-[2026-07-05T14:49:27.184Z] [INFO] ---
-[2026-07-05T14:49:27.184Z] [INFO] 0 tweet atıldı.
-[2026-07-05T14:49:27.184Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-07-05T14:49:27.184Z] [SUCCESS] Tamamlandı.
 [2026-07-05T15:53:45.874Z] [INFO] Logger başlatıldı
 [2026-07-05T15:53:45.875Z] [INFO] Tek seferlik mod...
 [2026-07-05T15:53:45.875Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -22592,22 +22572,51 @@
 [2026-07-12T14:07:46.429Z] [INFO] 2 yeni kesinti bulundu!
 [2026-07-12T14:07:46.429Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-12T14:07:46.430Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 12.07.2026 15:00:00 - 12.07.2026 19:00:00
 📍 Yakupabdal Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-07-12T14:07:46.430Z] [INFO] (133 karakter)
 [2026-07-12T14:07:46.430Z] [INFO] ---
 [2026-07-12T14:07:46.430Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-12T14:07:46.430Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
-
 📅 12.07.2026 16:45:00 - 12.07.2026 20:00:00
 📍 Kızılcaşar Mahallesi , Tek Yapı Kooperatifine
-
 #AnkaraSuKesintisi #ASKİ #Golbasi
 [2026-07-12T14:07:46.430Z] [INFO] (158 karakter)
 [2026-07-12T14:07:46.430Z] [INFO] ---
 [2026-07-12T14:07:46.430Z] [INFO] 0 tweet atıldı.
 [2026-07-12T14:07:46.431Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-12T14:07:46.431Z] [SUCCESS] Tamamlandı.
+[2026-07-12T15:09:33.658Z] [INFO] Logger başlatıldı
+[2026-07-12T15:09:33.659Z] [INFO] Tek seferlik mod...
+[2026-07-12T15:09:33.659Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-12T15:09:35.852Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-12T15:09:35.853Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-12T15:09:35.853Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-12T15:09:37.122Z] [INFO] 1 kesinti bulundu.
+[2026-07-12T15:09:37.127Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-12T15:09:37.128Z] [INFO] 1 yeni kesinti bulundu!
+[2026-07-12T15:09:37.128Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-12T15:09:37.129Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
+
+📅 12.07.2026 16:45:00 - 12.07.2026 20:00:00
+📍 Kızılcaşar Mahallesi , Tek Yapı Kooperatifine
+
+#AnkaraSuKesintisi #ASKİ #Golbasi
+[2026-07-12T15:09:37.129Z] [INFO] (158 karakter)
+[2026-07-12T15:09:37.129Z] [INFO] ---
+[2026-07-12T15:09:37.129Z] [INFO] 0 tweet atıldı.
+[2026-07-12T15:09:37.129Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-12T15:09:37.129Z] [SUCCESS] Tamamlandı.
