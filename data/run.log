@@ -19743,10 +19743,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-06T21:46:28.884Z] [INFO] Logger başlatıldı
-[2026-07-06T21:46:28.885Z] [INFO] Tek seferlik mod...
-[2026-07-06T21:46:28.885Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-06T21:46:29.534Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -19759,12 +19755,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-06T21:46:29.534Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-06T21:46:29.534Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-06T21:46:30.517Z] [INFO] 0 kesinti bulundu.
-[2026-07-06T21:46:30.522Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-06T21:46:30.523Z] [INFO] Yeni kesinti yok.
-[2026-07-06T21:46:30.523Z] [SUCCESS] Tamamlandı.
 [2026-07-06T22:49:20.441Z] [INFO] Logger başlatıldı
 [2026-07-06T22:49:20.443Z] [INFO] Tek seferlik mod...
 [2026-07-06T22:49:20.443Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -22937,13 +22927,44 @@
 [2026-07-13T21:16:07.841Z] [INFO] 1 yeni kesinti bulundu!
 [2026-07-13T21:16:07.841Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-13T21:16:07.841Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
-
 📅 13.07.2026 23:30:00 - 14.07.2026 09:00:00
 📍 şirin 1 sokak, şirin 2 sokak ve civarı
-
 #AnkaraSuKesintisi #ASKİ #Beypazari
 [2026-07-13T21:16:07.842Z] [INFO] (155 karakter)
 [2026-07-13T21:16:07.842Z] [INFO] ---
 [2026-07-13T21:16:07.842Z] [INFO] 0 tweet atıldı.
 [2026-07-13T21:16:07.842Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-13T21:16:07.842Z] [SUCCESS] Tamamlandı.
+[2026-07-13T22:10:15.024Z] [INFO] Logger başlatıldı
+[2026-07-13T22:10:15.025Z] [INFO] Tek seferlik mod...
+[2026-07-13T22:10:15.025Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-13T22:10:16.495Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-13T22:10:16.495Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-13T22:10:16.495Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-13T22:10:17.718Z] [INFO] 1 kesinti bulundu.
+[2026-07-13T22:10:17.723Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-13T22:10:17.724Z] [INFO] 1 yeni kesinti bulundu!
+[2026-07-13T22:10:17.724Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-13T22:10:17.725Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
+
+📅 13.07.2026 23:30:00 - 14.07.2026 09:00:00
+📍 şirin 1 sokak, şirin 2 sokak ve civarı
+
+#AnkaraSuKesintisi #ASKİ #Beypazari
+[2026-07-13T22:10:17.725Z] [INFO] (155 karakter)
+[2026-07-13T22:10:17.725Z] [INFO] ---
+[2026-07-13T22:10:17.725Z] [INFO] 0 tweet atıldı.
+[2026-07-13T22:10:17.725Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-13T22:10:17.725Z] [SUCCESS] Tamamlandı.
