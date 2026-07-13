@@ -22831,49 +22831,61 @@
 [2026-07-13T13:07:33.688Z] [INFO] 5 yeni kesinti bulundu!
 [2026-07-13T13:07:33.688Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-13T13:07:33.688Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 13.07.2026 11:45:00 - 13.07.2026 17:00:00
 📍 Kanuni Sultan Süleyman bulvarı üst kotları
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-07-13T13:07:33.688Z] [INFO] (155 karakter)
 [2026-07-13T13:07:33.689Z] [INFO] ---
 [2026-07-13T13:07:33.689Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-13T13:07:33.689Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
-
 📅 13.07.2026 11:45:00 - 13.07.2026 20:00:00
 📍 Yurtbeyi Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Golbasi
 [2026-07-13T13:07:33.689Z] [INFO] (131 karakter)
 [2026-07-13T13:07:33.689Z] [INFO] ---
 [2026-07-13T13:07:33.689Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-13T13:07:33.689Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
-
 📅 13.07.2026 13:30:00 - 13.07.2026 17:00:00
 📍 Alparslan Türkeş Caddesi Civarı Hacıkara Ve Başağaç Mahallelerinin Bir Kısmı
-
 #AnkaraSuKesintisi #ASKİ #Beypazari
 [2026-07-13T13:07:33.689Z] [INFO] (193 karakter)
 [2026-07-13T13:07:33.689Z] [INFO] ---
 [2026-07-13T13:07:33.689Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-13T13:07:33.689Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 13.07.2026 15:20:00 - 13.07.2026 19:00:00
 📍 Saltuğ Buğra caddesi ve civarı , 1730 sokak ve civarı
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-07-13T13:07:33.689Z] [INFO] (166 karakter)
 [2026-07-13T13:07:33.689Z] [INFO] ---
 [2026-07-13T13:07:33.689Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-13T13:07:33.689Z] [INFO] ⚠️ AKYURT - Plansız Kesinti
-
 📅 13.07.2026 15:20:00 - 13.07.2026 20:00:00
 📍 Yıldırım Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Akyurt
 [2026-07-13T13:07:33.689Z] [INFO] (129 karakter)
 [2026-07-13T13:07:33.689Z] [INFO] ---
 [2026-07-13T13:07:33.689Z] [INFO] 0 tweet atıldı.
 [2026-07-13T13:07:33.690Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-13T13:07:33.690Z] [SUCCESS] Tamamlandı.
+[2026-07-13T15:48:38.572Z] [INFO] Logger başlatıldı
+[2026-07-13T15:48:38.574Z] [INFO] Tek seferlik mod...
+[2026-07-13T15:48:38.574Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-13T15:48:40.058Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-13T15:48:40.059Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-13T15:48:40.059Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-13T15:48:41.312Z] [INFO] 0 kesinti bulundu.
+[2026-07-13T15:48:41.318Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-13T15:48:41.318Z] [INFO] Yeni kesinti yok.
+[2026-07-13T15:48:41.319Z] [SUCCESS] Tamamlandı.
