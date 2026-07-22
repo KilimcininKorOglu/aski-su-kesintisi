@@ -22017,10 +22017,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-15T23:32:19.385Z] [INFO] Logger başlatıldı
-[2026-07-15T23:32:19.386Z] [INFO] Tek seferlik mod...
-[2026-07-15T23:32:19.387Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-15T23:32:20.718Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -22033,12 +22029,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-15T23:32:20.719Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-15T23:32:20.719Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-15T23:32:21.977Z] [INFO] 0 kesinti bulundu.
-[2026-07-15T23:32:21.982Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-15T23:32:21.983Z] [INFO] Yeni kesinti yok.
-[2026-07-15T23:32:21.983Z] [SUCCESS] Tamamlandı.
 [2026-07-16T00:57:39.293Z] [INFO] Logger başlatıldı
 [2026-07-16T00:57:39.295Z] [INFO] Tek seferlik mod...
 [2026-07-16T00:57:39.295Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -27155,13 +27145,44 @@
 [2026-07-22T22:44:07.445Z] [INFO] 1 yeni kesinti bulundu!
 [2026-07-22T22:44:07.445Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-22T22:44:07.445Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
-
 📅 22.07.2026 17:10:00 - 23.07.2026 17:05:00
 📍 esenboğa mahallesi merkez kümeevleri beşevler
-
 #AnkaraSuKesintisi #ASKİ #Cubuk
 [2026-07-22T22:44:07.445Z] [INFO] (154 karakter)
 [2026-07-22T22:44:07.445Z] [INFO] ---
 [2026-07-22T22:44:07.446Z] [INFO] 0 tweet atıldı.
 [2026-07-22T22:44:07.446Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-22T22:44:07.446Z] [SUCCESS] Tamamlandı.
+[2026-07-22T23:40:46.026Z] [INFO] Logger başlatıldı
+[2026-07-22T23:40:46.027Z] [INFO] Tek seferlik mod...
+[2026-07-22T23:40:46.027Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-22T23:40:47.092Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-22T23:40:47.092Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-22T23:40:47.092Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-22T23:40:48.287Z] [INFO] 1 kesinti bulundu.
+[2026-07-22T23:40:48.292Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-22T23:40:48.292Z] [INFO] 1 yeni kesinti bulundu!
+[2026-07-22T23:40:48.293Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-22T23:40:48.293Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
+
+📅 22.07.2026 17:10:00 - 23.07.2026 17:05:00
+📍 esenboğa mahallesi merkez kümeevleri beşevler
+
+#AnkaraSuKesintisi #ASKİ #Cubuk
+[2026-07-22T23:40:48.293Z] [INFO] (154 karakter)
+[2026-07-22T23:40:48.293Z] [INFO] ---
+[2026-07-22T23:40:48.293Z] [INFO] 0 tweet atıldı.
+[2026-07-22T23:40:48.293Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-22T23:40:48.293Z] [SUCCESS] Tamamlandı.
