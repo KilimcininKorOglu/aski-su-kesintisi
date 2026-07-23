@@ -22149,10 +22149,6 @@
 📅 16.07.2026 12:30:00 - 16.07.2026 23:30:00
 📍 muzafferekşi mh. üst kotlar bahçelieveler bi kısmı havuzbaşı mh. üst kotlar fatih mh tamamı şehitlik mh üst kotlar istasyon mh bi kısmı
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-07-16T12:01:38.363Z] [INFO] Logger başlatıldı
-[2026-07-16T12:01:38.365Z] [INFO] Tek seferlik mod...
-[2026-07-16T12:01:38.365Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-16T12:01:39.179Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -22165,56 +22161,24 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-16T12:01:39.179Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-16T12:01:39.180Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-16T12:01:40.205Z] [INFO] 6 kesinti bulundu.
-[2026-07-16T12:01:40.211Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-16T12:01:40.211Z] [INFO] 6 yeni kesinti bulundu!
-[2026-07-16T12:01:40.211Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-16T12:01:40.212Z] [INFO] ⚠️ KEÇİÖREN - Plansız Kesinti
 📅 16.07.2026 10:00:00 - 16.07.2026 17:00:00
 📍 Selçuklu cd Bilinç sk Kuram sk 27 ve 28 Sk Gülgün sk Tezol sk Tansel sk ve civarı
 #AnkaraSuKesintisi #ASKİ #Kecioren
-[2026-07-16T12:01:40.212Z] [INFO] (196 karakter)
-[2026-07-16T12:01:40.212Z] [INFO] ---
-[2026-07-16T12:01:40.212Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-16T12:01:40.212Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
 📅 16.07.2026 10:45:00 - 16.07.2026 16:00:00
 📍 Dodurga mahallesi bir kısmı, Alacaatlı mahallesi bir kısmı , Yaşamkent mahallesi üst kotları ve 3250 cadde ve civarı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-07-16T12:01:40.212Z] [INFO] (229 karakter)
-[2026-07-16T12:01:40.212Z] [INFO] ---
-[2026-07-16T12:01:40.212Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-16T12:01:40.212Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
 📅 16.07.2026 11:00:00 - 16.07.2026 18:00:00
 📍 AVDAN MAHALLESİ, KUŞÇULAR MAHALLESİ, BEYLER MAHALLESİ GÖLÜNYAZI KÜMEEVLERİ, BEYLER MAHALLESİ DİKİLİTAŞ KÜMEEVLERİ.
 #AnkaraSuKesintisi #ASKİ #Camlidere
-[2026-07-16T12:01:40.212Z] [INFO] (231 karakter)
-[2026-07-16T12:01:40.212Z] [INFO] ---
-[2026-07-16T12:01:40.212Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-16T12:01:40.212Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
 📅 16.07.2026 12:30:00 - 16.07.2026 23:30:00
 📍 muzafferekşi mh. üst kotlar bahçelieveler bi kısmı havuzbaşı mh. üst kotlar fatih mh tamamı şehitlik mh üst kotlar istasyon mh bi kısmı
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-07-16T12:01:40.212Z] [INFO] (248 karakter)
-[2026-07-16T12:01:40.212Z] [INFO] ---
-[2026-07-16T12:01:40.212Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-16T12:01:40.212Z] [INFO] ⚠️ NALLIHAN - Plansız Kesinti
 📅 16.07.2026 13:35:00 - 16.07.2026 16:30:00
 📍 Çayırhan mh 118.sokak
 #AnkaraSuKesintisi #ASKİ #Nallihan
-[2026-07-16T12:01:40.212Z] [INFO] (136 karakter)
-[2026-07-16T12:01:40.213Z] [INFO] ---
-[2026-07-16T12:01:40.213Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-16T12:01:40.213Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
 📅 16.07.2026 14:30:00 - 16.07.2026 17:00:00
 📍 -yunus emre mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-07-16T12:01:40.213Z] [INFO] (148 karakter)
-[2026-07-16T12:01:40.213Z] [INFO] ---
-[2026-07-16T12:01:40.213Z] [INFO] 0 tweet atıldı.
-[2026-07-16T12:01:40.213Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-07-16T12:01:40.213Z] [SUCCESS] Tamamlandı.
 [2026-07-16T14:13:22.046Z] [INFO] Logger başlatıldı
 [2026-07-16T14:13:22.048Z] [INFO] Tek seferlik mod...
 [2026-07-16T14:13:22.048Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -27286,76 +27250,165 @@
 [2026-07-23T11:24:49.848Z] [INFO] 8 yeni kesinti bulundu!
 [2026-07-23T11:24:49.848Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.848Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
-
 📅 22.07.2026 17:10:00 - 23.07.2026 17:05:00
 📍 esenboğa mahallesi merkez kümeevleri beşevler
-
 #AnkaraSuKesintisi #ASKİ #Cubuk
 [2026-07-23T11:24:49.848Z] [INFO] (154 karakter)
 [2026-07-23T11:24:49.849Z] [INFO] ---
 [2026-07-23T11:24:49.849Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.849Z] [INFO] ⚠️ NALLIHAN - Plansız Kesinti
-
 📅 23.07.2026 08:40:00 - 23.07.2026 17:00:00
 📍 Soğukkuyu mahallesi ve Kuruca mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Nallihan
 [2026-07-23T11:24:49.849Z] [INFO] (154 karakter)
 [2026-07-23T11:24:49.849Z] [INFO] ---
 [2026-07-23T11:24:49.849Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.849Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 23.07.2026 09:20:00 - 23.07.2026 17:00:00
 📍 Mutlukent mahallesi üst kotları ,Angora bulvarı ,Alacaatlı mahallesi bir kısmı,Dodurga mahallesi bir kısmı,Koru mahallesi bir kısmı, Ahmet Taner Kışlalı mahallesi,Beytepe mahallesi alt kotları
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-07-23T11:24:49.849Z] [INFO] (305 karakter)
 [2026-07-23T11:24:49.849Z] [INFO] ---
 [2026-07-23T11:24:49.849Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.849Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 23.07.2026 09:35:00 - 23.07.2026 17:00:00
 📍 Beyler Mahallesi Dikilitaş Mevki.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-07-23T11:24:49.849Z] [INFO] (150 karakter)
 [2026-07-23T11:24:49.849Z] [INFO] ---
 [2026-07-23T11:24:49.850Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.850Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
-
 📅 23.07.2026 09:50:00 - 23.07.2026 17:00:00
 📍 Yıldırımbeyazıt Mahallesi Necipfazıl kısakürek caddesi ve bağlı sokaklar
-
 #AnkaraSuKesintisi #ASKİ #Cubuk
 [2026-07-23T11:24:49.850Z] [INFO] (181 karakter)
 [2026-07-23T11:24:49.850Z] [INFO] ---
 [2026-07-23T11:24:49.850Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.850Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
-
 📅 23.07.2026 11:40:00 - 23.07.2026 15:00:00
 📍 Yenidoğan ve Yenipınar Mh bir kısmı.
-
 #AnkaraSuKesintisi #ASKİ #Elmadag
 [2026-07-23T11:24:49.850Z] [INFO] (149 karakter)
 [2026-07-23T11:24:49.850Z] [INFO] ---
 [2026-07-23T11:24:49.850Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.850Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
-
 📅 23.07.2026 12:05:00 - 23.07.2026 16:05:00
 📍 Mimar Sinan mahallesi bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Pursaklar
 [2026-07-23T11:24:49.850Z] [INFO] (148 karakter)
 [2026-07-23T11:24:49.850Z] [INFO] ---
 [2026-07-23T11:24:49.850Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-23T11:24:49.850Z] [INFO] ⚠️ AKYURT - Plansız Kesinti
-
 📅 23.07.2026 13:00:00 - 23.07.2026 17:00:00
 📍 Atatürk Mahallesi - Yıldırım Mahallesi bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Akyurt
 [2026-07-23T11:24:49.850Z] [INFO] (159 karakter)
 [2026-07-23T11:24:49.850Z] [INFO] ---
 [2026-07-23T11:24:49.850Z] [INFO] 0 tweet atıldı.
 [2026-07-23T11:24:49.851Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-23T11:24:49.851Z] [SUCCESS] Tamamlandı.
+[2026-07-23T12:52:42.281Z] [INFO] Logger başlatıldı
+[2026-07-23T12:52:42.282Z] [INFO] Tek seferlik mod...
+[2026-07-23T12:52:42.282Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-23T12:52:42.952Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-23T12:52:42.952Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-23T12:52:42.952Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-23T12:52:44.195Z] [INFO] 9 kesinti bulundu.
+[2026-07-23T12:52:44.201Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-23T12:52:44.201Z] [INFO] 9 yeni kesinti bulundu!
+[2026-07-23T12:52:44.202Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.202Z] [INFO] ⚠️ KEÇİÖREN - Plansız Kesinti
+
+📅 23.07.2026 15:45:00 - 23.07.2026 19:00:00
+📍 Uyanış mh Köşk mh Pınarbaşı mh Aktepe mh
+
+#AnkaraSuKesintisi #ASKİ #Kecioren
+[2026-07-23T12:52:44.202Z] [INFO] (155 karakter)
+[2026-07-23T12:52:44.202Z] [INFO] ---
+[2026-07-23T12:52:44.202Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.202Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
+
+📅 22.07.2026 17:10:00 - 23.07.2026 17:05:00
+📍 esenboğa mahallesi merkez kümeevleri beşevler
+
+#AnkaraSuKesintisi #ASKİ #Cubuk
+[2026-07-23T12:52:44.202Z] [INFO] (154 karakter)
+[2026-07-23T12:52:44.202Z] [INFO] ---
+[2026-07-23T12:52:44.202Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.202Z] [INFO] ⚠️ NALLIHAN - Plansız Kesinti
+
+📅 23.07.2026 08:40:00 - 23.07.2026 17:00:00
+📍 Soğukkuyu mahallesi ve Kuruca mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Nallihan
+[2026-07-23T12:52:44.202Z] [INFO] (154 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.203Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
+
+📅 23.07.2026 09:20:00 - 23.07.2026 17:00:00
+📍 Mutlukent mahallesi üst kotları ,Angora bulvarı ,Alacaatlı mahallesi bir kısmı,Dodurga mahallesi bir kısmı,Koru mahallesi bir kısmı, Ahmet Taner Kışlalı mahallesi,Beytepe mahallesi alt kotları
+
+#AnkaraSuKesintisi #ASKİ #Cankaya
+[2026-07-23T12:52:44.203Z] [INFO] (305 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.203Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 23.07.2026 09:35:00 - 23.07.2026 17:00:00
+📍 Beyler Mahallesi Dikilitaş Mevki.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-07-23T12:52:44.203Z] [INFO] (150 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.203Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
+
+📅 23.07.2026 11:40:00 - 23.07.2026 17:00:00
+📍 Yenidoğan ve Yenipınar Mh bir kısmı.
+
+#AnkaraSuKesintisi #ASKİ #Elmadag
+[2026-07-23T12:52:44.203Z] [INFO] (149 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.203Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
+
+📅 23.07.2026 12:05:00 - 23.07.2026 18:05:00
+📍 Mimar Sinan mahallesi bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Pursaklar
+[2026-07-23T12:52:44.203Z] [INFO] (148 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.203Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
+
+📅 23.07.2026 15:30:00 - 23.07.2026 19:00:00
+📍 Taşpınar Mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Golbasi
+[2026-07-23T12:52:44.203Z] [INFO] (131 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-23T12:52:44.203Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
+
+📅 23.07.2026 15:30:00 - 23.07.2026 19:00:00
+📍 İncek Mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Golbasi
+[2026-07-23T12:52:44.203Z] [INFO] (128 karakter)
+[2026-07-23T12:52:44.203Z] [INFO] ---
+[2026-07-23T12:52:44.203Z] [INFO] 0 tweet atıldı.
+[2026-07-23T12:52:44.203Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-23T12:52:44.204Z] [SUCCESS] Tamamlandı.
