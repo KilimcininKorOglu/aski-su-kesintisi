@@ -22593,10 +22593,6 @@
 📅 17.07.2026 22:45:00 - 18.07.2026 03:00:00
 📍 Şehitlik Mahallesi Bir Bölümü
 #AnkaraSuKesintisi #ASKİ #Polatli
-[2026-07-17T20:37:01.712Z] [INFO] Logger başlatıldı
-[2026-07-17T20:37:01.713Z] [INFO] Tek seferlik mod...
-[2026-07-17T20:37:01.713Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-17T20:37:02.557Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -22609,21 +22605,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-17T20:37:02.557Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-17T20:37:02.557Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-17T20:37:03.752Z] [INFO] 1 kesinti bulundu.
-[2026-07-17T20:37:03.757Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-17T20:37:03.758Z] [INFO] 1 yeni kesinti bulundu!
-[2026-07-17T20:37:03.758Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-17T20:37:03.758Z] [INFO] ⚠️ POLATLI - Plansız Kesinti
 📅 17.07.2026 22:45:00 - 18.07.2026 03:00:00
 📍 Şehitlik Mahallesi Bir Bölümü
 #AnkaraSuKesintisi #ASKİ #Polatli
-[2026-07-17T20:37:03.758Z] [INFO] (142 karakter)
-[2026-07-17T20:37:03.758Z] [INFO] ---
-[2026-07-17T20:37:03.758Z] [INFO] 0 tweet atıldı.
-[2026-07-17T20:37:03.759Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-07-17T20:37:03.759Z] [SUCCESS] Tamamlandı.
 [2026-07-17T21:29:08.782Z] [INFO] Logger başlatıldı
 [2026-07-17T21:29:08.783Z] [INFO] Tek seferlik mod...
 [2026-07-17T21:29:08.783Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -27629,13 +27613,33 @@
 [2026-07-24T20:01:59.459Z] [INFO] 1 yeni kesinti bulundu!
 [2026-07-24T20:01:59.460Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-24T20:01:59.460Z] [INFO] ⚠️ SİNCAN - Plansız Kesinti
-
 📅 24.07.2026 11:00:00 - 24.07.2026 23:55:00
 📍 İlksan TOKİ konutları tamamı.
-
 #AnkaraSuKesintisi #ASKİ #Sincan
 [2026-07-24T20:01:59.460Z] [INFO] (140 karakter)
 [2026-07-24T20:01:59.460Z] [INFO] ---
 [2026-07-24T20:01:59.460Z] [INFO] 0 tweet atıldı.
 [2026-07-24T20:01:59.460Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-24T20:01:59.461Z] [SUCCESS] Tamamlandı.
+[2026-07-24T21:13:46.454Z] [INFO] Logger başlatıldı
+[2026-07-24T21:13:46.455Z] [INFO] Tek seferlik mod...
+[2026-07-24T21:13:46.456Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-24T21:13:47.160Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-24T21:13:47.161Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-24T21:13:47.161Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-24T21:13:48.524Z] [INFO] 0 kesinti bulundu.
+[2026-07-24T21:13:48.529Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-24T21:13:48.530Z] [INFO] Yeni kesinti yok.
+[2026-07-24T21:13:48.530Z] [SUCCESS] Tamamlandı.
