@@ -23223,10 +23223,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-19T23:05:21.791Z] [INFO] Logger başlatıldı
-[2026-07-19T23:05:21.793Z] [INFO] Tek seferlik mod...
-[2026-07-19T23:05:21.793Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-19T23:05:23.171Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -23239,12 +23235,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-19T23:05:23.171Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-19T23:05:23.171Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-19T23:05:24.367Z] [INFO] 0 kesinti bulundu.
-[2026-07-19T23:05:24.373Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-19T23:05:24.373Z] [INFO] Yeni kesinti yok.
-[2026-07-19T23:05:24.373Z] [SUCCESS] Tamamlandı.
 [2026-07-20T00:05:19.900Z] [INFO] Logger başlatıldı
 [2026-07-20T00:05:19.902Z] [INFO] Tek seferlik mod...
 [2026-07-20T00:05:19.902Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -28591,31 +28581,67 @@
 [2026-07-26T22:33:02.145Z] [INFO] 3 yeni kesinti bulundu!
 [2026-07-26T22:33:02.146Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-26T22:33:02.146Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
-
 📅 26.07.2026 13:30:00 - 27.07.2026 06:00:00
 📍 Battalgazi mahallesi Önder Mahallesi Beşikkaya Mahallesi Feridun Çelik Mahallesi Başpınar Mahallesi Karapürçek Mahallesi Kavaklı Köyü Tatlar Köyü Aydıncık Köyü Doğantepe Mahallesinin Üst kotları Solfasol Mahallesi üst kotları Etkilenen Yerler: Battalgazi mahallesi Önder Mahallesi Beşikkaya Mahallesi Feridun Çelik Mahallesi Başpınar Mahallesi Karapürçek Mahallesi Kavaklı Köyü Tatlar Köyü Aydıncık Köyü Doğantepe Mahallesinin Üst kotları Solfasol Mahallesi üst kotları
-
 #AnkaraSuKesintisi #ASKİ #Altindag
 [2026-07-26T22:33:02.146Z] [INFO] (584 karakter)
 [2026-07-26T22:33:02.146Z] [INFO] ---
 [2026-07-26T22:33:02.146Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-26T22:33:02.147Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
-
 📅 26.07.2026 16:15:00 - 27.07.2026 06:00:00
 📍 Bostancık, Ekin, Başak, Altıağaç, Karaağaç, Mahalleleri
-
 #AnkaraSuKesintisi #ASKİ #Mamak
 [2026-07-26T22:33:02.147Z] [INFO] (164 karakter)
 [2026-07-26T22:33:02.147Z] [INFO] ---
 [2026-07-26T22:33:02.147Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-07-26T22:33:02.147Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
-
 📅 26.07.2026 20:00:00 - 27.07.2026 02:00:00
 📍 -kösrelik kızığı mahallesi Taşkent koparatifi
-
 #AnkaraSuKesintisi #ASKİ #Pursaklar
 [2026-07-26T22:33:02.147Z] [INFO] (162 karakter)
 [2026-07-26T22:33:02.147Z] [INFO] ---
 [2026-07-26T22:33:02.147Z] [INFO] 0 tweet atıldı.
 [2026-07-26T22:33:02.147Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-07-26T22:33:02.147Z] [SUCCESS] Tamamlandı.
+[2026-07-26T23:31:11.655Z] [INFO] Logger başlatıldı
+[2026-07-26T23:31:11.656Z] [INFO] Tek seferlik mod...
+[2026-07-26T23:31:11.656Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-07-26T23:31:12.117Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-07-26T23:31:12.118Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-07-26T23:31:12.118Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-07-26T23:31:13.627Z] [INFO] 2 kesinti bulundu.
+[2026-07-26T23:31:13.633Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-07-26T23:31:13.633Z] [INFO] 2 yeni kesinti bulundu!
+[2026-07-26T23:31:13.634Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-26T23:31:13.634Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
+
+📅 26.07.2026 13:30:00 - 27.07.2026 06:00:00
+📍 Battalgazi mahallesi Önder Mahallesi Beşikkaya Mahallesi Feridun Çelik Mahallesi Başpınar Mahallesi Karapürçek Mahallesi Kavaklı Köyü Tatlar Köyü Aydıncık Köyü Doğantepe Mahallesinin Üst kotları Solfasol Mahallesi üst kotları Etkilenen Yerler: Battalgazi mahallesi Önder Mahallesi Beşikkaya Mahallesi Feridun Çelik Mahallesi Başpınar Mahallesi Karapürçek Mahallesi Kavaklı Köyü Tatlar Köyü Aydıncık Köyü Doğantepe Mahallesinin Üst kotları Solfasol Mahallesi üst kotları
+
+#AnkaraSuKesintisi #ASKİ #Altindag
+[2026-07-26T23:31:13.634Z] [INFO] (584 karakter)
+[2026-07-26T23:31:13.634Z] [INFO] ---
+[2026-07-26T23:31:13.634Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-07-26T23:31:13.634Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
+
+📅 26.07.2026 16:15:00 - 27.07.2026 06:00:00
+📍 Bostancık, Ekin, Başak, Altıağaç, Karaağaç, Mahalleleri
+
+#AnkaraSuKesintisi #ASKİ #Mamak
+[2026-07-26T23:31:13.634Z] [INFO] (164 karakter)
+[2026-07-26T23:31:13.634Z] [INFO] ---
+[2026-07-26T23:31:13.635Z] [INFO] 0 tweet atıldı.
+[2026-07-26T23:31:13.635Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-07-26T23:31:13.635Z] [SUCCESS] Tamamlandı.
