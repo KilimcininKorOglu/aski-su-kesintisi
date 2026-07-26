@@ -39,9 +39,12 @@ jobs:
         run: npm run dev -- --once
 
       - name: Commit changes
+        env:
+          TZ: Europe/Istanbul
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/kesintiler.json data/run.log
-          git diff --staged --quiet || git commit -m "chore: kesintiler.json güncellendi [skip ci]"
+          timestamp="$(date '+%Y-%m-%d %H:%M')"
+          git diff --staged --quiet || git commit -m "chore: kesintiler.json güncellendi ($timestamp) [skip ci]"
           git push
