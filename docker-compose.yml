@@ -1,3 +1,8 @@
+name: aski-su-kesintisi
+
+# Outbound-only bot: scrapes ASKİ and calls RapidAPI/Gemini over HTTPS.
+# It runs no inbound listener, so no host port is published and no port
+# block is reserved in the central Docker port registry.
 services:
   bot:
     build: .
