@@ -25755,10 +25755,6 @@
 📅 26.07.2026 16:15:00 - 27.07.2026 06:00:00
 📍 Bostancık, Ekin, Başak, Altıağaç, Karaağaç, Mahalleleri
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-07-27T04:49:07.518Z] [INFO] Logger başlatıldı
-[2026-07-27T04:49:07.519Z] [INFO] Tek seferlik mod...
-[2026-07-27T04:49:07.520Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-07-27T04:49:08.759Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -25771,28 +25767,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-07-27T04:49:08.759Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-07-27T04:49:08.759Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-07-27T04:49:10.181Z] [INFO] 2 kesinti bulundu.
-[2026-07-27T04:49:10.186Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-07-27T04:49:10.187Z] [INFO] 2 yeni kesinti bulundu!
-[2026-07-27T04:49:10.187Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-27T04:49:10.187Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
 📅 26.07.2026 13:30:00 - 27.07.2026 15:00:00
 📍 HÜSEYİN GAZİ.MH.EKİN.MH.BAŞAK.MH.BOSTANCIK.MH.ALTIAĞAÇ.MH.KARAAĞAÇ.MH Etkilenen Yerler: HÜSEYİN GAZİ.MH.EKİN.MH.BAŞAK.MH.BOSTANCIK.MH.ALTIAĞAÇ.MH.KARAAĞAÇ.MH
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-07-27T04:49:10.187Z] [INFO] (266 karakter)
-[2026-07-27T04:49:10.187Z] [INFO] ---
-[2026-07-27T04:49:10.187Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-07-27T04:49:10.188Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
 📅 26.07.2026 13:30:00 - 27.07.2026 15:00:00
 📍 Battalgazi mahallesi Önder Mahallesi Beşikkaya Mahallesi Feridun Çelik Mahallesi Başpınar Mahallesi Karapürçek Mahallesi Kavaklı Köyü Tatlar Köyü Aydıncık Köyü Doğantepe Mahallesinin Üst kotları Solfasol Mahallesi üst kotları Etkilenen Yerler: Battalgazi mahallesi Önder Mahallesi Beşikkaya Mahallesi Feridun Çelik Mahallesi Başpınar Mahallesi Karapürçek Mahallesi Kavaklı Köyü Tatlar Köyü Aydıncık Köyü Doğantepe Mahallesinin Üst kotları Solfasol Mahallesi üst kotları
 #AnkaraSuKesintisi #ASKİ #Altindag
-[2026-07-27T04:49:10.188Z] [INFO] (584 karakter)
-[2026-07-27T04:49:10.188Z] [INFO] ---
-[2026-07-27T04:49:10.188Z] [INFO] 0 tweet atıldı.
-[2026-07-27T04:49:10.188Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-07-27T04:49:10.188Z] [SUCCESS] Tamamlandı.
 [2026-07-27T08:15:55.210Z] [INFO] Logger başlatıldı
 [2026-07-27T08:15:55.211Z] [INFO] Tek seferlik mod...
 [2026-07-27T08:15:55.212Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -30595,22 +30575,87 @@
 [2026-08-03T03:52:23.073Z] [INFO] 2 yeni kesinti bulundu!
 [2026-08-03T03:52:23.074Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-03T03:52:23.074Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
-
 📅 3.08.2026 02:10:00 - 3.08.2026 10:00:00
 📍 Beşikkaya Mahallesinin bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Altindag
 [2026-08-03T03:52:23.074Z] [INFO] (145 karakter)
 [2026-08-03T03:52:23.074Z] [INFO] ---
 [2026-08-03T03:52:23.074Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-03T03:52:23.074Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
-
 📅 3.08.2026 05:05:00 - 3.08.2026 15:00:00
 📍 Kırkkonaklar mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Cankaya
 [2026-08-03T03:52:23.075Z] [INFO] (133 karakter)
 [2026-08-03T03:52:23.075Z] [INFO] ---
 [2026-08-03T03:52:23.075Z] [INFO] 0 tweet atıldı.
 [2026-08-03T03:52:23.075Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-03T03:52:23.075Z] [SUCCESS] Tamamlandı.
+[2026-08-03T06:48:13.749Z] [INFO] Logger başlatıldı
+[2026-08-03T06:48:13.750Z] [INFO] Tek seferlik mod...
+[2026-08-03T06:48:13.751Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-03T06:48:14.278Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-03T06:48:14.278Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-03T06:48:14.279Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-03T06:48:15.191Z] [INFO] 5 kesinti bulundu.
+[2026-08-03T06:48:15.196Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-03T06:48:15.196Z] [INFO] 5 yeni kesinti bulundu!
+[2026-08-03T06:48:15.197Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-03T06:48:15.197Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
+
+📅 3.08.2026 02:10:00 - 3.08.2026 10:00:00
+📍 Beşikkaya Mahallesinin bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Altindag
+[2026-08-03T06:48:15.197Z] [INFO] (145 karakter)
+[2026-08-03T06:48:15.197Z] [INFO] ---
+[2026-08-03T06:48:15.197Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-03T06:48:15.198Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
+
+📅 3.08.2026 05:05:00 - 3.08.2026 15:00:00
+📍 Kırkkonaklar mahallesi. Birlik mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Cankaya
+[2026-08-03T06:48:15.198Z] [INFO] (151 karakter)
+[2026-08-03T06:48:15.198Z] [INFO] ---
+[2026-08-03T06:48:15.198Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-03T06:48:15.198Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
+
+📅 3.08.2026 09:20:00 - 3.08.2026 15:00:00
+📍 Özevler Mahallesi ve Aşşağı Yahyalar Mahallesi bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-08-03T06:48:15.198Z] [INFO] (175 karakter)
+[2026-08-03T06:48:15.198Z] [INFO] ---
+[2026-08-03T06:48:15.198Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-03T06:48:15.198Z] [INFO] ⚠️ AKYURT - Plansız Kesinti
+
+📅 3.08.2026 09:45:00 - 3.08.2026 15:00:00
+📍 Balıkhisar Mahallesi Havalimanı tarafı
+
+#AnkaraSuKesintisi #ASKİ #Akyurt
+[2026-08-03T06:48:15.198Z] [INFO] (147 karakter)
+[2026-08-03T06:48:15.198Z] [INFO] ---
+[2026-08-03T06:48:15.198Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-03T06:48:15.198Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
+
+📅 3.08.2026 09:40:00 - 3.08.2026 12:00:00
+📍 Etkilenen Yerler: Yıldırım Beyazıt mahallesi onurlu 4, Necip fazıl , İbni Sina ve bağlı sokaklar
+
+#AnkaraSuKesintisi #ASKİ #Cubuk
+[2026-08-03T06:48:15.199Z] [INFO] (203 karakter)
+[2026-08-03T06:48:15.199Z] [INFO] ---
+[2026-08-03T06:48:15.199Z] [INFO] 0 tweet atıldı.
+[2026-08-03T06:48:15.199Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-03T06:48:15.199Z] [SUCCESS] Tamamlandı.
