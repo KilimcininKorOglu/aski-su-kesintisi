@@ -27660,10 +27660,6 @@
 📅 1.08.2026 18:45:00 - 1.08.2026 21:00:00
 📍 Yakup abdal mahallesi bir kısmına
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-01T17:13:39.519Z] [INFO] Logger başlatıldı
-[2026-08-01T17:13:39.521Z] [INFO] Tek seferlik mod...
-[2026-08-01T17:13:39.521Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-01T17:13:41.193Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -27676,21 +27672,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-01T17:13:41.194Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-01T17:13:41.194Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-01T17:13:42.299Z] [INFO] 1 kesinti bulundu.
-[2026-08-01T17:13:42.305Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-01T17:13:42.305Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-01T17:13:42.306Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-01T17:13:42.306Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
 📅 1.08.2026 18:45:00 - 1.08.2026 21:00:00
 📍 Yakup abdal mahallesi bir kısmına
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-01T17:13:42.306Z] [INFO] (144 karakter)
-[2026-08-01T17:13:42.306Z] [INFO] ---
-[2026-08-01T17:13:42.306Z] [INFO] 0 tweet atıldı.
-[2026-08-01T17:13:42.306Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-01T17:13:42.307Z] [SUCCESS] Tamamlandı.
 [2026-08-01T18:10:05.631Z] [INFO] Logger başlatıldı
 [2026-08-01T18:10:05.632Z] [INFO] Tek seferlik mod...
 [2026-08-01T18:10:05.632Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -32422,13 +32406,44 @@
 [2026-08-08T17:12:26.617Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-08T17:12:26.617Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-08T17:12:26.617Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 8.08.2026 11:45:00 - 8.08.2026 23:55:00
 📍 Yediören Mahallesi, Yoncatepe Mahallesi, Peçenek Mahallesi, Gümele Mahallesi.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-08-08T17:12:26.617Z] [INFO] (192 karakter)
 [2026-08-08T17:12:26.617Z] [INFO] ---
 [2026-08-08T17:12:26.617Z] [INFO] 0 tweet atıldı.
 [2026-08-08T17:12:26.618Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-08T17:12:26.618Z] [SUCCESS] Tamamlandı.
+[2026-08-08T17:45:00.487Z] [INFO] Logger başlatıldı
+[2026-08-08T17:45:00.489Z] [INFO] Tek seferlik mod...
+[2026-08-08T17:45:00.489Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-08T17:45:01.110Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-08T17:45:01.110Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-08T17:45:01.111Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-08T17:45:02.215Z] [INFO] 1 kesinti bulundu.
+[2026-08-08T17:45:02.219Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-08T17:45:02.219Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-08T17:45:02.219Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-08T17:45:02.219Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 8.08.2026 11:45:00 - 8.08.2026 23:55:00
+📍 Yediören Mahallesi, Yoncatepe Mahallesi, Peçenek Mahallesi, Gümele Mahallesi.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-08-08T17:45:02.220Z] [INFO] (192 karakter)
+[2026-08-08T17:45:02.220Z] [INFO] ---
+[2026-08-08T17:45:02.220Z] [INFO] 0 tweet atıldı.
+[2026-08-08T17:45:02.220Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-08T17:45:02.220Z] [SUCCESS] Tamamlandı.
