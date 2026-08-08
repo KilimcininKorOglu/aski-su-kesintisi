@@ -27729,10 +27729,6 @@
 📅 1.08.2026 23:00:00 - 2.08.2026 01:00:00
 📍 -saray cumhuriyet mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Pursaklar
-[2026-08-01T22:14:01.499Z] [INFO] Logger başlatıldı
-[2026-08-01T22:14:01.501Z] [INFO] Tek seferlik mod...
-[2026-08-01T22:14:01.501Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-01T22:14:02.160Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -27745,12 +27741,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-01T22:14:02.161Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-01T22:14:02.161Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-01T22:14:03.069Z] [INFO] 0 kesinti bulundu.
-[2026-08-01T22:14:03.075Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-01T22:14:03.075Z] [INFO] Yeni kesinti yok.
-[2026-08-01T22:14:03.075Z] [SUCCESS] Tamamlandı.
 [2026-08-01T23:09:53.991Z] [INFO] Logger başlatıldı
 [2026-08-01T23:09:53.992Z] [INFO] Tek seferlik mod...
 [2026-08-01T23:09:53.992Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -32645,3 +32635,25 @@
 [2026-08-08T22:01:39.331Z] [INFO] 1477 kayıtlı kesinti var.
 [2026-08-08T22:01:39.332Z] [INFO] Yeni kesinti yok.
 [2026-08-08T22:01:39.332Z] [SUCCESS] Tamamlandı.
+[2026-08-08T22:38:12.911Z] [INFO] Logger başlatıldı
+[2026-08-08T22:38:12.912Z] [INFO] Tek seferlik mod...
+[2026-08-08T22:38:12.912Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-08T22:38:13.405Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-08T22:38:13.406Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-08T22:38:13.406Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-08T22:38:14.258Z] [INFO] 0 kesinti bulundu.
+[2026-08-08T22:38:14.264Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-08T22:38:14.264Z] [INFO] Yeni kesinti yok.
+[2026-08-08T22:38:14.264Z] [SUCCESS] Tamamlandı.
