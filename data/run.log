@@ -36297,31 +36297,85 @@
 [2026-08-13T10:31:37.257Z] [INFO] 3 yeni kesinti bulundu!
 [2026-08-13T10:31:37.258Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-13T10:31:37.258Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
-
 📅 13.08.2026 10:00:00 - 13.08.2026 17:00:00
 📍 Esenboğa Mah geneli
-
 #AnkaraSuKesintisi #ASKİ #Cubuk
 [2026-08-13T10:31:37.258Z] [INFO] (128 karakter)
 [2026-08-13T10:31:37.258Z] [INFO] ---
 [2026-08-13T10:31:37.258Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-13T10:31:37.258Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 13.08.2026 10:55:00 - 13.08.2026 18:00:00
 📍 Yakacık Mahallesi 3585 cadde ve civarı
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-08-13T10:31:37.259Z] [INFO] (159 karakter)
 [2026-08-13T10:31:37.259Z] [INFO] ---
 [2026-08-13T10:31:37.259Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-13T10:31:37.259Z] [INFO] ⚠️ GÜDÜL - Plansız Kesinti
-
 📅 13.08.2026 12:00:00 - 13.08.2026 17:00:00
 📍 YUKARI MAHALLE VE EMİRLER MAHALLESİNİN BİRKISMI İLE AŞAĞI MAHALLE
-
 #AnkaraSuKesintisi #ASKİ #Gudul
 [2026-08-13T10:31:37.259Z] [INFO] (174 karakter)
 [2026-08-13T10:31:37.259Z] [INFO] ---
 [2026-08-13T10:31:37.259Z] [INFO] 0 tweet atıldı.
 [2026-08-13T10:31:37.259Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-13T10:31:37.259Z] [SUCCESS] Tamamlandı.
+[2026-08-13T11:21:27.605Z] [INFO] Logger başlatıldı
+[2026-08-13T11:21:27.606Z] [INFO] Tek seferlik mod...
+[2026-08-13T11:21:27.607Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-13T11:21:29.248Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-13T11:21:29.249Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-13T11:21:29.249Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-13T11:21:30.318Z] [INFO] 4 kesinti bulundu.
+[2026-08-13T11:21:30.323Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-13T11:21:30.323Z] [INFO] 4 yeni kesinti bulundu!
+[2026-08-13T11:21:30.324Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-13T11:21:30.324Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
+
+📅 13.08.2026 10:00:00 - 13.08.2026 17:00:00
+📍 Esenboğa Mah geneli
+
+#AnkaraSuKesintisi #ASKİ #Cubuk
+[2026-08-13T11:21:30.324Z] [INFO] (128 karakter)
+[2026-08-13T11:21:30.324Z] [INFO] ---
+[2026-08-13T11:21:30.324Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-13T11:21:30.324Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
+
+📅 13.08.2026 10:55:00 - 13.08.2026 18:00:00
+📍 Yakacık Mahallesi 3585 cadde ve civarı
+
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-08-13T11:21:30.325Z] [INFO] (159 karakter)
+[2026-08-13T11:21:30.325Z] [INFO] ---
+[2026-08-13T11:21:30.325Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-13T11:21:30.325Z] [INFO] ⚠️ GÜDÜL - Plansız Kesinti
+
+📅 13.08.2026 12:00:00 - 13.08.2026 17:00:00
+📍 YUKARI MAHALLE VE EMİRLER MAHALLESİNİN BİRKISMI İLE AŞAĞI MAHALLE
+
+#AnkaraSuKesintisi #ASKİ #Gudul
+[2026-08-13T11:21:30.325Z] [INFO] (174 karakter)
+[2026-08-13T11:21:30.325Z] [INFO] ---
+[2026-08-13T11:21:30.325Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-13T11:21:30.325Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
+
+📅 13.08.2026 14:10:00 - 13.08.2026 17:00:00
+📍 Hasanoğlan Bahçelievler mh sanayi bölgesi tamamı.
+
+#AnkaraSuKesintisi #ASKİ #Elmadag
+[2026-08-13T11:21:30.325Z] [INFO] (162 karakter)
+[2026-08-13T11:21:30.325Z] [INFO] ---
+[2026-08-13T11:21:30.325Z] [INFO] 0 tweet atıldı.
+[2026-08-13T11:21:30.325Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-13T11:21:30.325Z] [SUCCESS] Tamamlandı.
