@@ -28779,10 +28779,6 @@
 📅 6.08.2026 00:30:00 - 6.08.2026 05:00:00
 📍 ,Ahlatlıbel mahallesi
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-06T04:36:57.234Z] [INFO] Logger başlatıldı
-[2026-08-06T04:36:57.235Z] [INFO] Tek seferlik mod...
-[2026-08-06T04:36:57.236Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-06T04:36:58.522Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -28795,12 +28791,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-06T04:36:58.523Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-06T04:36:58.523Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-06T04:36:59.604Z] [INFO] 0 kesinti bulundu.
-[2026-08-06T04:36:59.609Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-06T04:36:59.610Z] [INFO] Yeni kesinti yok.
-[2026-08-06T04:36:59.610Z] [SUCCESS] Tamamlandı.
 [2026-08-06T07:22:41.773Z] [INFO] Logger başlatıldı
 [2026-08-06T07:22:41.775Z] [INFO] Tek seferlik mod...
 [2026-08-06T07:22:41.775Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -36150,13 +36140,44 @@
 [2026-08-13T03:16:52.364Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-13T03:16:52.364Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-13T03:16:52.365Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
-
 📅 12.08.2026 16:30:00 - 13.08.2026 12:00:00
 📍 tatlıca mah toki blokları
-
 #AnkaraSuKesintisi #ASKİ #Elmadag
 [2026-08-13T03:16:52.365Z] [INFO] (138 karakter)
 [2026-08-13T03:16:52.365Z] [INFO] ---
 [2026-08-13T03:16:52.365Z] [INFO] 0 tweet atıldı.
 [2026-08-13T03:16:52.365Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-13T03:16:52.365Z] [SUCCESS] Tamamlandı.
+[2026-08-13T05:07:18.540Z] [INFO] Logger başlatıldı
+[2026-08-13T05:07:18.542Z] [INFO] Tek seferlik mod...
+[2026-08-13T05:07:18.542Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-13T05:07:19.590Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-13T05:07:19.590Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-13T05:07:19.591Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-13T05:07:20.662Z] [INFO] 1 kesinti bulundu.
+[2026-08-13T05:07:20.667Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-13T05:07:20.668Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-13T05:07:20.668Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-13T05:07:20.668Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
+
+📅 12.08.2026 16:30:00 - 13.08.2026 12:00:00
+📍 tatlıca mah toki blokları
+
+#AnkaraSuKesintisi #ASKİ #Elmadag
+[2026-08-13T05:07:20.668Z] [INFO] (138 karakter)
+[2026-08-13T05:07:20.668Z] [INFO] ---
+[2026-08-13T05:07:20.668Z] [INFO] 0 tweet atıldı.
+[2026-08-13T05:07:20.669Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-13T05:07:20.669Z] [SUCCESS] Tamamlandı.
