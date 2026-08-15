@@ -29460,10 +29460,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-08T02:09:59.653Z] [INFO] Logger başlatıldı
-[2026-08-08T02:09:59.654Z] [INFO] Tek seferlik mod...
-[2026-08-08T02:09:59.654Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-08T02:10:00.063Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -29476,12 +29472,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-08T02:10:00.064Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-08T02:10:00.064Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-08T02:10:00.880Z] [INFO] 0 kesinti bulundu.
-[2026-08-08T02:10:00.885Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-08T02:10:00.886Z] [INFO] Yeni kesinti yok.
-[2026-08-08T02:10:00.886Z] [SUCCESS] Tamamlandı.
 [2026-08-08T03:42:30.023Z] [INFO] Logger başlatıldı
 [2026-08-08T03:42:30.024Z] [INFO] Tek seferlik mod...
 [2026-08-08T03:42:30.025Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -37522,13 +37512,44 @@
 [2026-08-15T02:02:58.534Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-15T02:02:58.535Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-15T02:02:58.535Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
-
 📅 15.08.2026 02:15:00 - 15.08.2026 10:00:00
 📍 Feridun Çelik Mahallesinin bir kısmı (Altınşehir Toki Blokların bir Kısmı )
-
 #AnkaraSuKesintisi #ASKİ #Altindag
 [2026-08-15T02:02:58.535Z] [INFO] (190 karakter)
 [2026-08-15T02:02:58.535Z] [INFO] ---
 [2026-08-15T02:02:58.535Z] [INFO] 0 tweet atıldı.
 [2026-08-15T02:02:58.535Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-15T02:02:58.536Z] [SUCCESS] Tamamlandı.
+[2026-08-15T02:58:42.898Z] [INFO] Logger başlatıldı
+[2026-08-15T02:58:42.899Z] [INFO] Tek seferlik mod...
+[2026-08-15T02:58:42.899Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-15T02:58:44.286Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-15T02:58:44.287Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-15T02:58:44.287Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-15T02:58:45.684Z] [INFO] 1 kesinti bulundu.
+[2026-08-15T02:58:45.688Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-15T02:58:45.688Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-15T02:58:45.689Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-15T02:58:45.689Z] [INFO] ⚠️ ALTINDAĞ - Plansız Kesinti
+
+📅 15.08.2026 02:15:00 - 15.08.2026 10:00:00
+📍 Feridun Çelik Mahallesinin bir kısmı (Altınşehir Toki Blokların bir Kısmı )
+
+#AnkaraSuKesintisi #ASKİ #Altindag
+[2026-08-15T02:58:45.689Z] [INFO] (190 karakter)
+[2026-08-15T02:58:45.689Z] [INFO] ---
+[2026-08-15T02:58:45.689Z] [INFO] 0 tweet atıldı.
+[2026-08-15T02:58:45.689Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-15T02:58:45.689Z] [SUCCESS] Tamamlandı.
