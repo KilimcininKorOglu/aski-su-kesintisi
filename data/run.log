@@ -38679,31 +38679,76 @@
 [2026-08-15T15:48:32.247Z] [INFO] 3 yeni kesinti bulundu!
 [2026-08-15T15:48:32.247Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-15T15:48:32.247Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
-
 📅 15.08.2026 16:15:00 - 15.08.2026 23:55:00
 📍 Yapracık Köyü ve Huzurkent Villaları
-
 #AnkaraSuKesintisi #ASKİ #Etimesgut
 [2026-08-15T15:48:32.247Z] [INFO] (153 karakter)
 [2026-08-15T15:48:32.248Z] [INFO] ---
 [2026-08-15T15:48:32.248Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-15T15:48:32.248Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
-
 📅 15.08.2026 17:55:00 - 15.08.2026 22:00:00
 📍 Lalahan odabaşı mahalleleri ve üst kotları
-
 #AnkaraSuKesintisi #ASKİ #Mamak
 [2026-08-15T15:48:32.248Z] [INFO] (151 karakter)
 [2026-08-15T15:48:32.248Z] [INFO] ---
 [2026-08-15T15:48:32.248Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-15T15:48:32.248Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 15.08.2026 18:10:00 - 16.08.2026 19:00:00
 📍 DOĞANCI MAHALLESİ, PELİTÇİK MAHALLESİ VE BUĞRALAR MAHALLESİ.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-08-15T15:48:32.249Z] [INFO] (177 karakter)
 [2026-08-15T15:48:32.249Z] [INFO] ---
 [2026-08-15T15:48:32.249Z] [INFO] 0 tweet atıldı.
 [2026-08-15T15:48:32.249Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-15T15:48:32.249Z] [SUCCESS] Tamamlandı.
+[2026-08-15T15:59:33.113Z] [INFO] Logger başlatıldı
+[2026-08-15T15:59:33.115Z] [INFO] Tek seferlik mod...
+[2026-08-15T15:59:33.115Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-15T15:59:33.551Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-15T15:59:33.552Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-15T15:59:33.552Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-15T15:59:34.548Z] [INFO] 3 kesinti bulundu.
+[2026-08-15T15:59:34.553Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-15T15:59:34.554Z] [INFO] 3 yeni kesinti bulundu!
+[2026-08-15T15:59:34.554Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-15T15:59:34.554Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
+
+📅 15.08.2026 16:15:00 - 15.08.2026 23:55:00
+📍 Yapracık Köyü ve Huzurkent Villaları
+
+#AnkaraSuKesintisi #ASKİ #Etimesgut
+[2026-08-15T15:59:34.554Z] [INFO] (153 karakter)
+[2026-08-15T15:59:34.555Z] [INFO] ---
+[2026-08-15T15:59:34.555Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-15T15:59:34.555Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
+
+📅 15.08.2026 17:55:00 - 15.08.2026 22:00:00
+📍 Lalahan odabaşı mahalleleri ve üst kotları
+
+#AnkaraSuKesintisi #ASKİ #Mamak
+[2026-08-15T15:59:34.555Z] [INFO] (151 karakter)
+[2026-08-15T15:59:34.555Z] [INFO] ---
+[2026-08-15T15:59:34.555Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-15T15:59:34.555Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 15.08.2026 18:10:00 - 16.08.2026 19:00:00
+📍 DOĞANCI MAHALLESİ, PELİTÇİK MAHALLESİ VE BUĞRALAR MAHALLESİ.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-08-15T15:59:34.555Z] [INFO] (177 karakter)
+[2026-08-15T15:59:34.555Z] [INFO] ---
+[2026-08-15T15:59:34.555Z] [INFO] 0 tweet atıldı.
+[2026-08-15T15:59:34.555Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-15T15:59:34.556Z] [SUCCESS] Tamamlandı.
