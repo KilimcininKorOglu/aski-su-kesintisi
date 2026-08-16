@@ -30123,10 +30123,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-09T01:39:10.409Z] [INFO] Logger başlatıldı
-[2026-08-09T01:39:10.410Z] [INFO] Tek seferlik mod...
-[2026-08-09T01:39:10.411Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-09T01:39:12.088Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -30139,12 +30135,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-09T01:39:12.089Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-09T01:39:12.089Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-09T01:39:13.305Z] [INFO] 0 kesinti bulundu.
-[2026-08-09T01:39:13.310Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-09T01:39:13.311Z] [INFO] Yeni kesinti yok.
-[2026-08-09T01:39:13.311Z] [SUCCESS] Tamamlandı.
 [2026-08-09T03:19:42.768Z] [INFO] Logger başlatıldı
 [2026-08-09T03:19:42.769Z] [INFO] Tek seferlik mod...
 [2026-08-09T03:19:42.770Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -39611,13 +39601,44 @@
 [2026-08-16T01:08:16.484Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-16T01:08:16.485Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-16T01:08:16.485Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 15.08.2026 18:10:00 - 16.08.2026 19:00:00
 📍 DOĞANCI MAHALLESİ, PELİTÇİK MAHALLESİ VE BUĞRALAR MAHALLESİ.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-08-16T01:08:16.485Z] [INFO] (177 karakter)
 [2026-08-16T01:08:16.485Z] [INFO] ---
 [2026-08-16T01:08:16.485Z] [INFO] 0 tweet atıldı.
 [2026-08-16T01:08:16.485Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-16T01:08:16.486Z] [SUCCESS] Tamamlandı.
+[2026-08-16T02:32:45.722Z] [INFO] Logger başlatıldı
+[2026-08-16T02:32:45.724Z] [INFO] Tek seferlik mod...
+[2026-08-16T02:32:45.724Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-16T02:32:46.276Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-16T02:32:46.277Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-16T02:32:46.277Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-16T02:32:47.073Z] [INFO] 1 kesinti bulundu.
+[2026-08-16T02:32:47.078Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-16T02:32:47.079Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-16T02:32:47.079Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-16T02:32:47.079Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 15.08.2026 18:10:00 - 16.08.2026 19:00:00
+📍 DOĞANCI MAHALLESİ, PELİTÇİK MAHALLESİ VE BUĞRALAR MAHALLESİ.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-08-16T02:32:47.080Z] [INFO] (177 karakter)
+[2026-08-16T02:32:47.080Z] [INFO] ---
+[2026-08-16T02:32:47.080Z] [INFO] 0 tweet atıldı.
+[2026-08-16T02:32:47.080Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-16T02:32:47.080Z] [SUCCESS] Tamamlandı.
