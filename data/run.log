@@ -45120,13 +45120,44 @@
 [2026-08-18T21:09:07.526Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-18T21:09:07.527Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-18T21:09:07.527Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
-
 📅 18.08.2026 23:55:00 - 19.08.2026 02:00:00
 📍 Değerli abonelerimiz, Yavrucuk Mahallesi Küme evleri Sokak üzerinde 100’lük içme suyu hattında yaşanan arıza nedeniyle su kesintisi yapılmıştır. Yavrucuk Mahallesi bir kısmına 18 Ağustos 2026 saat- 23:50 ile 19 Ağustos 2026 saat- 02:00 saatleri arasında su verilemeyecektir. Arızayı en hızlı şekilde çözebilmek amacıyla ekiplerimiz sahada çalışmalarını aralıksız sürdürmektedir. Bu süreçte göstereceğiniz anlayış ve destek için teşekkür ederiz.
-
 #AnkaraSuKesintisi #ASKİ #Golbasi
 [2026-08-18T21:09:07.527Z] [INFO] (557 karakter)
 [2026-08-18T21:09:07.527Z] [INFO] ---
 [2026-08-18T21:09:07.527Z] [INFO] 0 tweet atıldı.
 [2026-08-18T21:09:07.527Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-18T21:09:07.528Z] [SUCCESS] Tamamlandı.
+[2026-08-18T21:34:26.745Z] [INFO] Logger başlatıldı
+[2026-08-18T21:34:26.746Z] [INFO] Tek seferlik mod...
+[2026-08-18T21:34:26.746Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-18T21:34:27.245Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-18T21:34:27.245Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-18T21:34:27.246Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-18T21:34:28.116Z] [INFO] 1 kesinti bulundu.
+[2026-08-18T21:34:28.121Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-18T21:34:28.121Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-18T21:34:28.122Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-18T21:34:28.122Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
+
+📅 18.08.2026 23:55:00 - 19.08.2026 02:00:00
+📍 Değerli abonelerimiz, Yavrucuk Mahallesi Küme evleri Sokak üzerinde 100’lük içme suyu hattında yaşanan arıza nedeniyle su kesintisi yapılmıştır. Yavrucuk Mahallesi bir kısmına 18 Ağustos 2026 saat- 23:50 ile 19 Ağustos 2026 saat- 02:00 saatleri arasında su verilemeyecektir. Arızayı en hızlı şekilde çözebilmek amacıyla ekiplerimiz sahada çalışmalarını aralıksız sürdürmektedir. Bu süreçte göstereceğiniz anlayış ve destek için teşekkür ederiz.
+
+#AnkaraSuKesintisi #ASKİ #Golbasi
+[2026-08-18T21:34:28.122Z] [INFO] (557 karakter)
+[2026-08-18T21:34:28.122Z] [INFO] ---
+[2026-08-18T21:34:28.122Z] [INFO] 0 tweet atıldı.
+[2026-08-18T21:34:28.122Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-18T21:34:28.123Z] [SUCCESS] Tamamlandı.
