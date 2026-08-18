@@ -31323,10 +31323,6 @@
 📅 10.08.2026 23:00:00 - 11.08.2026 13:00:00
 📍 Ballıkpınar,Eymir,Gazi Osman Paşa,Gökçe Höyük,Hacı Hasan,Hacılar,Hacı Muratlı,Hallaçlı,İkizce,İncek,Karşıyaka,Kızılcaşar,Koparan,Oyaca Yeşilçam,Oyaca Akarsu,Örencik,Taşpınar,Tulumtaş,Yavrucuk,Yaylabağ ve Etimesgut ilçesine bağlı Fevziye Mahallelerine 10 Ağustos 2026 saat- 23:00 ile 11 Ağustos 2026 saat- 13:00 saatleri arasında
 #AnkaraSuKesintisi #ASKİ #Golbasi
-[2026-08-11T05:17:03.722Z] [INFO] Logger başlatıldı
-[2026-08-11T05:17:03.723Z] [INFO] Tek seferlik mod...
-[2026-08-11T05:17:03.723Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-11T05:17:05.401Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -31339,35 +31335,15 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-11T05:17:05.401Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-11T05:17:05.401Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-11T05:17:06.471Z] [INFO] 3 kesinti bulundu.
-[2026-08-11T05:17:06.476Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-11T05:17:06.477Z] [INFO] 3 yeni kesinti bulundu!
-[2026-08-11T05:17:06.477Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-11T05:17:06.477Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
 📅 10.08.2026 23:00:00 - 11.08.2026 13:00:00
 📍 Üniversiteliler Mahallesi, Beytepe Mahallesi, Mutlu kent Mahallesi Angora Evleri Üst Kısımları, Alaca atlı Mahallesi Alt Kotları ve civarı, Ahlatlıbel mahallesi
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-11T05:17:06.477Z] [INFO] (273 karakter)
-[2026-08-11T05:17:06.478Z] [INFO] ---
-[2026-08-11T05:17:06.478Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-11T05:17:06.478Z] [INFO] ⚠️ AYAŞ - Plansız Kesinti
 📅 11.08.2026 09:00:00 - 11.08.2026 17:00:00
 📍 Tekke Mahallesi geneli.
 #AnkaraSuKesintisi #ASKİ #Ayas
-[2026-08-11T05:17:06.478Z] [INFO] (130 karakter)
-[2026-08-11T05:17:06.478Z] [INFO] ---
-[2026-08-11T05:17:06.478Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-11T05:17:06.478Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
 📅 10.08.2026 23:00:00 - 11.08.2026 13:00:00
 📍 Ballıkpınar,Eymir,Gazi Osman Paşa,Gökçe Höyük,Hacı Hasan,Hacılar,Hacı Muratlı,Hallaçlı,İkizce,İncek,Karşıyaka,Kızılcaşar,Koparan,Oyaca Yeşilçam,Oyaca Akarsu,Örencik,Taşpınar,Tulumtaş,Yavrucuk,Yaylabağ ve Etimesgut ilçesine bağlı Fevziye Mahallelerine 10 Ağustos 2026 saat- 23:00 ile 11 Ağustos 2026 saat- 13:00 saatleri arasında
 #AnkaraSuKesintisi #ASKİ #Golbasi
-[2026-08-11T05:17:06.478Z] [INFO] (441 karakter)
-[2026-08-11T05:17:06.479Z] [INFO] ---
-[2026-08-11T05:17:06.479Z] [INFO] 0 tweet atıldı.
-[2026-08-11T05:17:06.479Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-11T05:17:06.479Z] [SUCCESS] Tamamlandı.
 [2026-08-11T06:05:18.992Z] [INFO] Logger başlatıldı
 [2026-08-11T06:05:18.994Z] [INFO] Tek seferlik mod...
 [2026-08-11T06:05:18.994Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -43946,13 +43922,44 @@
 [2026-08-18T05:12:34.556Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-18T05:12:34.556Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-18T05:12:34.556Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 17.08.2026 08:35:00 - 18.08.2026 14:00:00
 📍 DOĞANCI MAHALLESİ, PELİTÇİK MAHALLESİ VE BUĞRALAR MAHALLESİ.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-08-18T05:12:34.557Z] [INFO] (177 karakter)
 [2026-08-18T05:12:34.557Z] [INFO] ---
 [2026-08-18T05:12:34.557Z] [INFO] 0 tweet atıldı.
 [2026-08-18T05:12:34.557Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-18T05:12:34.557Z] [SUCCESS] Tamamlandı.
+[2026-08-18T05:43:28.294Z] [INFO] Logger başlatıldı
+[2026-08-18T05:43:28.296Z] [INFO] Tek seferlik mod...
+[2026-08-18T05:43:28.296Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-18T05:43:28.836Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-18T05:43:28.836Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-18T05:43:28.837Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-18T05:43:30.018Z] [INFO] 1 kesinti bulundu.
+[2026-08-18T05:43:30.025Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-18T05:43:30.025Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-18T05:43:30.026Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-18T05:43:30.026Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 17.08.2026 08:35:00 - 18.08.2026 14:00:00
+📍 DOĞANCI MAHALLESİ, PELİTÇİK MAHALLESİ VE BUĞRALAR MAHALLESİ.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-08-18T05:43:30.026Z] [INFO] (177 karakter)
+[2026-08-18T05:43:30.026Z] [INFO] ---
+[2026-08-18T05:43:30.026Z] [INFO] 0 tweet atıldı.
+[2026-08-18T05:43:30.026Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-18T05:43:30.026Z] [SUCCESS] Tamamlandı.
