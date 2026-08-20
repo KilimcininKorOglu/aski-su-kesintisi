@@ -46938,13 +46938,44 @@
 [2026-08-20T02:04:39.970Z] [INFO] 1 yeni kesinti bulundu!
 [2026-08-20T02:04:39.970Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-20T02:04:39.970Z] [INFO] ⚠️ BALA - Plansız Kesinti
-
 📅 19.08.2026 09:30:00 - 20.08.2026 09:30:00
 📍 Kerişli Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Bala
 [2026-08-20T02:04:39.971Z] [INFO] (124 karakter)
 [2026-08-20T02:04:39.971Z] [INFO] ---
 [2026-08-20T02:04:39.971Z] [INFO] 0 tweet atıldı.
 [2026-08-20T02:04:39.971Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-20T02:04:39.971Z] [SUCCESS] Tamamlandı.
+[2026-08-20T03:04:53.049Z] [INFO] Logger başlatıldı
+[2026-08-20T03:04:53.050Z] [INFO] Tek seferlik mod...
+[2026-08-20T03:04:53.051Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-20T03:04:55.324Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-20T03:04:55.324Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-20T03:04:55.324Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-20T03:04:56.335Z] [INFO] 1 kesinti bulundu.
+[2026-08-20T03:04:56.339Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-20T03:04:56.340Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-20T03:04:56.340Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-20T03:04:56.340Z] [INFO] ⚠️ BALA - Plansız Kesinti
+
+📅 19.08.2026 09:30:00 - 20.08.2026 09:30:00
+📍 Kerişli Mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Bala
+[2026-08-20T03:04:56.340Z] [INFO] (124 karakter)
+[2026-08-20T03:04:56.340Z] [INFO] ---
+[2026-08-20T03:04:56.340Z] [INFO] 0 tweet atıldı.
+[2026-08-20T03:04:56.340Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-20T03:04:56.341Z] [SUCCESS] Tamamlandı.
