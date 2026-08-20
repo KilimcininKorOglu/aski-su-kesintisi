@@ -32364,10 +32364,6 @@
 📅 13.08.2026 12:00:00 - 13.08.2026 17:00:00
 📍 YUKARI MAHALLE VE EMİRLER MAHALLESİNİN BİRKISMI İLE AŞAĞI MAHALLE
 #AnkaraSuKesintisi #ASKİ #Gudul
-[2026-08-13T10:31:33.293Z] [INFO] Logger başlatıldı
-[2026-08-13T10:31:33.295Z] [INFO] Tek seferlik mod...
-[2026-08-13T10:31:33.295Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-13T10:31:36.029Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -32380,35 +32376,15 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-13T10:31:36.030Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-13T10:31:36.030Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-13T10:31:37.251Z] [INFO] 3 kesinti bulundu.
-[2026-08-13T10:31:37.257Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-13T10:31:37.257Z] [INFO] 3 yeni kesinti bulundu!
-[2026-08-13T10:31:37.258Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-13T10:31:37.258Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
 📅 13.08.2026 10:00:00 - 13.08.2026 17:00:00
 📍 Esenboğa Mah geneli
 #AnkaraSuKesintisi #ASKİ #Cubuk
-[2026-08-13T10:31:37.258Z] [INFO] (128 karakter)
-[2026-08-13T10:31:37.258Z] [INFO] ---
-[2026-08-13T10:31:37.258Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-13T10:31:37.258Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
 📅 13.08.2026 10:55:00 - 13.08.2026 18:00:00
 📍 Yakacık Mahallesi 3585 cadde ve civarı
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-08-13T10:31:37.259Z] [INFO] (159 karakter)
-[2026-08-13T10:31:37.259Z] [INFO] ---
-[2026-08-13T10:31:37.259Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-13T10:31:37.259Z] [INFO] ⚠️ GÜDÜL - Plansız Kesinti
 📅 13.08.2026 12:00:00 - 13.08.2026 17:00:00
 📍 YUKARI MAHALLE VE EMİRLER MAHALLESİNİN BİRKISMI İLE AŞAĞI MAHALLE
 #AnkaraSuKesintisi #ASKİ #Gudul
-[2026-08-13T10:31:37.259Z] [INFO] (174 karakter)
-[2026-08-13T10:31:37.259Z] [INFO] ---
-[2026-08-13T10:31:37.259Z] [INFO] 0 tweet atıldı.
-[2026-08-13T10:31:37.259Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-13T10:31:37.259Z] [SUCCESS] Tamamlandı.
 [2026-08-13T11:21:27.605Z] [INFO] Logger başlatıldı
 [2026-08-13T11:21:27.606Z] [INFO] Tek seferlik mod...
 [2026-08-13T11:21:27.607Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -47319,40 +47295,101 @@
 [2026-08-20T10:02:30.119Z] [INFO] 4 yeni kesinti bulundu!
 [2026-08-20T10:02:30.120Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-20T10:02:30.120Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
-
 📅 20.08.2026 10:30:00 - 20.08.2026 17:00:00
 📍 Yapracık köyü
-
 #AnkaraSuKesintisi #ASKİ #Etimesgut
 [2026-08-20T10:02:30.120Z] [INFO] (130 karakter)
 [2026-08-20T10:02:30.120Z] [INFO] ---
 [2026-08-20T10:02:30.120Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-20T10:02:30.120Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
-
 📅 20.08.2026 10:40:00 - 20.08.2026 14:00:00
 📍 Derbent mahallesi, Araplar mahallesi, Üreğil mahallesi, Köstence mahallelerin üst kotları Arızayı en hızlı şekilde çözebilmek amacıyla ekiplerimiz sahada çalışmalarını aralıksız sürdürmektedir.
-
 #AnkaraSuKesintisi #ASKİ #Mamak
 [2026-08-20T10:02:30.120Z] [INFO] (302 karakter)
 [2026-08-20T10:02:30.120Z] [INFO] ---
 [2026-08-20T10:02:30.120Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-20T10:02:30.120Z] [INFO] ⚠️ POLATLI - Plansız Kesinti
-
 📅 20.08.2026 11:35:00 - 20.08.2026 16:00:00
 📍 MEHMETAKİF Mahallesi Bir Bölümü
-
 #AnkaraSuKesintisi #ASKİ #Polatli
 [2026-08-20T10:02:30.120Z] [INFO] (144 karakter)
 [2026-08-20T10:02:30.120Z] [INFO] ---
 [2026-08-20T10:02:30.120Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-08-20T10:02:30.120Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 20.08.2026 12:20:00 - 20.08.2026 17:00:00
 📍 Cumhuriyet mahallesi 5617 sokak Vera Vista sitesi
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-08-20T10:02:30.120Z] [INFO] (170 karakter)
 [2026-08-20T10:02:30.121Z] [INFO] ---
 [2026-08-20T10:02:30.121Z] [INFO] 0 tweet atıldı.
 [2026-08-20T10:02:30.121Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-08-20T10:02:30.121Z] [SUCCESS] Tamamlandı.
+[2026-08-20T10:38:54.024Z] [INFO] Logger başlatıldı
+[2026-08-20T10:38:54.026Z] [INFO] Tek seferlik mod...
+[2026-08-20T10:38:54.026Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-20T10:38:54.593Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-20T10:38:54.593Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-20T10:38:54.593Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-20T10:38:55.471Z] [INFO] 5 kesinti bulundu.
+[2026-08-20T10:38:55.476Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-20T10:38:55.477Z] [INFO] 5 yeni kesinti bulundu!
+[2026-08-20T10:38:55.477Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-20T10:38:55.477Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
+
+📅 20.08.2026 10:30:00 - 20.08.2026 17:00:00
+📍 Yapracık köyü
+
+#AnkaraSuKesintisi #ASKİ #Etimesgut
+[2026-08-20T10:38:55.477Z] [INFO] (130 karakter)
+[2026-08-20T10:38:55.477Z] [INFO] ---
+[2026-08-20T10:38:55.477Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-20T10:38:55.478Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
+
+📅 20.08.2026 10:40:00 - 20.08.2026 14:00:00
+📍 Derbent mahallesi, Araplar mahallesi, Üreğil mahallesi, Köstence mahallelerin üst kotları Arızayı en hızlı şekilde çözebilmek amacıyla ekiplerimiz sahada çalışmalarını aralıksız sürdürmektedir.
+
+#AnkaraSuKesintisi #ASKİ #Mamak
+[2026-08-20T10:38:55.478Z] [INFO] (302 karakter)
+[2026-08-20T10:38:55.478Z] [INFO] ---
+[2026-08-20T10:38:55.478Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-20T10:38:55.478Z] [INFO] ⚠️ POLATLI - Plansız Kesinti
+
+📅 20.08.2026 11:35:00 - 20.08.2026 16:00:00
+📍 MEHMETAKİF Mahallesi Bir Bölümü
+
+#AnkaraSuKesintisi #ASKİ #Polatli
+[2026-08-20T10:38:55.478Z] [INFO] (144 karakter)
+[2026-08-20T10:38:55.478Z] [INFO] ---
+[2026-08-20T10:38:55.478Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-20T10:38:55.478Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
+
+📅 20.08.2026 12:20:00 - 20.08.2026 17:00:00
+📍 Cumhuriyet mahallesi 5617 sokak Vera Vista sitesi
+
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-08-20T10:38:55.478Z] [INFO] (170 karakter)
+[2026-08-20T10:38:55.478Z] [INFO] ---
+[2026-08-20T10:38:55.478Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-20T10:38:55.478Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
+
+📅 20.08.2026 13:05:00 - 20.08.2026 14:05:00
+📍 Pursaklar Mimar Mahallesi nin bir kısmi -Pursaklar Merkez Mahallesi nin bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Pursaklar
+[2026-08-20T10:38:55.478Z] [INFO] (198 karakter)
+[2026-08-20T10:38:55.478Z] [INFO] ---
+[2026-08-20T10:38:55.478Z] [INFO] 0 tweet atıldı.
+[2026-08-20T10:38:55.478Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-20T10:38:55.478Z] [SUCCESS] Tamamlandı.
