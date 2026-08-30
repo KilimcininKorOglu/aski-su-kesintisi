@@ -41769,10 +41769,6 @@
 📅 23.08.2026 00:45:00 - 23.08.2026 07:00:00
 📍 Mutlu kent mahallesi ÜMİT mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-23T02:37:01.676Z] [INFO] Logger başlatıldı
-[2026-08-23T02:37:01.678Z] [INFO] Tek seferlik mod...
-[2026-08-23T02:37:01.678Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T02:37:02.312Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41785,25 +41781,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T02:37:02.312Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T02:37:02.312Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T02:37:03.314Z] [INFO] 1 kesinti bulundu.
-[2026-08-23T02:37:03.320Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T02:37:03.320Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-23T02:37:03.321Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T02:37:03.321Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
 📅 23.08.2026 00:45:00 - 23.08.2026 07:00:00
 📍 Mutlu kent mahallesi ÜMİT mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-23T02:37:03.321Z] [INFO] (158 karakter)
-[2026-08-23T02:37:03.321Z] [INFO] ---
-[2026-08-23T02:37:03.321Z] [INFO] 0 tweet atıldı.
-[2026-08-23T02:37:03.321Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T02:37:03.322Z] [SUCCESS] Tamamlandı.
-[2026-08-23T03:32:52.671Z] [INFO] Logger başlatıldı
-[2026-08-23T03:32:52.673Z] [INFO] Tek seferlik mod...
-[2026-08-23T03:32:52.673Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T03:32:53.125Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41816,25 +41796,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T03:32:53.125Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T03:32:53.125Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T03:32:54.294Z] [INFO] 1 kesinti bulundu.
-[2026-08-23T03:32:54.299Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T03:32:54.299Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-23T03:32:54.300Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T03:32:54.300Z] [INFO] ⚠️ ÇANKAYA - Plansız Kesinti
 📅 23.08.2026 00:45:00 - 23.08.2026 07:00:00
 📍 Mutlu kent mahallesi ÜMİT mahallesi bir kısmı
 #AnkaraSuKesintisi #ASKİ #Cankaya
-[2026-08-23T03:32:54.300Z] [INFO] (158 karakter)
-[2026-08-23T03:32:54.300Z] [INFO] ---
-[2026-08-23T03:32:54.300Z] [INFO] 0 tweet atıldı.
-[2026-08-23T03:32:54.300Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T03:32:54.301Z] [SUCCESS] Tamamlandı.
-[2026-08-23T04:10:54.026Z] [INFO] Logger başlatıldı
-[2026-08-23T04:10:54.027Z] [INFO] Tek seferlik mod...
-[2026-08-23T04:10:54.028Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T04:10:55.051Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41847,16 +41811,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T04:10:55.051Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T04:10:55.051Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T04:10:56.101Z] [INFO] 0 kesinti bulundu.
-[2026-08-23T04:10:56.106Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T04:10:56.106Z] [INFO] Yeni kesinti yok.
-[2026-08-23T04:10:56.106Z] [SUCCESS] Tamamlandı.
-[2026-08-23T04:50:40.609Z] [INFO] Logger başlatıldı
-[2026-08-23T04:50:40.610Z] [INFO] Tek seferlik mod...
-[2026-08-23T04:50:40.610Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T04:50:41.765Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41869,25 +41823,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T04:50:41.765Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T04:50:41.766Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T04:50:43.189Z] [INFO] 1 kesinti bulundu.
-[2026-08-23T04:50:43.195Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T04:50:43.195Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-23T04:50:43.195Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T04:50:43.195Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 23.08.2026 07:30:00 - 23.08.2026 14:00:00
 📍 Oğuzlar Mahallesi Geneli , Ayyıldız Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-08-23T04:50:43.195Z] [INFO] (172 karakter)
-[2026-08-23T04:50:43.195Z] [INFO] ---
-[2026-08-23T04:50:43.196Z] [INFO] 0 tweet atıldı.
-[2026-08-23T04:50:43.196Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T04:50:43.196Z] [SUCCESS] Tamamlandı.
-[2026-08-23T05:15:27.986Z] [INFO] Logger başlatıldı
-[2026-08-23T05:15:27.987Z] [INFO] Tek seferlik mod...
-[2026-08-23T05:15:27.988Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T05:15:28.410Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41900,25 +41838,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T05:15:28.410Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T05:15:28.410Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T05:15:29.403Z] [INFO] 1 kesinti bulundu.
-[2026-08-23T05:15:29.411Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T05:15:29.412Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-23T05:15:29.413Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T05:15:29.413Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 23.08.2026 07:30:00 - 23.08.2026 14:00:00
 📍 Oğuzlar Mahallesi Geneli , Ayyıldız Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-08-23T05:15:29.413Z] [INFO] (172 karakter)
-[2026-08-23T05:15:29.413Z] [INFO] ---
-[2026-08-23T05:15:29.413Z] [INFO] 0 tweet atıldı.
-[2026-08-23T05:15:29.413Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T05:15:29.414Z] [SUCCESS] Tamamlandı.
-[2026-08-23T05:45:18.604Z] [INFO] Logger başlatıldı
-[2026-08-23T05:45:18.605Z] [INFO] Tek seferlik mod...
-[2026-08-23T05:45:18.606Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T05:45:19.438Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41931,25 +41853,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T05:45:19.439Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T05:45:19.439Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T05:45:20.570Z] [INFO] 1 kesinti bulundu.
-[2026-08-23T05:45:20.575Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T05:45:20.576Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-23T05:45:20.576Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T05:45:20.576Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 23.08.2026 07:30:00 - 23.08.2026 14:00:00
 📍 Oğuzlar Mahallesi Geneli , Ayyıldız Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-08-23T05:45:20.576Z] [INFO] (172 karakter)
-[2026-08-23T05:45:20.576Z] [INFO] ---
-[2026-08-23T05:45:20.576Z] [INFO] 0 tweet atıldı.
-[2026-08-23T05:45:20.576Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T05:45:20.577Z] [SUCCESS] Tamamlandı.
-[2026-08-23T06:14:48.938Z] [INFO] Logger başlatıldı
-[2026-08-23T06:14:48.939Z] [INFO] Tek seferlik mod...
-[2026-08-23T06:14:48.939Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T06:14:49.520Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41962,25 +41868,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T06:14:49.521Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T06:14:49.521Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T06:14:50.401Z] [INFO] 1 kesinti bulundu.
-[2026-08-23T06:14:50.405Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T06:14:50.405Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-23T06:14:50.405Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T06:14:50.405Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 23.08.2026 07:30:00 - 23.08.2026 14:00:00
 📍 Oğuzlar Mahallesi Geneli , Ayyıldız Mahallesi Bir Kısmı,Topçu Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-08-23T06:14:50.406Z] [INFO] (198 karakter)
-[2026-08-23T06:14:50.406Z] [INFO] ---
-[2026-08-23T06:14:50.406Z] [INFO] 0 tweet atıldı.
-[2026-08-23T06:14:50.406Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T06:14:50.406Z] [SUCCESS] Tamamlandı.
-[2026-08-23T07:00:29.048Z] [INFO] Logger başlatıldı
-[2026-08-23T07:00:29.049Z] [INFO] Tek seferlik mod...
-[2026-08-23T07:00:29.049Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-23T07:00:29.718Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -41993,28 +41883,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-23T07:00:29.719Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-23T07:00:29.719Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-23T07:00:31.005Z] [INFO] 2 kesinti bulundu.
-[2026-08-23T07:00:31.010Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-23T07:00:31.011Z] [INFO] 2 yeni kesinti bulundu!
-[2026-08-23T07:00:31.011Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T07:00:31.011Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 23.08.2026 07:30:00 - 23.08.2026 14:00:00
 📍 Oğuzlar Mahallesi Geneli , Ayyıldız Mahallesi Bir Kısmı,Topçu Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-08-23T07:00:31.011Z] [INFO] (198 karakter)
-[2026-08-23T07:00:31.011Z] [INFO] ---
-[2026-08-23T07:00:31.012Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-23T07:00:31.012Z] [INFO] ⚠️ ÇUBUK - Plansız Kesinti
 📅 23.08.2026 09:50:00 - 23.08.2026 12:00:00
 📍 Çubuk İlçesi Yıldırım Beyazıt Mahallesi Cihat Sokak, Karakuş Sokak, Beher Sokak ve bağlı sokaklar.
 #AnkaraSuKesintisi #ASKİ #Cubuk
-[2026-08-23T07:00:31.012Z] [INFO] (207 karakter)
-[2026-08-23T07:00:31.012Z] [INFO] ---
-[2026-08-23T07:00:31.012Z] [INFO] 0 tweet atıldı.
-[2026-08-23T07:00:31.012Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-23T07:00:31.012Z] [SUCCESS] Tamamlandı.
 [2026-08-23T07:40:18.953Z] [INFO] Logger başlatıldı
 [2026-08-23T07:40:18.954Z] [INFO] Tek seferlik mod...
 [2026-08-23T07:40:18.954Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -48568,3 +48442,36 @@
 [2026-08-30T01:38:00.839Z] [INFO] 1477 kayıtlı kesinti var.
 [2026-08-30T01:38:00.840Z] [INFO] Yeni kesinti yok.
 [2026-08-30T01:38:00.840Z] [SUCCESS] Tamamlandı.
+[2026-08-30T07:21:32.141Z] [INFO] Logger başlatıldı
+[2026-08-30T07:21:32.143Z] [INFO] Tek seferlik mod...
+[2026-08-30T07:21:32.143Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-08-30T07:21:34.735Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-08-30T07:21:34.735Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-08-30T07:21:34.736Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-08-30T07:21:35.789Z] [INFO] 1 kesinti bulundu.
+[2026-08-30T07:21:35.794Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-08-30T07:21:35.794Z] [INFO] 1 yeni kesinti bulundu!
+[2026-08-30T07:21:35.795Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-08-30T07:21:35.795Z] [INFO] ⚠️ POLATLI - Plansız Kesinti
+
+📅 30.08.2026 09:00:00 - 30.08.2026 13:00:00
+📍 YENİ mah. Bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Polatli
+[2026-08-30T07:21:35.795Z] [INFO] (132 karakter)
+[2026-08-30T07:21:35.795Z] [INFO] ---
+[2026-08-30T07:21:35.795Z] [INFO] 0 tweet atıldı.
+[2026-08-30T07:21:35.795Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-08-30T07:21:35.795Z] [SUCCESS] Tamamlandı.
