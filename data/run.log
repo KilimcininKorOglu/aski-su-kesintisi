@@ -46579,13 +46579,44 @@
 [2026-09-04T21:53:35.824Z] [INFO] 1 yeni kesinti bulundu!
 [2026-09-04T21:53:35.825Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-04T21:53:35.825Z] [INFO] ⚠️ KAZAN - Plansız Kesinti
-
 📅 5.09.2026 09:00:00 - 5.09.2026 17:00:00
 📍 SARAY MAHALLESİ ÇANİÇİ CADDESİ, ATOM CADDESİ, DAĞYAKA CADDESİ 688 CADDE ,GİMAT CADDESİ ,115 CADDE YE. BAĞLI CADDE VE SOKAKLAR
-
 #AnkaraSuKesintisi #ASKİ #Kazan
 [2026-09-04T21:53:35.825Z] [INFO] (232 karakter)
 [2026-09-04T21:53:35.825Z] [INFO] ---
 [2026-09-04T21:53:35.825Z] [INFO] 0 tweet atıldı.
 [2026-09-04T21:53:35.825Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-09-04T21:53:35.825Z] [SUCCESS] Tamamlandı.
+[2026-09-04T23:26:15.708Z] [INFO] Logger başlatıldı
+[2026-09-04T23:26:15.710Z] [INFO] Tek seferlik mod...
+[2026-09-04T23:26:15.710Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-09-04T23:26:16.126Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-09-04T23:26:16.126Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-09-04T23:26:16.126Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-09-04T23:26:16.863Z] [INFO] 1 kesinti bulundu.
+[2026-09-04T23:26:16.868Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-09-04T23:26:16.869Z] [INFO] 1 yeni kesinti bulundu!
+[2026-09-04T23:26:16.869Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-04T23:26:16.869Z] [INFO] ⚠️ KAZAN - Plansız Kesinti
+
+📅 5.09.2026 09:00:00 - 5.09.2026 17:00:00
+📍 SARAY MAHALLESİ ÇANİÇİ CADDESİ, ATOM CADDESİ, DAĞYAKA CADDESİ 688 CADDE ,GİMAT CADDESİ ,115 CADDE YE. BAĞLI CADDE VE SOKAKLAR
+
+#AnkaraSuKesintisi #ASKİ #Kazan
+[2026-09-04T23:26:16.870Z] [INFO] (232 karakter)
+[2026-09-04T23:26:16.870Z] [INFO] ---
+[2026-09-04T23:26:16.870Z] [INFO] 0 tweet atıldı.
+[2026-09-04T23:26:16.870Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-09-04T23:26:16.870Z] [SUCCESS] Tamamlandı.
