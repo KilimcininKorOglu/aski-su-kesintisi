@@ -45072,10 +45072,6 @@
 📅 30.08.2026 18:30:00 - 31.08.2026 12:00:00
 📍 Beyler Mahallesi Dikilitaş Kümeevleri.
 #AnkaraSuKesintisi #ASKİ #Camlidere
-[2026-08-30T22:07:02.976Z] [INFO] Logger başlatıldı
-[2026-08-30T22:07:02.977Z] [INFO] Tek seferlik mod...
-[2026-08-30T22:07:02.977Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-30T22:07:03.558Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -45088,21 +45084,9 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-30T22:07:03.558Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-30T22:07:03.559Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-30T22:07:04.564Z] [INFO] 1 kesinti bulundu.
-[2026-08-30T22:07:04.568Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-30T22:07:04.568Z] [INFO] 1 yeni kesinti bulundu!
-[2026-08-30T22:07:04.568Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-08-30T22:07:04.568Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
 📅 30.08.2026 18:30:00 - 31.08.2026 12:00:00
 📍 Beyler Mahallesi Dikilitaş Kümeevleri.
 #AnkaraSuKesintisi #ASKİ #Camlidere
-[2026-08-30T22:07:04.569Z] [INFO] (155 karakter)
-[2026-08-30T22:07:04.569Z] [INFO] ---
-[2026-08-30T22:07:04.569Z] [INFO] 0 tweet atıldı.
-[2026-08-30T22:07:04.569Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-08-30T22:07:04.569Z] [SUCCESS] Tamamlandı.
 [2026-08-31T00:28:00.358Z] [INFO] Logger başlatıldı
 [2026-08-31T00:28:00.360Z] [INFO] Tek seferlik mod...
 [2026-08-31T00:28:00.360Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -47064,31 +47048,76 @@
 [2026-09-06T21:38:39.399Z] [INFO] 3 yeni kesinti bulundu!
 [2026-09-06T21:38:39.400Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-06T21:38:39.400Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 5.09.2026 19:25:00 - 7.09.2026 15:00:00
 📍 ÇUKURÖREN MAHALLESİ.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-09-06T21:38:39.400Z] [INFO] (135 karakter)
 [2026-09-06T21:38:39.400Z] [INFO] ---
 [2026-09-06T21:38:39.400Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-06T21:38:39.400Z] [INFO] ⚠️ SEREFLIKOÇHISAR - Plansız Kesinti
-
 📅 7.09.2026 08:00:00 - 7.09.2026 20:00:00
 📍 Yeşilova, Hacıenbiya ,Emek, Cumhuriyet, Tuzla Mahalleleri
-
 #AnkaraSuKesintisi #ASKİ #Sereflikochisar
 [2026-09-06T21:38:39.401Z] [INFO] (184 karakter)
 [2026-09-06T21:38:39.401Z] [INFO] ---
 [2026-09-06T21:38:39.401Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-06T21:38:39.401Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
-
 📅 6.09.2026 20:10:00 - 7.09.2026 12:00:00
 📍 kemalpaşa mh alt kotlar baştaş evleri shell benzinlik türkiye petrolleri
-
 #AnkaraSuKesintisi #ASKİ #Elmadag
 [2026-09-06T21:38:39.401Z] [INFO] (183 karakter)
 [2026-09-06T21:38:39.401Z] [INFO] ---
 [2026-09-06T21:38:39.401Z] [INFO] 0 tweet atıldı.
 [2026-09-06T21:38:39.401Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-09-06T21:38:39.401Z] [SUCCESS] Tamamlandı.
+[2026-09-06T23:07:32.313Z] [INFO] Logger başlatıldı
+[2026-09-06T23:07:32.314Z] [INFO] Tek seferlik mod...
+[2026-09-06T23:07:32.315Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-09-06T23:07:32.902Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-09-06T23:07:32.903Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-09-06T23:07:32.903Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-09-06T23:07:33.707Z] [INFO] 3 kesinti bulundu.
+[2026-09-06T23:07:33.712Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-09-06T23:07:33.713Z] [INFO] 3 yeni kesinti bulundu!
+[2026-09-06T23:07:33.713Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-06T23:07:33.714Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 5.09.2026 19:25:00 - 7.09.2026 15:00:00
+📍 ÇUKURÖREN MAHALLESİ.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-09-06T23:07:33.714Z] [INFO] (135 karakter)
+[2026-09-06T23:07:33.714Z] [INFO] ---
+[2026-09-06T23:07:33.714Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-06T23:07:33.714Z] [INFO] ⚠️ SEREFLIKOÇHISAR - Plansız Kesinti
+
+📅 7.09.2026 08:00:00 - 7.09.2026 20:00:00
+📍 Yeşilova, Hacıenbiya ,Emek, Cumhuriyet, Tuzla Mahalleleri
+
+#AnkaraSuKesintisi #ASKİ #Sereflikochisar
+[2026-09-06T23:07:33.714Z] [INFO] (184 karakter)
+[2026-09-06T23:07:33.714Z] [INFO] ---
+[2026-09-06T23:07:33.714Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-06T23:07:33.714Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
+
+📅 6.09.2026 20:10:00 - 7.09.2026 12:00:00
+📍 kemalpaşa mh alt kotlar baştaş evleri shell benzinlik türkiye petrolleri
+
+#AnkaraSuKesintisi #ASKİ #Elmadag
+[2026-09-06T23:07:33.715Z] [INFO] (183 karakter)
+[2026-09-06T23:07:33.715Z] [INFO] ---
+[2026-09-06T23:07:33.715Z] [INFO] 0 tweet atıldı.
+[2026-09-06T23:07:33.715Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-09-06T23:07:33.715Z] [SUCCESS] Tamamlandı.
