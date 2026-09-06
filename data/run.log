@@ -45000,10 +45000,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-30T01:37:59.487Z] [INFO] Logger başlatıldı
-[2026-08-30T01:37:59.488Z] [INFO] Tek seferlik mod...
-[2026-08-30T01:37:59.489Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-08-30T01:37:59.948Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -45016,12 +45012,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-08-30T01:37:59.948Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-08-30T01:37:59.948Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-08-30T01:38:00.834Z] [INFO] 0 kesinti bulundu.
-[2026-08-30T01:38:00.839Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-08-30T01:38:00.840Z] [INFO] Yeni kesinti yok.
-[2026-08-30T01:38:00.840Z] [SUCCESS] Tamamlandı.
 [2026-08-30T07:21:32.141Z] [INFO] Logger başlatıldı
 [2026-08-30T07:21:32.143Z] [INFO] Tek seferlik mod...
 [2026-08-30T07:21:32.143Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -46872,13 +46862,44 @@
 [2026-09-06T00:35:26.195Z] [INFO] 1 yeni kesinti bulundu!
 [2026-09-06T00:35:26.196Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-06T00:35:26.196Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 5.09.2026 19:25:00 - 7.09.2026 15:00:00
 📍 ÇUKURÖREN MAHALLESİ.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-09-06T00:35:26.196Z] [INFO] (135 karakter)
 [2026-09-06T00:35:26.196Z] [INFO] ---
 [2026-09-06T00:35:26.196Z] [INFO] 0 tweet atıldı.
 [2026-09-06T00:35:26.196Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-09-06T00:35:26.197Z] [SUCCESS] Tamamlandı.
+[2026-09-06T05:01:09.827Z] [INFO] Logger başlatıldı
+[2026-09-06T05:01:09.828Z] [INFO] Tek seferlik mod...
+[2026-09-06T05:01:09.828Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-09-06T05:01:12.699Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-09-06T05:01:12.699Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-09-06T05:01:12.699Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-09-06T05:01:13.696Z] [INFO] 1 kesinti bulundu.
+[2026-09-06T05:01:13.701Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-09-06T05:01:13.701Z] [INFO] 1 yeni kesinti bulundu!
+[2026-09-06T05:01:13.702Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-06T05:01:13.702Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 5.09.2026 19:25:00 - 7.09.2026 15:00:00
+📍 ÇUKURÖREN MAHALLESİ.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-09-06T05:01:13.702Z] [INFO] (135 karakter)
+[2026-09-06T05:01:13.702Z] [INFO] ---
+[2026-09-06T05:01:13.702Z] [INFO] 0 tweet atıldı.
+[2026-09-06T05:01:13.702Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-09-06T05:01:13.702Z] [SUCCESS] Tamamlandı.
