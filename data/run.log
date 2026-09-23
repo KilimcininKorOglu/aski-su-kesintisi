@@ -47397,10 +47397,6 @@
 📅 16.09.2026 14:15:00 - 19.09.2026 19:00:00
 📍 Macun Mahallesinin Tamamı
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-09-16T16:43:26.446Z] [INFO] Logger başlatıldı
-[2026-09-16T16:43:26.447Z] [INFO] Tek seferlik mod...
-[2026-09-16T16:43:26.447Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-09-16T16:43:27.382Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -47413,28 +47409,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-09-16T16:43:27.382Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-09-16T16:43:27.382Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-09-16T16:43:28.461Z] [INFO] 2 kesinti bulundu.
-[2026-09-16T16:43:28.642Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-09-16T16:43:28.642Z] [INFO] 2 yeni kesinti bulundu!
-[2026-09-16T16:43:28.643Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-09-16T16:43:28.643Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
 📅 16.09.2026 19:20:00 - 16.09.2026 22:00:00
 📍 yenipınar mah yenidoğan mah
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-09-16T16:43:28.643Z] [INFO] (140 karakter)
-[2026-09-16T16:43:28.643Z] [INFO] ---
-[2026-09-16T16:43:28.643Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-09-16T16:43:28.643Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
 📅 16.09.2026 10:30:00 - 16.09.2026 23:55:00
 📍 Turkuaz Mahallesi geneli, Şehit Ali Mahallesi bir kısmı, Orhun Mahallesi geneli
 #AnkaraSuKesintisi #ASKİ #Etimesgut
-[2026-09-16T16:43:28.643Z] [INFO] (196 karakter)
-[2026-09-16T16:43:28.643Z] [INFO] ---
-[2026-09-16T16:43:28.643Z] [INFO] 0 tweet atıldı.
-[2026-09-16T16:43:28.643Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-09-16T16:43:28.643Z] [SUCCESS] Tamamlandı.
 [2026-09-16T19:41:41.748Z] [INFO] Logger başlatıldı
 [2026-09-16T19:41:41.750Z] [INFO] Tek seferlik mod...
 [2026-09-16T19:41:41.750Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -49679,49 +49659,108 @@
 [2026-09-23T12:13:46.442Z] [INFO] 5 yeni kesinti bulundu!
 [2026-09-23T12:13:46.442Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-23T12:13:46.443Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 23.09.2026 09:00:00 - 23.09.2026 22:00:00
 📍 yakacık alt toki yakacık bulvarı 3585 cadde 3563 cadde 4071 sokak ve çevresi etkilenecekttir
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-09-23T12:13:46.443Z] [INFO] (213 karakter)
 [2026-09-23T12:13:46.443Z] [INFO] ---
 [2026-09-23T12:13:46.443Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-23T12:13:46.443Z] [INFO] ⚠️ KAZAN - Plansız Kesinti
-
 📅 23.09.2026 09:10:00 - 23.09.2026 18:55:00
 📍 SARAY MAHALLESİ VE ORHANİYE MAHALLESİ DAĞYAKA MAH ÇANİÇİ CADDESİ, ATOM CADDESİ, DAĞYAKA CADDESİ 688 CADDE ,GİMAT CADDESİ ,115 CADDE YE. BAĞLI CADDE VE SOKAKLAR
-
 #AnkaraSuKesintisi #ASKİ #Kazan
 [2026-09-23T12:13:46.443Z] [INFO] (268 karakter)
 [2026-09-23T12:13:46.443Z] [INFO] ---
 [2026-09-23T12:13:46.444Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-23T12:13:46.444Z] [INFO] ⚠️ SİNCAN - Plansız Kesinti
-
 📅 23.09.2026 11:15:00 - 23.09.2026 18:00:00
 📍 Ulubatlı Mahallesi ,Fatih Mahallesi ,Gazi Osman Paşa Mahallesi, Yunus Emre Mahallesi , Mevlana Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Sincan
 [2026-09-23T12:13:46.444Z] [INFO] (215 karakter)
 [2026-09-23T12:13:46.444Z] [INFO] ---
 [2026-09-23T12:13:46.444Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-23T12:13:46.444Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
-
 📅 23.09.2026 11:35:00 - 23.09.2026 18:00:00
 📍 Güzelkent Mahallesi bir kısmı
-
 #AnkaraSuKesintisi #ASKİ #Etimesgut
 [2026-09-23T12:13:46.444Z] [INFO] (146 karakter)
 [2026-09-23T12:13:46.444Z] [INFO] ---
 [2026-09-23T12:13:46.444Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-09-23T12:13:46.444Z] [INFO] ⚠️ GÖLBAŞI - Plansız Kesinti
-
 📅 23.09.2026 14:25:00 - 23.09.2026 18:00:00
 📍 Ballıkpınar Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Golbasi
 [2026-09-23T12:13:46.444Z] [INFO] (134 karakter)
 [2026-09-23T12:13:46.444Z] [INFO] ---
 [2026-09-23T12:13:46.444Z] [INFO] 0 tweet atıldı.
 [2026-09-23T12:13:46.444Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-09-23T12:13:46.445Z] [SUCCESS] Tamamlandı.
+[2026-09-23T16:56:32.069Z] [INFO] Logger başlatıldı
+[2026-09-23T16:56:32.070Z] [INFO] Tek seferlik mod...
+[2026-09-23T16:56:32.070Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-09-23T16:56:33.023Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-09-23T16:56:33.024Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-09-23T16:56:33.024Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-09-23T16:56:33.869Z] [INFO] 5 kesinti bulundu.
+[2026-09-23T16:56:33.875Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-09-23T16:56:33.876Z] [INFO] 5 yeni kesinti bulundu!
+[2026-09-23T16:56:33.876Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-23T16:56:33.877Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
+
+📅 23.09.2026 09:00:00 - 23.09.2026 22:00:00
+📍 yakacık alt toki yakacık bulvarı 3585 cadde 3563 cadde 4071 sokak ve çevresi etkilenecekttir
+
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-09-23T16:56:33.877Z] [INFO] (213 karakter)
+[2026-09-23T16:56:33.877Z] [INFO] ---
+[2026-09-23T16:56:33.877Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-23T16:56:33.877Z] [INFO] ⚠️ SİNCAN - Plansız Kesinti
+
+📅 23.09.2026 11:15:00 - 24.09.2026 04:00:00
+📍 Ulubatlı Mahallesi ,Fatih Mahallesi ,Gazi Osman Paşa Mahallesi, Yunus Emre Mahallesi , Mevlana Mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Sincan
+[2026-09-23T16:56:33.877Z] [INFO] (215 karakter)
+[2026-09-23T16:56:33.877Z] [INFO] ---
+[2026-09-23T16:56:33.877Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-23T16:56:33.877Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
+
+📅 23.09.2026 11:35:00 - 24.09.2026 04:00:00
+📍 Güzelkent Mahallesi bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Etimesgut
+[2026-09-23T16:56:33.878Z] [INFO] (146 karakter)
+[2026-09-23T16:56:33.878Z] [INFO] ---
+[2026-09-23T16:56:33.878Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-23T16:56:33.878Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
+
+📅 23.09.2026 16:00:00 - 23.09.2026 20:00:00
+📍 –fatih mahallesi nin bir kısmı -mimar sinan mahallesi nin bir kısmı -tevfik İleri mahallesi nin bir kısmı
+
+#AnkaraSuKesintisi #ASKİ #Pursaklar
+[2026-09-23T16:56:33.878Z] [INFO] (222 karakter)
+[2026-09-23T16:56:33.878Z] [INFO] ---
+[2026-09-23T16:56:33.878Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-09-23T16:56:33.878Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
+
+📅 23.09.2026 18:45:00 - 24.09.2026 04:00:00
+📍 ata mahallesi 3755 sokak 3768 sokak 3771/1 sokak ve civarı
+
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-09-23T16:56:33.878Z] [INFO] (179 karakter)
+[2026-09-23T16:56:33.878Z] [INFO] ---
+[2026-09-23T16:56:33.878Z] [INFO] 0 tweet atıldı.
+[2026-09-23T16:56:33.878Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-09-23T16:56:33.878Z] [SUCCESS] Tamamlandı.
