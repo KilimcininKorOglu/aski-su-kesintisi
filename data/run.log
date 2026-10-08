@@ -49308,10 +49308,6 @@
 📅 30.09.2026 18:50:00 - 1.10.2026 06:00:00
 📍 ismetpaşa mh üst kotlar gümüşpala mh üstkotlar tatlıca mh alt kotlar üçevler mh üst kotlar kemalpaşa mh üst kotlar yenimahalle üst kotlar
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-10-01T00:28:49.138Z] [INFO] Logger başlatıldı
-[2026-10-01T00:28:49.140Z] [INFO] Tek seferlik mod...
-[2026-10-01T00:28:49.140Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-10-01T00:28:49.623Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -49324,28 +49320,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-10-01T00:28:49.624Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-10-01T00:28:49.624Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-10-01T00:28:50.515Z] [INFO] 2 kesinti bulundu.
-[2026-10-01T00:28:50.521Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-10-01T00:28:50.522Z] [INFO] 2 yeni kesinti bulundu!
-[2026-10-01T00:28:50.522Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-10-01T00:28:50.522Z] [INFO] ⚠️ MAMAK - Plansız Kesinti
 📅 30.09.2026 08:00:00 - 1.10.2026 05:00:00
 📍 Zirvekent, Akşemsettin, Durali Alıç, Boğaziçi, Ege, Mutlu, General Zeki Doğan, Kutlu, Cengizhan, Fahri Korutürk, Misket,Şahintepe, Şirintepe, Tuzluçayır Mahalleleri ve Çankaya İlçesi Yakupabdal Mahallesi
 #AnkaraSuKesintisi #ASKİ #Mamak
-[2026-10-01T00:28:50.522Z] [INFO] (311 karakter)
-[2026-10-01T00:28:50.522Z] [INFO] ---
-[2026-10-01T00:28:50.523Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-10-01T00:28:50.523Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
 📅 30.09.2026 18:50:00 - 1.10.2026 06:00:00
 📍 ismetpaşa mh üst kotlar gümüşpala mh üstkotlar tatlıca mh alt kotlar üçevler mh üst kotlar kemalpaşa mh üst kotlar yenimahalle üst kotlar
 #AnkaraSuKesintisi #ASKİ #Elmadag
-[2026-10-01T00:28:50.523Z] [INFO] (249 karakter)
-[2026-10-01T00:28:50.523Z] [INFO] ---
-[2026-10-01T00:28:50.523Z] [INFO] 0 tweet atıldı.
-[2026-10-01T00:28:50.523Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-10-01T00:28:50.523Z] [SUCCESS] Tamamlandı.
 [2026-10-01T06:23:44.111Z] [INFO] Logger başlatıldı
 [2026-10-01T06:23:44.112Z] [INFO] Tek seferlik mod...
 [2026-10-01T06:23:44.112Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -50597,22 +50577,60 @@
 [2026-10-07T23:15:16.627Z] [INFO] 2 yeni kesinti bulundu!
 [2026-10-07T23:15:16.628Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-10-07T23:15:16.628Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
-
 📅 7.10.2026 18:00:00 - 8.10.2026 06:00:00
 📍 Orhun Mahallesi geneli, Yapracık Mahallesi bir kısmı, Turkuaz Mahallesi, Şehit Ali Mahallesi
-
 #AnkaraSuKesintisi #ASKİ #Etimesgut
 [2026-10-07T23:15:16.628Z] [INFO] (207 karakter)
 [2026-10-07T23:15:16.628Z] [INFO] ---
 [2026-10-07T23:15:16.628Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-10-07T23:15:16.628Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
-
 📅 8.10.2026 01:00:00 - 8.10.2026 12:00:00
 📍 : tatlıca mahallesi bi kısmı yenice mahallesi tamamı ismetpaşa mahallesi bi kısmı yenipınar mahallesi tamamı yenidoğan mahallesi tamamı kurtuluş mahallesi bi kısmı
-
 #AnkaraSuKesintisi #ASKİ #Elmadag
 [2026-10-07T23:15:16.628Z] [INFO] (274 karakter)
 [2026-10-07T23:15:16.629Z] [INFO] ---
 [2026-10-07T23:15:16.629Z] [INFO] 0 tweet atıldı.
 [2026-10-07T23:15:16.629Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-10-07T23:15:16.629Z] [SUCCESS] Tamamlandı.
+[2026-10-08T02:41:41.142Z] [INFO] Logger başlatıldı
+[2026-10-08T02:41:41.144Z] [INFO] Tek seferlik mod...
+[2026-10-08T02:41:41.144Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-10-08T02:41:43.394Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-10-08T02:41:43.394Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-10-08T02:41:43.394Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-10-08T02:41:44.473Z] [INFO] 2 kesinti bulundu.
+[2026-10-08T02:41:44.478Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-10-08T02:41:44.479Z] [INFO] 2 yeni kesinti bulundu!
+[2026-10-08T02:41:44.479Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-08T02:41:44.479Z] [INFO] ⚠️ ETİMESGUT - Plansız Kesinti
+
+📅 7.10.2026 18:00:00 - 8.10.2026 06:00:00
+📍 Orhun Mahallesi geneli, Yapracık Mahallesi bir kısmı, Turkuaz Mahallesi, Şehit Ali Mahallesi
+
+#AnkaraSuKesintisi #ASKİ #Etimesgut
+[2026-10-08T02:41:44.479Z] [INFO] (207 karakter)
+[2026-10-08T02:41:44.480Z] [INFO] ---
+[2026-10-08T02:41:44.480Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-08T02:41:44.480Z] [INFO] ⚠️ ELMADAĞ - Plansız Kesinti
+
+📅 8.10.2026 01:00:00 - 8.10.2026 12:00:00
+📍 : tatlıca mahallesi bi kısmı yenice mahallesi tamamı ismetpaşa mahallesi bi kısmı yenipınar mahallesi tamamı yenidoğan mahallesi tamamı kurtuluş mahallesi bi kısmı
+
+#AnkaraSuKesintisi #ASKİ #Elmadag
+[2026-10-08T02:41:44.480Z] [INFO] (274 karakter)
+[2026-10-08T02:41:44.480Z] [INFO] ---
+[2026-10-08T02:41:44.480Z] [INFO] 0 tweet atıldı.
+[2026-10-08T02:41:44.480Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-10-08T02:41:44.481Z] [SUCCESS] Tamamlandı.
