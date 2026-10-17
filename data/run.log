@@ -50172,10 +50172,6 @@
 📅 10.10.2026 17:30:00 - 10.10.2026 21:00:00
 📍 ÇAMLICA Mahallesi Bir Kısmı, MEHMET AKİF Mahallesi Bir Kısmı
 #AnkaraSuKesintisi #ASKİ #Polatli
-[2026-10-10T18:55:44.123Z] [INFO] Logger başlatıldı
-[2026-10-10T18:55:44.124Z] [INFO] Tek seferlik mod...
-[2026-10-10T18:55:44.124Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-10-10T18:55:44.826Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -50188,12 +50184,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-10-10T18:55:44.826Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-10-10T18:55:44.826Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-10-10T18:55:45.784Z] [INFO] 0 kesinti bulundu.
-[2026-10-10T18:55:45.789Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-10-10T18:55:45.790Z] [INFO] Yeni kesinti yok.
-[2026-10-10T18:55:45.790Z] [SUCCESS] Tamamlandı.
 [2026-10-10T22:04:41.880Z] [INFO] Logger başlatıldı
 [2026-10-10T22:04:41.881Z] [INFO] Tek seferlik mod...
 [2026-10-10T22:04:41.881Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -51652,22 +51642,51 @@
 [2026-10-17T17:08:37.724Z] [INFO] 2 yeni kesinti bulundu!
 [2026-10-17T17:08:37.724Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-10-17T17:08:37.724Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
-
 📅 17.10.2026 16:00:00 - 19.10.2026 17:00:00
 📍 Örenköy Mahallesi.
-
 #AnkaraSuKesintisi #ASKİ #Camlidere
 [2026-10-17T17:08:37.724Z] [INFO] (135 karakter)
 [2026-10-17T17:08:37.724Z] [INFO] ---
 [2026-10-17T17:08:37.724Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-10-17T17:08:37.724Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 17.10.2026 14:30:00 - 17.10.2026 21:00:00
 📍 Cumhuriyet Mahallesi üst kotları
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-10-17T17:08:37.725Z] [INFO] (153 karakter)
 [2026-10-17T17:08:37.725Z] [INFO] ---
 [2026-10-17T17:08:37.725Z] [INFO] 0 tweet atıldı.
 [2026-10-17T17:08:37.725Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-10-17T17:08:37.725Z] [SUCCESS] Tamamlandı.
+[2026-10-17T19:17:56.774Z] [INFO] Logger başlatıldı
+[2026-10-17T19:17:56.775Z] [INFO] Tek seferlik mod...
+[2026-10-17T19:17:56.775Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-10-17T19:17:58.110Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-10-17T19:17:58.110Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-10-17T19:17:58.110Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-10-17T19:17:59.065Z] [INFO] 1 kesinti bulundu.
+[2026-10-17T19:17:59.070Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-10-17T19:17:59.070Z] [INFO] 1 yeni kesinti bulundu!
+[2026-10-17T19:17:59.070Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-17T19:17:59.070Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
+
+📅 17.10.2026 16:00:00 - 19.10.2026 17:00:00
+📍 Örenköy Mahallesi.
+
+#AnkaraSuKesintisi #ASKİ #Camlidere
+[2026-10-17T19:17:59.071Z] [INFO] (135 karakter)
+[2026-10-17T19:17:59.071Z] [INFO] ---
+[2026-10-17T19:17:59.071Z] [INFO] 0 tweet atıldı.
+[2026-10-17T19:17:59.071Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-10-17T19:17:59.071Z] [SUCCESS] Tamamlandı.
