@@ -50649,10 +50649,6 @@
 📅 15.10.2026 21:30:00 - 16.10.2026 03:00:00
 📍 Memlik köyü üst kodları.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-10-15T21:38:55.439Z] [INFO] Logger başlatıldı
-[2026-10-15T21:38:55.440Z] [INFO] Tek seferlik mod...
-[2026-10-15T21:38:55.440Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-10-15T21:38:55.919Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -50665,28 +50661,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-10-15T21:38:55.920Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-10-15T21:38:55.920Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-10-15T21:38:56.898Z] [INFO] 2 kesinti bulundu.
-[2026-10-15T21:38:56.903Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-10-15T21:38:56.904Z] [INFO] 2 yeni kesinti bulundu!
-[2026-10-15T21:38:56.904Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-10-15T21:38:56.904Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
 📅 15.10.2026 17:00:00 - 16.10.2026 05:00:00
 📍 Örenköy Mahallesi.
 #AnkaraSuKesintisi #ASKİ #Camlidere
-[2026-10-15T21:38:56.904Z] [INFO] (135 karakter)
-[2026-10-15T21:38:56.905Z] [INFO] ---
-[2026-10-15T21:38:56.905Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-10-15T21:38:56.905Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
 📅 15.10.2026 21:30:00 - 16.10.2026 03:00:00
 📍 Memlik köyü üst kodları.
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-10-15T21:38:56.905Z] [INFO] (145 karakter)
-[2026-10-15T21:38:56.905Z] [INFO] ---
-[2026-10-15T21:38:56.905Z] [INFO] 0 tweet atıldı.
-[2026-10-15T21:38:56.905Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-10-15T21:38:56.905Z] [SUCCESS] Tamamlandı.
 [2026-10-15T23:49:38.225Z] [INFO] Logger başlatıldı
 [2026-10-15T23:49:38.226Z] [INFO] Tek seferlik mod...
 [2026-10-15T23:49:38.226Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -52485,3 +52465,25 @@
 [2026-10-22T20:33:08.575Z] [INFO] 1477 kayıtlı kesinti var.
 [2026-10-22T20:33:08.576Z] [INFO] Yeni kesinti yok.
 [2026-10-22T20:33:08.576Z] [SUCCESS] Tamamlandı.
+[2026-10-22T23:31:16.587Z] [INFO] Logger başlatıldı
+[2026-10-22T23:31:16.588Z] [INFO] Tek seferlik mod...
+[2026-10-22T23:31:16.588Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-10-22T23:31:17.725Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-10-22T23:31:17.726Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-10-22T23:31:17.726Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-10-22T23:31:18.918Z] [INFO] 0 kesinti bulundu.
+[2026-10-22T23:31:18.921Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-10-22T23:31:18.922Z] [INFO] Yeni kesinti yok.
+[2026-10-22T23:31:18.922Z] [SUCCESS] Tamamlandı.
