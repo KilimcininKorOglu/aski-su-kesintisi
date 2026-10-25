@@ -50964,10 +50964,6 @@
 📅 17.10.2026 16:00:00 - 19.10.2026 17:00:00
 📍 Örenköy Mahallesi.
 #AnkaraSuKesintisi #ASKİ #Camlidere
-[2026-10-18T09:56:29.270Z] [INFO] Logger başlatıldı
-[2026-10-18T09:56:29.271Z] [INFO] Tek seferlik mod...
-[2026-10-18T09:56:29.271Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-10-18T09:56:30.567Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -50980,28 +50976,12 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-10-18T09:56:30.567Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-10-18T09:56:30.568Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-10-18T09:56:31.553Z] [INFO] 2 kesinti bulundu.
-[2026-10-18T09:56:31.557Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-10-18T09:56:31.557Z] [INFO] 2 yeni kesinti bulundu!
-[2026-10-18T09:56:31.558Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-10-18T09:56:31.558Z] [INFO] ⚠️ ÇAMLIDERE - Plansız Kesinti
 📅 17.10.2026 16:00:00 - 19.10.2026 17:00:00
 📍 Örenköy Mahallesi.
 #AnkaraSuKesintisi #ASKİ #Camlidere
-[2026-10-18T09:56:31.558Z] [INFO] (135 karakter)
-[2026-10-18T09:56:31.558Z] [INFO] ---
-[2026-10-18T09:56:31.558Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
-[2026-10-18T09:56:31.558Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
 📅 18.10.2026 10:05:00 - 18.10.2026 14:00:00
 📍 Turgut Özal Mahallesi 2550 sokak nature blokları ve civarı
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
-[2026-10-18T09:56:31.558Z] [INFO] (179 karakter)
-[2026-10-18T09:56:31.558Z] [INFO] ---
-[2026-10-18T09:56:31.558Z] [INFO] 0 tweet atıldı.
-[2026-10-18T09:56:31.559Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
-[2026-10-18T09:56:31.559Z] [SUCCESS] Tamamlandı.
 [2026-10-18T13:40:25.723Z] [INFO] Logger başlatıldı
 [2026-10-18T13:40:25.724Z] [INFO] Tek seferlik mod...
 [2026-10-18T13:40:25.725Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -52767,13 +52747,71 @@
 [2026-10-25T06:36:58.537Z] [INFO] 1 yeni kesinti bulundu!
 [2026-10-25T06:36:58.537Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
 [2026-10-25T06:36:58.538Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
-
 📅 25.10.2026 08:35:00 - 25.10.2026 16:00:00
 📍 Yuvaköy mahallesi Karacakaya Mahallesi Mebuskent ve üst kotları
-
 #AnkaraSuKesintisi #ASKİ #Yenimahalle
 [2026-10-25T06:36:58.538Z] [INFO] (184 karakter)
 [2026-10-25T06:36:58.538Z] [INFO] ---
 [2026-10-25T06:36:58.538Z] [INFO] 0 tweet atıldı.
 [2026-10-25T06:36:58.538Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
 [2026-10-25T06:36:58.538Z] [SUCCESS] Tamamlandı.
+[2026-10-25T11:58:03.518Z] [INFO] Logger başlatıldı
+[2026-10-25T11:58:03.519Z] [INFO] Tek seferlik mod...
+[2026-10-25T11:58:03.519Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-10-25T11:58:03.899Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-10-25T11:58:03.899Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-10-25T11:58:03.900Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-10-25T11:58:04.898Z] [INFO] 4 kesinti bulundu.
+[2026-10-25T11:58:04.903Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-10-25T11:58:04.904Z] [INFO] 4 yeni kesinti bulundu!
+[2026-10-25T11:58:04.904Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-25T11:58:04.904Z] [INFO] ⚠️ YENİMAHALLE - Plansız Kesinti
+
+📅 25.10.2026 08:35:00 - 25.10.2026 16:00:00
+📍 Yuva Mahallesi üst kotları
+
+#AnkaraSuKesintisi #ASKİ #Yenimahalle
+[2026-10-25T11:58:04.904Z] [INFO] (147 karakter)
+[2026-10-25T11:58:04.904Z] [INFO] ---
+[2026-10-25T11:58:04.905Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-25T11:58:04.905Z] [INFO] ⚠️ SİNCAN - Plansız Kesinti
+
+📅 25.10.2026 12:00:00 - 25.10.2026 15:00:00
+📍 Saraycık TOKİ 6. bölge 1. etap bir kısmı.
+
+#AnkaraSuKesintisi #ASKİ #Sincan
+[2026-10-25T11:58:04.905Z] [INFO] (152 karakter)
+[2026-10-25T11:58:04.905Z] [INFO] ---
+[2026-10-25T11:58:04.905Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-25T11:58:04.905Z] [INFO] ⚠️ PURSAKLAR - Plansız Kesinti
+
+📅 25.10.2026 13:35:00 - 25.10.2026 15:35:00
+📍 –Merkez Mahallesi bir kısmı ‐Yunus Emre Mahallesi bir kismi
+
+#AnkaraSuKesintisi #ASKİ #Pursaklar
+[2026-10-25T11:58:04.905Z] [INFO] (176 karakter)
+[2026-10-25T11:58:04.905Z] [INFO] ---
+[2026-10-25T11:58:04.905Z] [INFO] [TWITTER DEVRE DIŞI] Ana tweet:
+[2026-10-25T11:58:04.905Z] [INFO] ⚠️ BEYPAZARI - Plansız Kesinti
+
+📅 25.10.2026 14:30:00 - 25.10.2026 17:00:00
+📍 Ayvaşık Mahallesi Akyazı 4 sokak ve civarı
+
+#AnkaraSuKesintisi #ASKİ #Beypazari
+[2026-10-25T11:58:04.905Z] [INFO] (159 karakter)
+[2026-10-25T11:58:04.905Z] [INFO] ---
+[2026-10-25T11:58:04.905Z] [INFO] 0 tweet atıldı.
+[2026-10-25T11:58:04.905Z] [WARN] Hiç tweet atılamadı, kesintiler kaydedilmedi.
+[2026-10-25T11:58:04.905Z] [SUCCESS] Tamamlandı.
