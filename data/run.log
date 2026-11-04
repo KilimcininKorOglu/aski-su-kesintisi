@@ -52092,10 +52092,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-10-28T01:23:02.263Z] [INFO] Logger başlatıldı
-[2026-10-28T01:23:02.264Z] [INFO] Tek seferlik mod...
-[2026-10-28T01:23:02.264Z] [INFO] Gemini API başarıyla yapılandırıldı.
-[2026-10-28T01:23:02.868Z] [ERROR] getCt0 API hatası:
   AxiosError: Request failed with status code 403
     at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
     at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
@@ -52108,12 +52104,6 @@
     at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
     at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
     at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
-[2026-10-28T01:23:02.868Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
-[2026-10-28T01:23:02.868Z] [INFO] Kesintiler kontrol ediliyor...
-[2026-10-28T01:23:03.836Z] [INFO] 0 kesinti bulundu.
-[2026-10-28T01:23:03.841Z] [INFO] 1477 kayıtlı kesinti var.
-[2026-10-28T01:23:03.841Z] [INFO] Yeni kesinti yok.
-[2026-10-28T01:23:03.842Z] [SUCCESS] Tamamlandı.
 [2026-10-28T06:55:25.156Z] [INFO] Logger başlatıldı
 [2026-10-28T06:55:25.157Z] [INFO] Tek seferlik mod...
 [2026-10-28T06:55:25.157Z] [INFO] Gemini API başarıyla yapılandırıldı.
@@ -53402,3 +53392,25 @@
 [2026-11-03T22:18:19.611Z] [INFO] 1477 kayıtlı kesinti var.
 [2026-11-03T22:18:19.612Z] [INFO] Yeni kesinti yok.
 [2026-11-03T22:18:19.612Z] [SUCCESS] Tamamlandı.
+[2026-11-04T02:22:46.896Z] [INFO] Logger başlatıldı
+[2026-11-04T02:22:46.897Z] [INFO] Tek seferlik mod...
+[2026-11-04T02:22:46.897Z] [INFO] Gemini API başarıyla yapılandırıldı.
+[2026-11-04T02:22:47.161Z] [ERROR] getCt0 API hatası:
+  AxiosError: Request failed with status code 403
+    at settle (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/settle.js:19:12)
+    at Unzip.handleStreamEnd (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/adapters/http.js:793:11)
+    at Unzip.emit (node:events:524:28)
+    at Unzip.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/node_modules/axios/lib/core/Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getCt0Token (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:26:22)
+    at async initTwitterClient (/home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/twitter.ts:71:15)
+    at async /home/runner/work/aski-su-kesintisi/aski-su-kesintisi/src/index.ts:87:22
+[2026-11-04T02:22:47.162Z] [ERROR] ct0 token alınamadı. Tweet atılmayacak.
+[2026-11-04T02:22:47.162Z] [INFO] Kesintiler kontrol ediliyor...
+[2026-11-04T02:22:48.444Z] [INFO] 0 kesinti bulundu.
+[2026-11-04T02:22:48.448Z] [INFO] 1477 kayıtlı kesinti var.
+[2026-11-04T02:22:48.448Z] [INFO] Yeni kesinti yok.
+[2026-11-04T02:22:48.449Z] [SUCCESS] Tamamlandı.
